@@ -1,0 +1,444 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MAK Overseas</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+* {margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+body {background:#0d0d0d;color:#fff;}
+
+/* NAVBAR */
+nav {
+position: sticky;
+top: 0;
+background: rgba(0,0,0,0.95);
+display: flex;
+justify-content: space-between;
+align-items:center;
+padding: 15px 40px;
+z-index:10;
+}
+
+.logo {
+display:flex;
+align-items:center;
+}
+
+.logo img {
+height:56px;
+width:180px;
+object-fit:contain;
+background:#fff;
+padding:7px 10px;
+border-radius:5px;
+}
+
+nav a {
+color:#fff;
+margin-left:20px;
+text-decoration:none;
+}
+
+nav a:hover {color:#ff6a00;}
+
+/* HERO */
+.hero {
+height:90vh;
+position:relative;
+overflow:hidden;
+display:flex;
+align-items:center;
+padding:60px;
+}
+
+.hero::after {
+content:"";
+position:absolute;
+inset:0;
+background:linear-gradient(to right,rgba(0,0,0,0.88),rgba(0,0,0,0.52));
+z-index:1;
+}
+
+.hero-slides {
+position:absolute;
+inset:0;
+z-index:0;
+}
+
+.hero-slide {
+position:absolute;
+inset:0;
+background-size:cover;
+background-position:center;
+opacity:0;
+transform:scale(1.04);
+transition:opacity 1.4s ease, transform 6s ease;
+}
+
+.hero-slide.active {
+opacity:1;
+transform:scale(1);
+}
+
+.hero-content {
+position:relative;
+z-index:2;
+max-width:760px;
+}
+
+.hero h2 {font-size:50px;margin-bottom:20px;}
+.hero p {color:#ccc;margin-bottom:25px;}
+
+.product-showcase {
+padding:34px 0 18px;
+background:#111;
+border-top:1px solid #222;
+border-bottom:1px solid #222;
+}
+
+.product-showcase h2 {
+font-size:24px;
+margin:0 40px 20px;
+color:#ff6a00;
+}
+
+.photo-rail {
+display:flex;
+gap:18px;
+overflow-x:auto;
+scroll-snap-type:x proximity;
+padding:0 40px 22px;
+cursor:grab;
+user-select:none;
+scrollbar-width:thin;
+scrollbar-color:#ff6a00 #222;
+}
+
+.photo-rail.dragging {
+cursor:grabbing;
+scroll-snap-type:none;
+}
+
+.photo-rail::-webkit-scrollbar {height:8px;}
+.photo-rail::-webkit-scrollbar-track {background:#222;}
+.photo-rail::-webkit-scrollbar-thumb {background:#ff6a00;border-radius:20px;}
+
+.photo-tile {
+min-width:220px;
+max-width:220px;
+scroll-snap-align:start;
+background:#1a1a1a;
+border:1px solid #282828;
+border-radius:12px;
+padding:12px;
+text-decoration:none;
+color:#fff;
+}
+
+.photo-tile img {
+width:100%;
+height:145px;
+object-fit:cover;
+border-radius:8px;
+pointer-events:none;
+background:#fff;
+}
+
+.photo-tile span {
+display:block;
+margin-top:10px;
+color:#ff6a00;
+font-weight:500;
+}
+
+.btn {
+background:#ff6a00;
+padding:12px 25px;
+color:#fff;
+text-decoration:none;
+border-radius:5px;
+}
+.secondary-btn {
+background:#fff;
+color:#111;
+margin-left:12px;
+}
+.secondary-btn:hover {background:#ff6a00;color:#fff;}
+
+/* SECTION */
+.section {padding:80px 40px;}
+.section h2 {margin-bottom:40px;text-align:center;}
+
+/* PRODUCTS */
+.products {
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card {
+background:#1a1a1a;
+padding:20px;
+border-radius:12px;
+transition:0.3s;
+border:1px solid #222;
+text-align:center;
+}
+
+.card:hover {
+transform:translateY(-10px);
+border-color:#ff6a00;
+box-shadow:0 0 20px rgba(255,106,0,0.4);
+}
+
+.card img {
+width:100%;
+height:190px;
+object-fit:cover;
+border-radius:10px;
+margin-bottom:10px;
+}
+
+.card h3 {color:#ff6a00;}
+
+/* ABOUT */
+.about {
+text-align:center;
+max-width:800px;
+margin:auto;
+color:#ccc;
+}
+
+/* CONTACT */
+.contact {text-align:center;}
+
+/* FOOTER */
+footer {
+background:#000;
+padding:20px;
+text-align:center;
+}
+
+/* WHATSAPP */
+.whatsapp {
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+padding:15px;
+border-radius:50%;
+color:white;
+}
+
+@media (max-width:700px) {
+nav {
+flex-wrap:wrap;
+gap:12px;
+padding:12px 20px;
+}
+.logo img {
+width:145px;
+height:46px;
+}
+nav a {
+margin-left:0;
+margin-right:14px;
+font-size:14px;
+}
+.hero {
+padding:40px 24px;
+}
+.hero h2 {
+font-size:34px;
+}
+.product-showcase h2 {
+margin:0 24px 16px;
+}
+.photo-rail {
+padding:0 24px 18px;
+}
+.photo-tile {
+min-width:190px;
+max-width:190px;
+}
+.photo-tile img {
+height:130px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+<div class="logo">
+<img src="images/mak-overseas-logo.jpg" alt="MAK Overseas logo">
+</div>
+
+<div>
+<a href="#home">Home</a>
+<a href="#products">Products</a>
+<a href="catalogue-products.html">Catalogue</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+<div class="hero-slides" aria-hidden="true">
+<div class="hero-slide active" style="background-image:url('images/hero-main.jpeg')"></div>
+<div class="hero-slide" style="background-image:url('images/hero-jcb-backhoe.jpg')"></div>
+<div class="hero-slide" style="background-image:url('images/hero-jcb-excavator.jpg')"></div>
+</div>
+<div class="hero-content">
+<h2>Heavy Machinery Spare Parts Experts</h2>
+<p>India & Gulf Trusted Supplier for CAT, JCB, Komatsu</p>
+<a href="https://wa.me/919465263877" class="btn">Contact on WhatsApp</a> <a href="catalogue-products.html" class="btn secondary-btn">Catalogue Products</a> <a href="mak-bolts-jcb-catalogue.pdf" class="btn secondary-btn">PDF Catalogue</a>
+</div>
+</section>
+
+<section class="product-showcase" aria-label="Product photo gallery">
+<h2>Product Highlights</h2>
+<div class="photo-rail">
+<a href="bolts.html" class="photo-tile"><img src="images/catalogue/p02-08-Im27.jpg" alt="Hub wheel bolt"><span>Hub Wheel Bolts</span></a>
+<a href="bolts.html" class="photo-tile"><img src="images/catalogue/p02-10-Im29.jpg" alt="Track shoe bolt"><span>Track Shoe Bolts</span></a>
+<a href="jcb-teeth.html" class="photo-tile"><img src="images/catalogue/p03-24-Im79.jpg" alt="JCB crocodile side cutter"><span>Crocodile Teeth</span></a>
+<a href="jcb-teeth.html" class="photo-tile"><img src="images/catalogue/p03-19-Im74.jpg" alt="JCB teeth center"><span>JCB Teeth Center</span></a>
+<a href="jcb-teeth.html" class="photo-tile"><img src="images/catalogue/p03-21-Im76.jpg" alt="JCB side cutter"><span>Side Cutters</span></a>
+<a href="filters.html" class="photo-tile"><img src="images/catalogue/p04-26-Im118.jpg" alt="Oil filter"><span>Oil Filters</span></a>
+<a href="filters.html" class="photo-tile"><img src="images/catalogue/p04-23-Im115.jpg" alt="Air filter"><span>Air Filters</span></a>
+<a href="gears.html" class="photo-tile"><img src="images/catalogue/p03-29-Im84.jpg" alt="Planetary gear"><span>Planetary Gears</span></a>
+<a href="tyres.html" class="photo-tile"><img src="images/catalogue/p04-15-Im107.jpg" alt="Excavator tyre"><span>Tyres</span></a>
+</div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="section" id="products">
+<h2>Our Product Range</h2>
+
+<div class="products">
+
+<a href="bolts.html"><div class="card"><img src="images/catalogue/p02-08-Im27.jpg" alt="Bolts and fasteners"><h3>Bolts & Fasteners</h3></div></a>
+
+<a href="bushes.html"><div class="card"><img src="images/catalogue/p02-04-Im23.jpg" alt="Pins and bushes"><h3>Pins & Bushes</h3></div></a>
+
+<a href="jcb-teeth.html"><div class="card"><img src="images/catalogue/p03-19-Im74.jpg" alt="JCB teeth"><h3>JCB Teeth</h3></div></a>
+
+<a href="filters.html"><div class="card"><img src="images/catalogue/p04-14-Im106.jpg" alt="Filters"><h3>Filters</h3></div></a>
+
+<a href="gears.html"><div class="card"><img src="images/catalogue/p03-29-Im84.jpg" alt="Gear components"><h3>Gear Components</h3></div></a>
+
+<a href="tyres.html"><div class="card"><img src="images/catalogue/p04-15-Im107.jpg" alt="Tyres"><h3>Tyres</h3></div></a>
+
+<a href="catalogue-products.html"><div class="card"><img src="images/catalogue/p01-01-Im1.jpg" alt="Catalogue products"><h3>Full Catalogue</h3></div></a>
+
+</div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+<h2>About Us</h2>
+<div class="about">
+<p>
+MAK Overseas is a trusted supplier of heavy machinery spare parts.
+We provide high-quality components for CAT, JCB, Komatsu, Volvo,
+trucks, forklifts, and construction equipment across India and Gulf.
+</p>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact" id="contact">
+<h2>Contact Us</h2>
+
+<p><strong>India Office</strong></p>
+<p>Ludhiana, Punjab</p>
+<p>&#9742; +91 9465263877</p>
+
+<br>
+
+<p><strong>Dubai Office</strong></p>
+<p>Deira, Dubai</p>
+<p>&#9742; +971 552564881</p>
+
+</section>
+
+<footer>
+<p>&copy; 2026 MAK Overseas</p>
+</footer>
+
+<a href="https://wa.me/919465263877" class="whatsapp">&#128172;</a>
+
+<script>
+const heroSlides = document.querySelectorAll('.hero-slide');
+let heroIndex = 0;
+if (heroSlides.length > 1) {
+  setInterval(() => {
+    heroSlides[heroIndex].classList.remove('active');
+    heroIndex = (heroIndex + 1) % heroSlides.length;
+    heroSlides[heroIndex].classList.add('active');
+  }, 4500);
+}
+
+const rail = document.querySelector('.photo-rail');
+let isDown = false;
+let wasDragged = false;
+let startX = 0;
+let scrollLeft = 0;
+
+rail.addEventListener('pointerdown', (event) => {
+  isDown = true;
+  wasDragged = false;
+  rail.classList.add('dragging');
+  rail.setPointerCapture(event.pointerId);
+  startX = event.clientX;
+  scrollLeft = rail.scrollLeft;
+});
+
+rail.addEventListener('pointermove', (event) => {
+  if (!isDown) return;
+  const distance = event.clientX - startX;
+  if (Math.abs(distance) > 6) wasDragged = true;
+  event.preventDefault();
+  rail.scrollLeft = scrollLeft - distance;
+});
+
+function stopDrag() {
+  isDown = false;
+  rail.classList.remove('dragging');
+}
+
+rail.addEventListener('click', (event) => {
+  if (wasDragged) {
+    event.preventDefault();
+    wasDragged = false;
+  }
+}, true);
+rail.addEventListener('pointerup', stopDrag);
+rail.addEventListener('pointercancel', stopDrag);
+rail.addEventListener('pointerleave', stopDrag);
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
