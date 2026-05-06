@@ -46,7 +46,7 @@ nav{
   padding:6rem 2.5rem 3.1rem;background:#080808;
 }
 .hero-video,.hero-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.hero-poster{background:url("../mak-website new/images/hero-main.jpeg") center/cover no-repeat}
+.hero-poster{background:url("web-products/hero-mobile.webp") center/cover no-repeat}
 .hero-video{z-index:0;filter:saturate(.95) contrast(1.05)}
 .hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(0,0,0,.92),rgba(0,0,0,.66) 44%,rgba(0,0,0,.32)),linear-gradient(0deg,rgba(0,0,0,.72),transparent 42%)}
 .hero::after{content:"";position:absolute;right:-7%;top:0;bottom:0;width:40%;z-index:2;background:repeating-linear-gradient(-55deg,transparent,transparent 18px,rgba(212,137,10,.075) 18px,rgba(212,137,10,.075) 20px)}
@@ -175,7 +175,7 @@ footer{background:#0a0a0a;padding:1.75rem 2.5rem;display:flex;align-items:center
 </head>
 <body>
 <nav>
-  <a class="brand-lockup" href="#home" aria-label="MAK Overseas home"><img class="nav-logo" src="../mak-website new/images/mak-logo-original-transparent.png" alt="MAK Overseas logo"></a>
+  <a class="brand-lockup" href="#home" aria-label="MAK Overseas home"><img class="nav-logo" src="web-products/mak-logo-small.webp" alt="MAK Overseas logo"></a>
   <ul class="nav-links">
     <li><a href="products.html">Products</a></li>
     <li><a href="brands.html">Brands</a></li>
@@ -193,11 +193,11 @@ footer{background:#0a0a0a;padding:1.75rem 2.5rem;display:flex;align-items:center
 
 <section class="hero" id="home">
   <div class="hero-poster"></div>
-  <video class="hero-video" autoplay muted loop playsinline poster="../mak-website new/images/hero-main.jpeg">
+  <video class="hero-video" autoplay muted loop playsinline preload="auto" poster="web-products/hero-mobile.webp">
     <source src="https://videos.pexels.com/video-files/31914438/13594458_3840_2160_25fps.mp4" type="video/mp4">
   </video>
   <div class="hero-content reveal">
-    <div class="hero-badge">India & Gulf - Importers & Exporters</div>
+    <div class="hero-badge">Worldwide Presence - Industrial Spare Parts</div>
     <h1>Machinery<br><em>Spare Parts</em></h1>
     <p class="hero-tagline">Engineering Precision, <span>Securing Performance</span></p>
     <p class="hero-desc">Genuine and OE-compatible spares for CAT, JCB, Komatsu, Cummins, Volvo, Hyundai, trucks, forklifts, buses, and construction equipment.</p>
@@ -209,7 +209,7 @@ footer{background:#0a0a0a;padding:1.75rem 2.5rem;display:flex;align-items:center
 </section>
 
 <div class="stats">
-  <div class="stat"><div class="stat-n">4</div><div class="stat-l">Offices - India & UAE</div></div>
+  <div class="stat"><div class="stat-n">India & Gulf</div><div class="stat-l">Importers & Exporters</div></div>
   <div class="stat"><div class="stat-n">6+</div><div class="stat-l">OEM Brands Covered</div></div>
   <div class="stat"><div class="stat-n">50+</div><div class="stat-l">Product Categories</div></div>
   <div class="stat"><div class="stat-n">Worldwide</div><div class="stat-l">Shipping</div></div>
@@ -267,13 +267,14 @@ footer{background:#0a0a0a;padding:1.75rem 2.5rem;display:flex;align-items:center
 <script>
 const PHONE = '919465263877';
 const products = [
-  {title:'Bolts & Fasteners', page:'bolts.html', img:'web-products/teeth-cutter-bolt.png', items:'Hub wheel bolts, teeth cutter bolts, lock bolts, track shoe bolts, hydra clamp bolts, tooth lock pins, U-bolts.'},
-  {title:'Pins & Bushes', page:'bushes.html', img:'web-products/catalogue/p02-04.jpg', items:'JCB steel bushes, bronze bushes, pivot pins, center pin sleeves, bucket sleeves, boom dipper joint sleeves.'},
-  {title:'JCB Teeth & Cutters', page:'jcb-teeth.html', img:'web-products/catalogue/p03-30.jpg', items:'JCB teeth center, side cutters, crocodile side cutters, Terex side cutters, bucket kits, pin bush kits.'},
-  {title:'Filters', page:'filters.html', img:'web-products/catalogue/p04-36.jpg', items:'JCB oil filters, air filter kits, air filter elements, oil and air filter sets.'},
-  {title:'Gear Components', page:'gears.html', img:'web-products/catalogue/p04-34.jpg', items:'Planetary gears, sun gears, annulus gear rings, sprockets, carrier plates, hub repair kits, friction plates.'},
-  {title:'Tyres', page:'tyres.html', img:'web-products/catalogue/p04-23.jpg', items:'Earthmover, grader, skid steer, backhoe loader, excavator, industrial and forklift tyres.'},
-  {title:'Full Catalogue', page:'search.html', img:'web-products/jcb-spare-parts-catalogue.jpg', items:'Search catalogue products, view product photos, and send enquiry lists directly on WhatsApp.'}
+  {title:'Bolts & Fasteners', page:'bolts.html', img:'web-products/teeth-cutter-bolt-small.webp', items:'JCB, excavator and truck bolts for cutters, wheels, hubs, pins and high-load joints.'},
+  {title:'Pins & Bushes', page:'bushes.html', img:'web-products/catalogue/p02-04.jpg', items:'Steel, alloy steel and alloy bronze bushes for loader, bucket and steering assemblies.'},
+  {title:'Pivot Pins', page:'pivot-pins.html', img:'web-products/catalogue/p03-23.jpg', items:'Nitrided and alloy steel pivot pins for bucket, loader, boom and centre linkages.'},
+  {title:'Shims & Washers', page:'shims-washers.html', img:'web-products/catalogue/p02-43.jpg', items:'Bucket pin, king pin, boom pin and KPC washers in multiple sizes.'},
+  {title:'JCB Teeth & Cutters', page:'jcb-teeth.html', img:'web-products/catalogue/p03-30.jpg', items:'Centre teeth, side cutters, crocodile cutters and plain bucket teeth.'},
+  {title:'Gear Parts', page:'gears.html', img:'web-products/catalogue/p04-34.jpg', items:'Annulus rings, planet gears, sun gears and planetary gear assemblies.'},
+  {title:'Filters', page:'filters.html', img:'web-products/catalogue/p04-36.jpg', items:'Oil, air, fuel and service filter products for heavy machinery.'},
+  {title:'Full Catalogue', page:'search.html', img:'web-products/jcb-spare-parts-catalogue.jpg', items:'Search 234 listed products by name, code, material or part number.'}
 ];
 const icons = [
   '<circle cx="12" cy="12" r="3"/><path d="M5 12H3M21 12h-2M12 5V3M12 21v-2"/>',
@@ -288,22 +289,57 @@ let cart = JSON.parse(localStorage.getItem('makClaudeCart') || '[]');
 const saveCart = () => { localStorage.setItem('makClaudeCart', JSON.stringify(cart)); renderCart(); updateCount(); };
 const addToCart = (title) => { const item = cart.find(i => i.title === title); if(item) item.qty++; else cart.push({title, qty:1}); saveCart(); document.getElementById('cartPanel').classList.add('open'); };
 const updateCount = () => document.querySelector('.cart-count').textContent = cart.reduce((s,i)=>s+i.qty,0);
-document.getElementById('productGrid').innerHTML = products.map((p,i)=>`<article class="prod-card"><a class="prod-img-wrap" href="${p.page}"><img class="prod-img" src="${p.img}" alt="${p.title}" loading="lazy"></a><div class="prod-body"><div class="prod-ico"><svg viewBox="0 0 24 24">${icons[i]}</svg></div><div class="prod-name">${p.title}</div><div class="prod-items">${p.items}</div><div class="prod-actions"><button class="buy-btn" onclick="addToCart('${p.title}')">Add to Cart</button><a class="ghost-btn" href="${p.page}">View Details</a></div></div></article>`).join('');
+document.getElementById('productGrid').innerHTML = products.map((p,i)=>`<article class="prod-card"><a class="prod-img-wrap" href="${p.page}"><img class="prod-img" src="${p.img}" alt="${p.title}" loading="lazy"></a><div class="prod-body"><div class="prod-ico"><svg viewBox="0 0 24 24">${icons[i % icons.length]}</svg></div><div class="prod-name">${p.title}</div><div class="prod-items">${p.items}</div><div class="prod-actions"><button class="buy-btn" onclick="addToCart('${p.title}')">Add to Cart</button><a class="ghost-btn" href="${p.page}">View Details</a></div></div></article>`).join('');
 function renderCart(){document.getElementById('cartItems').innerHTML = cart.length ? cart.map((i,idx)=>`<div class="cart-item"><div><strong>${i.title}</strong><div class="qty"><button onclick="cart[${idx}].qty--; if(cart[${idx}].qty<1) cart.splice(${idx},1); saveCart()">-</button><span>${i.qty}</span><button onclick="cart[${idx}].qty++; saveCart()">+</button></div></div><button class="close" onclick="cart.splice(${idx},1); saveCart()">&times;</button></div>`).join('') : '<p style="color:#999;padding:1rem">Your enquiry cart is empty.</p>'}
 document.getElementById('checkoutBtn').onclick=()=>{ if(!cart.length) return; const lines=cart.map((i,n)=>`${n+1}. ${i.title} x ${i.qty}`).join('\n'); window.open(`https://wa.me/${PHONE}?text=${encodeURIComponent('Hello MAK Overseas, I want to enquire about:\n\n'+lines)}`,'_blank'); };
 document.getElementById('openCart').onclick=()=>document.getElementById('cartPanel').classList.add('open');
 document.querySelector('[data-close-cart]').onclick=()=>document.getElementById('cartPanel').classList.remove('open');
 document.getElementById('cartPanel').onclick=e=>{if(e.target.id==='cartPanel') e.currentTarget.classList.remove('open')};
-document.getElementById('openSearch').onclick=()=>{document.getElementById('searchPanel').classList.add('open'); renderSearch(''); setTimeout(()=>document.getElementById('searchInput').focus(),30)};
+let catalogueLoadPromise;
+function loadCatalogue(){
+  if(window.MAK_PRODUCTS)return Promise.resolve();
+  if(catalogueLoadPromise)return catalogueLoadPromise;
+  catalogueLoadPromise = new Promise((resolve,reject)=>{
+    const script=document.createElement('script');
+    script.src='product-data.js';
+    script.onload=resolve;
+    script.onerror=reject;
+    document.head.appendChild(script);
+  });
+  return catalogueLoadPromise;
+}
+document.getElementById('openSearch').onclick=async()=>{
+  document.getElementById('searchPanel').classList.add('open');
+  document.getElementById('searchResults').innerHTML='<p style="color:#999;padding:1rem">Loading catalogue search...</p>';
+  try{await loadCatalogue(); renderSearch('');}catch(e){document.getElementById('searchResults').innerHTML='<p style="color:#999;padding:1rem">Search could not load. Please open the catalogue page.</p>'}
+  setTimeout(()=>document.getElementById('searchInput').focus(),30)
+};
 document.querySelector('[data-close-search]').onclick=()=>document.getElementById('searchPanel').classList.remove('open');
 document.getElementById('searchPanel').onclick=e=>{if(e.target.id==='searchPanel') e.currentTarget.classList.remove('open')};
-function renderSearch(q){const term=q.toLowerCase(); const found=products.filter(p=>(p.title+' '+p.items).toLowerCase().includes(term)); document.getElementById('searchResults').innerHTML=found.map(p=>`<div class="search-result"><a href="${p.page}"><strong>${p.title}</strong><br><small>${p.items}</small></a><button class="buy-btn" onclick="addToCart('${p.title}')">Add</button></div>`).join('') || '<p style="color:#999;padding:1rem">No products found.</p>'}
+function normalizeSearch(value){return String(value||'').toLowerCase().replace(/[^a-z0-9]+/g,'')}
+function productSearchText(p){return [p.name,p.code,(p.partNumbers||[]).join(' '),p.material,p.category,p.notes,p.desc].join(' ').toLowerCase()}
+function productMatches(p,q){
+  const raw=q.trim().toLowerCase();
+  if(!raw)return true;
+  const text=productSearchText(p);
+  const compact=normalizeSearch(text);
+  return raw.split(/\s+/).every(term=>text.includes(term)||compact.includes(normalizeSearch(term)));
+}
+function renderSearch(q){
+  const catalogue = window.MAK_PRODUCTS || [];
+  const found = catalogue.filter(p => productMatches(p,q)).slice(0,80);
+  document.getElementById('searchResults').innerHTML = found.map(p => {
+    const part = (p.partNumbers || []).join(', ') || 'Available on request';
+    const title = `${p.name}${part !== 'Available on request' ? ' (' + part + ')' : ''}`;
+    return `<div class="search-result"><a href="${p.page}"><strong>${p.name}</strong><br><small>Part No: ${part} · Material: ${p.material} · ${p.category}</small></a><button class="buy-btn" onclick="addToCart('${title.replace(/'/g, "\\'")}')">Add</button></div>`;
+  }).join('') || '<p style="color:#999;padding:1rem">No products found. Try a part number like 990/14900, 99014900, or a MAK code like MK001.</p>';
+}
 document.getElementById('searchInput').oninput=e=>renderSearch(e.target.value);
 const observer = new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting) entry.target.classList.add('visible')}),{threshold:.12});
 document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
 updateCount(); renderCart();
 </script>
-<script src="language.js"></script><script src="partfinder.js"></script><script src="whatsapp-widget.js"></script></body>
+<script src="language.js"></script><script src="whatsapp-widget.js"></script></body>
 </html>
 
 
