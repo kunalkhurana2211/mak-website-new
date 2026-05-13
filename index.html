@@ -88,9 +88,9 @@ section{padding:4.8rem 2.5rem}
 .prod-card::after{content:"";position:absolute;inset:0;border:1px solid transparent;pointer-events:none;transition:.28s}
 .prod-card:hover{background:#202020;transform:translateY(-6px)}
 .prod-card:hover::after{border-color:rgba(212,137,10,.45)}
-.prod-img-wrap{height:190px;background:linear-gradient(145deg,#f4f4f4,#d8d8d8);overflow:hidden;position:relative;display:flex;align-items:center;justify-content:center;padding:18px}
+.prod-img-wrap{height:225px;background:linear-gradient(145deg,#f4f4f4,#d8d8d8);overflow:hidden;position:relative;display:flex;align-items:center;justify-content:center;padding:0}
 .prod-img-wrap::after{content:"";position:absolute;inset:auto 0 0;height:48%;background:linear-gradient(0deg,rgba(0,0,0,.18),transparent);pointer-events:none}
-.prod-img{width:100%;height:100%;object-fit:contain;display:block;transition:transform .55s ease,filter .55s ease;filter:saturate(.96) contrast(1.04);position:relative;z-index:1}
+.prod-img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .55s ease,filter .55s ease;filter:saturate(.96) contrast(1.04);position:relative;z-index:1}
 .prod-card:hover .prod-img{transform:scale(1.06);filter:saturate(1.05) contrast(1.08)}
 .prod-body{padding:1.35rem 1.25rem;display:flex;flex:1;flex-direction:column;gap:.65rem}
 .prod-ico{width:42px;height:42px;background:rgba(212,137,10,.1);display:flex;align-items:center;justify-content:center}
@@ -167,7 +167,7 @@ footer{background:#0a0a0a;padding:1.75rem 2.5rem;display:flex;align-items:center
   .hero{min-height:100svh;padding:5.2rem 1.25rem 2rem}.hero h1{font-size:clamp(2.75rem,14vw,4.55rem)}
   .hero-actions a{width:100%}.stats{grid-template-columns:repeat(2,1fr)}
   section{padding:3.2rem 1.25rem}.prod-grid{margin:0 1.25rem;grid-template-columns:1fr}.brands{padding:2.6rem 1.25rem}
-  .prod-card{min-height:0}.prod-img-wrap{height:190px}
+  .prod-card{min-height:0}.prod-img-wrap{height:245px}
   .offices{grid-template-columns:1fr}.cta{padding:2.5rem 1.25rem}.cta-btns a{width:100%}
   footer{padding:1.25rem;align-items:flex-start;flex-direction:column}.footer-info{text-align:left}
 }
@@ -267,14 +267,21 @@ footer{background:#0a0a0a;padding:1.75rem 2.5rem;display:flex;align-items:center
 <script>
 const PHONE = '919465263877';
 const products = [
-  {title:'Bolts & Fasteners', page:'bolts.html', img:'web-products/teeth-cutter-bolt-small.webp', items:'JCB, excavator and truck bolts for cutters, wheels, hubs, pins and high-load joints.'},
-  {title:'Pins & Bushes', page:'bushes.html', img:'web-products/catalogue/p02-04.jpg', items:'Steel, alloy steel and alloy bronze bushes for loader, bucket and steering assemblies.'},
-  {title:'Pivot Pins', page:'pivot-pins.html', img:'web-products/catalogue/p03-23.jpg', items:'Nitrided and alloy steel pivot pins for bucket, loader, boom and centre linkages.'},
-  {title:'Shims & Washers', page:'shims-washers.html', img:'web-products/catalogue/p02-43.jpg', items:'Bucket pin, king pin, boom pin and KPC washers in multiple sizes.'},
-  {title:'JCB Teeth & Cutters', page:'jcb-teeth.html', img:'web-products/catalogue/p03-30.jpg', items:'Centre teeth, side cutters, crocodile cutters and plain bucket teeth.'},
-  {title:'Gear Parts', page:'gears.html', img:'web-products/catalogue/p04-34.jpg', items:'Annulus rings, planet gears, sun gears and planetary gear assemblies.'},
-  {title:'Filters', page:'filters.html', img:'web-products/catalogue/p04-36.jpg', items:'Oil, air, fuel and service filter products for heavy machinery.'},
-  {title:'Full Catalogue', page:'search.html', img:'web-products/jcb-spare-parts-catalogue.jpg', items:'Search 234 listed products by name, code, material or part number.'}
+  {title:'Bolts & Fasteners', page:'bolts.html', img:'web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp', items:'JCB, excavator and truck bolts for cutters, wheels, hubs, pins and high-load joints.'},
+  {title:'Pins & Bushes', page:'bushes.html', img:'web-products/watermarked/web-products-catalogue-p02-04-jpg.webp', items:'Steel, alloy steel and alloy bronze bushes for loader, bucket and steering assemblies.'},
+  {title:'Pivot Pins', page:'pivot-pins.html', img:'web-products/watermarked/web-products-catalogue-p03-23-jpg.webp', items:'Nitrided and alloy steel pivot pins for bucket, loader, boom and centre linkages.'},
+  {title:'Shims & Washers', page:'shims-washers.html', img:'web-products/watermarked/web-products-catalogue-p02-43-jpg.webp', items:'Bucket pin, king pin, boom pin and KPC washers in multiple sizes.'},
+  {title:'JCB Teeth & Cutters', page:'jcb-teeth.html', img:'web-products/watermarked/web-products-catalogue-p03-30-jpg.webp', items:'Centre teeth, side cutters, crocodile cutters and plain bucket teeth.'},
+  {title:'Gear Parts', page:'gears.html', img:'web-products/watermarked/web-products-catalogue-p04-34-jpg.webp', items:'Annulus rings, planet gears, sun gears and planetary gear assemblies.'},
+  {title:'Filters', page:'filters.html', img:'web-products/watermarked/web-products-catalogue-p04-36-jpg.webp', items:'Oil, air, fuel and service filter products for heavy machinery.'},
+  {title:'Spring Pins', page:'national-spring-pins.html', img:'web-products/watermarked/web-products-national-traders-optimized-spring-pin-webp.webp', items:'Spring pins, centre bolts, hub hardware, nuts and related National Sales fasteners.'},
+  {title:'Shackle Assembly', page:'national-shackle-assembly.html', img:'web-products/watermarked/web-products-national-traders-optimized-shackle-assembly-webp.webp', items:'Pick-up, Maxi-Truck, Ace, Dost and fixed type shackle assemblies.'},
+  {title:'Shackle Plate', page:'national-shackle-plate.html', img:'web-products/watermarked/web-products-national-traders-optimized-shackle-plate-webp.webp', items:'Shackle plates, hangers, shocker plates, tube brackets and suspension plates.'},
+  {title:'U Bolts', page:'national-u-bolts.html', img:'web-products/watermarked/web-products-national-traders-optimized-u-bolt-webp.webp', items:'U bolts and U bolt sets for pickup, Ace, Dost and commercial vehicle suspension.'},
+  {title:'Bushes', page:'national-bushes.html', img:'web-products/watermarked/web-products-national-traders-optimized-spring-bush-webp.webp', items:'Spring bushes and rear spring bushes from the National Sales catalogue.'},
+  {title:'Steel Jacks', page:'national-steel-jacks.html', img:'web-products/watermarked/web-products-national-traders-optimized-steel-bottle-screw-jack-35-ton-webp.webp', items:'Steel bottle screw jacks, double lift steel jacks and cast iron bottle screw jacks.'},
+  {title:'Hydraulic Jacks', page:'national-hydraulic-jacks.html', img:'web-products/watermarked/web-products-national-traders-optimized-hydraulic-jack-35-ton-webp.webp', items:'Hydraulic bottle jacks, trolley jacks, scissor jacks and Chinese hydraulic jacks.'},
+  {title:'Full Catalogue', page:'search.html', img:'web-products/watermarked/web-products-jcb-spare-parts-catalogue-jpg.webp', items:'Search 305 listed products by name, code, material or part number.'}
 ];
 const icons = [
   '<circle cx="12" cy="12" r="3"/><path d="M5 12H3M21 12h-2M12 5V3M12 21v-2"/>',

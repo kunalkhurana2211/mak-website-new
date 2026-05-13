@@ -3,7 +3,7 @@ window.MAK_CATEGORIES = [
     "slug": "bolts-fasteners",
     "title": "Bolts & Fasteners",
     "page": "bolts.html",
-    "image": "web-products/teeth-cutter-bolt-small.webp",
+    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
     "summary": "JCB, excavator and truck bolts for cutters, wheels, hubs, pins and high-load joints.",
     "count": 21
   },
@@ -11,7 +11,7 @@ window.MAK_CATEGORIES = [
     "slug": "pins-bushes",
     "title": "Pins & Bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "summary": "Steel, alloy steel and alloy bronze bushes for JCB loader, bucket and steering assemblies.",
     "count": 29
   },
@@ -19,7 +19,7 @@ window.MAK_CATEGORIES = [
     "slug": "pivot-pins",
     "title": "Pivot Pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "summary": "Nitrided and alloy steel pivot pins for bucket, loader, boom and centre linkage points.",
     "count": 48
   },
@@ -27,7 +27,7 @@ window.MAK_CATEGORIES = [
     "slug": "pin-collars-stub-axle",
     "title": "Pin Collars & Stub Axle",
     "page": "pin-collars-stub-axle.html",
-    "image": "web-products/catalogue/p02-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-28-jpg.webp",
     "summary": "Bucket pin collars, boom pin collars and stub axle parts for JCB backhoe loaders.",
     "count": 6
   },
@@ -35,7 +35,7 @@ window.MAK_CATEGORIES = [
     "slug": "shims-washers",
     "title": "Shims & Washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "summary": "Bucket pin, king pin, boom pin and KPC washers in multiple sizes.",
     "count": 26
   },
@@ -43,7 +43,7 @@ window.MAK_CATEGORIES = [
     "slug": "steering-tie-rod",
     "title": "Steering & Tie Rod",
     "page": "steering-tie-rod.html",
-    "image": "web-products/catalogue/p03-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
     "summary": "Tie rod pins, steering bushes, check nuts, eye bolts and stabilizer hardware.",
     "count": 19
   },
@@ -51,7 +51,7 @@ window.MAK_CATEGORIES = [
     "slug": "bucket-boss-sleeves",
     "title": "Bucket Boss & Sleeves",
     "page": "bucket-boss-sleeves.html",
-    "image": "web-products/catalogue/p02-06.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
     "summary": "Bucket bosses, dipper sleeves, loader sleeve sets and heavy joint clamps.",
     "count": 15
   },
@@ -59,7 +59,7 @@ window.MAK_CATEGORIES = [
     "slug": "grease-nipples",
     "title": "Grease Nipples",
     "page": "grease-nipples.html",
-    "image": "web-products/catalogue/p03-10.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
     "summary": "Straight and bend grease nipples for boom, service and lubrication points.",
     "count": 12
   },
@@ -67,7 +67,7 @@ window.MAK_CATEGORIES = [
     "slug": "gear-parts",
     "title": "Gear Parts",
     "page": "gears.html",
-    "image": "web-products/catalogue/p04-34.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-34-jpg.webp",
     "summary": "Annulus rings, planet gears, sun gears, carrier annulus and planetary gear assemblies.",
     "count": 6
   },
@@ -75,7 +75,7 @@ window.MAK_CATEGORIES = [
     "slug": "kits",
     "title": "Kits & Overhauls",
     "page": "kits.html",
-    "image": "web-products/catalogue/p04-21.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-21-jpg.webp",
     "summary": "Bucket kits, king pin kits and KPC overhaul kits for JCB repairs.",
     "count": 6
   },
@@ -83,7 +83,7 @@ window.MAK_CATEGORIES = [
     "slug": "rods-tubes-links",
     "title": "Rods, Tubes & Links",
     "page": "rods-tubes-links.html",
-    "image": "web-products/catalogue/p03-32.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
     "summary": "Slew, stabilizer, bucket, dipper, boom, lift and shovel rods, tubes and links.",
     "count": 17
   },
@@ -91,7 +91,7 @@ window.MAK_CATEGORIES = [
     "slug": "jcb-teeth-cutters",
     "title": "JCB Teeth & Cutters",
     "page": "jcb-teeth.html",
-    "image": "web-products/catalogue/p03-30.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-30-jpg.webp",
     "summary": "JCB centre teeth, side cutters, crocodile cutters and plain bucket teeth.",
     "count": 5
   },
@@ -99,7 +99,7 @@ window.MAK_CATEGORIES = [
     "slug": "filters",
     "title": "Filters",
     "page": "filters.html",
-    "image": "web-products/catalogue/p04-36.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-36-jpg.webp",
     "summary": "Oil, air, fuel and service filter products for JCB and heavy machinery.",
     "count": 4
   },
@@ -107,7 +107,7 @@ window.MAK_CATEGORIES = [
     "slug": "tyres",
     "title": "Tyres",
     "page": "tyres.html",
-    "image": "web-products/catalogue/p04-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-23-jpg.webp",
     "summary": "Backhoe loader, excavator, forklift, grader and truck tyres for site work.",
     "count": 3
   },
@@ -115,15 +115,15 @@ window.MAK_CATEGORIES = [
     "slug": "electricals-lighting",
     "title": "Electricals & Lighting",
     "page": "electricals.html",
-    "image": "web-products/catalogue/p03-51.jpg",
-    "summary": "Headlamps, working lamps, tail lamps, switches and meters.",
-    "count": 5
+    "image": "web-products/watermarked/web-products-jcb-lights-jcb-headlamp-new-webp.webp",
+    "summary": "JCB and Bobcat headlamps, tail lamps, lenses, working lamps, switches and meters.",
+    "count": 22
   },
   {
     "slug": "seals-gaskets",
     "title": "Seals & Gaskets",
     "page": "seals-gaskets.html",
-    "image": "web-products/catalogue/p04-18.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-18-jpg.webp",
     "summary": "Gaskets, oil seals, washers, hub repair kits, O-rings and friction plates.",
     "count": 4
   },
@@ -131,7 +131,7 @@ window.MAK_CATEGORIES = [
     "slug": "tools-accessories",
     "title": "Tools & Accessories",
     "page": "tools-accessories.html",
-    "image": "web-products/catalogue/p03-10.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
     "summary": "Grease guns, nozzles, hydraulic jacks, wheel spanners and service accessories.",
     "count": 4
   },
@@ -139,9 +139,65 @@ window.MAK_CATEGORIES = [
     "slug": "truck-car-parts",
     "title": "Truck & Car Parts",
     "page": "truck-car-parts.html",
-    "image": "web-products/jcb-spare-parts-catalogue.jpg",
+    "image": "web-products/watermarked/web-products-jcb-spare-parts-catalogue-jpg.webp",
     "summary": "Truck hub wheel parts, spring pins, battery terminals, disc rotors and brackets.",
     "count": 4
+  },
+  {
+    "slug": "national-spring-pins",
+    "title": "Spring Pins",
+    "page": "national-spring-pins.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-spring-pin-webp.webp",
+    "summary": "Spring pins, centre bolts, balance rod bolts, hub bolts, nuts and related National Sales fasteners.",
+    "count": 18
+  },
+  {
+    "slug": "national-shackle-assembly",
+    "title": "Shackle Assembly",
+    "page": "national-shackle-assembly.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-shackle-assembly-webp.webp",
+    "summary": "Pick-up, Maxi-Truck, Ace, Dost and fixed type shackle assemblies from National Sales Corporation.",
+    "count": 4
+  },
+  {
+    "slug": "national-shackle-plate",
+    "title": "Shackle Plate",
+    "page": "national-shackle-plate.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-shackle-plate-webp.webp",
+    "summary": "Shackle plates, hanger plates, shocker plates, tube brackets and related suspension plates.",
+    "count": 7
+  },
+  {
+    "slug": "national-u-bolts",
+    "title": "U Bolts",
+    "page": "national-u-bolts.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-u-bolt-webp.webp",
+    "summary": "U bolts and U bolt sets for pickup, Ace, Dost, Maxi-Truck and commercial vehicle suspension applications.",
+    "count": 5
+  },
+  {
+    "slug": "national-bushes",
+    "title": "Bushes",
+    "page": "national-bushes.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-spring-bush-webp.webp",
+    "summary": "Spring bushes and rear spring bushes from the National Sales catalogue.",
+    "count": 2
+  },
+  {
+    "slug": "national-steel-jacks",
+    "title": "Steel Jacks",
+    "page": "national-steel-jacks.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-steel-bottle-screw-jack-35-ton-webp.webp",
+    "summary": "Steel bottle screw jacks, double lift steel jacks and cast iron bottle screw jacks.",
+    "count": 8
+  },
+  {
+    "slug": "national-hydraulic-jacks",
+    "title": "Hydraulic Jacks",
+    "page": "national-hydraulic-jacks.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-hydraulic-jack-35-ton-webp.webp",
+    "summary": "Hydraulic bottle jacks, trolley jacks, scissor jacks, high lift jacks and Chinese hydraulic jacks.",
+    "count": 10
   }
 ];
 
@@ -154,14 +210,15 @@ window.MAK_PRODUCTS = [
     "category": "Bolts & Fasteners",
     "categorySlug": "bolts-fasteners",
     "page": "bolts.html",
-    "image": "web-products/teeth-cutter-bolt-small.webp",
+    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
     "partNumbers": [
       "MK/990/14900"
     ],
     "material": "Alloy Steel",
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/teeth-cutter-bolt-mk-990-14900.html"
   },
   {
     "id": "mk-002",
@@ -171,14 +228,15 @@ window.MAK_PRODUCTS = [
     "category": "Bolts & Fasteners",
     "categorySlug": "bolts-fasteners",
     "page": "bolts.html",
-    "image": "web-products/teeth-cutter-bolt-small.webp",
+    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
     "partNumbers": [
       "MK/990/45900"
     ],
     "material": "Alloy Steel",
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/teeth-cutter-bolt-mk-990-45900.html"
   },
   {
     "id": "mk-003",
@@ -188,12 +246,13 @@ window.MAK_PRODUCTS = [
     "category": "Bolts & Fasteners",
     "categorySlug": "bolts-fasteners",
     "page": "bolts.html",
-    "image": "web-products/teeth-cutter-bolt-small.webp",
+    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/swing-plate-bolt-product.html"
   },
   {
     "id": "mk-004",
@@ -203,14 +262,15 @@ window.MAK_PRODUCTS = [
     "category": "Bolts & Fasteners",
     "categorySlug": "bolts-fasteners",
     "page": "bolts.html",
-    "image": "web-products/teeth-cutter-bolt-small.webp",
+    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
     "partNumbers": [
       "MK/826/00533"
     ],
     "material": "Alloy Steel",
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/front-wheel-bolt-mk-826-00533.html"
   },
   {
     "id": "mk-005",
@@ -220,12 +280,13 @@ window.MAK_PRODUCTS = [
     "category": "Bolts & Fasteners",
     "categorySlug": "bolts-fasteners",
     "page": "bolts.html",
-    "image": "web-products/teeth-cutter-bolt-small.webp",
+    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
     "partNumbers": [],
     "material": "Alloy Steel, Tempered",
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/rear-wheel-bolt-small-product.html"
   },
   {
     "id": "mk-006",
@@ -235,12 +296,13 @@ window.MAK_PRODUCTS = [
     "category": "Bolts & Fasteners",
     "categorySlug": "bolts-fasteners",
     "page": "bolts.html",
-    "image": "web-products/teeth-cutter-bolt-small.webp",
+    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/rear-wheel-disc-plate-bolt-product.html"
   },
   {
     "id": "mk-007",
@@ -250,14 +312,15 @@ window.MAK_PRODUCTS = [
     "category": "Bolts & Fasteners",
     "categorySlug": "bolts-fasteners",
     "page": "bolts.html",
-    "image": "web-products/teeth-cutter-bolt-small.webp",
+    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
     "partNumbers": [
       "826/009"
     ],
     "material": "Tempered",
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/rear-wheel-bolt-big-826-009.html"
   },
   {
     "id": "mk-008",
@@ -267,14 +330,15 @@ window.MAK_PRODUCTS = [
     "category": "Bolts & Fasteners",
     "categorySlug": "bolts-fasteners",
     "page": "bolts.html",
-    "image": "web-products/teeth-cutter-bolt-small.webp",
+    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
     "partNumbers": [
       "MK/123/00928"
     ],
     "material": "Available on request",
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/hydro-clamp-bolt-with-nut-mk-123-00928.html"
   },
   {
     "id": "mk-009",
@@ -284,14 +348,15 @@ window.MAK_PRODUCTS = [
     "category": "Bolts & Fasteners",
     "categorySlug": "bolts-fasteners",
     "page": "bolts.html",
-    "image": "web-products/teeth-cutter-bolt-small.webp",
+    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
     "partNumbers": [
       "MK/826/10382"
     ],
     "material": "Available on request",
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/hydro-clamp-bolt-with-nut-3dx-mk-826-10382.html"
   },
   {
     "id": "mk-010",
@@ -301,12 +366,13 @@ window.MAK_PRODUCTS = [
     "category": "Bolts & Fasteners",
     "categorySlug": "bolts-fasteners",
     "page": "bolts.html",
-    "image": "web-products/teeth-cutter-bolt-small.webp",
+    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/hydro-clamp-bolt-nut-only-product.html"
   },
   {
     "id": "mk-011",
@@ -316,12 +382,13 @@ window.MAK_PRODUCTS = [
     "category": "Bolts & Fasteners",
     "categorySlug": "bolts-fasteners",
     "page": "bolts.html",
-    "image": "web-products/teeth-cutter-bolt-small.webp",
+    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/main-pin-bolt-w-self-lock-nut-4-product.html"
   },
   {
     "id": "mk-012",
@@ -331,12 +398,13 @@ window.MAK_PRODUCTS = [
     "category": "Bolts & Fasteners",
     "categorySlug": "bolts-fasteners",
     "page": "bolts.html",
-    "image": "web-products/teeth-cutter-bolt-small.webp",
+    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/main-pin-bolt-w-self-lock-nut-4-1-2-product.html"
   },
   {
     "id": "mk-013",
@@ -346,12 +414,13 @@ window.MAK_PRODUCTS = [
     "category": "Bolts & Fasteners",
     "categorySlug": "bolts-fasteners",
     "page": "bolts.html",
-    "image": "web-products/teeth-cutter-bolt-small.webp",
+    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/main-pin-bolt-w-self-lock-nut-5-product.html"
   },
   {
     "id": "mk-014",
@@ -361,12 +430,13 @@ window.MAK_PRODUCTS = [
     "category": "Bolts & Fasteners",
     "categorySlug": "bolts-fasteners",
     "page": "bolts.html",
-    "image": "web-products/teeth-cutter-bolt-small.webp",
+    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/main-pin-bolt-w-self-lock-nut-6-product.html"
   },
   {
     "id": "mk-015",
@@ -376,12 +446,13 @@ window.MAK_PRODUCTS = [
     "category": "Bolts & Fasteners",
     "categorySlug": "bolts-fasteners",
     "page": "bolts.html",
-    "image": "web-products/teeth-cutter-bolt-small.webp",
+    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/main-pin-bolt-w-self-lock-nut-7-product.html"
   },
   {
     "id": "mk-016",
@@ -391,12 +462,13 @@ window.MAK_PRODUCTS = [
     "category": "Bolts & Fasteners",
     "categorySlug": "bolts-fasteners",
     "page": "bolts.html",
-    "image": "web-products/teeth-cutter-bolt-small.webp",
+    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bucket-pin-bolt-w-self-lock-nut-3-product.html"
   },
   {
     "id": "mk-017",
@@ -406,12 +478,13 @@ window.MAK_PRODUCTS = [
     "category": "Bolts & Fasteners",
     "categorySlug": "bolts-fasteners",
     "page": "bolts.html",
-    "image": "web-products/teeth-cutter-bolt-small.webp",
+    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bucket-pin-bolt-w-self-lock-nut-3-1-2-product.html"
   },
   {
     "id": "mk-018",
@@ -421,12 +494,13 @@ window.MAK_PRODUCTS = [
     "category": "Bolts & Fasteners",
     "categorySlug": "bolts-fasteners",
     "page": "bolts.html",
-    "image": "web-products/teeth-cutter-bolt-small.webp",
+    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bucket-pin-bolt-w-self-lock-nut-4-product.html"
   },
   {
     "id": "mk-019",
@@ -436,12 +510,13 @@ window.MAK_PRODUCTS = [
     "category": "Bolts & Fasteners",
     "categorySlug": "bolts-fasteners",
     "page": "bolts.html",
-    "image": "web-products/teeth-cutter-bolt-small.webp",
+    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bucket-pin-bolt-w-self-lock-nut-4-1-2-product.html"
   },
   {
     "id": "mk-020",
@@ -451,12 +526,13 @@ window.MAK_PRODUCTS = [
     "category": "Bolts & Fasteners",
     "categorySlug": "bolts-fasteners",
     "page": "bolts.html",
-    "image": "web-products/teeth-cutter-bolt-small.webp",
+    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bucket-pin-bolt-w-self-lock-nut-5-product.html"
   },
   {
     "id": "mk-021",
@@ -466,12 +542,13 @@ window.MAK_PRODUCTS = [
     "category": "Bolts & Fasteners",
     "categorySlug": "bolts-fasteners",
     "page": "bolts.html",
-    "image": "web-products/teeth-cutter-bolt-small.webp",
+    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bucket-pin-bolt-w-self-lock-nut-6-product.html"
   },
   {
     "id": "mk-022",
@@ -481,14 +558,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "Sl/40/300750"
     ],
     "material": "Steel",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bucket-pin-bush-sl-40-300750.html"
   },
   {
     "id": "mk-023",
@@ -498,14 +576,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "Sl/808/00125"
     ],
     "material": "As per catalogue / available on request",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/stick-bush-for-bucket-pin-sl-808-00125.html"
   },
   {
     "id": "mk-024",
@@ -515,14 +594,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "MK/809/00129"
     ],
     "material": "As per catalogue / available on request",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/tipping-lever-bush-mk-809-00129.html"
   },
   {
     "id": "mk-025",
@@ -532,14 +612,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "MK/40/301610"
     ],
     "material": "Steel",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bush-alloy-mk-40-301610.html"
   },
   {
     "id": "mk-026",
@@ -549,14 +630,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "MK/808/00226"
     ],
     "material": "Alloy Bronze",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/steering-bush-mk-808-00226.html"
   },
   {
     "id": "mk-027",
@@ -566,14 +648,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "MK/808/00237"
     ],
     "material": "Alloy Bronze",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/tie-rod-bush-mk-808-00237.html"
   },
   {
     "id": "mk-028",
@@ -583,14 +666,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "MK/808/00172"
     ],
     "material": "Alloy Bronze",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-center-pin-bush-mk-808-00172.html"
   },
   {
     "id": "mk-029",
@@ -600,14 +684,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "MK/808/00173"
     ],
     "material": "Alloy Bronze",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-center-pin-bush-mk-808-00173.html"
   },
   {
     "id": "mk-030",
@@ -617,14 +702,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "MK/808/00176"
     ],
     "material": "Alloy Bronze",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/king-pin-bush-mk-808-00176.html"
   },
   {
     "id": "mk-031",
@@ -634,14 +720,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "MK/808/00176"
     ],
     "material": "Steel",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/king-pin-bush-mk-031.html"
   },
   {
     "id": "mk-032",
@@ -651,14 +738,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "MK/808/00186"
     ],
     "material": "Alloy Bronze",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bush-mk-808-00186.html"
   },
   {
     "id": "mk-033",
@@ -668,14 +756,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "MK/808/00214"
     ],
     "material": "Alloy Bronze",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bush-mk-808-00214.html"
   },
   {
     "id": "mk-034",
@@ -685,14 +774,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "MK/808/00216"
     ],
     "material": "Alloy Bronze",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bush-mk-808-00216.html"
   },
   {
     "id": "mk-035",
@@ -702,14 +792,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "MK/808/00364"
     ],
     "material": "Alloy Bronze",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bush-mk-808-00364.html"
   },
   {
     "id": "mk-036",
@@ -719,14 +810,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "MK/808/00388"
     ],
     "material": "Alloy Bronze",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bush-mk-808-00388.html"
   },
   {
     "id": "mk-037",
@@ -736,14 +828,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "MK/831/10211"
     ],
     "material": "Alloy Bronze",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bush-mk-831-10211.html"
   },
   {
     "id": "mk-038",
@@ -753,14 +846,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "MK/040/301542"
     ],
     "material": "Alloy Bronze",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bush-mk-040-301542.html"
   },
   {
     "id": "mk-039",
@@ -770,14 +864,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "MK/808/00229"
     ],
     "material": "Alloy Bronze",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bush-mk-808-00229.html"
   },
   {
     "id": "mk-040",
@@ -787,14 +882,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "MK/831/10229"
     ],
     "material": "As per catalogue / available on request",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/linear-bearing-bush-mk-831-10229.html"
   },
   {
     "id": "mk-041",
@@ -804,14 +900,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "MK/809/00131"
     ],
     "material": "Alloy Steel",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bush-mk-809-00131.html"
   },
   {
     "id": "mk-042",
@@ -821,14 +918,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "MK/550/00548"
     ],
     "material": "Alloy Steel",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bush-mk-550-00548.html"
   },
   {
     "id": "mk-043",
@@ -838,14 +936,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "MK/335/C5739"
     ],
     "material": "Alloy Steel",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bush-mk-335-c5739.html"
   },
   {
     "id": "mk-044",
@@ -855,14 +954,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "MK/550/40899"
     ],
     "material": "As per catalogue / available on request",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/dipper-ram-rod-bush-mk-550-40899.html"
   },
   {
     "id": "mk-045",
@@ -872,14 +972,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "MK/550/40898"
     ],
     "material": "As per catalogue / available on request",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/dipper-ram-rod-bush-mk-550-40898.html"
   },
   {
     "id": "mk-046",
@@ -889,14 +990,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "550/40927"
     ],
     "material": "As per catalogue / available on request",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/dipper-ram-rod-bush-550-40927.html"
   },
   {
     "id": "mk-047",
@@ -906,14 +1008,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "MK/550/40926"
     ],
     "material": "As per catalogue / available on request",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/dipper-ram-rod-bush-mk-550-40926.html"
   },
   {
     "id": "mk-048",
@@ -923,14 +1026,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "550/40983"
     ],
     "material": "As per catalogue / available on request",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/dipper-ram-rod-bush-550-40983.html"
   },
   {
     "id": "mk-049",
@@ -940,14 +1044,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "550/40899"
     ],
     "material": "As per catalogue / available on request",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/dipper-ram-rod-bush-550-40899.html"
   },
   {
     "id": "mk-050",
@@ -957,14 +1062,15 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/catalogue/p02-04.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "partNumbers": [
       "MK550/40982"
     ],
     "material": "As per catalogue / available on request",
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/dipper-ram-rod-bush-mk550-40982.html"
   },
   {
     "id": "mk-051",
@@ -974,14 +1080,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/811/50369"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-811-50369.html"
   },
   {
     "id": "mk-052",
@@ -991,14 +1098,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "90214"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-90214.html"
   },
   {
     "id": "mk-053",
@@ -1008,14 +1116,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/811/50368"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-811-50368.html"
   },
   {
     "id": "mk-054",
@@ -1025,14 +1134,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/811/50365"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-811-50365.html"
   },
   {
     "id": "mk-055",
@@ -1042,14 +1152,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/811/50364"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-811-50364.html"
   },
   {
     "id": "mk-056",
@@ -1059,14 +1170,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/811/50372"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-811-50372.html"
   },
   {
     "id": "mk-057",
@@ -1076,12 +1188,13 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-y-4392-9723-product.html"
   },
   {
     "id": "mk-058",
@@ -1091,14 +1204,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/811/50520"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-811-50520.html"
   },
   {
     "id": "mk-059",
@@ -1108,14 +1222,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/811/50483"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-811-50483.html"
   },
   {
     "id": "mk-060",
@@ -1125,14 +1240,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/811/50437"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-811-50437.html"
   },
   {
     "id": "mk-061",
@@ -1142,14 +1258,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/811/50007"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-811-50007.html"
   },
   {
     "id": "mk-062",
@@ -1159,12 +1276,13 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/thrust-bearing-product.html"
   },
   {
     "id": "mk-063",
@@ -1174,14 +1292,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/811/20061"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-811-20061.html"
   },
   {
     "id": "mk-064",
@@ -1191,14 +1310,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/811/20005"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-811-20005.html"
   },
   {
     "id": "mk-065",
@@ -1208,14 +1328,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/811/50115"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-811-50115.html"
   },
   {
     "id": "mk-066",
@@ -1225,14 +1346,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/811/10011"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-811-10011.html"
   },
   {
     "id": "mk-067",
@@ -1242,14 +1364,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/811/90198"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-811-90198.html"
   },
   {
     "id": "mk-068",
@@ -1259,14 +1382,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/811/50366"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-811-50366.html"
   },
   {
     "id": "mk-069",
@@ -1276,14 +1400,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/40/302242"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-40-302242.html"
   },
   {
     "id": "mk-070",
@@ -1293,14 +1418,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/811/50530"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-811-50530.html"
   },
   {
     "id": "mk-071",
@@ -1310,14 +1436,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/811/50569"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-811-50569.html"
   },
   {
     "id": "mk-072",
@@ -1327,14 +1454,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/1019/2010"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-1019-2010.html"
   },
   {
     "id": "mk-073",
@@ -1344,14 +1472,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/1019/2037"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-1019-2037.html"
   },
   {
     "id": "mk-074",
@@ -1361,14 +1490,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/1019/3832"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-1019-3832.html"
   },
   {
     "id": "mk-075",
@@ -1378,14 +1508,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/1019/2059"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-1019-2059.html"
   },
   {
     "id": "mk-076",
@@ -1395,14 +1526,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/1019/2053"
     ],
     "material": "Alloy Steel",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-1019-2053.html"
   },
   {
     "id": "mk-077",
@@ -1412,14 +1544,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/1021/2036"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-1021-2036.html"
   },
   {
     "id": "mk-078",
@@ -1429,12 +1562,13 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-c5705-product.html"
   },
   {
     "id": "mk-079",
@@ -1444,14 +1578,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/130/08223"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-130-08223.html"
   },
   {
     "id": "mk-080",
@@ -1461,14 +1596,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/40/305196"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-collar-type-mk-40-305196.html"
   },
   {
     "id": "mk-081",
@@ -1478,14 +1614,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/40/301633"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-hole-type-mk-40-301633.html"
   },
   {
     "id": "mk-082",
@@ -1495,14 +1632,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/646/4626"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-646-4626.html"
   },
   {
     "id": "mk-083",
@@ -1512,14 +1650,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/911/12300"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-911-12300.html"
   },
   {
     "id": "mk-084",
@@ -1529,14 +1668,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/911/12400"
     ],
     "material": "Nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-911-12400.html"
   },
   {
     "id": "mk-085",
@@ -1546,14 +1686,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/1019/2062"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-hole-type-bucket-pin-2014-mk-1019-2062.html"
   },
   {
     "id": "mk-086",
@@ -1563,14 +1704,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/911/90165"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-911-90165.html"
   },
   {
     "id": "mk-087",
@@ -1580,14 +1722,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/911/16600"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-911-16600.html"
   },
   {
     "id": "mk-088",
@@ -1597,14 +1740,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/911/20600"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-911-20600.html"
   },
   {
     "id": "mk-089",
@@ -1614,14 +1758,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/811/40048"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-811-40048.html"
   },
   {
     "id": "mk-090",
@@ -1631,14 +1776,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/811/50375"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-811-50375.html"
   },
   {
     "id": "mk-091",
@@ -1648,14 +1794,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/811/40104"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "New Model",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-circlip-type-mk-811-40104.html"
   },
   {
     "id": "mk-092",
@@ -1665,14 +1812,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "MK/911/20700"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-911-20700.html"
   },
   {
     "id": "mk-093",
@@ -1682,12 +1830,13 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-4623-product.html"
   },
   {
     "id": "mk-094",
@@ -1697,14 +1846,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "80004"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-80004.html"
   },
   {
     "id": "mk-095",
@@ -1714,12 +1864,13 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/pivot-pin-mk-4622-product.html"
   },
   {
     "id": "mk-096",
@@ -1729,14 +1880,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "80001"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "New Model",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/front-loader-pin-3dx-80001.html"
   },
   {
     "id": "mk-097",
@@ -1746,14 +1898,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "10091"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/center-loader-pin-3dx-10091.html"
   },
   {
     "id": "mk-098",
@@ -1763,14 +1916,15 @@ window.MAK_PRODUCTS = [
     "category": "Pivot Pins",
     "categorySlug": "pivot-pins",
     "page": "pivot-pins.html",
-    "image": "web-products/catalogue/p03-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
     "partNumbers": [
       "332/Y8377"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/center-loader-pin-3dx-332-y8377.html"
   },
   {
     "id": "mk-099",
@@ -1780,12 +1934,13 @@ window.MAK_PRODUCTS = [
     "category": "Pin Collars & Stub Axle",
     "categorySlug": "pin-collars-stub-axle",
     "page": "pin-collars-stub-axle.html",
-    "image": "web-products/catalogue/p02-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-28-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Pin Collars & Stub Axle item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bucket-pin-collar-3d-product.html"
   },
   {
     "id": "mk-100",
@@ -1795,12 +1950,13 @@ window.MAK_PRODUCTS = [
     "category": "Pin Collars & Stub Axle",
     "categorySlug": "pin-collars-stub-axle",
     "page": "pin-collars-stub-axle.html",
-    "image": "web-products/catalogue/p02-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-28-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Pin Collars & Stub Axle item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bucket-pin-collar-3dx-product.html"
   },
   {
     "id": "mk-101",
@@ -1810,12 +1966,13 @@ window.MAK_PRODUCTS = [
     "category": "Pin Collars & Stub Axle",
     "categorySlug": "pin-collars-stub-axle",
     "page": "pin-collars-stub-axle.html",
-    "image": "web-products/catalogue/p02-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-28-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "New Model",
     "desc": "Pin Collars & Stub Axle item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bucket-pin-collar-3dx-70mm-product.html"
   },
   {
     "id": "mk-102",
@@ -1825,12 +1982,13 @@ window.MAK_PRODUCTS = [
     "category": "Pin Collars & Stub Axle",
     "categorySlug": "pin-collars-stub-axle",
     "page": "pin-collars-stub-axle.html",
-    "image": "web-products/catalogue/p02-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-28-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Pin Collars & Stub Axle item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/boom-pin-collar-cut-type-product.html"
   },
   {
     "id": "mk-103",
@@ -1840,12 +1998,13 @@ window.MAK_PRODUCTS = [
     "category": "Pin Collars & Stub Axle",
     "categorySlug": "pin-collars-stub-axle",
     "page": "pin-collars-stub-axle.html",
-    "image": "web-products/catalogue/p02-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-28-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Pin Collars & Stub Axle item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/boom-pin-collar-85-od-o-e-type-product.html"
   },
   {
     "id": "mk-104",
@@ -1855,14 +2014,15 @@ window.MAK_PRODUCTS = [
     "category": "Pin Collars & Stub Axle",
     "categorySlug": "pin-collars-stub-axle",
     "page": "pin-collars-stub-axle.html",
-    "image": "web-products/catalogue/p02-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-28-jpg.webp",
     "partNumbers": [
       "333/Y4580"
     ],
     "material": "Available on request",
     "notes": "New Model",
     "desc": "Pin Collars & Stub Axle item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/stub-axle-333-y4580.html"
   },
   {
     "id": "mk-105",
@@ -1872,12 +2032,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bucket-pin-washer-1-mm-45-70-product.html"
   },
   {
     "id": "mk-106",
@@ -1887,12 +2048,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bucket-pin-washer-2-mm-45-70-product.html"
   },
   {
     "id": "mk-107",
@@ -1902,12 +2064,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bucket-pin-washer-3-mm-45-70-product.html"
   },
   {
     "id": "mk-108",
@@ -1917,12 +2080,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bucket-pin-washer-3-1-2-mm-45-70-product.html"
   },
   {
     "id": "mk-109",
@@ -1932,12 +2096,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bucket-pin-washer-4-mm-45-70-product.html"
   },
   {
     "id": "mk-110",
@@ -1947,12 +2112,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bucket-pin-washer-5-mm-45-70-product.html"
   },
   {
     "id": "mk-111",
@@ -1962,12 +2128,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/king-pin-washer-1-2-mm-38-65-product.html"
   },
   {
     "id": "mk-112",
@@ -1977,12 +2144,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/king-pin-washer-1-mm-38-65-product.html"
   },
   {
     "id": "mk-113",
@@ -1992,12 +2160,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/king-pin-washer-2-mm-38-65-product.html"
   },
   {
     "id": "mk-114",
@@ -2007,12 +2176,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/king-pin-washer-3-mm-38-65-product.html"
   },
   {
     "id": "mk-115",
@@ -2022,12 +2192,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/king-pin-washer-4-mm-38-65-product.html"
   },
   {
     "id": "mk-116",
@@ -2037,12 +2208,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/boom-pin-washer-1-mm-50x90-product.html"
   },
   {
     "id": "mk-117",
@@ -2052,12 +2224,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/boom-pin-washer-2-mm-50x90-product.html"
   },
   {
     "id": "mk-118",
@@ -2067,12 +2240,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/boom-pin-washer-3-mm-50x90-product.html"
   },
   {
     "id": "mk-119",
@@ -2082,12 +2256,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/boom-pin-washer-4-mm-50x90-product.html"
   },
   {
     "id": "mk-120",
@@ -2097,12 +2272,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/boom-pin-washer-5-mm-50x90-product.html"
   },
   {
     "id": "mk-121",
@@ -2112,12 +2288,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/boom-pin-washer-1-mm-60x90-product.html"
   },
   {
     "id": "mk-122",
@@ -2127,12 +2304,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/boom-pin-washer-2-mm-60x90-product.html"
   },
   {
     "id": "mk-123",
@@ -2142,12 +2320,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/boom-pin-washer-3-mm-60x90-product.html"
   },
   {
     "id": "mk-124",
@@ -2157,12 +2336,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/boom-pin-washer-4-mm-60x90-product.html"
   },
   {
     "id": "mk-125",
@@ -2172,12 +2352,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/boom-pin-washer-5-mm-60x90-product.html"
   },
   {
     "id": "mk-126",
@@ -2187,12 +2368,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "New Model",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/kpc-washer-1-mm-60x120-product.html"
   },
   {
     "id": "mk-127",
@@ -2202,12 +2384,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "New Model",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/kpc-washer-2-mm-60x120-product.html"
   },
   {
     "id": "mk-128",
@@ -2217,12 +2400,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "New Model",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/kpc-washer-3-mm-60x120-product.html"
   },
   {
     "id": "mk-129",
@@ -2232,12 +2416,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "New Model",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/kpc-washer-4-mm-60x120-product.html"
   },
   {
     "id": "mk-130",
@@ -2247,12 +2432,13 @@ window.MAK_PRODUCTS = [
     "category": "Shims & Washers",
     "categorySlug": "shims-washers",
     "page": "shims-washers.html",
-    "image": "web-products/catalogue/p02-43.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "New Model",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/kpc-washer-5-mm-60x120-product.html"
   },
   {
     "id": "mk-131",
@@ -2262,14 +2448,15 @@ window.MAK_PRODUCTS = [
     "category": "Steering & Tie Rod",
     "categorySlug": "steering-tie-rod",
     "page": "steering-tie-rod.html",
-    "image": "web-products/catalogue/p03-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
     "partNumbers": [
       "MK/120/30003"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/stub-axle-check-nut-with-nut-mk-120-30003.html"
   },
   {
     "id": "mk-132",
@@ -2279,14 +2466,15 @@ window.MAK_PRODUCTS = [
     "category": "Steering & Tie Rod",
     "categorySlug": "steering-tie-rod",
     "page": "steering-tie-rod.html",
-    "image": "web-products/catalogue/p03-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
     "partNumbers": [
       "MK/120/30001"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/king-pin-mk-120-30001.html"
   },
   {
     "id": "mk-133",
@@ -2296,14 +2484,15 @@ window.MAK_PRODUCTS = [
     "category": "Steering & Tie Rod",
     "categorySlug": "steering-tie-rod",
     "page": "steering-tie-rod.html",
-    "image": "web-products/catalogue/p03-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
     "partNumbers": [
       "MK/333/Y1184"
     ],
     "material": "Alloy Steel with nitrided surface treatment",
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/king-pin-circlip-type-mk-333-y1184.html"
   },
   {
     "id": "mk-134",
@@ -2313,14 +2502,15 @@ window.MAK_PRODUCTS = [
     "category": "Steering & Tie Rod",
     "categorySlug": "steering-tie-rod",
     "page": "steering-tie-rod.html",
-    "image": "web-products/catalogue/p03-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
     "partNumbers": [
       "MK/1340/0905"
     ],
     "material": "Available on request",
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/stub-axle-check-nut-mk-1340-0905.html"
   },
   {
     "id": "mk-135",
@@ -2330,14 +2520,15 @@ window.MAK_PRODUCTS = [
     "category": "Steering & Tie Rod",
     "categorySlug": "steering-tie-rod",
     "page": "steering-tie-rod.html",
-    "image": "web-products/catalogue/p03-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
     "partNumbers": [
       "MK/826/00892"
     ],
     "material": "Available on request",
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/stub-axle-c-n-washer-thick-type-10m-mk-826-00892.html"
   },
   {
     "id": "mk-136",
@@ -2347,14 +2538,15 @@ window.MAK_PRODUCTS = [
     "category": "Steering & Tie Rod",
     "categorySlug": "steering-tie-rod",
     "page": "steering-tie-rod.html",
-    "image": "web-products/catalogue/p03-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
     "partNumbers": [
       "MK/1305/3950"
     ],
     "material": "Available on request",
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/housing-eye-bolt-9-mk-1305-3950.html"
   },
   {
     "id": "mk-137",
@@ -2364,12 +2556,13 @@ window.MAK_PRODUCTS = [
     "category": "Steering & Tie Rod",
     "categorySlug": "steering-tie-rod",
     "page": "steering-tie-rod.html",
-    "image": "web-products/catalogue/p03-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "New Model",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/housing-eye-bolt-3dx-8-product.html"
   },
   {
     "id": "mk-138",
@@ -2379,14 +2572,15 @@ window.MAK_PRODUCTS = [
     "category": "Steering & Tie Rod",
     "categorySlug": "steering-tie-rod",
     "page": "steering-tie-rod.html",
-    "image": "web-products/catalogue/p03-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
     "partNumbers": [
       "MK/120/30002"
     ],
     "material": "Available on request",
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/cotter-pin-with-s-lock-nut-mk-120-30002.html"
   },
   {
     "id": "mk-139",
@@ -2396,12 +2590,13 @@ window.MAK_PRODUCTS = [
     "category": "Steering & Tie Rod",
     "categorySlug": "steering-tie-rod",
     "page": "steering-tie-rod.html",
-    "image": "web-products/catalogue/p03-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/stabilizer-nut-with-sleeve-product.html"
   },
   {
     "id": "mk-140",
@@ -2411,12 +2606,13 @@ window.MAK_PRODUCTS = [
     "category": "Steering & Tie Rod",
     "categorySlug": "steering-tie-rod",
     "page": "steering-tie-rod.html",
-    "image": "web-products/catalogue/p03-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/stabilizer-check-nut-only-product.html"
   },
   {
     "id": "mk-141",
@@ -2426,12 +2622,13 @@ window.MAK_PRODUCTS = [
     "category": "Steering & Tie Rod",
     "categorySlug": "steering-tie-rod",
     "page": "steering-tie-rod.html",
-    "image": "web-products/catalogue/p03-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/stabilizer-sleeve-only-product.html"
   },
   {
     "id": "mk-142",
@@ -2441,14 +2638,15 @@ window.MAK_PRODUCTS = [
     "category": "Steering & Tie Rod",
     "categorySlug": "steering-tie-rod",
     "page": "steering-tie-rod.html",
-    "image": "web-products/catalogue/p03-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
     "partNumbers": [
       "120/30048"
     ],
     "material": "Available on request",
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/tie-rod-pin-cir-clip-lock-type-120-30048.html"
   },
   {
     "id": "mk-143",
@@ -2458,14 +2656,15 @@ window.MAK_PRODUCTS = [
     "category": "Steering & Tie Rod",
     "categorySlug": "steering-tie-rod",
     "page": "steering-tie-rod.html",
-    "image": "web-products/catalogue/p03-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
     "partNumbers": [
       "MK/120/30048"
     ],
     "material": "Available on request",
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/tie-rod-pin-oval-cap-mk-120-30048.html"
   },
   {
     "id": "mk-144",
@@ -2475,14 +2674,15 @@ window.MAK_PRODUCTS = [
     "category": "Steering & Tie Rod",
     "categorySlug": "steering-tie-rod",
     "page": "steering-tie-rod.html",
-    "image": "web-products/catalogue/p03-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
     "partNumbers": [
       "302365"
     ],
     "material": "Available on request",
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/tie-rod-pin-3dx-big-40-302365.html"
   },
   {
     "id": "mk-145",
@@ -2492,14 +2692,15 @@ window.MAK_PRODUCTS = [
     "category": "Steering & Tie Rod",
     "categorySlug": "steering-tie-rod",
     "page": "steering-tie-rod.html",
-    "image": "web-products/catalogue/p03-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
     "partNumbers": [
       "302366"
     ],
     "material": "Available on request",
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/tie-rod-pin-3dx-small-40-302366.html"
   },
   {
     "id": "mk-146",
@@ -2509,12 +2710,13 @@ window.MAK_PRODUCTS = [
     "category": "Steering & Tie Rod",
     "categorySlug": "steering-tie-rod",
     "page": "steering-tie-rod.html",
-    "image": "web-products/catalogue/p03-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/tie-rod-pin-washer-only-product.html"
   },
   {
     "id": "mk-147",
@@ -2524,12 +2726,13 @@ window.MAK_PRODUCTS = [
     "category": "Steering & Tie Rod",
     "categorySlug": "steering-tie-rod",
     "page": "steering-tie-rod.html",
-    "image": "web-products/catalogue/p03-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
     "partNumbers": [],
     "material": "Steel",
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/tie-rod-bush-3dx-product.html"
   },
   {
     "id": "mk-148",
@@ -2539,14 +2742,15 @@ window.MAK_PRODUCTS = [
     "category": "Steering & Tie Rod",
     "categorySlug": "steering-tie-rod",
     "page": "steering-tie-rod.html",
-    "image": "web-products/catalogue/p03-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
     "partNumbers": [
       "42392"
     ],
     "material": "Steel",
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/steering-bush-3dx-42392.html"
   },
   {
     "id": "mk-149",
@@ -2556,12 +2760,13 @@ window.MAK_PRODUCTS = [
     "category": "Steering & Tie Rod",
     "categorySlug": "steering-tie-rod",
     "page": "steering-tie-rod.html",
-    "image": "web-products/catalogue/p03-28.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/grab-screw-for-tie-rod-pin-product.html"
   },
   {
     "id": "mk-150",
@@ -2571,12 +2776,13 @@ window.MAK_PRODUCTS = [
     "category": "Bucket Boss & Sleeves",
     "categorySlug": "bucket-boss-sleeves",
     "page": "bucket-boss-sleeves.html",
-    "image": "web-products/catalogue/p02-06.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bucket Boss & Sleeves item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bucket-boss-80-mm-bucket-sleeve-product.html"
   },
   {
     "id": "mk-151",
@@ -2586,12 +2792,13 @@ window.MAK_PRODUCTS = [
     "category": "Bucket Boss & Sleeves",
     "categorySlug": "bucket-boss-sleeves",
     "page": "bucket-boss-sleeves.html",
-    "image": "web-products/catalogue/p02-06.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bucket Boss & Sleeves item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bucket-boss-90-mm-bucket-sleeve-product.html"
   },
   {
     "id": "mk-152",
@@ -2601,12 +2808,13 @@ window.MAK_PRODUCTS = [
     "category": "Bucket Boss & Sleeves",
     "categorySlug": "bucket-boss-sleeves",
     "page": "bucket-boss-sleeves.html",
-    "image": "web-products/catalogue/p02-06.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bucket Boss & Sleeves item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/100x50372x65l-no-drill-100-60-65l-product.html"
   },
   {
     "id": "mk-153",
@@ -2616,12 +2824,13 @@ window.MAK_PRODUCTS = [
     "category": "Bucket Boss & Sleeves",
     "categorySlug": "bucket-boss-sleeves",
     "page": "bucket-boss-sleeves.html",
-    "image": "web-products/catalogue/p02-06.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bucket Boss & Sleeves item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/100x50372x80l-hole-cd-22mm-100-60-80l-product.html"
   },
   {
     "id": "mk-154",
@@ -2631,12 +2840,13 @@ window.MAK_PRODUCTS = [
     "category": "Bucket Boss & Sleeves",
     "categorySlug": "bucket-boss-sleeves",
     "page": "bucket-boss-sleeves.html",
-    "image": "web-products/catalogue/p02-06.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bucket Boss & Sleeves item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/dipper-sleeve-80mm-750-bush-product.html"
   },
   {
     "id": "mk-155",
@@ -2646,12 +2856,13 @@ window.MAK_PRODUCTS = [
     "category": "Bucket Boss & Sleeves",
     "categorySlug": "bucket-boss-sleeves",
     "page": "bucket-boss-sleeves.html",
-    "image": "web-products/catalogue/p02-06.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bucket Boss & Sleeves item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/dipper-sleeve-80mm-129-bush-product.html"
   },
   {
     "id": "mk-156",
@@ -2661,12 +2872,13 @@ window.MAK_PRODUCTS = [
     "category": "Bucket Boss & Sleeves",
     "categorySlug": "bucket-boss-sleeves",
     "page": "bucket-boss-sleeves.html",
-    "image": "web-products/catalogue/p02-06.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bucket Boss & Sleeves item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/dipper-sleeve-90mm-129-bush-product.html"
   },
   {
     "id": "mk-157",
@@ -2676,12 +2888,13 @@ window.MAK_PRODUCTS = [
     "category": "Bucket Boss & Sleeves",
     "categorySlug": "bucket-boss-sleeves",
     "page": "bucket-boss-sleeves.html",
-    "image": "web-products/catalogue/p02-06.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bucket Boss & Sleeves item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/dipper-sleeve-90mm-750-bush-product.html"
   },
   {
     "id": "mk-158",
@@ -2691,12 +2904,13 @@ window.MAK_PRODUCTS = [
     "category": "Bucket Boss & Sleeves",
     "categorySlug": "bucket-boss-sleeves",
     "page": "bucket-boss-sleeves.html",
-    "image": "web-products/catalogue/p02-06.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bucket Boss & Sleeves item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/boss-y-4392-9723-product.html"
   },
   {
     "id": "mk-159",
@@ -2706,12 +2920,13 @@ window.MAK_PRODUCTS = [
     "category": "Bucket Boss & Sleeves",
     "categorySlug": "bucket-boss-sleeves",
     "page": "bucket-boss-sleeves.html",
-    "image": "web-products/catalogue/p02-06.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bucket Boss & Sleeves item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/boss-2062-set-of-2-product.html"
   },
   {
     "id": "mk-160",
@@ -2721,12 +2936,13 @@ window.MAK_PRODUCTS = [
     "category": "Bucket Boss & Sleeves",
     "categorySlug": "bucket-boss-sleeves",
     "page": "bucket-boss-sleeves.html",
-    "image": "web-products/catalogue/p02-06.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bucket Boss & Sleeves item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/loader-sleeve-for-23no-cut-bush-product.html"
   },
   {
     "id": "mk-161",
@@ -2736,14 +2952,15 @@ window.MAK_PRODUCTS = [
     "category": "Bucket Boss & Sleeves",
     "categorySlug": "bucket-boss-sleeves",
     "page": "bucket-boss-sleeves.html",
-    "image": "web-products/catalogue/p02-06.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
     "partNumbers": [
       "10091"
     ],
     "material": "Available on request",
     "notes": "",
     "desc": "Bucket Boss & Sleeves item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/centre-pin-boss-set-of-2-10091.html"
   },
   {
     "id": "mk-162",
@@ -2753,12 +2970,13 @@ window.MAK_PRODUCTS = [
     "category": "Bucket Boss & Sleeves",
     "categorySlug": "bucket-boss-sleeves",
     "page": "bucket-boss-sleeves.html",
-    "image": "web-products/catalogue/p02-06.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bucket Boss & Sleeves item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/joint-clamp-e-heavy-product.html"
   },
   {
     "id": "mk-163",
@@ -2768,14 +2986,15 @@ window.MAK_PRODUCTS = [
     "category": "Bucket Boss & Sleeves",
     "categorySlug": "bucket-boss-sleeves",
     "page": "bucket-boss-sleeves.html",
-    "image": "web-products/catalogue/p02-06.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
     "partNumbers": [
       "80001"
     ],
     "material": "Available on request",
     "notes": "",
     "desc": "Bucket Boss & Sleeves item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/loader-sleeve-set-set-of-2-80001.html"
   },
   {
     "id": "mk-164",
@@ -2785,14 +3004,15 @@ window.MAK_PRODUCTS = [
     "category": "Bucket Boss & Sleeves",
     "categorySlug": "bucket-boss-sleeves",
     "page": "bucket-boss-sleeves.html",
-    "image": "web-products/catalogue/p02-06.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
     "partNumbers": [
       "50569"
     ],
     "material": "Available on request",
     "notes": "",
     "desc": "Bucket Boss & Sleeves item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/boss-set-of2-50569.html"
   },
   {
     "id": "mk-165",
@@ -2802,12 +3022,13 @@ window.MAK_PRODUCTS = [
     "category": "Grease Nipples",
     "categorySlug": "grease-nipples",
     "page": "grease-nipples.html",
-    "image": "web-products/catalogue/p03-10.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Grease Nipples item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/housing-elen-key-bolt-product.html"
   },
   {
     "id": "mk-166",
@@ -2817,12 +3038,13 @@ window.MAK_PRODUCTS = [
     "category": "Grease Nipples",
     "categorySlug": "grease-nipples",
     "page": "grease-nipples.html",
-    "image": "web-products/catalogue/p03-10.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Grease Nipples item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/grease-nipple-3-8-straight-type-product.html"
   },
   {
     "id": "mk-167",
@@ -2832,12 +3054,13 @@ window.MAK_PRODUCTS = [
     "category": "Grease Nipples",
     "categorySlug": "grease-nipples",
     "page": "grease-nipples.html",
-    "image": "web-products/catalogue/p03-10.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Grease Nipples item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/grease-nipple-3-8-bend-type-product.html"
   },
   {
     "id": "mk-168",
@@ -2847,12 +3070,13 @@ window.MAK_PRODUCTS = [
     "category": "Grease Nipples",
     "categorySlug": "grease-nipples",
     "page": "grease-nipples.html",
-    "image": "web-products/catalogue/p03-10.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Grease Nipples item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/grease-nipple-1-4-straight-type-product.html"
   },
   {
     "id": "mk-169",
@@ -2862,12 +3086,13 @@ window.MAK_PRODUCTS = [
     "category": "Grease Nipples",
     "categorySlug": "grease-nipples",
     "page": "grease-nipples.html",
-    "image": "web-products/catalogue/p03-10.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Grease Nipples item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/grease-nipple-1-4-bend-type-product.html"
   },
   {
     "id": "mk-170",
@@ -2877,12 +3102,13 @@ window.MAK_PRODUCTS = [
     "category": "Grease Nipples",
     "categorySlug": "grease-nipples",
     "page": "grease-nipples.html",
-    "image": "web-products/catalogue/p03-10.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Grease Nipples item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/grease-nipple-5-16-straight-type-product.html"
   },
   {
     "id": "mk-171",
@@ -2892,12 +3118,13 @@ window.MAK_PRODUCTS = [
     "category": "Grease Nipples",
     "categorySlug": "grease-nipples",
     "page": "grease-nipples.html",
-    "image": "web-products/catalogue/p03-10.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Grease Nipples item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/grease-nipple-5-16-bend-type-product.html"
   },
   {
     "id": "mk-172",
@@ -2907,12 +3134,13 @@ window.MAK_PRODUCTS = [
     "category": "Grease Nipples",
     "categorySlug": "grease-nipples",
     "page": "grease-nipples.html",
-    "image": "web-products/catalogue/p03-10.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Grease Nipples item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/grease-nipple-for-boom-product.html"
   },
   {
     "id": "mk-173",
@@ -2922,7 +3150,7 @@ window.MAK_PRODUCTS = [
     "category": "Grease Nipples",
     "categorySlug": "grease-nipples",
     "page": "grease-nipples.html",
-    "image": "web-products/catalogue/p03-10.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
     "partNumbers": [
       "MK/12008/0015",
       "12008"
@@ -2930,7 +3158,8 @@ window.MAK_PRODUCTS = [
     "material": "Available on request",
     "notes": "",
     "desc": "Grease Nipples item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/grease-nipple-no-15-mk-12008-0015-12008.html"
   },
   {
     "id": "mk-174",
@@ -2940,7 +3169,7 @@ window.MAK_PRODUCTS = [
     "category": "Grease Nipples",
     "categorySlug": "grease-nipples",
     "page": "grease-nipples.html",
-    "image": "web-products/catalogue/p03-10.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
     "partNumbers": [
       "MK/12008/0018",
       "12008"
@@ -2948,7 +3177,8 @@ window.MAK_PRODUCTS = [
     "material": "Available on request",
     "notes": "",
     "desc": "Grease Nipples item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/grease-nipple-no-18-mk-12008-0018-12008.html"
   },
   {
     "id": "mk-175",
@@ -2958,7 +3188,7 @@ window.MAK_PRODUCTS = [
     "category": "Grease Nipples",
     "categorySlug": "grease-nipples",
     "page": "grease-nipples.html",
-    "image": "web-products/catalogue/p03-10.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
     "partNumbers": [
       "MK/12008/0023",
       "12008"
@@ -2966,7 +3196,8 @@ window.MAK_PRODUCTS = [
     "material": "Available on request",
     "notes": "",
     "desc": "Grease Nipples item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/grease-nipple-no-23-mk-12008-0023-12008.html"
   },
   {
     "id": "mk-176",
@@ -2976,7 +3207,7 @@ window.MAK_PRODUCTS = [
     "category": "Grease Nipples",
     "categorySlug": "grease-nipples",
     "page": "grease-nipples.html",
-    "image": "web-products/catalogue/p03-10.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
     "partNumbers": [
       "MK/12008/0031",
       "12008"
@@ -2984,7 +3215,8 @@ window.MAK_PRODUCTS = [
     "material": "Available on request",
     "notes": "",
     "desc": "Grease Nipples item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/grease-nipple-no-31-mk-12008-0031-12008.html"
   },
   {
     "id": "mk-177",
@@ -2994,14 +3226,15 @@ window.MAK_PRODUCTS = [
     "category": "Gear Parts",
     "categorySlug": "gear-parts",
     "page": "gears.html",
-    "image": "web-products/catalogue/p04-34.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-34-jpg.webp",
     "partNumbers": [
       "450/10205"
     ],
     "material": "Available on request",
     "notes": "",
     "desc": "Gear Parts item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/annulus-ring-gear-450-10205.html"
   },
   {
     "id": "mk-178",
@@ -3011,14 +3244,15 @@ window.MAK_PRODUCTS = [
     "category": "Gear Parts",
     "categorySlug": "gear-parts",
     "page": "gears.html",
-    "image": "web-products/catalogue/p04-34.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-34-jpg.webp",
     "partNumbers": [
       "450/10206"
     ],
     "material": "Available on request",
     "notes": "",
     "desc": "Gear Parts item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/planet-gear-450-10206.html"
   },
   {
     "id": "mk-179",
@@ -3028,14 +3262,15 @@ window.MAK_PRODUCTS = [
     "category": "Gear Parts",
     "categorySlug": "gear-parts",
     "page": "gears.html",
-    "image": "web-products/catalogue/p04-34.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-34-jpg.webp",
     "partNumbers": [
       "450/10210"
     ],
     "material": "Available on request",
     "notes": "",
     "desc": "Gear Parts item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/sun-gear-450-10210.html"
   },
   {
     "id": "mk-180",
@@ -3045,14 +3280,15 @@ window.MAK_PRODUCTS = [
     "category": "Gear Parts",
     "categorySlug": "gear-parts",
     "page": "gears.html",
-    "image": "web-products/catalogue/p04-34.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-34-jpg.webp",
     "partNumbers": [
       "450/12702"
     ],
     "material": "Available on request",
     "notes": "",
     "desc": "Gear Parts item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/carrier-annulus-450-12702.html"
   },
   {
     "id": "mk-181",
@@ -3062,14 +3298,15 @@ window.MAK_PRODUCTS = [
     "category": "Gear Parts",
     "categorySlug": "gear-parts",
     "page": "gears.html",
-    "image": "web-products/catalogue/p04-34.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-34-jpg.webp",
     "partNumbers": [
       "50200"
     ],
     "material": "Available on request",
     "notes": "",
     "desc": "Gear Parts item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/planet-bearing-50200.html"
   },
   {
     "id": "mk-182",
@@ -3079,14 +3316,15 @@ window.MAK_PRODUCTS = [
     "category": "Gear Parts",
     "categorySlug": "gear-parts",
     "page": "gears.html",
-    "image": "web-products/catalogue/p04-34.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-34-jpg.webp",
     "partNumbers": [
       "10206"
     ],
     "material": "Available on request",
     "notes": "",
     "desc": "Gear Parts item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/planetary-gear-with-bearing-assembly450-a-10206.html"
   },
   {
     "id": "mk-183",
@@ -3096,7 +3334,7 @@ window.MAK_PRODUCTS = [
     "category": "Kits & Overhauls",
     "categorySlug": "kits",
     "page": "kits.html",
-    "image": "web-products/catalogue/p04-21.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-21-jpg.webp",
     "partNumbers": [
       "550/42700",
       "12400/4626",
@@ -3105,7 +3343,8 @@ window.MAK_PRODUCTS = [
     "material": "Available on request",
     "notes": "",
     "desc": "Kits & Overhauls item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bucket-kit-550-42700-12400-4626-12400.html"
   },
   {
     "id": "mk-184",
@@ -3115,7 +3354,7 @@ window.MAK_PRODUCTS = [
     "category": "Kits & Overhauls",
     "categorySlug": "kits",
     "page": "kits.html",
-    "image": "web-products/catalogue/p04-21.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-21-jpg.webp",
     "partNumbers": [
       "550/42700-A",
       "42700"
@@ -3123,7 +3362,8 @@ window.MAK_PRODUCTS = [
     "material": "Available on request",
     "notes": "",
     "desc": "Kits & Overhauls item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bucket-kit-2062-550-42700-a-42700.html"
   },
   {
     "id": "mk-185",
@@ -3133,7 +3373,7 @@ window.MAK_PRODUCTS = [
     "category": "Kits & Overhauls",
     "categorySlug": "kits",
     "page": "kits.html",
-    "image": "web-products/catalogue/p04-21.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-21-jpg.webp",
     "partNumbers": [
       "550/42701",
       "30001"
@@ -3141,7 +3381,8 @@ window.MAK_PRODUCTS = [
     "material": "Available on request",
     "notes": "Old Model",
     "desc": "Kits & Overhauls item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/king-pin-kit-550-42701-30001.html"
   },
   {
     "id": "mk-186",
@@ -3151,7 +3392,7 @@ window.MAK_PRODUCTS = [
     "category": "Kits & Overhauls",
     "categorySlug": "kits",
     "page": "kits.html",
-    "image": "web-products/catalogue/p04-21.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-21-jpg.webp",
     "partNumbers": [
       "550/42701-A",
       "42701"
@@ -3159,7 +3400,8 @@ window.MAK_PRODUCTS = [
     "material": "Available on request",
     "notes": "New Model",
     "desc": "Kits & Overhauls item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/king-pin-kit-1184-550-42701-a-42701.html"
   },
   {
     "id": "mk-187",
@@ -3169,14 +3411,15 @@ window.MAK_PRODUCTS = [
     "category": "Kits & Overhauls",
     "categorySlug": "kits",
     "page": "kits.html",
-    "image": "web-products/catalogue/p04-21.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-21-jpg.webp",
     "partNumbers": [
       "40048"
     ],
     "material": "Available on request",
     "notes": "Old Model",
     "desc": "Kits & Overhauls item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/kpc-overhaul-kit-40048.html"
   },
   {
     "id": "mk-188",
@@ -3186,14 +3429,15 @@ window.MAK_PRODUCTS = [
     "category": "Kits & Overhauls",
     "categorySlug": "kits",
     "page": "kits.html",
-    "image": "web-products/catalogue/p04-21.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-21-jpg.webp",
     "partNumbers": [
       "40104"
     ],
     "material": "Available on request",
     "notes": "New Model",
     "desc": "Kits & Overhauls item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/kpc-overhaul-kit-40104.html"
   },
   {
     "id": "mk-189",
@@ -3203,12 +3447,13 @@ window.MAK_PRODUCTS = [
     "category": "Rods, Tubes & Links",
     "categorySlug": "rods-tubes-links",
     "page": "rods-tubes-links.html",
-    "image": "web-products/catalogue/p03-32.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/slew-rod-product.html"
   },
   {
     "id": "mk-190",
@@ -3218,12 +3463,13 @@ window.MAK_PRODUCTS = [
     "category": "Rods, Tubes & Links",
     "categorySlug": "rods-tubes-links",
     "page": "rods-tubes-links.html",
-    "image": "web-products/catalogue/p03-32.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/stabilizer-rod-product.html"
   },
   {
     "id": "mk-191",
@@ -3233,12 +3479,13 @@ window.MAK_PRODUCTS = [
     "category": "Rods, Tubes & Links",
     "categorySlug": "rods-tubes-links",
     "page": "rods-tubes-links.html",
-    "image": "web-products/catalogue/p03-32.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bucket-rod-product.html"
   },
   {
     "id": "mk-192",
@@ -3248,12 +3495,13 @@ window.MAK_PRODUCTS = [
     "category": "Rods, Tubes & Links",
     "categorySlug": "rods-tubes-links",
     "page": "rods-tubes-links.html",
-    "image": "web-products/catalogue/p03-32.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/dipper-rod-product.html"
   },
   {
     "id": "mk-193",
@@ -3263,12 +3511,13 @@ window.MAK_PRODUCTS = [
     "category": "Rods, Tubes & Links",
     "categorySlug": "rods-tubes-links",
     "page": "rods-tubes-links.html",
-    "image": "web-products/catalogue/p03-32.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/dipper-rod-extra-product.html"
   },
   {
     "id": "mk-194",
@@ -3278,12 +3527,13 @@ window.MAK_PRODUCTS = [
     "category": "Rods, Tubes & Links",
     "categorySlug": "rods-tubes-links",
     "page": "rods-tubes-links.html",
-    "image": "web-products/catalogue/p03-32.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/boom-rod-product.html"
   },
   {
     "id": "mk-195",
@@ -3293,12 +3543,13 @@ window.MAK_PRODUCTS = [
     "category": "Rods, Tubes & Links",
     "categorySlug": "rods-tubes-links",
     "page": "rods-tubes-links.html",
-    "image": "web-products/catalogue/p03-32.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/lift-rod-product.html"
   },
   {
     "id": "mk-196",
@@ -3308,12 +3559,13 @@ window.MAK_PRODUCTS = [
     "category": "Rods, Tubes & Links",
     "categorySlug": "rods-tubes-links",
     "page": "rods-tubes-links.html",
-    "image": "web-products/catalogue/p03-32.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/shovel-rod-product.html"
   },
   {
     "id": "mk-197",
@@ -3323,12 +3575,13 @@ window.MAK_PRODUCTS = [
     "category": "Rods, Tubes & Links",
     "categorySlug": "rods-tubes-links",
     "page": "rods-tubes-links.html",
-    "image": "web-products/catalogue/p03-32.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/slew-tube-product.html"
   },
   {
     "id": "mk-198",
@@ -3338,12 +3591,13 @@ window.MAK_PRODUCTS = [
     "category": "Rods, Tubes & Links",
     "categorySlug": "rods-tubes-links",
     "page": "rods-tubes-links.html",
-    "image": "web-products/catalogue/p03-32.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/stabilizer-tube-product.html"
   },
   {
     "id": "mk-199",
@@ -3353,12 +3607,13 @@ window.MAK_PRODUCTS = [
     "category": "Rods, Tubes & Links",
     "categorySlug": "rods-tubes-links",
     "page": "rods-tubes-links.html",
-    "image": "web-products/catalogue/p03-32.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/bucket-tube-product.html"
   },
   {
     "id": "mk-200",
@@ -3368,12 +3623,13 @@ window.MAK_PRODUCTS = [
     "category": "Rods, Tubes & Links",
     "categorySlug": "rods-tubes-links",
     "page": "rods-tubes-links.html",
-    "image": "web-products/catalogue/p03-32.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/dipper-tube-product.html"
   },
   {
     "id": "mk-201",
@@ -3383,12 +3639,13 @@ window.MAK_PRODUCTS = [
     "category": "Rods, Tubes & Links",
     "categorySlug": "rods-tubes-links",
     "page": "rods-tubes-links.html",
-    "image": "web-products/catalogue/p03-32.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/dipper-tube-extra-product.html"
   },
   {
     "id": "mk-202",
@@ -3398,12 +3655,13 @@ window.MAK_PRODUCTS = [
     "category": "Rods, Tubes & Links",
     "categorySlug": "rods-tubes-links",
     "page": "rods-tubes-links.html",
-    "image": "web-products/catalogue/p03-32.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/boom-tube-product.html"
   },
   {
     "id": "mk-203",
@@ -3413,12 +3671,13 @@ window.MAK_PRODUCTS = [
     "category": "Rods, Tubes & Links",
     "categorySlug": "rods-tubes-links",
     "page": "rods-tubes-links.html",
-    "image": "web-products/catalogue/p03-32.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/lift-tube-product.html"
   },
   {
     "id": "mk-204",
@@ -3428,12 +3687,13 @@ window.MAK_PRODUCTS = [
     "category": "Rods, Tubes & Links",
     "categorySlug": "rods-tubes-links",
     "page": "rods-tubes-links.html",
-    "image": "web-products/catalogue/p03-32.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/shovel-tube-product.html"
   },
   {
     "id": "mk-205",
@@ -3443,12 +3703,13 @@ window.MAK_PRODUCTS = [
     "category": "Rods, Tubes & Links",
     "categorySlug": "rods-tubes-links",
     "page": "rods-tubes-links.html",
-    "image": "web-products/catalogue/p03-32.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
-    "source": "JCB pricelist"
+    "source": "JCB pricelist",
+    "detailPage": "product-pages/3-pin-link-tipping-lever-product.html"
   },
   {
     "id": "jcb-teeth-center",
@@ -3458,14 +3719,15 @@ window.MAK_PRODUCTS = [
     "category": "JCB Teeth & Cutters",
     "categorySlug": "jcb-teeth-cutters",
     "page": "jcb-teeth.html",
-    "image": "web-products/catalogue/p03-30.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-30-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Cast alloy steel",
     "notes": "",
     "desc": "Center bucket tooth for JCB digging and loading buckets.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/jcb-teeth-center-jcb-teeth-center.html"
   },
   {
     "id": "plain-type-tooth",
@@ -3475,14 +3737,15 @@ window.MAK_PRODUCTS = [
     "category": "JCB Teeth & Cutters",
     "categorySlug": "jcb-teeth-cutters",
     "page": "jcb-teeth.html",
-    "image": "web-products/catalogue/p03-30.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-30-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Cast alloy steel",
     "notes": "",
     "desc": "Plain type JCB bucket tooth for regular site work.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/plain-type-bucket-tooth-plain-type-tooth.html"
   },
   {
     "id": "crocodile-side-cutter",
@@ -3492,14 +3755,15 @@ window.MAK_PRODUCTS = [
     "category": "JCB Teeth & Cutters",
     "categorySlug": "jcb-teeth-cutters",
     "page": "jcb-teeth.html",
-    "image": "web-products/catalogue/p03-30.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-30-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Cast alloy steel",
     "notes": "",
     "desc": "Aggressive crocodile side cutter profile for bucket edge protection.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/crocodile-type-side-cutter-crocodile-side-cutter.html"
   },
   {
     "id": "jcb-side-cutter",
@@ -3509,14 +3773,15 @@ window.MAK_PRODUCTS = [
     "category": "JCB Teeth & Cutters",
     "categorySlug": "jcb-teeth-cutters",
     "page": "jcb-teeth.html",
-    "image": "web-products/catalogue/p03-30.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-30-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Cast alloy steel",
     "notes": "",
     "desc": "Left and right side cutter teeth for JCB buckets.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/jcb-side-cutter-teeth-jcb-side-cutter.html"
   },
   {
     "id": "terex-side-cutter",
@@ -3526,14 +3791,15 @@ window.MAK_PRODUCTS = [
     "category": "JCB Teeth & Cutters",
     "categorySlug": "jcb-teeth-cutters",
     "page": "jcb-teeth.html",
-    "image": "web-products/catalogue/p03-30.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-30-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Cast alloy steel",
     "notes": "",
     "desc": "Terex style side cutter for bucket applications.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/terex-side-cutter-terex-side-cutter.html"
   },
   {
     "id": "jcb-oil-filter",
@@ -3543,14 +3809,15 @@ window.MAK_PRODUCTS = [
     "category": "Filters",
     "categorySlug": "filters",
     "page": "filters.html",
-    "image": "web-products/catalogue/p04-36.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-36-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Filter media / metal casing",
     "notes": "",
     "desc": "Oil filter for JCB routine service.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/jcb-oil-filter-jcb-oil-filter.html"
   },
   {
     "id": "jcb-air-filter-kit",
@@ -3560,14 +3827,15 @@ window.MAK_PRODUCTS = [
     "category": "Filters",
     "categorySlug": "filters",
     "page": "filters.html",
-    "image": "web-products/catalogue/p04-36.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-36-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Filter media / rubber seal",
     "notes": "",
     "desc": "Air filter kit for dusty site operation.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/jcb-air-filter-kit-jcb-air-filter-kit.html"
   },
   {
     "id": "air-filter-element",
@@ -3577,14 +3845,15 @@ window.MAK_PRODUCTS = [
     "category": "Filters",
     "categorySlug": "filters",
     "page": "filters.html",
-    "image": "web-products/catalogue/p04-36.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-36-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Filter media",
     "notes": "",
     "desc": "Replacement air filter element.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/air-filter-element-air-filter-element.html"
   },
   {
     "id": "fuel-filter",
@@ -3594,14 +3863,15 @@ window.MAK_PRODUCTS = [
     "category": "Filters",
     "categorySlug": "filters",
     "page": "filters.html",
-    "image": "web-products/catalogue/p04-36.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-36-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Filter media / metal casing",
     "notes": "",
     "desc": "Fuel filtration product for heavy machinery.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/fuel-filter-fuel-filter.html"
   },
   {
     "id": "backhoe-loader-tyre",
@@ -3611,14 +3881,15 @@ window.MAK_PRODUCTS = [
     "category": "Tyres",
     "categorySlug": "tyres",
     "page": "tyres.html",
-    "image": "web-products/catalogue/p04-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-23-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Rubber compound",
     "notes": "",
     "desc": "Backhoe loader tyre for JCB and site machines.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/backhoe-loader-tyre-backhoe-loader-tyre.html"
   },
   {
     "id": "excavator-tyre",
@@ -3628,14 +3899,15 @@ window.MAK_PRODUCTS = [
     "category": "Tyres",
     "categorySlug": "tyres",
     "page": "tyres.html",
-    "image": "web-products/catalogue/p04-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-23-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Rubber compound",
     "notes": "",
     "desc": "Industrial tyre for excavator/site equipment enquiries.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/excavator-tyre-excavator-tyre.html"
   },
   {
     "id": "forklift-tyre",
@@ -3645,14 +3917,15 @@ window.MAK_PRODUCTS = [
     "category": "Tyres",
     "categorySlug": "tyres",
     "page": "tyres.html",
-    "image": "web-products/catalogue/p04-23.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-23-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Rubber compound",
     "notes": "",
     "desc": "Forklift tyre for yards and warehouses.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/forklift-tyre-forklift-tyre.html"
   },
   {
     "id": "jcb-working-lamp",
@@ -3662,14 +3935,15 @@ window.MAK_PRODUCTS = [
     "category": "Electricals & Lighting",
     "categorySlug": "electricals-lighting",
     "page": "electricals.html",
-    "image": "web-products/catalogue/p03-51.jpg",
+    "image": "web-products/watermarked/web-products-jcb-lights-working-lamp-square-webp.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Electrical assembly",
-    "notes": "",
+    "notes": "Photo file: WORKING LAMP SQ..jpg",
     "desc": "Working lamp for JCB and construction equipment.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/jcb-working-lamp-jcb-working-lamp.html"
   },
   {
     "id": "jcb-headlamp",
@@ -3679,14 +3953,15 @@ window.MAK_PRODUCTS = [
     "category": "Electricals & Lighting",
     "categorySlug": "electricals-lighting",
     "page": "electricals.html",
-    "image": "web-products/catalogue/p03-51.jpg",
+    "image": "web-products/watermarked/web-products-jcb-lights-jcb-headlamp-new-webp.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Electrical assembly",
-    "notes": "",
+    "notes": "Photo file: JCB HEADLAMP NEW.jpg",
     "desc": "Headlamp for JCB machines.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/jcb-headlamp-jcb-headlamp.html"
   },
   {
     "id": "jcb-tail-lamp",
@@ -3696,14 +3971,15 @@ window.MAK_PRODUCTS = [
     "category": "Electricals & Lighting",
     "categorySlug": "electricals-lighting",
     "page": "electricals.html",
-    "image": "web-products/catalogue/p03-51.jpg",
+    "image": "web-products/watermarked/web-products-jcb-lights-jcb-tail-lamp-oval-big-webp.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Electrical assembly",
-    "notes": "",
+    "notes": "Photo file: JCB TAIL LAMP OVAL BIG.jpg",
     "desc": "Tail lamp for JCB machines.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/jcb-tail-lamp-jcb-tail-lamp.html"
   },
   {
     "id": "forward-reverse-switch",
@@ -3713,14 +3989,15 @@ window.MAK_PRODUCTS = [
     "category": "Electricals & Lighting",
     "categorySlug": "electricals-lighting",
     "page": "electricals.html",
-    "image": "web-products/catalogue/p03-51.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-51-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Electrical assembly",
     "notes": "",
     "desc": "Forward and reverse switch for JCB applications.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/forward-reverse-switch-forward-reverse-switch.html"
   },
   {
     "id": "water-temperature-meter",
@@ -3730,14 +4007,15 @@ window.MAK_PRODUCTS = [
     "category": "Electricals & Lighting",
     "categorySlug": "electricals-lighting",
     "page": "electricals.html",
-    "image": "web-products/catalogue/p03-51.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-51-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Electrical assembly",
     "notes": "",
     "desc": "Temperature meter for machine monitoring.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/water-temperature-meter-water-temperature-meter.html"
   },
   {
     "id": "gaskets",
@@ -3747,14 +4025,15 @@ window.MAK_PRODUCTS = [
     "category": "Seals & Gaskets",
     "categorySlug": "seals-gaskets",
     "page": "seals-gaskets.html",
-    "image": "web-products/catalogue/p04-18.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-18-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Gasket material",
     "notes": "",
     "desc": "Gaskets for JCB and heavy machinery repairs.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/gaskets-gaskets.html"
   },
   {
     "id": "oil-seal-washers",
@@ -3764,14 +4043,15 @@ window.MAK_PRODUCTS = [
     "category": "Seals & Gaskets",
     "categorySlug": "seals-gaskets",
     "page": "seals-gaskets.html",
-    "image": "web-products/catalogue/p04-18.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-18-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Rubber / steel",
     "notes": "",
     "desc": "Oil seals and washers in multiple sizes.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/oil-seal-washers-oil-seal-washers.html"
   },
   {
     "id": "hub-repair-kit",
@@ -3781,14 +4061,15 @@ window.MAK_PRODUCTS = [
     "category": "Seals & Gaskets",
     "categorySlug": "seals-gaskets",
     "page": "seals-gaskets.html",
-    "image": "web-products/catalogue/p04-18.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-18-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Mixed kit",
     "notes": "",
     "desc": "Hub repair kit for maintenance and rebuild work.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/hub-repair-kit-hub-repair-kit.html"
   },
   {
     "id": "friction-plates",
@@ -3798,14 +4079,15 @@ window.MAK_PRODUCTS = [
     "category": "Seals & Gaskets",
     "categorySlug": "seals-gaskets",
     "page": "seals-gaskets.html",
-    "image": "web-products/catalogue/p04-18.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p04-18-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Friction material / steel",
     "notes": "",
     "desc": "Friction plates for drivetrain and brake systems.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/jcb-friction-plates-friction-plates.html"
   },
   {
     "id": "grease-gun",
@@ -3815,14 +4097,15 @@ window.MAK_PRODUCTS = [
     "category": "Tools & Accessories",
     "categorySlug": "tools-accessories",
     "page": "tools-accessories.html",
-    "image": "web-products/catalogue/p03-10.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Steel assembly",
     "notes": "",
     "desc": "Grease gun for workshop and site lubrication.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/grease-gun-grease-gun.html"
   },
   {
     "id": "grease-bucket",
@@ -3832,14 +4115,15 @@ window.MAK_PRODUCTS = [
     "category": "Tools & Accessories",
     "categorySlug": "tools-accessories",
     "page": "tools-accessories.html",
-    "image": "web-products/catalogue/p03-10.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Lubricant product",
     "notes": "",
     "desc": "Grease bucket for service teams and machinery maintenance.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/grease-bucket-grease-bucket.html"
   },
   {
     "id": "hydraulic-jack",
@@ -3849,14 +4133,15 @@ window.MAK_PRODUCTS = [
     "category": "Tools & Accessories",
     "categorySlug": "tools-accessories",
     "page": "tools-accessories.html",
-    "image": "web-products/catalogue/p03-10.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Steel hydraulic assembly",
     "notes": "",
     "desc": "Hydraulic jack for site and workshop support.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/hydraulic-jack-hydraulic-jack.html"
   },
   {
     "id": "wheel-spanner",
@@ -3866,14 +4151,15 @@ window.MAK_PRODUCTS = [
     "category": "Tools & Accessories",
     "categorySlug": "tools-accessories",
     "page": "tools-accessories.html",
-    "image": "web-products/catalogue/p03-10.jpg",
+    "image": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Steel",
     "notes": "",
     "desc": "L-type and cross wheel spanners.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/wheel-spanner-wheel-spanner.html"
   },
   {
     "id": "truck-hub-wheel-bolts",
@@ -3883,14 +4169,15 @@ window.MAK_PRODUCTS = [
     "category": "Truck & Car Parts",
     "categorySlug": "truck-car-parts",
     "page": "truck-car-parts.html",
-    "image": "web-products/jcb-spare-parts-catalogue.jpg",
+    "image": "web-products/watermarked/web-products-jcb-spare-parts-catalogue-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Steel",
     "notes": "",
     "desc": "Centre bolts and hub wheel fasteners for trucks.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/truck-hub-wheel-centre-bolts-truck-hub-wheel-bolts.html"
   },
   {
     "id": "u-bolts",
@@ -3900,14 +4187,15 @@ window.MAK_PRODUCTS = [
     "category": "Truck & Car Parts",
     "categorySlug": "truck-car-parts",
     "page": "truck-car-parts.html",
-    "image": "web-products/jcb-spare-parts-catalogue.jpg",
+    "image": "web-products/watermarked/web-products-jcb-spare-parts-catalogue-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Steel",
     "notes": "",
     "desc": "U-bolts in multiple sizes.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/u-bolts-all-sizes-u-bolts.html"
   },
   {
     "id": "battery-terminals",
@@ -3917,14 +4205,15 @@ window.MAK_PRODUCTS = [
     "category": "Truck & Car Parts",
     "categorySlug": "truck-car-parts",
     "page": "truck-car-parts.html",
-    "image": "web-products/jcb-spare-parts-catalogue.jpg",
+    "image": "web-products/watermarked/web-products-jcb-spare-parts-catalogue-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Metal electrical terminal",
     "notes": "",
     "desc": "Battery terminals for truck and machinery electrical work.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/battery-terminals-battery-terminals.html"
   },
   {
     "id": "disc-rotor",
@@ -3934,13 +4223,1292 @@ window.MAK_PRODUCTS = [
     "category": "Truck & Car Parts",
     "categorySlug": "truck-car-parts",
     "page": "truck-car-parts.html",
-    "image": "web-products/jcb-spare-parts-catalogue.jpg",
+    "image": "web-products/watermarked/web-products-jcb-spare-parts-catalogue-jpg.webp",
     "partNumbers": [
       "On request"
     ],
     "material": "Cast iron / steel",
     "notes": "",
     "desc": "Disc rotor from truck and car parts range.",
-    "source": "Existing MAK list"
+    "source": "Existing MAK list",
+    "detailPage": "product-pages/disc-rotor-disc-rotor.html"
+  },
+  {
+    "id": "nt-spring-pin",
+    "sr": null,
+    "code": "",
+    "name": "Spring Pin",
+    "category": "Spring Pins",
+    "categorySlug": "national-spring-pins",
+    "page": "national-spring-pins.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-spring-pin-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "National Sales spring pin from Indian company catalogue.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/spring-pin-nt-spring-pin.html"
+  },
+  {
+    "id": "nt-centre-bolt",
+    "sr": null,
+    "code": "",
+    "name": "Centre Bolt",
+    "category": "Spring Pins",
+    "categorySlug": "national-spring-pins",
+    "page": "national-spring-pins.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-centre-bolt-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Centre bolt for pickup, TATA and Mahindra applications.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/centre-bolt-nt-centre-bolt.html"
+  },
+  {
+    "id": "nt-balance-rod-bolt",
+    "sr": null,
+    "code": "",
+    "name": "Balance Rod Bolt",
+    "category": "Spring Pins",
+    "categorySlug": "national-spring-pins",
+    "page": "national-spring-pins.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-balance-rod-bolt-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Balance rod bolt for commercial vehicle suspension applications.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/balance-rod-bolt-nt-balance-rod-bolt.html"
+  },
+  {
+    "id": "nt-maxi-truck-bolt",
+    "sr": null,
+    "code": "",
+    "name": "Maxi-Truck Bolt",
+    "category": "Spring Pins",
+    "categorySlug": "national-spring-pins",
+    "page": "national-spring-pins.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-maxi-truck-bolt-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Maxi-Truck bolt from National Sales catalogue.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/maxi-truck-bolt-nt-maxi-truck-bolt.html"
+  },
+  {
+    "id": "nt-ace-single-nut",
+    "sr": null,
+    "code": "",
+    "name": "Ace Single Nut",
+    "category": "Spring Pins",
+    "categorySlug": "national-spring-pins",
+    "page": "national-spring-pins.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-ace-single-nut-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Ace single nut from National Sales catalogue.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/ace-single-nut-nt-ace-single-nut.html"
+  },
+  {
+    "id": "nt-sumo-207-single-nut",
+    "sr": null,
+    "code": "",
+    "name": "Sumo/207 Single Nut",
+    "category": "Spring Pins",
+    "categorySlug": "national-spring-pins",
+    "page": "national-spring-pins.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-sumo-207-single-nut-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Sumo and 207 single nut from catalogue range.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/sumo-207-single-nut-nt-sumo-207-single-nut.html"
+  },
+  {
+    "id": "nt-eye-bolt-dost",
+    "sr": null,
+    "code": "",
+    "name": "Eye Bolt Dost",
+    "category": "Spring Pins",
+    "categorySlug": "national-spring-pins",
+    "page": "national-spring-pins.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-eye-bolt-dost-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Eye bolt for Dost applications.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/eye-bolt-dost-nt-eye-bolt-dost.html"
+  },
+  {
+    "id": "nt-407-om-bolt",
+    "sr": null,
+    "code": "",
+    "name": "407 O/M Bolt",
+    "category": "Spring Pins",
+    "categorySlug": "national-spring-pins",
+    "page": "national-spring-pins.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-407-o-m-bolt-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "407 old model bolt from National Sales catalogue.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/407-o-m-bolt-nt-407-om-bolt.html"
+  },
+  {
+    "id": "nt-407-long-bolt",
+    "sr": null,
+    "code": "",
+    "name": "407 Long Bolt",
+    "category": "Spring Pins",
+    "categorySlug": "national-spring-pins",
+    "page": "national-spring-pins.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-407-long-bolt-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "407 long bolt from auto parts range.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/407-long-bolt-nt-407-long-bolt.html"
+  },
+  {
+    "id": "nt-608-rear-bolt",
+    "sr": null,
+    "code": "",
+    "name": "608 Rear Bolt",
+    "category": "Spring Pins",
+    "categorySlug": "national-spring-pins",
+    "page": "national-spring-pins.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-608-rear-bolt-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "608 rear bolt from National Sales range.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/608-rear-bolt-nt-608-rear-bolt.html"
+  },
+  {
+    "id": "nt-608-front-bolt",
+    "sr": null,
+    "code": "",
+    "name": "608 Front Bolt",
+    "category": "Spring Pins",
+    "categorySlug": "national-spring-pins",
+    "page": "national-spring-pins.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-608-front-bolt-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "608 front bolt from National Sales range.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/608-front-bolt-nt-608-front-bolt.html"
+  },
+  {
+    "id": "nt-407-turbo-bolt",
+    "sr": null,
+    "code": "",
+    "name": "407 Turbo Bolt",
+    "category": "Spring Pins",
+    "categorySlug": "national-spring-pins",
+    "page": "national-spring-pins.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-407-turbo-bolt-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "407 Turbo bolt from catalogue range.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/407-turbo-bolt-nt-407-turbo-bolt.html"
+  },
+  {
+    "id": "nt-ace-double-nut",
+    "sr": null,
+    "code": "",
+    "name": "Ace Double Nut",
+    "category": "Spring Pins",
+    "categorySlug": "national-spring-pins",
+    "page": "national-spring-pins.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-ace-double-nut-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Ace double nut from commercial vehicle range.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/ace-double-nut-nt-ace-double-nut.html"
+  },
+  {
+    "id": "nt-sumo-207-double-nut",
+    "sr": null,
+    "code": "",
+    "name": "Sumo/207 Double Nut",
+    "category": "Spring Pins",
+    "categorySlug": "national-spring-pins",
+    "page": "national-spring-pins.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-sumo-207-double-nut-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Sumo and 207 double nut from catalogue range.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/sumo-207-double-nut-nt-sumo-207-double-nut.html"
+  },
+  {
+    "id": "nt-hub-bolt",
+    "sr": null,
+    "code": "",
+    "name": "Hub Bolt",
+    "category": "Spring Pins",
+    "categorySlug": "national-spring-pins",
+    "page": "national-spring-pins.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-hub-bolt-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Hub bolt for commercial vehicle wheel and hub applications.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/hub-bolt-nt-hub-bolt.html"
+  },
+  {
+    "id": "nt-hub-nut",
+    "sr": null,
+    "code": "",
+    "name": "Hub Nut",
+    "category": "Spring Pins",
+    "categorySlug": "national-spring-pins",
+    "page": "national-spring-pins.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-hub-nut-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Hub nut from National Sales Corporation range.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/hub-nut-nt-hub-nut.html"
+  },
+  {
+    "id": "nt-spindle-check-nut",
+    "sr": null,
+    "code": "",
+    "name": "Spindle Check Nut",
+    "category": "Spring Pins",
+    "categorySlug": "national-spring-pins",
+    "page": "national-spring-pins.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-spindle-check-nut-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Spindle check nut from National Sales auto parts range.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/spindle-check-nut-nt-spindle-check-nut.html"
+  },
+  {
+    "id": "nt-washer",
+    "sr": null,
+    "code": "",
+    "name": "Washer",
+    "category": "Spring Pins",
+    "categorySlug": "national-spring-pins",
+    "page": "national-spring-pins.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-washer-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Washer product from National Sales auto parts catalogue.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/washer-nt-washer.html"
+  },
+  {
+    "id": "nt-shackle-assembly",
+    "sr": null,
+    "code": "",
+    "name": "Shackle Assembly",
+    "category": "Shackle Assembly",
+    "categorySlug": "national-shackle-assembly",
+    "page": "national-shackle-assembly.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-shackle-assembly-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Shackle assembly for pickup, Maxi-Truck, Ace and Dost applications.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/shackle-assembly-nt-shackle-assembly.html"
+  },
+  {
+    "id": "nt-pickup-shackle-assembly",
+    "sr": null,
+    "code": "",
+    "name": "Pick-Up Shackle Assembly",
+    "category": "Shackle Assembly",
+    "categorySlug": "national-shackle-assembly",
+    "page": "national-shackle-assembly.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-pick-up-shackle-assembly-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Pick-up shackle assembly from National Sales catalogue.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/pick-up-shackle-assembly-nt-pickup-shackle-assembly.html"
+  },
+  {
+    "id": "nt-ace-fixed-shackle",
+    "sr": null,
+    "code": "",
+    "name": "Ace Fixed Type Shackle Assembly",
+    "category": "Shackle Assembly",
+    "categorySlug": "national-shackle-assembly",
+    "page": "national-shackle-assembly.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-ace-fixed-type-shackle-assembly-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Ace fixed type shackle assembly.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/ace-fixed-type-shackle-assembly-nt-ace-fixed-shackle.html"
+  },
+  {
+    "id": "nt-pickup-shackle-bolt",
+    "sr": null,
+    "code": "",
+    "name": "Pick-Up Shackle Bolt",
+    "category": "Shackle Assembly",
+    "categorySlug": "national-shackle-assembly",
+    "page": "national-shackle-assembly.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-pick-up-shackle-bolt-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Pick-up shackle bolt from National Sales Corporation range.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/pick-up-shackle-bolt-nt-pickup-shackle-bolt.html"
+  },
+  {
+    "id": "nt-shackle-plate",
+    "sr": null,
+    "code": "",
+    "name": "Shackle Plate",
+    "category": "Shackle Plate",
+    "categorySlug": "national-shackle-plate",
+    "page": "national-shackle-plate.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-shackle-plate-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Shackle plate including solid and Ace Super style variants.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/shackle-plate-nt-shackle-plate.html"
+  },
+  {
+    "id": "nt-maxx-buffer",
+    "sr": null,
+    "code": "",
+    "name": "Maxx Buffer",
+    "category": "Shackle Plate",
+    "categorySlug": "national-shackle-plate",
+    "page": "national-shackle-plate.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-maxx-buffer-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Rubber / metal",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Maxx buffer from the Indian company catalogue.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/maxx-buffer-nt-maxx-buffer.html"
+  },
+  {
+    "id": "nt-tube-bracket",
+    "sr": null,
+    "code": "",
+    "name": "Maxx Tube Bracket",
+    "category": "Shackle Plate",
+    "categorySlug": "national-shackle-plate",
+    "page": "national-shackle-plate.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-maxx-tube-bracket-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Tube bracket for Maxx vehicle applications.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/maxx-tube-bracket-nt-tube-bracket.html"
+  },
+  {
+    "id": "nt-pickup-hanger",
+    "sr": null,
+    "code": "",
+    "name": "Pickup Hanger",
+    "category": "Shackle Plate",
+    "categorySlug": "national-shackle-plate",
+    "page": "national-shackle-plate.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-pickup-hanger-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Pickup hanger from National Sales catalogue.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/pickup-hanger-nt-pickup-hanger.html"
+  },
+  {
+    "id": "nt-spring-clamp",
+    "sr": null,
+    "code": "",
+    "name": "Spring Clamp",
+    "category": "Shackle Plate",
+    "categorySlug": "national-shackle-plate",
+    "page": "national-shackle-plate.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-spring-clamp-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Spring clamp range from commercial vehicle parts catalogue.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/spring-clamp-nt-spring-clamp.html"
+  },
+  {
+    "id": "nt-shocker-plate-front",
+    "sr": null,
+    "code": "",
+    "name": "Shocker Plate Front",
+    "category": "Shackle Plate",
+    "categorySlug": "national-shackle-plate",
+    "page": "national-shackle-plate.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-shocker-plate-front-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Front shocker plate from catalogue range.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/shocker-plate-front-nt-shocker-plate-front.html"
+  },
+  {
+    "id": "nt-shocker-plate-rear",
+    "sr": null,
+    "code": "",
+    "name": "Shocker Plate Rear 6/12mm",
+    "category": "Shackle Plate",
+    "categorySlug": "national-shackle-plate",
+    "page": "national-shackle-plate.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-shocker-plate-rear-6-12mm-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Rear shocker plate in 6/12mm range.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/shocker-plate-rear-6-12mm-nt-shocker-plate-rear.html"
+  },
+  {
+    "id": "nt-u-bolt",
+    "sr": null,
+    "code": "",
+    "name": "U Bolt",
+    "category": "U Bolts",
+    "categorySlug": "national-u-bolts",
+    "page": "national-u-bolts.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-u-bolt-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "U bolt from National Sales catalogue.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/u-bolt-nt-u-bolt.html"
+  },
+  {
+    "id": "nt-u-bolt-set",
+    "sr": null,
+    "code": "",
+    "name": "U Bolt Set",
+    "category": "U Bolts",
+    "categorySlug": "national-u-bolts",
+    "page": "national-u-bolts.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-u-bolt-set-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "U bolt set in multiple sizes.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/u-bolt-set-nt-u-bolt-set.html"
+  },
+  {
+    "id": "nt-pickup-u-bolt",
+    "sr": null,
+    "code": "",
+    "name": "Pick-Up U Bolt",
+    "category": "U Bolts",
+    "categorySlug": "national-u-bolts",
+    "page": "national-u-bolts.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-pick-up-u-bolt-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Pick-up U bolt for suspension fitment.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/pick-up-u-bolt-nt-pickup-u-bolt.html"
+  },
+  {
+    "id": "nt-square-u-bolt",
+    "sr": null,
+    "code": "",
+    "name": "Square U Bolt",
+    "category": "U Bolts",
+    "categorySlug": "national-u-bolts",
+    "page": "national-u-bolts.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-square-u-bolt-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Square U bolt set from National Sales range.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/square-u-bolt-nt-square-u-bolt.html"
+  },
+  {
+    "id": "nt-long-u-bolt",
+    "sr": null,
+    "code": "",
+    "name": "Long U Bolt",
+    "category": "U Bolts",
+    "categorySlug": "national-u-bolts",
+    "page": "national-u-bolts.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-long-u-bolt-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Long U bolt from commercial vehicle suspension range.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/long-u-bolt-nt-long-u-bolt.html"
+  },
+  {
+    "id": "nt-spring-bush",
+    "sr": null,
+    "code": "",
+    "name": "Spring Bush",
+    "category": "Bushes",
+    "categorySlug": "national-bushes",
+    "page": "national-bushes.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-spring-bush-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Bush material as per catalogue",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Spring bush for commercial vehicle suspension service.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/spring-bush-nt-spring-bush.html"
+  },
+  {
+    "id": "nt-rear-spring-bush",
+    "sr": null,
+    "code": "",
+    "name": "Marshal Rear Spring Bush",
+    "category": "Bushes",
+    "categorySlug": "national-bushes",
+    "page": "national-bushes.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-marshal-rear-spring-bush-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Bush material as per catalogue",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Marshal rear spring bush from National Sales range.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/marshal-rear-spring-bush-nt-rear-spring-bush.html"
+  },
+  {
+    "id": "nt-steel-screw-jack-25-ton",
+    "sr": null,
+    "code": "",
+    "name": "Steel Bottle Screw Jack 25 Ton",
+    "category": "Steel Jacks",
+    "categorySlug": "national-steel-jacks",
+    "page": "national-steel-jacks.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-steel-bottle-screw-jack-25-ton-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "25 ton steel bottle screw jack.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/steel-bottle-screw-jack-25-ton-nt-steel-screw-jack-25-ton.html"
+  },
+  {
+    "id": "nt-steel-screw-jack-35-ton",
+    "sr": null,
+    "code": "",
+    "name": "Steel Bottle Screw Jack 35 Ton",
+    "category": "Steel Jacks",
+    "categorySlug": "national-steel-jacks",
+    "page": "national-steel-jacks.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-steel-bottle-screw-jack-35-ton-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "35 ton steel bottle screw jack.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/steel-bottle-screw-jack-35-ton-nt-steel-screw-jack-35-ton.html"
+  },
+  {
+    "id": "nt-steel-screw-jack-45-ton",
+    "sr": null,
+    "code": "",
+    "name": "Steel Bottle Screw Jack 45 Ton",
+    "category": "Steel Jacks",
+    "categorySlug": "national-steel-jacks",
+    "page": "national-steel-jacks.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-steel-bottle-screw-jack-45-ton-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "45 ton steel bottle screw jack.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/steel-bottle-screw-jack-45-ton-nt-steel-screw-jack-45-ton.html"
+  },
+  {
+    "id": "nt-steel-screw-jack-50-ton",
+    "sr": null,
+    "code": "",
+    "name": "Steel Bottle Screw Jack 50 Ton",
+    "category": "Steel Jacks",
+    "categorySlug": "national-steel-jacks",
+    "page": "national-steel-jacks.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-steel-bottle-screw-jack-50-ton-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "50 ton steel bottle screw jack.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/steel-bottle-screw-jack-50-ton-nt-steel-screw-jack-50-ton.html"
+  },
+  {
+    "id": "nt-steel-screw-jack-75-ton",
+    "sr": null,
+    "code": "",
+    "name": "Steel Bottle Screw Jack 75 Ton",
+    "category": "Steel Jacks",
+    "categorySlug": "national-steel-jacks",
+    "page": "national-steel-jacks.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-steel-bottle-screw-jack-75-ton-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "75 ton steel bottle screw jack.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/steel-bottle-screw-jack-75-ton-nt-steel-screw-jack-75-ton.html"
+  },
+  {
+    "id": "nt-steel-screw-jack-100-ton",
+    "sr": null,
+    "code": "",
+    "name": "Steel Bottle Screw Jack 100 Ton",
+    "category": "Steel Jacks",
+    "categorySlug": "national-steel-jacks",
+    "page": "national-steel-jacks.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-steel-bottle-screw-jack-100-ton-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "100 ton steel bottle screw jack.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/steel-bottle-screw-jack-100-ton-nt-steel-screw-jack-100-ton.html"
+  },
+  {
+    "id": "nt-double-lift-steel-jack",
+    "sr": null,
+    "code": "",
+    "name": "Double Lift Steel Jack",
+    "category": "Steel Jacks",
+    "categorySlug": "national-steel-jacks",
+    "page": "national-steel-jacks.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-double-lift-steel-jack-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Double lift steel jack from catalogue range.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/double-lift-steel-jack-nt-double-lift-steel-jack.html"
+  },
+  {
+    "id": "nt-cast-iron-screw-jack",
+    "sr": null,
+    "code": "",
+    "name": "Cast Iron Bottle Screw Jack",
+    "category": "Steel Jacks",
+    "categorySlug": "national-steel-jacks",
+    "page": "national-steel-jacks.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-cast-iron-bottle-screw-jack-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Cast iron",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Cast iron bottle screw jack from National Traders range.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/cast-iron-bottle-screw-jack-nt-cast-iron-screw-jack.html"
+  },
+  {
+    "id": "nt-hydraulic-jack-10-ton",
+    "sr": null,
+    "code": "",
+    "name": "Hydraulic Jack 10 Ton",
+    "category": "Hydraulic Jacks",
+    "categorySlug": "national-hydraulic-jacks",
+    "page": "national-hydraulic-jacks.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-hydraulic-jack-10-ton-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel hydraulic assembly",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "10 ton hydraulic bottle jack from National Traders catalogue.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/hydraulic-jack-10-ton-nt-hydraulic-jack-10-ton.html"
+  },
+  {
+    "id": "nt-hydraulic-jack-35-ton",
+    "sr": null,
+    "code": "",
+    "name": "Hydraulic Jack 35 Ton",
+    "category": "Hydraulic Jacks",
+    "categorySlug": "national-hydraulic-jacks",
+    "page": "national-hydraulic-jacks.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-hydraulic-jack-35-ton-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel hydraulic assembly",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "35 ton hydraulic bottle jack.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/hydraulic-jack-35-ton-nt-hydraulic-jack-35-ton.html"
+  },
+  {
+    "id": "nt-hydraulic-jack-75-ton",
+    "sr": null,
+    "code": "",
+    "name": "Hydraulic Jack 75 Ton",
+    "category": "Hydraulic Jacks",
+    "categorySlug": "national-hydraulic-jacks",
+    "page": "national-hydraulic-jacks.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-hydraulic-jack-75-ton-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel hydraulic assembly",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "75 ton hydraulic bottle jack.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/hydraulic-jack-75-ton-nt-hydraulic-jack-75-ton.html"
+  },
+  {
+    "id": "nt-hydraulic-jack-100-ton",
+    "sr": null,
+    "code": "",
+    "name": "Hydraulic Jack 100 Ton",
+    "category": "Hydraulic Jacks",
+    "categorySlug": "national-hydraulic-jacks",
+    "page": "national-hydraulic-jacks.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-hydraulic-jack-100-ton-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel hydraulic assembly",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "100 ton hydraulic jack.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/hydraulic-jack-100-ton-nt-hydraulic-jack-100-ton.html"
+  },
+  {
+    "id": "nt-hydraulic-jack-150-ton",
+    "sr": null,
+    "code": "",
+    "name": "Hydraulic Jack 150 Ton",
+    "category": "Hydraulic Jacks",
+    "categorySlug": "national-hydraulic-jacks",
+    "page": "national-hydraulic-jacks.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-hydraulic-jack-150-ton-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel hydraulic assembly",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "150 ton hydraulic jack from National Traders range.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/hydraulic-jack-150-ton-nt-hydraulic-jack-150-ton.html"
+  },
+  {
+    "id": "nt-high-lift-jack",
+    "sr": null,
+    "code": "",
+    "name": "High Lift Hydraulic Jack 1.5/2/2.5 Foot",
+    "category": "Hydraulic Jacks",
+    "categorySlug": "national-hydraulic-jacks",
+    "page": "national-hydraulic-jacks.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-high-lift-hydraulic-jack-1-5-2-2-5-foot-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel hydraulic assembly",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "High lift hydraulic jack in 1.5, 2 and 2.5 foot options.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/high-lift-hydraulic-jack-1-5-2-2-5-foot-nt-high-lift-jack.html"
+  },
+  {
+    "id": "nt-trolley-jack",
+    "sr": null,
+    "code": "",
+    "name": "Trolley Jack",
+    "category": "Hydraulic Jacks",
+    "categorySlug": "national-hydraulic-jacks",
+    "page": "national-hydraulic-jacks.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-trolley-jack-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel hydraulic assembly",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Trolley jack from National Traders catalogue.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/trolley-jack-nt-trolley-jack.html"
+  },
+  {
+    "id": "nt-gearbox-scissor-jack",
+    "sr": null,
+    "code": "",
+    "name": "Gear Box Scissor Jack",
+    "category": "Hydraulic Jacks",
+    "categorySlug": "national-hydraulic-jacks",
+    "page": "national-hydraulic-jacks.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-gear-box-scissor-jack-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Gear box scissor jack from National Traders range.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/gear-box-scissor-jack-nt-gearbox-scissor-jack.html"
+  },
+  {
+    "id": "nt-car-scissor-jack-rod",
+    "sr": null,
+    "code": "",
+    "name": "Car Scissor Jack With Rod",
+    "category": "Hydraulic Jacks",
+    "categorySlug": "national-hydraulic-jacks",
+    "page": "national-hydraulic-jacks.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-car-scissor-jack-with-rod-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Car scissor jack with rod.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/car-scissor-jack-with-rod-nt-car-scissor-jack-rod.html"
+  },
+  {
+    "id": "nt-chinese-hydraulic-jack",
+    "sr": null,
+    "code": "",
+    "name": "Chinese Hydraulic Jack 2/3/5/8/10/12 Ton",
+    "category": "Hydraulic Jacks",
+    "categorySlug": "national-hydraulic-jacks",
+    "page": "national-hydraulic-jacks.html",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-chinese-hydraulic-jack-2-3-5-8-10-12-ton-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Steel hydraulic assembly",
+    "notes": "National Traders / National Sales Corporation",
+    "desc": "Chinese hydraulic jack range in 2, 3, 5, 8, 10 and 12 ton options.",
+    "source": "National Traders catalogue",
+    "detailPage": "product-pages/chinese-hydraulic-jack-2-3-5-8-10-12-ton-nt-chinese-hydraulic-jack.html"
+  },
+  {
+    "id": "light-bobcat-headlamp-n-m",
+    "sr": null,
+    "code": "",
+    "name": "Bobcat Headlamp N/M",
+    "category": "Electricals & Lighting",
+    "categorySlug": "electricals-lighting",
+    "page": "electricals.html",
+    "image": "web-products/watermarked/web-products-jcb-lights-bobcat-headlamp-n-m-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Electrical assembly / lens component",
+    "notes": "Photo file: BOBCAT HEADLAMP N:M.JPG",
+    "desc": "JCB/Bobcat lighting product from supplied light photo file: BOBCAT HEADLAMP N:M.JPG.",
+    "source": "JCB lights photo folder",
+    "detailPage": "product-pages/bobcat-headlamp-n-m-light-bobcat-headlamp-n-m.html"
+  },
+  {
+    "id": "light-bobcat-headlight-triangle",
+    "sr": null,
+    "code": "",
+    "name": "Bobcat Headlight Triangle",
+    "category": "Electricals & Lighting",
+    "categorySlug": "electricals-lighting",
+    "page": "electricals.html",
+    "image": "web-products/watermarked/web-products-jcb-lights-bobcat-headlight-triangle-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Electrical assembly / lens component",
+    "notes": "Photo file: BOBCAT HEADLIGHT TRIANGLE.jpg",
+    "desc": "JCB/Bobcat lighting product from supplied light photo file: BOBCAT HEADLIGHT TRIANGLE.jpg.",
+    "source": "JCB lights photo folder",
+    "detailPage": "product-pages/bobcat-headlight-triangle-light-bobcat-headlight-triangle.html"
+  },
+  {
+    "id": "light-bobcat-lens-red",
+    "sr": null,
+    "code": "",
+    "name": "Bobcat Lens Red",
+    "category": "Electricals & Lighting",
+    "categorySlug": "electricals-lighting",
+    "page": "electricals.html",
+    "image": "web-products/watermarked/web-products-jcb-lights-bobcat-lens-red-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Electrical assembly / lens component",
+    "notes": "Photo file: BOBCAT LENS RED.jpg",
+    "desc": "JCB/Bobcat lighting product from supplied light photo file: BOBCAT LENS RED.jpg.",
+    "source": "JCB lights photo folder",
+    "detailPage": "product-pages/bobcat-lens-red-light-bobcat-lens-red.html"
+  },
+  {
+    "id": "light-bobcat-tail-lamp",
+    "sr": null,
+    "code": "",
+    "name": "Bobcat Tail Lamp",
+    "category": "Electricals & Lighting",
+    "categorySlug": "electricals-lighting",
+    "page": "electricals.html",
+    "image": "web-products/watermarked/web-products-jcb-lights-bobcat-tail-lamp-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Electrical assembly / lens component",
+    "notes": "Photo file: BOBCAT TAIL LAMP.jpg",
+    "desc": "JCB/Bobcat lighting product from supplied light photo file: BOBCAT TAIL LAMP.jpg.",
+    "source": "JCB lights photo folder",
+    "detailPage": "product-pages/bobcat-tail-lamp-light-bobcat-tail-lamp.html"
+  },
+  {
+    "id": "light-bobcat-tail-lamp-big",
+    "sr": null,
+    "code": "",
+    "name": "Bobcat Tail Lamp Big",
+    "category": "Electricals & Lighting",
+    "categorySlug": "electricals-lighting",
+    "page": "electricals.html",
+    "image": "web-products/watermarked/web-products-jcb-lights-bobcat-tail-lamp-big-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Electrical assembly / lens component",
+    "notes": "Photo file: BOBCAT TAIL LAMP BIG.jpg",
+    "desc": "JCB/Bobcat lighting product from supplied light photo file: BOBCAT TAIL LAMP BIG.jpg.",
+    "source": "JCB lights photo folder",
+    "detailPage": "product-pages/bobcat-tail-lamp-big-light-bobcat-tail-lamp-big.html"
+  },
+  {
+    "id": "light-head-lamp-jcb-side",
+    "sr": null,
+    "code": "",
+    "name": "Head Lamp JCB Side",
+    "category": "Electricals & Lighting",
+    "categorySlug": "electricals-lighting",
+    "page": "electricals.html",
+    "image": "web-products/watermarked/web-products-jcb-lights-head-lamp-jcb-side-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Electrical assembly / lens component",
+    "notes": "Photo file: HEAD LAMP JCB SIDE.pdf",
+    "desc": "JCB/Bobcat lighting product from supplied light photo file: HEAD LAMP JCB SIDE.pdf.",
+    "source": "JCB lights photo folder",
+    "detailPage": "product-pages/head-lamp-jcb-side-light-head-lamp-jcb-side.html"
+  },
+  {
+    "id": "light-jcb-headlamp-new",
+    "sr": null,
+    "code": "",
+    "name": "JCB Headlamp New",
+    "category": "Electricals & Lighting",
+    "categorySlug": "electricals-lighting",
+    "page": "electricals.html",
+    "image": "web-products/watermarked/web-products-jcb-lights-jcb-headlamp-new-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Electrical assembly / lens component",
+    "notes": "Photo file: JCB HEADLAMP NEW.jpg",
+    "desc": "JCB/Bobcat lighting product from supplied light photo file: JCB HEADLAMP NEW.jpg.",
+    "source": "JCB lights photo folder",
+    "detailPage": "product-pages/jcb-headlamp-new-light-jcb-headlamp-new.html"
+  },
+  {
+    "id": "light-jcb-headlamp-old",
+    "sr": null,
+    "code": "",
+    "name": "JCB Headlamp Old",
+    "category": "Electricals & Lighting",
+    "categorySlug": "electricals-lighting",
+    "page": "electricals.html",
+    "image": "web-products/watermarked/web-products-jcb-lights-jcb-headlamp-old-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Electrical assembly / lens component",
+    "notes": "Photo file: JCB HEADLAMP OLD.jpg",
+    "desc": "JCB/Bobcat lighting product from supplied light photo file: JCB HEADLAMP OLD.jpg.",
+    "source": "JCB lights photo folder",
+    "detailPage": "product-pages/jcb-headlamp-old-light-jcb-headlamp-old.html"
+  },
+  {
+    "id": "light-jcb-tail-lamp-oval-big",
+    "sr": null,
+    "code": "",
+    "name": "JCB Tail Lamp Oval Big",
+    "category": "Electricals & Lighting",
+    "categorySlug": "electricals-lighting",
+    "page": "electricals.html",
+    "image": "web-products/watermarked/web-products-jcb-lights-jcb-tail-lamp-oval-big-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Electrical assembly / lens component",
+    "notes": "Photo file: JCB TAIL LAMP OVAL BIG.jpg",
+    "desc": "JCB/Bobcat lighting product from supplied light photo file: JCB TAIL LAMP OVAL BIG.jpg.",
+    "source": "JCB lights photo folder",
+    "detailPage": "product-pages/jcb-tail-lamp-oval-big-light-jcb-tail-lamp-oval-big.html"
+  },
+  {
+    "id": "light-lens-jcb-rear",
+    "sr": null,
+    "code": "",
+    "name": "Lens JCB Rear",
+    "category": "Electricals & Lighting",
+    "categorySlug": "electricals-lighting",
+    "page": "electricals.html",
+    "image": "web-products/watermarked/web-products-jcb-lights-lens-jcb-rear-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Electrical assembly / lens component",
+    "notes": "Photo file: LENS JCB REAR.JPG",
+    "desc": "JCB/Bobcat lighting product from supplied light photo file: LENS JCB REAR.JPG.",
+    "source": "JCB lights photo folder",
+    "detailPage": "product-pages/lens-jcb-rear-light-lens-jcb-rear.html"
+  },
+  {
+    "id": "light-light-head-assembly",
+    "sr": null,
+    "code": "",
+    "name": "Light Head Assembly",
+    "category": "Electricals & Lighting",
+    "categorySlug": "electricals-lighting",
+    "page": "electricals.html",
+    "image": "web-products/watermarked/web-products-jcb-lights-light-head-assembly-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Electrical assembly / lens component",
+    "notes": "Photo file: LIGHT HEAD ASSEMBLY .png",
+    "desc": "JCB/Bobcat lighting product from supplied light photo file: LIGHT HEAD ASSEMBLY .png.",
+    "source": "JCB lights photo folder",
+    "detailPage": "product-pages/light-head-assembly-light-light-head-assembly.html"
+  },
+  {
+    "id": "light-tail-lamp-jcb-rear-o-m",
+    "sr": null,
+    "code": "",
+    "name": "Tail Lamp JCB Rear O/M",
+    "category": "Electricals & Lighting",
+    "categorySlug": "electricals-lighting",
+    "page": "electricals.html",
+    "image": "web-products/watermarked/web-products-jcb-lights-tail-lamp-jcb-rear-o-m-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Electrical assembly / lens component",
+    "notes": "Photo file: TAIL LAMP JCB REAR OM.JPG",
+    "desc": "JCB/Bobcat lighting product from supplied light photo file: TAIL LAMP JCB REAR OM.JPG.",
+    "source": "JCB lights photo folder",
+    "detailPage": "product-pages/tail-lamp-jcb-rear-o-m-light-tail-lamp-jcb-rear-o-m.html"
+  },
+  {
+    "id": "light-tail-lamp-jcb-small-tlt",
+    "sr": null,
+    "code": "",
+    "name": "Tail Lamp JCB Small Tlt",
+    "category": "Electricals & Lighting",
+    "categorySlug": "electricals-lighting",
+    "page": "electricals.html",
+    "image": "web-products/watermarked/web-products-jcb-lights-tail-lamp-jcb-small-tlt-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Electrical assembly / lens component",
+    "notes": "Photo file: TAIL LAMP JCB SMALL TLT.jpg",
+    "desc": "JCB/Bobcat lighting product from supplied light photo file: TAIL LAMP JCB SMALL TLT.jpg.",
+    "source": "JCB lights photo folder",
+    "detailPage": "product-pages/tail-lamp-jcb-small-tlt-light-tail-lamp-jcb-small-tlt.html"
+  },
+  {
+    "id": "light-tail-lamp-lens-jcb",
+    "sr": null,
+    "code": "",
+    "name": "Tail Lamp Lens JCB",
+    "category": "Electricals & Lighting",
+    "categorySlug": "electricals-lighting",
+    "page": "electricals.html",
+    "image": "web-products/watermarked/web-products-jcb-lights-tail-lamp-lens-jcb-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Electrical assembly / lens component",
+    "notes": "Photo file: TAIL LAMP LENS JCB.jpg",
+    "desc": "JCB/Bobcat lighting product from supplied light photo file: TAIL LAMP LENS JCB.jpg.",
+    "source": "JCB lights photo folder",
+    "detailPage": "product-pages/tail-lamp-lens-jcb-light-tail-lamp-lens-jcb.html"
+  },
+  {
+    "id": "light-tail-lamp-lens-oval-jcb",
+    "sr": null,
+    "code": "",
+    "name": "Tail Lamp Lens Oval JCB",
+    "category": "Electricals & Lighting",
+    "categorySlug": "electricals-lighting",
+    "page": "electricals.html",
+    "image": "web-products/watermarked/web-products-jcb-lights-tail-lamp-lens-oval-jcb-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Electrical assembly / lens component",
+    "notes": "Photo file: TAIL LAMP LENS OVAL JCB .jpg",
+    "desc": "JCB/Bobcat lighting product from supplied light photo file: TAIL LAMP LENS OVAL JCB .jpg.",
+    "source": "JCB lights photo folder",
+    "detailPage": "product-pages/tail-lamp-lens-oval-jcb-light-tail-lamp-lens-oval-jcb.html"
+  },
+  {
+    "id": "light-working-lamp-oval",
+    "sr": null,
+    "code": "",
+    "name": "Working Lamp Oval",
+    "category": "Electricals & Lighting",
+    "categorySlug": "electricals-lighting",
+    "page": "electricals.html",
+    "image": "web-products/watermarked/web-products-jcb-lights-working-lamp-oval-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Electrical assembly / lens component",
+    "notes": "Photo file: WORKING LAMP OVAL.jpg",
+    "desc": "JCB/Bobcat lighting product from supplied light photo file: WORKING LAMP OVAL.jpg.",
+    "source": "JCB lights photo folder",
+    "detailPage": "product-pages/working-lamp-oval-light-working-lamp-oval.html"
+  },
+  {
+    "id": "light-working-lamp-square",
+    "sr": null,
+    "code": "",
+    "name": "Working Lamp Square",
+    "category": "Electricals & Lighting",
+    "categorySlug": "electricals-lighting",
+    "page": "electricals.html",
+    "image": "web-products/watermarked/web-products-jcb-lights-working-lamp-square-webp.webp",
+    "partNumbers": [
+      "On request"
+    ],
+    "material": "Electrical assembly / lens component",
+    "notes": "Photo file: WORKING LAMP SQ..jpg",
+    "desc": "JCB/Bobcat lighting product from supplied light photo file: WORKING LAMP SQ..jpg.",
+    "source": "JCB lights photo folder",
+    "detailPage": "product-pages/working-lamp-square-light-working-lamp-square.html"
   }
 ];
