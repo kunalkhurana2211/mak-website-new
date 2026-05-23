@@ -1,6 +1,7 @@
 (function () {
   const INDIA = "919465263877";
   const DUBAI = "971525355917";
+  const EMAIL = "kunalkhurana@makoverseas.com";
 
   const intents = [
     { id: "price", label: "Get Product Price", ar: "سعر المنتج", keys: ["price", "rate", "cost", "quote", "amount", "rs", "aed"] },
@@ -64,6 +65,10 @@
     return `https://wa.me/${phone}?text=${encodeURIComponent(message || "Hello MAK Overseas, I need help with heavy machinery spare parts.")}`;
   }
 
+  function emailUrl(message) {
+    return `mailto:${EMAIL}?subject=${encodeURIComponent("MAK Overseas product enquiry")}&body=${encodeURIComponent(message || "Hello MAK Overseas, I need help with heavy machinery spare parts.")}`;
+  }
+
   function buildMessage(intent, category, form) {
     const product = form.part || pageProduct() || "[product name]";
     const lines = [];
@@ -101,7 +106,7 @@
       .wa-ai-head strong{display:block;font-family:var(--H,Arial);font-size:1.32rem;line-height:1;text-transform:uppercase;letter-spacing:1px;color:#fff}.wa-ai-head small{display:block;color:#9da7af;margin-top:.38rem;line-height:1.35}.wa-ai-close{background:transparent;color:#fff;border:0;font-size:1.5rem;line-height:1;cursor:pointer}
       .wa-ai-body{padding:1rem;display:grid;gap:.75rem}.wa-ai-chips{display:grid;grid-template-columns:1fr 1fr;gap:.5rem}.wa-ai-option{border:1px solid #333;background:#1a1a1a;color:#fff;padding:.72rem;text-align:left;cursor:pointer;transition:.2s}.wa-ai-option:hover,.wa-ai-option.active{border-color:#25D366;background:#202820;transform:translateY(-1px)}.wa-ai-option b{display:block;font-family:var(--H,Arial);font-size:.98rem;text-transform:uppercase;letter-spacing:1px}.wa-ai-option small{display:block;color:#9da7af;margin-top:.15rem;line-height:1.25}
       .wa-ai-grid{display:grid;grid-template-columns:1fr 1fr;gap:.55rem}.wa-ai-grid .full{grid-column:1/-1}.wa-ai input,.wa-ai textarea{width:100%;border:0;background:#fff;color:#111;padding:.78rem;font-family:var(--B,Arial)}.wa-ai textarea{min-height:76px;resize:vertical}
-      .wa-ai-result{background:#181818;border:1px solid #303030;color:#cfd7dd;padding:.78rem;font-size:.86rem}.wa-ai-result strong{color:#25D366}.wa-ai-actions{display:grid;grid-template-columns:1fr 1fr;gap:.55rem}.wa-ai-send,.wa-ai-link{border:0;padding:.82rem;font-family:var(--H,Arial);font-weight:900;letter-spacing:1px;text-transform:uppercase;cursor:pointer;text-align:center}.wa-ai-send{background:#25D366;color:#fff}.wa-ai-link{background:rgba(212,137,10,.13);border:1px solid rgba(212,137,10,.45);color:var(--gold,#D4890A)}
+      .wa-ai-result{background:#181818;border:1px solid #303030;color:#cfd7dd;padding:.78rem;font-size:.86rem}.wa-ai-result strong{color:#25D366}.wa-ai-actions{display:grid;grid-template-columns:1fr 1fr 1fr;gap:.55rem}.wa-ai-send,.wa-ai-link{border:0;padding:.82rem;font-family:var(--H,Arial);font-weight:900;letter-spacing:1px;text-transform:uppercase;cursor:pointer;text-align:center}.wa-ai-send{background:#25D366;color:#fff}.wa-ai-link{background:rgba(212,137,10,.13);border:1px solid rgba(212,137,10,.45);color:var(--gold,#D4890A)}.wa-ai-email{background:#fff;color:#111;border-color:#fff}
       html[dir="rtl"] .wa-ai{right:auto;left:1.35rem}html[dir="rtl"] .wa-ai-panel{right:auto;left:0}html[dir="rtl"] .wa-ai-chip{right:auto;left:0}html[dir="rtl"] .wa-ai-option{text-align:right}
       @keyframes waPulse{0%,100%{transform:scale(.96);opacity:.65}50%{transform:scale(1.12);opacity:.15}}
       @media(max-width:820px){.wa-ai{right:1rem;bottom:1rem}.wa-ai-panel{bottom:4.4rem}.wa-ai-main{max-width:210px}.wa-ai-main span{opacity:1;transform:none}.wa-ai-chip{display:none}.wa-ai-chips,.wa-ai-grid,.wa-ai-actions{grid-template-columns:1fr}}
@@ -135,6 +140,7 @@
           <div class="wa-ai-result" id="waAiResult"></div>
           <div class="wa-ai-actions">
             <button class="wa-ai-send" id="waAiSend" type="button">Send to WhatsApp</button>
+            <a class="wa-ai-link wa-ai-email" id="waAiEmail" href="mailto:kunalkhurana@makoverseas.com">Email</a>
             <a class="wa-ai-link" id="waAiCategory" href="search.html">Open category</a>
           </div>
         </div>
@@ -147,6 +153,7 @@
     const optionsBox = wrap.querySelector("#waAiOptions");
     const result = wrap.querySelector("#waAiResult");
     const send = wrap.querySelector("#waAiSend");
+    const email = wrap.querySelector("#waAiEmail");
     const categoryLink = wrap.querySelector("#waAiCategory");
     let activeIntent = intents[0];
 
@@ -172,6 +179,7 @@
       const cat = detectCategory(allText());
       const phone = phoneFor(allText(), activeIntent);
       categoryLink.href = cat.page;
+      email.href = emailUrl(buildMessage(activeIntent, cat, f));
       result.innerHTML = `Suggested: <strong>${cat.label}</strong><br>Intent: <strong>${activeIntent.label}</strong><br>Routing: <strong>${phone === DUBAI ? "Dubai Office" : "India Office"}</strong>`;
     }
 
