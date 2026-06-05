@@ -1,0 +1,4066 @@
+{
+  "summary": {
+    "totalProducts": 305,
+    "uniqueImages": 90,
+    "productsMappedToExistingMakWebsitePhotos": 35,
+    "remainingDuplicateImageGroups": 22,
+    "remainingProductsSharingImages": 237,
+    "catalogueExtractionNote": "JCB_Parts_Image_Catalog.pdf contained 95 embedded image objects, but visual QA showed they are mostly IMAGE NOT AVAILABLE placeholder cards. They were not used on the live site.",
+    "rightsNote": "Verified web links are reference candidates only. Do not copy and watermark third-party images unless MAK has usage rights or supplier permission."
+  },
+  "verifiedWebCandidateExamples": [
+    {
+      "partNumber": "811/50364",
+      "product": "Pivot Pin",
+      "source": "Interpart",
+      "url": "https://www.interpart.com/jcb-parts/pins-bushes-bearings/pivot-pins/pivot-pin-811-50364"
+    },
+    {
+      "partNumber": "811/50364",
+      "product": "Pivot Pin",
+      "source": "PebexParts",
+      "url": "https://www.pebexparts.com/en/products/pins/pin-jcb-811-50364/"
+    },
+    {
+      "partNumber": "808/00216",
+      "product": "Bushing",
+      "source": "EXSOLID",
+      "url": "https://excavators-parts.com/bushing-jcb-3cx-4cx-80800216"
+    },
+    {
+      "partNumber": "808/00216",
+      "product": "Upper Kingpost Bronze Bushing",
+      "source": "Serwis-Kop",
+      "url": "https://serwis-kop.pl/en/bushes-jcb/788-bush-kingpost-top-95x86x81-jcb-3cx-4cx-808-00216"
+    },
+    {
+      "partNumber": "826/00892",
+      "product": "Bolt",
+      "source": "G&T Engine Parts",
+      "url": "https://gtengineparts.com/jcb/82600892"
+    },
+    {
+      "partNumber": "450/10206",
+      "product": "Planet Gear",
+      "source": "Interpart",
+      "url": "https://www.interpart.com/jcb-parts/drivetrain/axles-transmission/planet-gear-450-10206"
+    },
+    {
+      "partNumber": "450/10206",
+      "product": "Planet Gear",
+      "source": "Prior Gear",
+      "url": "https://www.prior-gear.com/product/planetary-gears/jcb-parts-3cx-planetary-gear.html"
+    }
+  ],
+  "remainingDuplicateGroups": [
+    {
+      "image": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "count": 48,
+      "categories": [
+        "Pivot Pins"
+      ],
+      "sample": [
+        {
+          "id": "mk-051",
+          "name": "Pivot Pin",
+          "code": "MK038",
+          "partNumbers": [
+            "MK/811/50369"
+          ]
+        },
+        {
+          "id": "mk-052",
+          "name": "Pivot pin MK/",
+          "code": "MK038A",
+          "partNumbers": [
+            "90214"
+          ]
+        },
+        {
+          "id": "mk-053",
+          "name": "Pivot Pin",
+          "code": "MK039",
+          "partNumbers": [
+            "MK/811/50368"
+          ]
+        },
+        {
+          "id": "mk-054",
+          "name": "Pivot Pin",
+          "code": "MK040",
+          "partNumbers": [
+            "MK/811/50365"
+          ]
+        },
+        {
+          "id": "mk-055",
+          "name": "Pivot Pin",
+          "code": "MK041",
+          "partNumbers": [
+            "MK/811/50364"
+          ]
+        },
+        {
+          "id": "mk-056",
+          "name": "Pivot Pin",
+          "code": "MK042",
+          "partNumbers": [
+            "MK/811/50372"
+          ]
+        },
+        {
+          "id": "mk-057",
+          "name": "Pivot Pin MK/Y-4392 /9723",
+          "code": "MK043",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-058",
+          "name": "Pivot Pin",
+          "code": "MK044",
+          "partNumbers": [
+            "MK/811/50520"
+          ]
+        },
+        {
+          "id": "mk-059",
+          "name": "Pivot Pin",
+          "code": "MK045",
+          "partNumbers": [
+            "MK/811/50483"
+          ]
+        },
+        {
+          "id": "mk-060",
+          "name": "Pivot Pin",
+          "code": "MK046",
+          "partNumbers": [
+            "MK/811/50437"
+          ]
+        },
+        {
+          "id": "mk-061",
+          "name": "Pivot Pin",
+          "code": "MK047",
+          "partNumbers": [
+            "MK/811/50007"
+          ]
+        },
+        {
+          "id": "mk-062",
+          "name": "Thrust Bearing",
+          "code": "",
+          "partNumbers": []
+        }
+      ]
+    },
+    {
+      "image": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "count": 26,
+      "categories": [
+        "Shims & Washers"
+      ],
+      "sample": [
+        {
+          "id": "mk-105",
+          "name": "Bucket Pin Washer 1 MM 45*70",
+          "code": "MK076",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-106",
+          "name": "Bucket Pin Washer 2 MM 45*70",
+          "code": "MK077",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-107",
+          "name": "Bucket Pin Washer 3 MM 45*70",
+          "code": "MK078",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-108",
+          "name": "Bucket Pin Washer 3.1/2 MM 45*70",
+          "code": "MK078A",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-109",
+          "name": "Bucket Pin Washer 4 MM 45*70",
+          "code": "MK079",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-110",
+          "name": "Bucket Pin Washer 5 MM 45*70",
+          "code": "MK080",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-111",
+          "name": "King Pin Washer 1/2 MM 38*65",
+          "code": "MK081",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-112",
+          "name": "King Pin Washer 1 MM 38*65",
+          "code": "MK082",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-113",
+          "name": "King Pin Washer 2 MM 38*65",
+          "code": "MK083",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-114",
+          "name": "King Pin Washer 3 MM 38*65",
+          "code": "MK084",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-115",
+          "name": "King Pin Washer 4 MM 38*65",
+          "code": "MK085",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-116",
+          "name": "Boom Pin Washer 1 MM 50X90",
+          "code": "MK086",
+          "partNumbers": []
+        }
+      ]
+    },
+    {
+      "image": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
+      "count": 19,
+      "categories": [
+        "Steering & Tie Rod"
+      ],
+      "sample": [
+        {
+          "id": "mk-131",
+          "name": "Stub Axle Check Nut . With Nut",
+          "code": "MK094",
+          "partNumbers": [
+            "MK/120/30003"
+          ]
+        },
+        {
+          "id": "mk-132",
+          "name": "King Pin",
+          "code": "MK095",
+          "partNumbers": [
+            "MK/120/30001"
+          ]
+        },
+        {
+          "id": "mk-133",
+          "name": "King Pin Circlip Type",
+          "code": "MK095A",
+          "partNumbers": [
+            "MK/333/Y1184"
+          ]
+        },
+        {
+          "id": "mk-134",
+          "name": "Stub Axle Check nut",
+          "code": "MK096",
+          "partNumbers": [
+            "MK/1340/0905"
+          ]
+        },
+        {
+          "id": "mk-135",
+          "name": "Stub Axle C.N Washer Thick Type 10M",
+          "code": "MK097",
+          "partNumbers": [
+            "MK/826/00892"
+          ]
+        },
+        {
+          "id": "mk-136",
+          "name": "Housing Eye Bolt 9\"",
+          "code": "MK098",
+          "partNumbers": [
+            "MK/1305/3950"
+          ]
+        },
+        {
+          "id": "mk-137",
+          "name": "Housing Eye Bolt 3DX 8\"",
+          "code": "MK098A",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-138",
+          "name": "Cotter Pin With S/Lock Nut",
+          "code": "MK099",
+          "partNumbers": [
+            "MK/120/30002"
+          ]
+        },
+        {
+          "id": "mk-139",
+          "name": "Stabilizer Nut With Sleeve",
+          "code": "MK100",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-140",
+          "name": "Stabilizer Check Nut Only",
+          "code": "MK101",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-141",
+          "name": "Stabilizer Sleeve Only",
+          "code": "MK102",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-142",
+          "name": "Tie Rod Pin Cir clip Lock Type",
+          "code": "MK103",
+          "partNumbers": [
+            "120/30048"
+          ]
+        }
+      ]
+    },
+    {
+      "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
+      "count": 17,
+      "categories": [
+        "Bolts & Fasteners"
+      ],
+      "sample": [
+        {
+          "id": "mk-001",
+          "name": "Teeth Cutter Bolt",
+          "code": "MK001",
+          "partNumbers": [
+            "MK/990/14900"
+          ]
+        },
+        {
+          "id": "mk-002",
+          "name": "Teeth Cutter Bolt",
+          "code": "MK002",
+          "partNumbers": [
+            "MK/990/45900"
+          ]
+        },
+        {
+          "id": "mk-003",
+          "name": "Swing Plate Bolt",
+          "code": "MK003",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-008",
+          "name": "Hydro Clamp Bolt with Nut",
+          "code": "MK008",
+          "partNumbers": [
+            "MK/123/00928"
+          ]
+        },
+        {
+          "id": "mk-009",
+          "name": "Hydro Clamp Bolt with Nut 3DX",
+          "code": "MK009",
+          "partNumbers": [
+            "MK/826/10382"
+          ]
+        },
+        {
+          "id": "mk-010",
+          "name": "Hydro Clamp Bolt Nut Only",
+          "code": "MK010",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-011",
+          "name": "Main Pin Bolt W/Self lock Nut 4\"",
+          "code": "MK011",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-012",
+          "name": "Main Pin Bolt W/Self lock Nut 4.1/2\"",
+          "code": "MK011A",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-013",
+          "name": "Main Pin Bolt W/Self lock Nut 5\"",
+          "code": "MK012",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-014",
+          "name": "Main Pin Bolt W/Self lock Nut 6\"",
+          "code": "MK013",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-015",
+          "name": "Main Pin Bolt W/Self lock Nut 7\"",
+          "code": "MK014",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-016",
+          "name": "Bucket Pin Bolt W/Self lock Nut 3\"",
+          "code": "MK015",
+          "partNumbers": []
+        }
+      ]
+    },
+    {
+      "image": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
+      "count": 17,
+      "categories": [
+        "Rods, Tubes & Links"
+      ],
+      "sample": [
+        {
+          "id": "mk-189",
+          "name": "Slew Rod",
+          "code": "",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-190",
+          "name": "Stabilizer Rod",
+          "code": "",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-191",
+          "name": "Bucket Rod",
+          "code": "",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-192",
+          "name": "Dipper Rod",
+          "code": "",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-193",
+          "name": "Dipper Rod Extra",
+          "code": "",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-194",
+          "name": "Boom Rod",
+          "code": "",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-195",
+          "name": "Lift Rod",
+          "code": "",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-196",
+          "name": "Shovel Rod",
+          "code": "",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-197",
+          "name": "Slew Tube",
+          "code": "",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-198",
+          "name": "Stabilizer Tube",
+          "code": "",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-199",
+          "name": "Bucket Tube",
+          "code": "",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-200",
+          "name": "Dipper Tube",
+          "code": "",
+          "partNumbers": []
+        }
+      ]
+    },
+    {
+      "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+      "count": 16,
+      "categories": [
+        "Pins & Bushes"
+      ],
+      "sample": [
+        {
+          "id": "mk-023",
+          "name": "Stick Bush For Bucket Pin",
+          "code": "MK018",
+          "partNumbers": [
+            "Sl/808/00125"
+          ]
+        },
+        {
+          "id": "mk-024",
+          "name": "Tipping Lever Bush",
+          "code": "MK019",
+          "partNumbers": [
+            "MK/809/00129"
+          ]
+        },
+        {
+          "id": "mk-026",
+          "name": "Steering Bush",
+          "code": "MK020",
+          "partNumbers": [
+            "MK/808/00226"
+          ]
+        },
+        {
+          "id": "mk-027",
+          "name": "Tie rod Bush",
+          "code": "MK021",
+          "partNumbers": [
+            "MK/808/00237"
+          ]
+        },
+        {
+          "id": "mk-028",
+          "name": "Pivot Center Pin Bush",
+          "code": "MK022",
+          "partNumbers": [
+            "MK/808/00172"
+          ]
+        },
+        {
+          "id": "mk-029",
+          "name": "Pivot Center Pin Bush",
+          "code": "MK023",
+          "partNumbers": [
+            "MK/808/00173"
+          ]
+        },
+        {
+          "id": "mk-030",
+          "name": "King Pin Bush",
+          "code": "MK024",
+          "partNumbers": [
+            "MK/808/00176"
+          ]
+        },
+        {
+          "id": "mk-032",
+          "name": "Bush",
+          "code": "MK025",
+          "partNumbers": [
+            "MK/808/00186"
+          ]
+        },
+        {
+          "id": "mk-033",
+          "name": "Bush",
+          "code": "MK026",
+          "partNumbers": [
+            "MK/808/00214"
+          ]
+        },
+        {
+          "id": "mk-034",
+          "name": "Bush",
+          "code": "MK027",
+          "partNumbers": [
+            "MK/808/00216"
+          ]
+        },
+        {
+          "id": "mk-035",
+          "name": "Bush",
+          "code": "MK028",
+          "partNumbers": [
+            "MK/808/00364"
+          ]
+        },
+        {
+          "id": "mk-036",
+          "name": "Bush",
+          "code": "MK029",
+          "partNumbers": [
+            "MK/808/00388"
+          ]
+        }
+      ]
+    },
+    {
+      "image": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
+      "count": 16,
+      "categories": [
+        "Grease Nipples",
+        "Tools & Accessories"
+      ],
+      "sample": [
+        {
+          "id": "mk-165",
+          "name": "Housing Elen key Bolt",
+          "code": "MK112",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-166",
+          "name": "Grease Nipple 3/8 Straight Type",
+          "code": "MK113",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-167",
+          "name": "Grease Nipple 3/8 Bend Type",
+          "code": "MK114",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-168",
+          "name": "Grease Nipple 1/4 Straight Type",
+          "code": "MK115",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-169",
+          "name": "Grease Nipple 1/4 Bend Type",
+          "code": "MK116",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-170",
+          "name": "Grease Nipple 5/16 Straight Type",
+          "code": "MK117",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-171",
+          "name": "Grease Nipple 5/16 Bend Type",
+          "code": "MK118",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-172",
+          "name": "Grease Nipple For Boom",
+          "code": "MK118A",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-173",
+          "name": "Grease Nipple No. 15",
+          "code": "",
+          "partNumbers": [
+            "MK/12008/0015",
+            "12008"
+          ]
+        },
+        {
+          "id": "mk-174",
+          "name": "Grease Nipple No. 18",
+          "code": "",
+          "partNumbers": [
+            "MK/12008/0018",
+            "12008"
+          ]
+        },
+        {
+          "id": "mk-175",
+          "name": "Grease Nipple No. 23",
+          "code": "",
+          "partNumbers": [
+            "MK/12008/0023",
+            "12008"
+          ]
+        },
+        {
+          "id": "mk-176",
+          "name": "Grease Nipple No. 31",
+          "code": "",
+          "partNumbers": [
+            "MK/12008/0031",
+            "12008"
+          ]
+        }
+      ]
+    },
+    {
+      "image": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
+      "count": 15,
+      "categories": [
+        "Bucket Boss & Sleeves"
+      ],
+      "sample": [
+        {
+          "id": "mk-150",
+          "name": "Bucket Boss 80 MM (Bucket Sleeve)",
+          "code": "MK105",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-151",
+          "name": "Bucket Boss 90 MM (Bucket Sleeve)",
+          "code": "MK105A",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-152",
+          "name": "100X50372X65L-NO drill 100*60*65L",
+          "code": "MK106",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-153",
+          "name": "100X50372X80L Hole CD-22mm 100*60*80L",
+          "code": "MK107",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-154",
+          "name": "Dipper Sleeve 80MM (750 BUSH)",
+          "code": "MK106B",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-155",
+          "name": "Dipper Sleeve 80MM (129 BUSH)",
+          "code": "MK106C",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-156",
+          "name": "Dipper Sleeve 90MM(129 BUSH)",
+          "code": "MK107",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-157",
+          "name": "Dipper Sleeve 90MM (750 BUSH)",
+          "code": "MK107A",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-158",
+          "name": "BOSS Y-4392/ 9723",
+          "code": "MK107B",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-159",
+          "name": "Boss (2062)[SET OF 2]",
+          "code": "MK108",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-160",
+          "name": "Loader Sleeve FOR 23NO CUT BUSH",
+          "code": "MK108A",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-161",
+          "name": "Centre Pin Boss [SET OF 2]",
+          "code": "MK108B",
+          "partNumbers": [
+            "10091"
+          ]
+        }
+      ]
+    },
+    {
+      "image": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
+      "count": 13,
+      "categories": [
+        "Pins & Bushes"
+      ],
+      "sample": [
+        {
+          "id": "mk-022",
+          "name": "Bucket Pin Bush",
+          "code": "MK017",
+          "partNumbers": [
+            "Sl/40/300750"
+          ]
+        },
+        {
+          "id": "mk-025",
+          "name": "Bush Alloy",
+          "code": "MK019A",
+          "partNumbers": [
+            "MK/40/301610"
+          ]
+        },
+        {
+          "id": "mk-031",
+          "name": "King Pin Bush",
+          "code": "MK024A",
+          "partNumbers": [
+            "MK/808/00176"
+          ]
+        },
+        {
+          "id": "mk-041",
+          "name": "Bush",
+          "code": "MK035",
+          "partNumbers": [
+            "MK/809/00131"
+          ]
+        },
+        {
+          "id": "mk-042",
+          "name": "Bush",
+          "code": "MK036",
+          "partNumbers": [
+            "MK/550/00548"
+          ]
+        },
+        {
+          "id": "mk-043",
+          "name": "Bush",
+          "code": "MK037",
+          "partNumbers": [
+            "MK/335/C5739"
+          ]
+        },
+        {
+          "id": "mk-044",
+          "name": "Dipper Ram Rod Bush",
+          "code": "MK037A",
+          "partNumbers": [
+            "MK/550/40899"
+          ]
+        },
+        {
+          "id": "mk-045",
+          "name": "Dipper Ram Rod Bush",
+          "code": "MK037B",
+          "partNumbers": [
+            "MK/550/40898"
+          ]
+        },
+        {
+          "id": "mk-046",
+          "name": "Dipper Ram Rod Bush",
+          "code": "MK037C",
+          "partNumbers": [
+            "550/40927"
+          ]
+        },
+        {
+          "id": "mk-047",
+          "name": "Dipper Ram Rod Bush",
+          "code": "MK037D",
+          "partNumbers": [
+            "MK/550/40926"
+          ]
+        },
+        {
+          "id": "mk-048",
+          "name": "Dipper Ram Rod Bush",
+          "code": "MK037E",
+          "partNumbers": [
+            "550/40983"
+          ]
+        },
+        {
+          "id": "mk-049",
+          "name": "Dipper Ram Rod Bush",
+          "code": "MK037F",
+          "partNumbers": [
+            "550/40899"
+          ]
+        }
+      ]
+    },
+    {
+      "image": "web-products/watermarked/web-products-catalogue-p02-28-jpg.webp",
+      "count": 6,
+      "categories": [
+        "Pin Collars & Stub Axle"
+      ],
+      "sample": [
+        {
+          "id": "mk-099",
+          "name": "Bucket Pin Collar 3D",
+          "code": "MK074",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-100",
+          "name": "Bucket Pin Collar (3DX)",
+          "code": "MK074A",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-101",
+          "name": "Bucket Pin Collar 3DX 70MM",
+          "code": "MK074B",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-102",
+          "name": "Boom Pin Collar Cut Type",
+          "code": "MK075",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-103",
+          "name": "Boom Pin Collar 85 OD O.E. TYPE",
+          "code": "MK075A",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-104",
+          "name": "Stub Axle",
+          "code": "",
+          "partNumbers": [
+            "333/Y4580"
+          ]
+        }
+      ]
+    },
+    {
+      "image": "web-products/watermarked/web-products-jcb-planetary-gear-png.webp",
+      "count": 6,
+      "categories": [
+        "Gear Parts"
+      ],
+      "sample": [
+        {
+          "id": "mk-177",
+          "name": "Annulus Ring Gear",
+          "code": "",
+          "partNumbers": [
+            "450/10205"
+          ]
+        },
+        {
+          "id": "mk-178",
+          "name": "Planet Gear",
+          "code": "",
+          "partNumbers": [
+            "450/10206"
+          ]
+        },
+        {
+          "id": "mk-179",
+          "name": "Sun Gear",
+          "code": "",
+          "partNumbers": [
+            "450/10210"
+          ]
+        },
+        {
+          "id": "mk-180",
+          "name": "Carrier Annulus",
+          "code": "",
+          "partNumbers": [
+            "450/12702"
+          ]
+        },
+        {
+          "id": "mk-181",
+          "name": "Planet Bearing",
+          "code": "",
+          "partNumbers": [
+            "50200"
+          ]
+        },
+        {
+          "id": "mk-182",
+          "name": "Planetary Gear with Bearing Assembly450/ -A",
+          "code": "",
+          "partNumbers": [
+            "10206"
+          ]
+        }
+      ]
+    },
+    {
+      "image": "web-products/watermarked/web-products-catalogue-p04-21-jpg.webp",
+      "count": 6,
+      "categories": [
+        "Kits & Overhauls"
+      ],
+      "sample": [
+        {
+          "id": "mk-183",
+          "name": "Bucket Kit ( )",
+          "code": "",
+          "partNumbers": [
+            "550/42700",
+            "12400/4626",
+            "12400"
+          ]
+        },
+        {
+          "id": "mk-184",
+          "name": "Bucket Kit (2062)",
+          "code": "",
+          "partNumbers": [
+            "550/42700-A",
+            "42700"
+          ]
+        },
+        {
+          "id": "mk-185",
+          "name": "King Pin Kit ( )",
+          "code": "",
+          "partNumbers": [
+            "550/42701",
+            "30001"
+          ]
+        },
+        {
+          "id": "mk-186",
+          "name": "King Pin Kit 1184 ( )",
+          "code": "",
+          "partNumbers": [
+            "550/42701-A",
+            "42701"
+          ]
+        },
+        {
+          "id": "mk-187",
+          "name": "KPC OVERHAUL Kit",
+          "code": "",
+          "partNumbers": [
+            "40048"
+          ]
+        },
+        {
+          "id": "mk-188",
+          "name": "KPC OVERHAUL Kit",
+          "code": "",
+          "partNumbers": [
+            "40104"
+          ]
+        }
+      ]
+    },
+    {
+      "image": "web-products/watermarked/web-products-jcb-bucket-teeth-jpg.webp",
+      "count": 5,
+      "categories": [
+        "JCB Teeth & Cutters"
+      ],
+      "sample": [
+        {
+          "id": "jcb-teeth-center",
+          "name": "JCB Teeth Center",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        },
+        {
+          "id": "plain-type-tooth",
+          "name": "Plain Type Bucket Tooth",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        },
+        {
+          "id": "crocodile-side-cutter",
+          "name": "Crocodile Type Side Cutter",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        },
+        {
+          "id": "jcb-side-cutter",
+          "name": "JCB Side Cutter Teeth",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        },
+        {
+          "id": "terex-side-cutter",
+          "name": "Terex Side Cutter",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        }
+      ]
+    },
+    {
+      "image": "web-products/watermarked/web-products-jcb-wheel-bolt-jpg.webp",
+      "count": 4,
+      "categories": [
+        "Bolts & Fasteners"
+      ],
+      "sample": [
+        {
+          "id": "mk-004",
+          "name": "Front Wheel Bolt",
+          "code": "MK004",
+          "partNumbers": [
+            "MK/826/00533"
+          ]
+        },
+        {
+          "id": "mk-005",
+          "name": "Rear Wheel Bolt Small",
+          "code": "MK005",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-006",
+          "name": "Rear Wheel Disc Plate Bolt",
+          "code": "MK006",
+          "partNumbers": []
+        },
+        {
+          "id": "mk-007",
+          "name": "Rear Wheel Bolt Big",
+          "code": "MK007",
+          "partNumbers": [
+            "826/009"
+          ]
+        }
+      ]
+    },
+    {
+      "image": "web-products/watermarked/web-products-jcb-air-filter-png.webp",
+      "count": 4,
+      "categories": [
+        "Filters"
+      ],
+      "sample": [
+        {
+          "id": "jcb-oil-filter",
+          "name": "JCB Oil Filter",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        },
+        {
+          "id": "jcb-air-filter-kit",
+          "name": "JCB Air Filter Kit",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        },
+        {
+          "id": "air-filter-element",
+          "name": "Air Filter Element",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        },
+        {
+          "id": "fuel-filter",
+          "name": "Fuel Filter",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        }
+      ]
+    },
+    {
+      "image": "web-products/watermarked/web-products-catalogue-p04-18-jpg.webp",
+      "count": 4,
+      "categories": [
+        "Seals & Gaskets"
+      ],
+      "sample": [
+        {
+          "id": "gaskets",
+          "name": "Gaskets",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        },
+        {
+          "id": "oil-seal-washers",
+          "name": "Oil Seal & Washers",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        },
+        {
+          "id": "hub-repair-kit",
+          "name": "Hub Repair Kit",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        },
+        {
+          "id": "friction-plates",
+          "name": "JCB Friction Plates",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        }
+      ]
+    },
+    {
+      "image": "web-products/watermarked/web-products-jcb-spare-parts-catalogue-jpg.webp",
+      "count": 4,
+      "categories": [
+        "Truck & Car Parts"
+      ],
+      "sample": [
+        {
+          "id": "truck-hub-wheel-bolts",
+          "name": "Truck Hub Wheel Centre Bolts",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        },
+        {
+          "id": "u-bolts",
+          "name": "U-Bolts All Sizes",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        },
+        {
+          "id": "battery-terminals",
+          "name": "Battery Terminals",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        },
+        {
+          "id": "disc-rotor",
+          "name": "Disc Rotor",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        }
+      ]
+    },
+    {
+      "image": "web-products/watermarked/web-products-jcb-tyre-png.webp",
+      "count": 3,
+      "categories": [
+        "Tyres"
+      ],
+      "sample": [
+        {
+          "id": "backhoe-loader-tyre",
+          "name": "Backhoe Loader Tyre",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        },
+        {
+          "id": "excavator-tyre",
+          "name": "Excavator Tyre",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        },
+        {
+          "id": "forklift-tyre",
+          "name": "Forklift Tyre",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        }
+      ]
+    },
+    {
+      "image": "web-products/watermarked/web-products-jcb-lights-working-lamp-square-webp.webp",
+      "count": 2,
+      "categories": [
+        "Electricals & Lighting"
+      ],
+      "sample": [
+        {
+          "id": "jcb-working-lamp",
+          "name": "JCB Working Lamp",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        },
+        {
+          "id": "light-working-lamp-square",
+          "name": "Working Lamp Square",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        }
+      ]
+    },
+    {
+      "image": "web-products/watermarked/web-products-jcb-lights-jcb-headlamp-new-webp.webp",
+      "count": 2,
+      "categories": [
+        "Electricals & Lighting"
+      ],
+      "sample": [
+        {
+          "id": "jcb-headlamp",
+          "name": "JCB Headlamp",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        },
+        {
+          "id": "light-jcb-headlamp-new",
+          "name": "JCB Headlamp New",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        }
+      ]
+    },
+    {
+      "image": "web-products/watermarked/web-products-jcb-lights-jcb-tail-lamp-oval-big-webp.webp",
+      "count": 2,
+      "categories": [
+        "Electricals & Lighting"
+      ],
+      "sample": [
+        {
+          "id": "jcb-tail-lamp",
+          "name": "JCB Tail Lamp",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        },
+        {
+          "id": "light-jcb-tail-lamp-oval-big",
+          "name": "JCB Tail Lamp Oval Big",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        }
+      ]
+    },
+    {
+      "image": "web-products/watermarked/web-products-catalogue-p03-51-jpg.webp",
+      "count": 2,
+      "categories": [
+        "Electricals & Lighting"
+      ],
+      "sample": [
+        {
+          "id": "forward-reverse-switch",
+          "name": "Forward & Reverse Switch",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        },
+        {
+          "id": "water-temperature-meter",
+          "name": "Water Temperature Meter",
+          "code": "",
+          "partNumbers": [
+            "On request"
+          ]
+        }
+      ]
+    }
+  ],
+  "remainingProductsToSource": [
+    {
+      "id": "mk-051",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK038",
+      "partNumbers": [
+        "MK/811/50369"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/811/50369 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/811/50369%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-052",
+      "name": "Pivot pin MK/",
+      "category": "Pivot Pins",
+      "code": "MK038A",
+      "partNumbers": [
+        "90214"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator 90214 Pivot pin MK/ product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%2090214%20Pivot%20pin%20MK/%20product%20photo"
+    },
+    {
+      "id": "mk-053",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK039",
+      "partNumbers": [
+        "MK/811/50368"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/811/50368 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/811/50368%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-054",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK040",
+      "partNumbers": [
+        "MK/811/50365"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/811/50365 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/811/50365%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-055",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK041",
+      "partNumbers": [
+        "MK/811/50364"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/811/50364 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/811/50364%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-056",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK042",
+      "partNumbers": [
+        "MK/811/50372"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/811/50372 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/811/50372%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-057",
+      "name": "Pivot Pin MK/Y-4392 /9723",
+      "category": "Pivot Pins",
+      "code": "MK043",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Pivot Pin MK/Y-4392 /9723 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Pivot%20Pin%20MK/Y-4392%20/9723%20product%20photo"
+    },
+    {
+      "id": "mk-058",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK044",
+      "partNumbers": [
+        "MK/811/50520"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/811/50520 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/811/50520%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-059",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK045",
+      "partNumbers": [
+        "MK/811/50483"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/811/50483 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/811/50483%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-060",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK046",
+      "partNumbers": [
+        "MK/811/50437"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/811/50437 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/811/50437%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-061",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK047",
+      "partNumbers": [
+        "MK/811/50007"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/811/50007 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/811/50007%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-062",
+      "name": "Thrust Bearing",
+      "category": "Pivot Pins",
+      "code": "",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Thrust Bearing product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Thrust%20Bearing%20product%20photo"
+    },
+    {
+      "id": "mk-063",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK049",
+      "partNumbers": [
+        "MK/811/20061"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/811/20061 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/811/20061%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-064",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK050",
+      "partNumbers": [
+        "MK/811/20005"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/811/20005 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/811/20005%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-065",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK051",
+      "partNumbers": [
+        "MK/811/50115"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/811/50115 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/811/50115%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-066",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK052",
+      "partNumbers": [
+        "MK/811/10011"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/811/10011 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/811/10011%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-067",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK053",
+      "partNumbers": [
+        "MK/811/90198"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/811/90198 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/811/90198%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-068",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK054",
+      "partNumbers": [
+        "MK/811/50366"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/811/50366 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/811/50366%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-069",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK055",
+      "partNumbers": [
+        "MK/40/302242"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/40/302242 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/40/302242%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-070",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK055A",
+      "partNumbers": [
+        "MK/811/50530"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/811/50530 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/811/50530%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-071",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK056",
+      "partNumbers": [
+        "MK/811/50569"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/811/50569 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/811/50569%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-072",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK057",
+      "partNumbers": [
+        "MK/1019/2010"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/1019/2010 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/1019/2010%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-073",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK058",
+      "partNumbers": [
+        "MK/1019/2037"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/1019/2037 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/1019/2037%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-074",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK059",
+      "partNumbers": [
+        "MK/1019/3832"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/1019/3832 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/1019/3832%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-075",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK060",
+      "partNumbers": [
+        "MK/1019/2059"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/1019/2059 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/1019/2059%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-076",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK060A",
+      "partNumbers": [
+        "MK/1019/2053"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/1019/2053 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/1019/2053%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-077",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK061",
+      "partNumbers": [
+        "MK/1021/2036"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/1021/2036 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/1021/2036%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-078",
+      "name": "Pivot Pin MK/C5705",
+      "category": "Pivot Pins",
+      "code": "MK062",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Pivot Pin MK/C5705 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Pivot%20Pin%20MK/C5705%20product%20photo"
+    },
+    {
+      "id": "mk-079",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK063",
+      "partNumbers": [
+        "MK/130/08223"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/130/08223 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/130/08223%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-080",
+      "name": "Pivot Pin . COLLAR TYPE",
+      "category": "Pivot Pins",
+      "code": "MK064",
+      "partNumbers": [
+        "MK/40/305196"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/40/305196 Pivot Pin . COLLAR TYPE product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/40/305196%20Pivot%20Pin%20.%20COLLAR%20TYPE%20product%20photo"
+    },
+    {
+      "id": "mk-081",
+      "name": "Pivot Pin . HOLE TYPE",
+      "category": "Pivot Pins",
+      "code": "MK065",
+      "partNumbers": [
+        "MK/40/301633"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/40/301633 Pivot Pin . HOLE TYPE product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/40/301633%20Pivot%20Pin%20.%20HOLE%20TYPE%20product%20photo"
+    },
+    {
+      "id": "mk-082",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK066",
+      "partNumbers": [
+        "MK/646/4626"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/646/4626 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/646/4626%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-083",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK067",
+      "partNumbers": [
+        "MK/911/12300"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/911/12300 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/911/12300%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-084",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK068",
+      "partNumbers": [
+        "MK/911/12400"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/911/12400 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/911/12400%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-085",
+      "name": "Pivot Pin HOLE TYPE BUCKET PIN 2014",
+      "category": "Pivot Pins",
+      "code": "MK068A",
+      "partNumbers": [
+        "MK/1019/2062"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/1019/2062 Pivot Pin HOLE TYPE BUCKET PIN 2014 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/1019/2062%20Pivot%20Pin%20HOLE%20TYPE%20BUCKET%20PIN%202014%20product%20photo"
+    },
+    {
+      "id": "mk-086",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK069",
+      "partNumbers": [
+        "MK/911/90165"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/911/90165 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/911/90165%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-087",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK070",
+      "partNumbers": [
+        "MK/911/16600"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/911/16600 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/911/16600%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-088",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK071",
+      "partNumbers": [
+        "MK/911/20600"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/911/20600 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/911/20600%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-089",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK072",
+      "partNumbers": [
+        "MK/811/40048"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/811/40048 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/811/40048%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-090",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK072A",
+      "partNumbers": [
+        "MK/811/50375"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/811/50375 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/811/50375%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-091",
+      "name": "Pivot Pin . CIRCLIP TYPE",
+      "category": "Pivot Pins",
+      "code": "MK072B",
+      "partNumbers": [
+        "MK/811/40104"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/811/40104 Pivot Pin . CIRCLIP TYPE product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/811/40104%20Pivot%20Pin%20.%20CIRCLIP%20TYPE%20product%20photo"
+    },
+    {
+      "id": "mk-092",
+      "name": "Pivot Pin",
+      "category": "Pivot Pins",
+      "code": "MK073",
+      "partNumbers": [
+        "MK/911/20700"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/911/20700 Pivot Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/911/20700%20Pivot%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-093",
+      "name": "Pivot Pin MK/4623",
+      "category": "Pivot Pins",
+      "code": "MK073A",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Pivot Pin MK/4623 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Pivot%20Pin%20MK/4623%20product%20photo"
+    },
+    {
+      "id": "mk-094",
+      "name": "Pivot Pin MK/",
+      "category": "Pivot Pins",
+      "code": "MK073B",
+      "partNumbers": [
+        "80004"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator 80004 Pivot Pin MK/ product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%2080004%20Pivot%20Pin%20MK/%20product%20photo"
+    },
+    {
+      "id": "mk-095",
+      "name": "Pivot Pin MK/4622",
+      "category": "Pivot Pins",
+      "code": "MK073C",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Pivot Pin MK/4622 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Pivot%20Pin%20MK/4622%20product%20photo"
+    },
+    {
+      "id": "mk-096",
+      "name": "Front Loader pin 3DX",
+      "category": "Pivot Pins",
+      "code": "MK073D",
+      "partNumbers": [
+        "80001"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator 80001 Front Loader pin 3DX product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%2080001%20Front%20Loader%20pin%203DX%20product%20photo"
+    },
+    {
+      "id": "mk-097",
+      "name": "Center Loader Pin 3DX",
+      "category": "Pivot Pins",
+      "code": "MK073E",
+      "partNumbers": [
+        "10091"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator 10091 Center Loader Pin 3DX product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%2010091%20Center%20Loader%20Pin%203DX%20product%20photo"
+    },
+    {
+      "id": "mk-098",
+      "name": "Center Loader Pin 3DX",
+      "category": "Pivot Pins",
+      "code": "MK073F",
+      "partNumbers": [
+        "332/Y8377"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-23-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator 332/Y8377 Center Loader Pin 3DX product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20332/Y8377%20Center%20Loader%20Pin%203DX%20product%20photo"
+    },
+    {
+      "id": "mk-105",
+      "name": "Bucket Pin Washer 1 MM 45*70",
+      "category": "Shims & Washers",
+      "code": "MK076",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Bucket Pin Washer 1 MM 45*70 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Bucket%20Pin%20Washer%201%20MM%2045%2A70%20product%20photo"
+    },
+    {
+      "id": "mk-106",
+      "name": "Bucket Pin Washer 2 MM 45*70",
+      "category": "Shims & Washers",
+      "code": "MK077",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Bucket Pin Washer 2 MM 45*70 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Bucket%20Pin%20Washer%202%20MM%2045%2A70%20product%20photo"
+    },
+    {
+      "id": "mk-107",
+      "name": "Bucket Pin Washer 3 MM 45*70",
+      "category": "Shims & Washers",
+      "code": "MK078",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Bucket Pin Washer 3 MM 45*70 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Bucket%20Pin%20Washer%203%20MM%2045%2A70%20product%20photo"
+    },
+    {
+      "id": "mk-108",
+      "name": "Bucket Pin Washer 3.1/2 MM 45*70",
+      "category": "Shims & Washers",
+      "code": "MK078A",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Bucket Pin Washer 3.1/2 MM 45*70 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Bucket%20Pin%20Washer%203.1/2%20MM%2045%2A70%20product%20photo"
+    },
+    {
+      "id": "mk-109",
+      "name": "Bucket Pin Washer 4 MM 45*70",
+      "category": "Shims & Washers",
+      "code": "MK079",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Bucket Pin Washer 4 MM 45*70 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Bucket%20Pin%20Washer%204%20MM%2045%2A70%20product%20photo"
+    },
+    {
+      "id": "mk-110",
+      "name": "Bucket Pin Washer 5 MM 45*70",
+      "category": "Shims & Washers",
+      "code": "MK080",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Bucket Pin Washer 5 MM 45*70 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Bucket%20Pin%20Washer%205%20MM%2045%2A70%20product%20photo"
+    },
+    {
+      "id": "mk-111",
+      "name": "King Pin Washer 1/2 MM 38*65",
+      "category": "Shims & Washers",
+      "code": "MK081",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  King Pin Washer 1/2 MM 38*65 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20King%20Pin%20Washer%201/2%20MM%2038%2A65%20product%20photo"
+    },
+    {
+      "id": "mk-112",
+      "name": "King Pin Washer 1 MM 38*65",
+      "category": "Shims & Washers",
+      "code": "MK082",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  King Pin Washer 1 MM 38*65 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20King%20Pin%20Washer%201%20MM%2038%2A65%20product%20photo"
+    },
+    {
+      "id": "mk-113",
+      "name": "King Pin Washer 2 MM 38*65",
+      "category": "Shims & Washers",
+      "code": "MK083",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  King Pin Washer 2 MM 38*65 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20King%20Pin%20Washer%202%20MM%2038%2A65%20product%20photo"
+    },
+    {
+      "id": "mk-114",
+      "name": "King Pin Washer 3 MM 38*65",
+      "category": "Shims & Washers",
+      "code": "MK084",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  King Pin Washer 3 MM 38*65 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20King%20Pin%20Washer%203%20MM%2038%2A65%20product%20photo"
+    },
+    {
+      "id": "mk-115",
+      "name": "King Pin Washer 4 MM 38*65",
+      "category": "Shims & Washers",
+      "code": "MK085",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  King Pin Washer 4 MM 38*65 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20King%20Pin%20Washer%204%20MM%2038%2A65%20product%20photo"
+    },
+    {
+      "id": "mk-116",
+      "name": "Boom Pin Washer 1 MM 50X90",
+      "category": "Shims & Washers",
+      "code": "MK086",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Boom Pin Washer 1 MM 50X90 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Boom%20Pin%20Washer%201%20MM%2050X90%20product%20photo"
+    },
+    {
+      "id": "mk-117",
+      "name": "Boom Pin Washer 2 MM 50X90",
+      "category": "Shims & Washers",
+      "code": "MK087",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Boom Pin Washer 2 MM 50X90 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Boom%20Pin%20Washer%202%20MM%2050X90%20product%20photo"
+    },
+    {
+      "id": "mk-118",
+      "name": "Boom Pin Washer 3 MM 50X90",
+      "category": "Shims & Washers",
+      "code": "MK088",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Boom Pin Washer 3 MM 50X90 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Boom%20Pin%20Washer%203%20MM%2050X90%20product%20photo"
+    },
+    {
+      "id": "mk-119",
+      "name": "Boom Pin Washer 4 MM 50X90",
+      "category": "Shims & Washers",
+      "code": "MK089",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Boom Pin Washer 4 MM 50X90 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Boom%20Pin%20Washer%204%20MM%2050X90%20product%20photo"
+    },
+    {
+      "id": "mk-120",
+      "name": "Boom Pin Washer 5 MM 50X90",
+      "category": "Shims & Washers",
+      "code": "MK090",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Boom Pin Washer 5 MM 50X90 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Boom%20Pin%20Washer%205%20MM%2050X90%20product%20photo"
+    },
+    {
+      "id": "mk-121",
+      "name": "Boom Pin Washer 1 MM 60X90",
+      "category": "Shims & Washers",
+      "code": "MK090A",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Boom Pin Washer 1 MM 60X90 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Boom%20Pin%20Washer%201%20MM%2060X90%20product%20photo"
+    },
+    {
+      "id": "mk-122",
+      "name": "Boom Pin Washer 2 MM 60X90",
+      "category": "Shims & Washers",
+      "code": "MK090B",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Boom Pin Washer 2 MM 60X90 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Boom%20Pin%20Washer%202%20MM%2060X90%20product%20photo"
+    },
+    {
+      "id": "mk-123",
+      "name": "Boom Pin Washer 3 MM 60X90",
+      "category": "Shims & Washers",
+      "code": "MK090C",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Boom Pin Washer 3 MM 60X90 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Boom%20Pin%20Washer%203%20MM%2060X90%20product%20photo"
+    },
+    {
+      "id": "mk-124",
+      "name": "Boom Pin Washer 4 MM 60X90",
+      "category": "Shims & Washers",
+      "code": "MK090D",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Boom Pin Washer 4 MM 60X90 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Boom%20Pin%20Washer%204%20MM%2060X90%20product%20photo"
+    },
+    {
+      "id": "mk-125",
+      "name": "Boom Pin Washer 5 MM 60X90",
+      "category": "Shims & Washers",
+      "code": "MK090E",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Boom Pin Washer 5 MM 60X90 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Boom%20Pin%20Washer%205%20MM%2060X90%20product%20photo"
+    },
+    {
+      "id": "mk-126",
+      "name": "KPC WASHER 1 MM 60X120",
+      "category": "Shims & Washers",
+      "code": "MK091",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  KPC WASHER 1 MM 60X120 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20KPC%20WASHER%201%20MM%2060X120%20product%20photo"
+    },
+    {
+      "id": "mk-127",
+      "name": "KPC WASHER 2 MM 60X120",
+      "category": "Shims & Washers",
+      "code": "MK092",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  KPC WASHER 2 MM 60X120 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20KPC%20WASHER%202%20MM%2060X120%20product%20photo"
+    },
+    {
+      "id": "mk-128",
+      "name": "KPC WASHER 3 MM 60X120",
+      "category": "Shims & Washers",
+      "code": "MK093",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  KPC WASHER 3 MM 60X120 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20KPC%20WASHER%203%20MM%2060X120%20product%20photo"
+    },
+    {
+      "id": "mk-129",
+      "name": "KPC WASHER 4 MM 60X120",
+      "category": "Shims & Washers",
+      "code": "MK093A",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  KPC WASHER 4 MM 60X120 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20KPC%20WASHER%204%20MM%2060X120%20product%20photo"
+    },
+    {
+      "id": "mk-130",
+      "name": "KPC WASHER 5 MM 60X120",
+      "category": "Shims & Washers",
+      "code": "MK093B",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-43-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  KPC WASHER 5 MM 60X120 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20KPC%20WASHER%205%20MM%2060X120%20product%20photo"
+    },
+    {
+      "id": "mk-131",
+      "name": "Stub Axle Check Nut . With Nut",
+      "category": "Steering & Tie Rod",
+      "code": "MK094",
+      "partNumbers": [
+        "MK/120/30003"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/120/30003 Stub Axle Check Nut . With Nut product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/120/30003%20Stub%20Axle%20Check%20Nut%20.%20With%20Nut%20product%20photo"
+    },
+    {
+      "id": "mk-132",
+      "name": "King Pin",
+      "category": "Steering & Tie Rod",
+      "code": "MK095",
+      "partNumbers": [
+        "MK/120/30001"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/120/30001 King Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/120/30001%20King%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-133",
+      "name": "King Pin Circlip Type",
+      "category": "Steering & Tie Rod",
+      "code": "MK095A",
+      "partNumbers": [
+        "MK/333/Y1184"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/333/Y1184 King Pin Circlip Type product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/333/Y1184%20King%20Pin%20Circlip%20Type%20product%20photo"
+    },
+    {
+      "id": "mk-134",
+      "name": "Stub Axle Check nut",
+      "category": "Steering & Tie Rod",
+      "code": "MK096",
+      "partNumbers": [
+        "MK/1340/0905"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/1340/0905 Stub Axle Check nut product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/1340/0905%20Stub%20Axle%20Check%20nut%20product%20photo"
+    },
+    {
+      "id": "mk-135",
+      "name": "Stub Axle C.N Washer Thick Type 10M",
+      "category": "Steering & Tie Rod",
+      "code": "MK097",
+      "partNumbers": [
+        "MK/826/00892"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/826/00892 Stub Axle C.N Washer Thick Type 10M product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/826/00892%20Stub%20Axle%20C.N%20Washer%20Thick%20Type%2010M%20product%20photo"
+    },
+    {
+      "id": "mk-136",
+      "name": "Housing Eye Bolt 9\"",
+      "category": "Steering & Tie Rod",
+      "code": "MK098",
+      "partNumbers": [
+        "MK/1305/3950"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/1305/3950 Housing Eye Bolt 9\" product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/1305/3950%20Housing%20Eye%20Bolt%209%22%20product%20photo"
+    },
+    {
+      "id": "mk-137",
+      "name": "Housing Eye Bolt 3DX 8\"",
+      "category": "Steering & Tie Rod",
+      "code": "MK098A",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Housing Eye Bolt 3DX 8\" product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Housing%20Eye%20Bolt%203DX%208%22%20product%20photo"
+    },
+    {
+      "id": "mk-138",
+      "name": "Cotter Pin With S/Lock Nut",
+      "category": "Steering & Tie Rod",
+      "code": "MK099",
+      "partNumbers": [
+        "MK/120/30002"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/120/30002 Cotter Pin With S/Lock Nut product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/120/30002%20Cotter%20Pin%20With%20S/Lock%20Nut%20product%20photo"
+    },
+    {
+      "id": "mk-139",
+      "name": "Stabilizer Nut With Sleeve",
+      "category": "Steering & Tie Rod",
+      "code": "MK100",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Stabilizer Nut With Sleeve product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Stabilizer%20Nut%20With%20Sleeve%20product%20photo"
+    },
+    {
+      "id": "mk-140",
+      "name": "Stabilizer Check Nut Only",
+      "category": "Steering & Tie Rod",
+      "code": "MK101",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Stabilizer Check Nut Only product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Stabilizer%20Check%20Nut%20Only%20product%20photo"
+    },
+    {
+      "id": "mk-141",
+      "name": "Stabilizer Sleeve Only",
+      "category": "Steering & Tie Rod",
+      "code": "MK102",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Stabilizer Sleeve Only product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Stabilizer%20Sleeve%20Only%20product%20photo"
+    },
+    {
+      "id": "mk-142",
+      "name": "Tie Rod Pin Cir clip Lock Type",
+      "category": "Steering & Tie Rod",
+      "code": "MK103",
+      "partNumbers": [
+        "120/30048"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator 120/30048 Tie Rod Pin Cir clip Lock Type product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20120/30048%20Tie%20Rod%20Pin%20Cir%20clip%20Lock%20Type%20product%20photo"
+    },
+    {
+      "id": "mk-143",
+      "name": "Tie Rod Pin (Oval Cap)",
+      "category": "Steering & Tie Rod",
+      "code": "MK104",
+      "partNumbers": [
+        "MK/120/30048"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/120/30048 Tie Rod Pin (Oval Cap) product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/120/30048%20Tie%20Rod%20Pin%20%28Oval%20Cap%29%20product%20photo"
+    },
+    {
+      "id": "mk-144",
+      "name": "Tie Rod Pin 3DX Big 40/",
+      "category": "Steering & Tie Rod",
+      "code": "MK104A",
+      "partNumbers": [
+        "302365"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator 302365 Tie Rod Pin 3DX Big 40/ product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20302365%20Tie%20Rod%20Pin%203DX%20Big%2040/%20product%20photo"
+    },
+    {
+      "id": "mk-145",
+      "name": "Tie Rod Pin 3DX Small 40/",
+      "category": "Steering & Tie Rod",
+      "code": "MK104B",
+      "partNumbers": [
+        "302366"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator 302366 Tie Rod Pin 3DX Small 40/ product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20302366%20Tie%20Rod%20Pin%203DX%20Small%2040/%20product%20photo"
+    },
+    {
+      "id": "mk-146",
+      "name": "Tie Rod Pin Washer Only",
+      "category": "Steering & Tie Rod",
+      "code": "MK104C",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Tie Rod Pin Washer Only product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Tie%20Rod%20Pin%20Washer%20Only%20product%20photo"
+    },
+    {
+      "id": "mk-147",
+      "name": "Tie Rod Bush 3DX",
+      "category": "Steering & Tie Rod",
+      "code": "MK104D",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Tie Rod Bush 3DX product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Tie%20Rod%20Bush%203DX%20product%20photo"
+    },
+    {
+      "id": "mk-148",
+      "name": "Steering Bush 3DX",
+      "category": "Steering & Tie Rod",
+      "code": "MK104E",
+      "partNumbers": [
+        "42392"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator 42392 Steering Bush 3DX product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%2042392%20Steering%20Bush%203DX%20product%20photo"
+    },
+    {
+      "id": "mk-149",
+      "name": "Grab Screw For Tie rod Pin",
+      "category": "Steering & Tie Rod",
+      "code": "MK104F",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-28-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Grab Screw For Tie rod Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Grab%20Screw%20For%20Tie%20rod%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-001",
+      "name": "Teeth Cutter Bolt",
+      "category": "Bolts & Fasteners",
+      "code": "MK001",
+      "partNumbers": [
+        "MK/990/14900"
+      ],
+      "currentImage": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
+      "suggestedSearchQuery": "JCB excavator MK/990/14900 Teeth Cutter Bolt product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/990/14900%20Teeth%20Cutter%20Bolt%20product%20photo"
+    },
+    {
+      "id": "mk-002",
+      "name": "Teeth Cutter Bolt",
+      "category": "Bolts & Fasteners",
+      "code": "MK002",
+      "partNumbers": [
+        "MK/990/45900"
+      ],
+      "currentImage": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
+      "suggestedSearchQuery": "JCB excavator MK/990/45900 Teeth Cutter Bolt product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/990/45900%20Teeth%20Cutter%20Bolt%20product%20photo"
+    },
+    {
+      "id": "mk-003",
+      "name": "Swing Plate Bolt",
+      "category": "Bolts & Fasteners",
+      "code": "MK003",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
+      "suggestedSearchQuery": "JCB excavator  Swing Plate Bolt product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Swing%20Plate%20Bolt%20product%20photo"
+    },
+    {
+      "id": "mk-008",
+      "name": "Hydro Clamp Bolt with Nut",
+      "category": "Bolts & Fasteners",
+      "code": "MK008",
+      "partNumbers": [
+        "MK/123/00928"
+      ],
+      "currentImage": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
+      "suggestedSearchQuery": "JCB excavator MK/123/00928 Hydro Clamp Bolt with Nut product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/123/00928%20Hydro%20Clamp%20Bolt%20with%20Nut%20product%20photo"
+    },
+    {
+      "id": "mk-009",
+      "name": "Hydro Clamp Bolt with Nut 3DX",
+      "category": "Bolts & Fasteners",
+      "code": "MK009",
+      "partNumbers": [
+        "MK/826/10382"
+      ],
+      "currentImage": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
+      "suggestedSearchQuery": "JCB excavator MK/826/10382 Hydro Clamp Bolt with Nut 3DX product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/826/10382%20Hydro%20Clamp%20Bolt%20with%20Nut%203DX%20product%20photo"
+    },
+    {
+      "id": "mk-010",
+      "name": "Hydro Clamp Bolt Nut Only",
+      "category": "Bolts & Fasteners",
+      "code": "MK010",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
+      "suggestedSearchQuery": "JCB excavator  Hydro Clamp Bolt Nut Only product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Hydro%20Clamp%20Bolt%20Nut%20Only%20product%20photo"
+    },
+    {
+      "id": "mk-011",
+      "name": "Main Pin Bolt W/Self lock Nut 4\"",
+      "category": "Bolts & Fasteners",
+      "code": "MK011",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
+      "suggestedSearchQuery": "JCB excavator  Main Pin Bolt W/Self lock Nut 4\" product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Main%20Pin%20Bolt%20W/Self%20lock%20Nut%204%22%20product%20photo"
+    },
+    {
+      "id": "mk-012",
+      "name": "Main Pin Bolt W/Self lock Nut 4.1/2\"",
+      "category": "Bolts & Fasteners",
+      "code": "MK011A",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
+      "suggestedSearchQuery": "JCB excavator  Main Pin Bolt W/Self lock Nut 4.1/2\" product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Main%20Pin%20Bolt%20W/Self%20lock%20Nut%204.1/2%22%20product%20photo"
+    },
+    {
+      "id": "mk-013",
+      "name": "Main Pin Bolt W/Self lock Nut 5\"",
+      "category": "Bolts & Fasteners",
+      "code": "MK012",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
+      "suggestedSearchQuery": "JCB excavator  Main Pin Bolt W/Self lock Nut 5\" product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Main%20Pin%20Bolt%20W/Self%20lock%20Nut%205%22%20product%20photo"
+    },
+    {
+      "id": "mk-014",
+      "name": "Main Pin Bolt W/Self lock Nut 6\"",
+      "category": "Bolts & Fasteners",
+      "code": "MK013",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
+      "suggestedSearchQuery": "JCB excavator  Main Pin Bolt W/Self lock Nut 6\" product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Main%20Pin%20Bolt%20W/Self%20lock%20Nut%206%22%20product%20photo"
+    },
+    {
+      "id": "mk-015",
+      "name": "Main Pin Bolt W/Self lock Nut 7\"",
+      "category": "Bolts & Fasteners",
+      "code": "MK014",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
+      "suggestedSearchQuery": "JCB excavator  Main Pin Bolt W/Self lock Nut 7\" product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Main%20Pin%20Bolt%20W/Self%20lock%20Nut%207%22%20product%20photo"
+    },
+    {
+      "id": "mk-016",
+      "name": "Bucket Pin Bolt W/Self lock Nut 3\"",
+      "category": "Bolts & Fasteners",
+      "code": "MK015",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
+      "suggestedSearchQuery": "JCB excavator  Bucket Pin Bolt W/Self lock Nut 3\" product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Bucket%20Pin%20Bolt%20W/Self%20lock%20Nut%203%22%20product%20photo"
+    },
+    {
+      "id": "mk-017",
+      "name": "Bucket Pin Bolt W/Self lock Nut 3.1/2\"",
+      "category": "Bolts & Fasteners",
+      "code": "MK016",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
+      "suggestedSearchQuery": "JCB excavator  Bucket Pin Bolt W/Self lock Nut 3.1/2\" product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Bucket%20Pin%20Bolt%20W/Self%20lock%20Nut%203.1/2%22%20product%20photo"
+    },
+    {
+      "id": "mk-018",
+      "name": "Bucket Pin Bolt W/Self lock Nut 4\"",
+      "category": "Bolts & Fasteners",
+      "code": "MK016A",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
+      "suggestedSearchQuery": "JCB excavator  Bucket Pin Bolt W/Self lock Nut 4\" product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Bucket%20Pin%20Bolt%20W/Self%20lock%20Nut%204%22%20product%20photo"
+    },
+    {
+      "id": "mk-019",
+      "name": "Bucket Pin Bolt W/Self lock Nut 4.1/2\"",
+      "category": "Bolts & Fasteners",
+      "code": "MK017",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
+      "suggestedSearchQuery": "JCB excavator  Bucket Pin Bolt W/Self lock Nut 4.1/2\" product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Bucket%20Pin%20Bolt%20W/Self%20lock%20Nut%204.1/2%22%20product%20photo"
+    },
+    {
+      "id": "mk-020",
+      "name": "Bucket Pin Bolt W/Self lock Nut 5\"",
+      "category": "Bolts & Fasteners",
+      "code": "MK018",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
+      "suggestedSearchQuery": "JCB excavator  Bucket Pin Bolt W/Self lock Nut 5\" product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Bucket%20Pin%20Bolt%20W/Self%20lock%20Nut%205%22%20product%20photo"
+    },
+    {
+      "id": "mk-021",
+      "name": "Bucket Pin Bolt W/Self lock Nut 6\"",
+      "category": "Bolts & Fasteners",
+      "code": "MK019",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
+      "suggestedSearchQuery": "JCB excavator  Bucket Pin Bolt W/Self lock Nut 6\" product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Bucket%20Pin%20Bolt%20W/Self%20lock%20Nut%206%22%20product%20photo"
+    },
+    {
+      "id": "mk-189",
+      "name": "Slew Rod",
+      "category": "Rods, Tubes & Links",
+      "code": "",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Slew Rod product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Slew%20Rod%20product%20photo"
+    },
+    {
+      "id": "mk-190",
+      "name": "Stabilizer Rod",
+      "category": "Rods, Tubes & Links",
+      "code": "",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Stabilizer Rod product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Stabilizer%20Rod%20product%20photo"
+    },
+    {
+      "id": "mk-191",
+      "name": "Bucket Rod",
+      "category": "Rods, Tubes & Links",
+      "code": "",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Bucket Rod product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Bucket%20Rod%20product%20photo"
+    },
+    {
+      "id": "mk-192",
+      "name": "Dipper Rod",
+      "category": "Rods, Tubes & Links",
+      "code": "",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Dipper Rod product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Dipper%20Rod%20product%20photo"
+    },
+    {
+      "id": "mk-193",
+      "name": "Dipper Rod Extra",
+      "category": "Rods, Tubes & Links",
+      "code": "",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Dipper Rod Extra product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Dipper%20Rod%20Extra%20product%20photo"
+    },
+    {
+      "id": "mk-194",
+      "name": "Boom Rod",
+      "category": "Rods, Tubes & Links",
+      "code": "",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Boom Rod product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Boom%20Rod%20product%20photo"
+    },
+    {
+      "id": "mk-195",
+      "name": "Lift Rod",
+      "category": "Rods, Tubes & Links",
+      "code": "",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Lift Rod product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Lift%20Rod%20product%20photo"
+    },
+    {
+      "id": "mk-196",
+      "name": "Shovel Rod",
+      "category": "Rods, Tubes & Links",
+      "code": "",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Shovel Rod product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Shovel%20Rod%20product%20photo"
+    },
+    {
+      "id": "mk-197",
+      "name": "Slew Tube",
+      "category": "Rods, Tubes & Links",
+      "code": "",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Slew Tube product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Slew%20Tube%20product%20photo"
+    },
+    {
+      "id": "mk-198",
+      "name": "Stabilizer Tube",
+      "category": "Rods, Tubes & Links",
+      "code": "",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Stabilizer Tube product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Stabilizer%20Tube%20product%20photo"
+    },
+    {
+      "id": "mk-199",
+      "name": "Bucket Tube",
+      "category": "Rods, Tubes & Links",
+      "code": "",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Bucket Tube product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Bucket%20Tube%20product%20photo"
+    },
+    {
+      "id": "mk-200",
+      "name": "Dipper Tube",
+      "category": "Rods, Tubes & Links",
+      "code": "",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Dipper Tube product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Dipper%20Tube%20product%20photo"
+    },
+    {
+      "id": "mk-201",
+      "name": "Dipper Tube Extra",
+      "category": "Rods, Tubes & Links",
+      "code": "",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Dipper Tube Extra product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Dipper%20Tube%20Extra%20product%20photo"
+    },
+    {
+      "id": "mk-202",
+      "name": "Boom Tube",
+      "category": "Rods, Tubes & Links",
+      "code": "",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Boom Tube product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Boom%20Tube%20product%20photo"
+    },
+    {
+      "id": "mk-203",
+      "name": "Lift Tube",
+      "category": "Rods, Tubes & Links",
+      "code": "",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Lift Tube product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Lift%20Tube%20product%20photo"
+    },
+    {
+      "id": "mk-204",
+      "name": "Shovel Tube",
+      "category": "Rods, Tubes & Links",
+      "code": "",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Shovel Tube product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Shovel%20Tube%20product%20photo"
+    },
+    {
+      "id": "mk-205",
+      "name": "3 Pin Link (Tipping Lever)",
+      "category": "Rods, Tubes & Links",
+      "code": "",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-32-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  3 Pin Link (Tipping Lever) product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%203%20Pin%20Link%20%28Tipping%20Lever%29%20product%20photo"
+    },
+    {
+      "id": "mk-023",
+      "name": "Stick Bush For Bucket Pin",
+      "category": "Pins & Bushes",
+      "code": "MK018",
+      "partNumbers": [
+        "Sl/808/00125"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator Sl/808/00125 Stick Bush For Bucket Pin product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20Sl/808/00125%20Stick%20Bush%20For%20Bucket%20Pin%20product%20photo"
+    },
+    {
+      "id": "mk-024",
+      "name": "Tipping Lever Bush",
+      "category": "Pins & Bushes",
+      "code": "MK019",
+      "partNumbers": [
+        "MK/809/00129"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/809/00129 Tipping Lever Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/809/00129%20Tipping%20Lever%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-026",
+      "name": "Steering Bush",
+      "category": "Pins & Bushes",
+      "code": "MK020",
+      "partNumbers": [
+        "MK/808/00226"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/808/00226 Steering Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/808/00226%20Steering%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-027",
+      "name": "Tie rod Bush",
+      "category": "Pins & Bushes",
+      "code": "MK021",
+      "partNumbers": [
+        "MK/808/00237"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/808/00237 Tie rod Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/808/00237%20Tie%20rod%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-028",
+      "name": "Pivot Center Pin Bush",
+      "category": "Pins & Bushes",
+      "code": "MK022",
+      "partNumbers": [
+        "MK/808/00172"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/808/00172 Pivot Center Pin Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/808/00172%20Pivot%20Center%20Pin%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-029",
+      "name": "Pivot Center Pin Bush",
+      "category": "Pins & Bushes",
+      "code": "MK023",
+      "partNumbers": [
+        "MK/808/00173"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/808/00173 Pivot Center Pin Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/808/00173%20Pivot%20Center%20Pin%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-030",
+      "name": "King Pin Bush",
+      "category": "Pins & Bushes",
+      "code": "MK024",
+      "partNumbers": [
+        "MK/808/00176"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/808/00176 King Pin Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/808/00176%20King%20Pin%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-032",
+      "name": "Bush",
+      "category": "Pins & Bushes",
+      "code": "MK025",
+      "partNumbers": [
+        "MK/808/00186"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/808/00186 Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/808/00186%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-033",
+      "name": "Bush",
+      "category": "Pins & Bushes",
+      "code": "MK026",
+      "partNumbers": [
+        "MK/808/00214"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/808/00214 Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/808/00214%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-034",
+      "name": "Bush",
+      "category": "Pins & Bushes",
+      "code": "MK027",
+      "partNumbers": [
+        "MK/808/00216"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/808/00216 Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/808/00216%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-035",
+      "name": "Bush",
+      "category": "Pins & Bushes",
+      "code": "MK028",
+      "partNumbers": [
+        "MK/808/00364"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/808/00364 Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/808/00364%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-036",
+      "name": "Bush",
+      "category": "Pins & Bushes",
+      "code": "MK029",
+      "partNumbers": [
+        "MK/808/00388"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/808/00388 Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/808/00388%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-037",
+      "name": "Bush",
+      "category": "Pins & Bushes",
+      "code": "MK030",
+      "partNumbers": [
+        "MK/831/10211"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/831/10211 Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/831/10211%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-038",
+      "name": "Bush",
+      "category": "Pins & Bushes",
+      "code": "MK031",
+      "partNumbers": [
+        "MK/040/301542"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/040/301542 Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/040/301542%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-039",
+      "name": "Bush",
+      "category": "Pins & Bushes",
+      "code": "MK032",
+      "partNumbers": [
+        "MK/808/00229"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/808/00229 Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/808/00229%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-040",
+      "name": "Linear Bearing Bush",
+      "category": "Pins & Bushes",
+      "code": "MK033",
+      "partNumbers": [
+        "MK/831/10229"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/831/10229 Linear Bearing Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/831/10229%20Linear%20Bearing%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-165",
+      "name": "Housing Elen key Bolt",
+      "category": "Grease Nipples",
+      "code": "MK112",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Housing Elen key Bolt product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Housing%20Elen%20key%20Bolt%20product%20photo"
+    },
+    {
+      "id": "mk-166",
+      "name": "Grease Nipple 3/8 Straight Type",
+      "category": "Grease Nipples",
+      "code": "MK113",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Grease Nipple 3/8 Straight Type product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Grease%20Nipple%203/8%20Straight%20Type%20product%20photo"
+    },
+    {
+      "id": "mk-167",
+      "name": "Grease Nipple 3/8 Bend Type",
+      "category": "Grease Nipples",
+      "code": "MK114",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Grease Nipple 3/8 Bend Type product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Grease%20Nipple%203/8%20Bend%20Type%20product%20photo"
+    },
+    {
+      "id": "mk-168",
+      "name": "Grease Nipple 1/4 Straight Type",
+      "category": "Grease Nipples",
+      "code": "MK115",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Grease Nipple 1/4 Straight Type product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Grease%20Nipple%201/4%20Straight%20Type%20product%20photo"
+    },
+    {
+      "id": "mk-169",
+      "name": "Grease Nipple 1/4 Bend Type",
+      "category": "Grease Nipples",
+      "code": "MK116",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Grease Nipple 1/4 Bend Type product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Grease%20Nipple%201/4%20Bend%20Type%20product%20photo"
+    },
+    {
+      "id": "mk-170",
+      "name": "Grease Nipple 5/16 Straight Type",
+      "category": "Grease Nipples",
+      "code": "MK117",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Grease Nipple 5/16 Straight Type product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Grease%20Nipple%205/16%20Straight%20Type%20product%20photo"
+    },
+    {
+      "id": "mk-171",
+      "name": "Grease Nipple 5/16 Bend Type",
+      "category": "Grease Nipples",
+      "code": "MK118",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Grease Nipple 5/16 Bend Type product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Grease%20Nipple%205/16%20Bend%20Type%20product%20photo"
+    },
+    {
+      "id": "mk-172",
+      "name": "Grease Nipple For Boom",
+      "category": "Grease Nipples",
+      "code": "MK118A",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Grease Nipple For Boom product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Grease%20Nipple%20For%20Boom%20product%20photo"
+    },
+    {
+      "id": "mk-173",
+      "name": "Grease Nipple No. 15",
+      "category": "Grease Nipples",
+      "code": "",
+      "partNumbers": [
+        "MK/12008/0015",
+        "12008"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/12008/0015 Grease Nipple No. 15 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/12008/0015%20Grease%20Nipple%20No.%2015%20product%20photo"
+    },
+    {
+      "id": "mk-174",
+      "name": "Grease Nipple No. 18",
+      "category": "Grease Nipples",
+      "code": "",
+      "partNumbers": [
+        "MK/12008/0018",
+        "12008"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/12008/0018 Grease Nipple No. 18 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/12008/0018%20Grease%20Nipple%20No.%2018%20product%20photo"
+    },
+    {
+      "id": "mk-175",
+      "name": "Grease Nipple No. 23",
+      "category": "Grease Nipples",
+      "code": "",
+      "partNumbers": [
+        "MK/12008/0023",
+        "12008"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/12008/0023 Grease Nipple No. 23 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/12008/0023%20Grease%20Nipple%20No.%2023%20product%20photo"
+    },
+    {
+      "id": "mk-176",
+      "name": "Grease Nipple No. 31",
+      "category": "Grease Nipples",
+      "code": "",
+      "partNumbers": [
+        "MK/12008/0031",
+        "12008"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/12008/0031 Grease Nipple No. 31 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/12008/0031%20Grease%20Nipple%20No.%2031%20product%20photo"
+    },
+    {
+      "id": "grease-gun",
+      "name": "Grease Gun",
+      "category": "Tools & Accessories",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Grease Gun product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Grease%20Gun%20product%20photo"
+    },
+    {
+      "id": "grease-bucket",
+      "name": "Grease Bucket",
+      "category": "Tools & Accessories",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Grease Bucket product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Grease%20Bucket%20product%20photo"
+    },
+    {
+      "id": "hydraulic-jack",
+      "name": "Hydraulic Jack",
+      "category": "Tools & Accessories",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Hydraulic Jack product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Hydraulic%20Jack%20product%20photo"
+    },
+    {
+      "id": "wheel-spanner",
+      "name": "Wheel Spanner",
+      "category": "Tools & Accessories",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-10-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Wheel Spanner product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Wheel%20Spanner%20product%20photo"
+    },
+    {
+      "id": "mk-150",
+      "name": "Bucket Boss 80 MM (Bucket Sleeve)",
+      "category": "Bucket Boss & Sleeves",
+      "code": "MK105",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Bucket Boss 80 MM (Bucket Sleeve) product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Bucket%20Boss%2080%20MM%20%28Bucket%20Sleeve%29%20product%20photo"
+    },
+    {
+      "id": "mk-151",
+      "name": "Bucket Boss 90 MM (Bucket Sleeve)",
+      "category": "Bucket Boss & Sleeves",
+      "code": "MK105A",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Bucket Boss 90 MM (Bucket Sleeve) product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Bucket%20Boss%2090%20MM%20%28Bucket%20Sleeve%29%20product%20photo"
+    },
+    {
+      "id": "mk-152",
+      "name": "100X50372X65L-NO drill 100*60*65L",
+      "category": "Bucket Boss & Sleeves",
+      "code": "MK106",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  100X50372X65L-NO drill 100*60*65L product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20100X50372X65L-NO%20drill%20100%2A60%2A65L%20product%20photo"
+    },
+    {
+      "id": "mk-153",
+      "name": "100X50372X80L Hole CD-22mm 100*60*80L",
+      "category": "Bucket Boss & Sleeves",
+      "code": "MK107",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  100X50372X80L Hole CD-22mm 100*60*80L product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20100X50372X80L%20Hole%20CD-22mm%20100%2A60%2A80L%20product%20photo"
+    },
+    {
+      "id": "mk-154",
+      "name": "Dipper Sleeve 80MM (750 BUSH)",
+      "category": "Bucket Boss & Sleeves",
+      "code": "MK106B",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Dipper Sleeve 80MM (750 BUSH) product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Dipper%20Sleeve%2080MM%20%28750%20BUSH%29%20product%20photo"
+    },
+    {
+      "id": "mk-155",
+      "name": "Dipper Sleeve 80MM (129 BUSH)",
+      "category": "Bucket Boss & Sleeves",
+      "code": "MK106C",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Dipper Sleeve 80MM (129 BUSH) product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Dipper%20Sleeve%2080MM%20%28129%20BUSH%29%20product%20photo"
+    },
+    {
+      "id": "mk-156",
+      "name": "Dipper Sleeve 90MM(129 BUSH)",
+      "category": "Bucket Boss & Sleeves",
+      "code": "MK107",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Dipper Sleeve 90MM(129 BUSH) product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Dipper%20Sleeve%2090MM%28129%20BUSH%29%20product%20photo"
+    },
+    {
+      "id": "mk-157",
+      "name": "Dipper Sleeve 90MM (750 BUSH)",
+      "category": "Bucket Boss & Sleeves",
+      "code": "MK107A",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Dipper Sleeve 90MM (750 BUSH) product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Dipper%20Sleeve%2090MM%20%28750%20BUSH%29%20product%20photo"
+    },
+    {
+      "id": "mk-158",
+      "name": "BOSS Y-4392/ 9723",
+      "category": "Bucket Boss & Sleeves",
+      "code": "MK107B",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  BOSS Y-4392/ 9723 product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20BOSS%20Y-4392/%209723%20product%20photo"
+    },
+    {
+      "id": "mk-159",
+      "name": "Boss (2062)[SET OF 2]",
+      "category": "Bucket Boss & Sleeves",
+      "code": "MK108",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Boss (2062)[SET OF 2] product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Boss%20%282062%29%5BSET%20OF%202%5D%20product%20photo"
+    },
+    {
+      "id": "mk-160",
+      "name": "Loader Sleeve FOR 23NO CUT BUSH",
+      "category": "Bucket Boss & Sleeves",
+      "code": "MK108A",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Loader Sleeve FOR 23NO CUT BUSH product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Loader%20Sleeve%20FOR%2023NO%20CUT%20BUSH%20product%20photo"
+    },
+    {
+      "id": "mk-161",
+      "name": "Centre Pin Boss [SET OF 2]",
+      "category": "Bucket Boss & Sleeves",
+      "code": "MK108B",
+      "partNumbers": [
+        "10091"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator 10091 Centre Pin Boss [SET OF 2] product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%2010091%20Centre%20Pin%20Boss%20%5BSET%20OF%202%5D%20product%20photo"
+    },
+    {
+      "id": "mk-162",
+      "name": "Joint Clamp E/Heavy",
+      "category": "Bucket Boss & Sleeves",
+      "code": "MK109",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Joint Clamp E/Heavy product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Joint%20Clamp%20E/Heavy%20product%20photo"
+    },
+    {
+      "id": "mk-163",
+      "name": "Loader Sleeve Set [SET OF 2]",
+      "category": "Bucket Boss & Sleeves",
+      "code": "MK110",
+      "partNumbers": [
+        "80001"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator 80001 Loader Sleeve Set [SET OF 2] product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%2080001%20Loader%20Sleeve%20Set%20%5BSET%20OF%202%5D%20product%20photo"
+    },
+    {
+      "id": "mk-164",
+      "name": "BOSS [SET OF2]",
+      "category": "Bucket Boss & Sleeves",
+      "code": "MK111",
+      "partNumbers": [
+        "50569"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-06-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator 50569 BOSS [SET OF2] product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%2050569%20BOSS%20%5BSET%20OF2%5D%20product%20photo"
+    },
+    {
+      "id": "mk-022",
+      "name": "Bucket Pin Bush",
+      "category": "Pins & Bushes",
+      "code": "MK017",
+      "partNumbers": [
+        "Sl/40/300750"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator Sl/40/300750 Bucket Pin Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20Sl/40/300750%20Bucket%20Pin%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-025",
+      "name": "Bush Alloy",
+      "category": "Pins & Bushes",
+      "code": "MK019A",
+      "partNumbers": [
+        "MK/40/301610"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/40/301610 Bush Alloy product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/40/301610%20Bush%20Alloy%20product%20photo"
+    },
+    {
+      "id": "mk-031",
+      "name": "King Pin Bush",
+      "category": "Pins & Bushes",
+      "code": "MK024A",
+      "partNumbers": [
+        "MK/808/00176"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/808/00176 King Pin Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/808/00176%20King%20Pin%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-041",
+      "name": "Bush",
+      "category": "Pins & Bushes",
+      "code": "MK035",
+      "partNumbers": [
+        "MK/809/00131"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/809/00131 Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/809/00131%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-042",
+      "name": "Bush",
+      "category": "Pins & Bushes",
+      "code": "MK036",
+      "partNumbers": [
+        "MK/550/00548"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/550/00548 Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/550/00548%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-043",
+      "name": "Bush",
+      "category": "Pins & Bushes",
+      "code": "MK037",
+      "partNumbers": [
+        "MK/335/C5739"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/335/C5739 Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/335/C5739%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-044",
+      "name": "Dipper Ram Rod Bush",
+      "category": "Pins & Bushes",
+      "code": "MK037A",
+      "partNumbers": [
+        "MK/550/40899"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/550/40899 Dipper Ram Rod Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/550/40899%20Dipper%20Ram%20Rod%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-045",
+      "name": "Dipper Ram Rod Bush",
+      "category": "Pins & Bushes",
+      "code": "MK037B",
+      "partNumbers": [
+        "MK/550/40898"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/550/40898 Dipper Ram Rod Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/550/40898%20Dipper%20Ram%20Rod%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-046",
+      "name": "Dipper Ram Rod Bush",
+      "category": "Pins & Bushes",
+      "code": "MK037C",
+      "partNumbers": [
+        "550/40927"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator 550/40927 Dipper Ram Rod Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20550/40927%20Dipper%20Ram%20Rod%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-047",
+      "name": "Dipper Ram Rod Bush",
+      "category": "Pins & Bushes",
+      "code": "MK037D",
+      "partNumbers": [
+        "MK/550/40926"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/550/40926 Dipper Ram Rod Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/550/40926%20Dipper%20Ram%20Rod%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-048",
+      "name": "Dipper Ram Rod Bush",
+      "category": "Pins & Bushes",
+      "code": "MK037E",
+      "partNumbers": [
+        "550/40983"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator 550/40983 Dipper Ram Rod Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20550/40983%20Dipper%20Ram%20Rod%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-049",
+      "name": "Dipper Ram Rod Bush",
+      "category": "Pins & Bushes",
+      "code": "MK037F",
+      "partNumbers": [
+        "550/40899"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator 550/40899 Dipper Ram Rod Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20550/40899%20Dipper%20Ram%20Rod%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-050",
+      "name": "Dipper Ram Rod Bush",
+      "category": "Pins & Bushes",
+      "code": "MK037G",
+      "partNumbers": [
+        "MK550/40982"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK550/40982 Dipper Ram Rod Bush product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK550/40982%20Dipper%20Ram%20Rod%20Bush%20product%20photo"
+    },
+    {
+      "id": "mk-099",
+      "name": "Bucket Pin Collar 3D",
+      "category": "Pin Collars & Stub Axle",
+      "code": "MK074",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-28-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Bucket Pin Collar 3D product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Bucket%20Pin%20Collar%203D%20product%20photo"
+    },
+    {
+      "id": "mk-100",
+      "name": "Bucket Pin Collar (3DX)",
+      "category": "Pin Collars & Stub Axle",
+      "code": "MK074A",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-28-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Bucket Pin Collar (3DX) product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Bucket%20Pin%20Collar%20%283DX%29%20product%20photo"
+    },
+    {
+      "id": "mk-101",
+      "name": "Bucket Pin Collar 3DX 70MM",
+      "category": "Pin Collars & Stub Axle",
+      "code": "MK074B",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-28-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Bucket Pin Collar 3DX 70MM product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Bucket%20Pin%20Collar%203DX%2070MM%20product%20photo"
+    },
+    {
+      "id": "mk-102",
+      "name": "Boom Pin Collar Cut Type",
+      "category": "Pin Collars & Stub Axle",
+      "code": "MK075",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-28-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Boom Pin Collar Cut Type product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Boom%20Pin%20Collar%20Cut%20Type%20product%20photo"
+    },
+    {
+      "id": "mk-103",
+      "name": "Boom Pin Collar 85 OD O.E. TYPE",
+      "category": "Pin Collars & Stub Axle",
+      "code": "MK075A",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-28-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Boom Pin Collar 85 OD O.E. TYPE product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Boom%20Pin%20Collar%2085%20OD%20O.E.%20TYPE%20product%20photo"
+    },
+    {
+      "id": "mk-104",
+      "name": "Stub Axle",
+      "category": "Pin Collars & Stub Axle",
+      "code": "",
+      "partNumbers": [
+        "333/Y4580"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p02-28-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator 333/Y4580 Stub Axle product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20333/Y4580%20Stub%20Axle%20product%20photo"
+    },
+    {
+      "id": "mk-177",
+      "name": "Annulus Ring Gear",
+      "category": "Gear Parts",
+      "code": "",
+      "partNumbers": [
+        "450/10205"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-planetary-gear-png.webp",
+      "suggestedSearchQuery": "JCB excavator 450/10205 Annulus Ring Gear product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20450/10205%20Annulus%20Ring%20Gear%20product%20photo"
+    },
+    {
+      "id": "mk-178",
+      "name": "Planet Gear",
+      "category": "Gear Parts",
+      "code": "",
+      "partNumbers": [
+        "450/10206"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-planetary-gear-png.webp",
+      "suggestedSearchQuery": "JCB excavator 450/10206 Planet Gear product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20450/10206%20Planet%20Gear%20product%20photo"
+    },
+    {
+      "id": "mk-179",
+      "name": "Sun Gear",
+      "category": "Gear Parts",
+      "code": "",
+      "partNumbers": [
+        "450/10210"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-planetary-gear-png.webp",
+      "suggestedSearchQuery": "JCB excavator 450/10210 Sun Gear product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20450/10210%20Sun%20Gear%20product%20photo"
+    },
+    {
+      "id": "mk-180",
+      "name": "Carrier Annulus",
+      "category": "Gear Parts",
+      "code": "",
+      "partNumbers": [
+        "450/12702"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-planetary-gear-png.webp",
+      "suggestedSearchQuery": "JCB excavator 450/12702 Carrier Annulus product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20450/12702%20Carrier%20Annulus%20product%20photo"
+    },
+    {
+      "id": "mk-181",
+      "name": "Planet Bearing",
+      "category": "Gear Parts",
+      "code": "",
+      "partNumbers": [
+        "50200"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-planetary-gear-png.webp",
+      "suggestedSearchQuery": "JCB excavator 50200 Planet Bearing product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%2050200%20Planet%20Bearing%20product%20photo"
+    },
+    {
+      "id": "mk-182",
+      "name": "Planetary Gear with Bearing Assembly450/ -A",
+      "category": "Gear Parts",
+      "code": "",
+      "partNumbers": [
+        "10206"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-planetary-gear-png.webp",
+      "suggestedSearchQuery": "JCB excavator 10206 Planetary Gear with Bearing Assembly450/ -A product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%2010206%20Planetary%20Gear%20with%20Bearing%20Assembly450/%20-A%20product%20photo"
+    },
+    {
+      "id": "mk-183",
+      "name": "Bucket Kit ( )",
+      "category": "Kits & Overhauls",
+      "code": "",
+      "partNumbers": [
+        "550/42700",
+        "12400/4626",
+        "12400"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p04-21-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator 550/42700 Bucket Kit ( ) product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20550/42700%20Bucket%20Kit%20%28%20%29%20product%20photo"
+    },
+    {
+      "id": "mk-184",
+      "name": "Bucket Kit (2062)",
+      "category": "Kits & Overhauls",
+      "code": "",
+      "partNumbers": [
+        "550/42700-A",
+        "42700"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p04-21-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator 550/42700-A Bucket Kit (2062) product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20550/42700-A%20Bucket%20Kit%20%282062%29%20product%20photo"
+    },
+    {
+      "id": "mk-185",
+      "name": "King Pin Kit ( )",
+      "category": "Kits & Overhauls",
+      "code": "",
+      "partNumbers": [
+        "550/42701",
+        "30001"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p04-21-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator 550/42701 King Pin Kit ( ) product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20550/42701%20King%20Pin%20Kit%20%28%20%29%20product%20photo"
+    },
+    {
+      "id": "mk-186",
+      "name": "King Pin Kit 1184 ( )",
+      "category": "Kits & Overhauls",
+      "code": "",
+      "partNumbers": [
+        "550/42701-A",
+        "42701"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p04-21-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator 550/42701-A King Pin Kit 1184 ( ) product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20550/42701-A%20King%20Pin%20Kit%201184%20%28%20%29%20product%20photo"
+    },
+    {
+      "id": "mk-187",
+      "name": "KPC OVERHAUL Kit",
+      "category": "Kits & Overhauls",
+      "code": "",
+      "partNumbers": [
+        "40048"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p04-21-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator 40048 KPC OVERHAUL Kit product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%2040048%20KPC%20OVERHAUL%20Kit%20product%20photo"
+    },
+    {
+      "id": "mk-188",
+      "name": "KPC OVERHAUL Kit",
+      "category": "Kits & Overhauls",
+      "code": "",
+      "partNumbers": [
+        "40104"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p04-21-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator 40104 KPC OVERHAUL Kit product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%2040104%20KPC%20OVERHAUL%20Kit%20product%20photo"
+    },
+    {
+      "id": "jcb-teeth-center",
+      "name": "JCB Teeth Center",
+      "category": "JCB Teeth & Cutters",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-bucket-teeth-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  JCB Teeth Center product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20JCB%20Teeth%20Center%20product%20photo"
+    },
+    {
+      "id": "plain-type-tooth",
+      "name": "Plain Type Bucket Tooth",
+      "category": "JCB Teeth & Cutters",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-bucket-teeth-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Plain Type Bucket Tooth product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Plain%20Type%20Bucket%20Tooth%20product%20photo"
+    },
+    {
+      "id": "crocodile-side-cutter",
+      "name": "Crocodile Type Side Cutter",
+      "category": "JCB Teeth & Cutters",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-bucket-teeth-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Crocodile Type Side Cutter product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Crocodile%20Type%20Side%20Cutter%20product%20photo"
+    },
+    {
+      "id": "jcb-side-cutter",
+      "name": "JCB Side Cutter Teeth",
+      "category": "JCB Teeth & Cutters",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-bucket-teeth-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  JCB Side Cutter Teeth product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20JCB%20Side%20Cutter%20Teeth%20product%20photo"
+    },
+    {
+      "id": "terex-side-cutter",
+      "name": "Terex Side Cutter",
+      "category": "JCB Teeth & Cutters",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-bucket-teeth-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Terex Side Cutter product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Terex%20Side%20Cutter%20product%20photo"
+    },
+    {
+      "id": "mk-004",
+      "name": "Front Wheel Bolt",
+      "category": "Bolts & Fasteners",
+      "code": "MK004",
+      "partNumbers": [
+        "MK/826/00533"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-wheel-bolt-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator MK/826/00533 Front Wheel Bolt product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20MK/826/00533%20Front%20Wheel%20Bolt%20product%20photo"
+    },
+    {
+      "id": "mk-005",
+      "name": "Rear Wheel Bolt Small",
+      "category": "Bolts & Fasteners",
+      "code": "MK005",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-jcb-wheel-bolt-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Rear Wheel Bolt Small product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Rear%20Wheel%20Bolt%20Small%20product%20photo"
+    },
+    {
+      "id": "mk-006",
+      "name": "Rear Wheel Disc Plate Bolt",
+      "category": "Bolts & Fasteners",
+      "code": "MK006",
+      "partNumbers": [],
+      "currentImage": "web-products/watermarked/web-products-jcb-wheel-bolt-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Rear Wheel Disc Plate Bolt product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Rear%20Wheel%20Disc%20Plate%20Bolt%20product%20photo"
+    },
+    {
+      "id": "mk-007",
+      "name": "Rear Wheel Bolt Big",
+      "category": "Bolts & Fasteners",
+      "code": "MK007",
+      "partNumbers": [
+        "826/009"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-wheel-bolt-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator 826/009 Rear Wheel Bolt Big product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20826/009%20Rear%20Wheel%20Bolt%20Big%20product%20photo"
+    },
+    {
+      "id": "jcb-oil-filter",
+      "name": "JCB Oil Filter",
+      "category": "Filters",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-air-filter-png.webp",
+      "suggestedSearchQuery": "JCB excavator  JCB Oil Filter product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20JCB%20Oil%20Filter%20product%20photo"
+    },
+    {
+      "id": "jcb-air-filter-kit",
+      "name": "JCB Air Filter Kit",
+      "category": "Filters",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-air-filter-png.webp",
+      "suggestedSearchQuery": "JCB excavator  JCB Air Filter Kit product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20JCB%20Air%20Filter%20Kit%20product%20photo"
+    },
+    {
+      "id": "air-filter-element",
+      "name": "Air Filter Element",
+      "category": "Filters",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-air-filter-png.webp",
+      "suggestedSearchQuery": "JCB excavator  Air Filter Element product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Air%20Filter%20Element%20product%20photo"
+    },
+    {
+      "id": "fuel-filter",
+      "name": "Fuel Filter",
+      "category": "Filters",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-air-filter-png.webp",
+      "suggestedSearchQuery": "JCB excavator  Fuel Filter product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Fuel%20Filter%20product%20photo"
+    },
+    {
+      "id": "gaskets",
+      "name": "Gaskets",
+      "category": "Seals & Gaskets",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p04-18-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Gaskets product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Gaskets%20product%20photo"
+    },
+    {
+      "id": "oil-seal-washers",
+      "name": "Oil Seal & Washers",
+      "category": "Seals & Gaskets",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p04-18-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Oil Seal & Washers product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Oil%20Seal%20%26%20Washers%20product%20photo"
+    },
+    {
+      "id": "hub-repair-kit",
+      "name": "Hub Repair Kit",
+      "category": "Seals & Gaskets",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p04-18-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Hub Repair Kit product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Hub%20Repair%20Kit%20product%20photo"
+    },
+    {
+      "id": "friction-plates",
+      "name": "JCB Friction Plates",
+      "category": "Seals & Gaskets",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p04-18-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  JCB Friction Plates product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20JCB%20Friction%20Plates%20product%20photo"
+    },
+    {
+      "id": "truck-hub-wheel-bolts",
+      "name": "Truck Hub Wheel Centre Bolts",
+      "category": "Truck & Car Parts",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-spare-parts-catalogue-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Truck Hub Wheel Centre Bolts product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Truck%20Hub%20Wheel%20Centre%20Bolts%20product%20photo"
+    },
+    {
+      "id": "u-bolts",
+      "name": "U-Bolts All Sizes",
+      "category": "Truck & Car Parts",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-spare-parts-catalogue-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  U-Bolts All Sizes product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20U-Bolts%20All%20Sizes%20product%20photo"
+    },
+    {
+      "id": "battery-terminals",
+      "name": "Battery Terminals",
+      "category": "Truck & Car Parts",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-spare-parts-catalogue-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Battery Terminals product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Battery%20Terminals%20product%20photo"
+    },
+    {
+      "id": "disc-rotor",
+      "name": "Disc Rotor",
+      "category": "Truck & Car Parts",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-spare-parts-catalogue-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Disc Rotor product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Disc%20Rotor%20product%20photo"
+    },
+    {
+      "id": "backhoe-loader-tyre",
+      "name": "Backhoe Loader Tyre",
+      "category": "Tyres",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-tyre-png.webp",
+      "suggestedSearchQuery": "JCB excavator  Backhoe Loader Tyre product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Backhoe%20Loader%20Tyre%20product%20photo"
+    },
+    {
+      "id": "excavator-tyre",
+      "name": "Excavator Tyre",
+      "category": "Tyres",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-tyre-png.webp",
+      "suggestedSearchQuery": "JCB excavator  Excavator Tyre product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Excavator%20Tyre%20product%20photo"
+    },
+    {
+      "id": "forklift-tyre",
+      "name": "Forklift Tyre",
+      "category": "Tyres",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-tyre-png.webp",
+      "suggestedSearchQuery": "JCB excavator  Forklift Tyre product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Forklift%20Tyre%20product%20photo"
+    },
+    {
+      "id": "jcb-working-lamp",
+      "name": "JCB Working Lamp",
+      "category": "Electricals & Lighting",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-lights-working-lamp-square-webp.webp",
+      "suggestedSearchQuery": "JCB excavator  JCB Working Lamp product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20JCB%20Working%20Lamp%20product%20photo"
+    },
+    {
+      "id": "light-working-lamp-square",
+      "name": "Working Lamp Square",
+      "category": "Electricals & Lighting",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-lights-working-lamp-square-webp.webp",
+      "suggestedSearchQuery": "JCB excavator  Working Lamp Square product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Working%20Lamp%20Square%20product%20photo"
+    },
+    {
+      "id": "jcb-headlamp",
+      "name": "JCB Headlamp",
+      "category": "Electricals & Lighting",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-lights-jcb-headlamp-new-webp.webp",
+      "suggestedSearchQuery": "JCB excavator  JCB Headlamp product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20JCB%20Headlamp%20product%20photo"
+    },
+    {
+      "id": "light-jcb-headlamp-new",
+      "name": "JCB Headlamp New",
+      "category": "Electricals & Lighting",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-lights-jcb-headlamp-new-webp.webp",
+      "suggestedSearchQuery": "JCB excavator  JCB Headlamp New product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20JCB%20Headlamp%20New%20product%20photo"
+    },
+    {
+      "id": "jcb-tail-lamp",
+      "name": "JCB Tail Lamp",
+      "category": "Electricals & Lighting",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-lights-jcb-tail-lamp-oval-big-webp.webp",
+      "suggestedSearchQuery": "JCB excavator  JCB Tail Lamp product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20JCB%20Tail%20Lamp%20product%20photo"
+    },
+    {
+      "id": "light-jcb-tail-lamp-oval-big",
+      "name": "JCB Tail Lamp Oval Big",
+      "category": "Electricals & Lighting",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-jcb-lights-jcb-tail-lamp-oval-big-webp.webp",
+      "suggestedSearchQuery": "JCB excavator  JCB Tail Lamp Oval Big product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20JCB%20Tail%20Lamp%20Oval%20Big%20product%20photo"
+    },
+    {
+      "id": "forward-reverse-switch",
+      "name": "Forward & Reverse Switch",
+      "category": "Electricals & Lighting",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-51-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Forward & Reverse Switch product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Forward%20%26%20Reverse%20Switch%20product%20photo"
+    },
+    {
+      "id": "water-temperature-meter",
+      "name": "Water Temperature Meter",
+      "category": "Electricals & Lighting",
+      "code": "",
+      "partNumbers": [
+        "On request"
+      ],
+      "currentImage": "web-products/watermarked/web-products-catalogue-p03-51-jpg.webp",
+      "suggestedSearchQuery": "JCB excavator  Water Temperature Meter product photo",
+      "suggestedSearchUrl": "https://www.bing.com/images/search?q=JCB%20excavator%20%20Water%20Temperature%20Meter%20product%20photo"
+    }
+  ]
+}

@@ -67,7 +67,7 @@ window.MAK_CATEGORIES = [
     "slug": "gear-parts",
     "title": "Gear Parts",
     "page": "gears.html",
-    "image": "web-products/watermarked/web-products-catalogue-p04-34-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-planetary-gear-png.webp",
     "summary": "Annulus rings, planet gears, sun gears, carrier annulus and planetary gear assemblies.",
     "count": 6
   },
@@ -91,7 +91,7 @@ window.MAK_CATEGORIES = [
     "slug": "jcb-teeth-cutters",
     "title": "JCB Teeth & Cutters",
     "page": "jcb-teeth.html",
-    "image": "web-products/watermarked/web-products-catalogue-p03-30-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-bucket-teeth-jpg.webp",
     "summary": "JCB centre teeth, side cutters, crocodile cutters and plain bucket teeth.",
     "count": 5
   },
@@ -99,7 +99,7 @@ window.MAK_CATEGORIES = [
     "slug": "filters",
     "title": "Filters",
     "page": "filters.html",
-    "image": "web-products/watermarked/web-products-catalogue-p04-36-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-air-filter-png.webp",
     "summary": "Oil, air, fuel and service filter products for JCB and heavy machinery.",
     "count": 4
   },
@@ -107,7 +107,7 @@ window.MAK_CATEGORIES = [
     "slug": "tyres",
     "title": "Tyres",
     "page": "tyres.html",
-    "image": "web-products/watermarked/web-products-catalogue-p04-23-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-tyre-png.webp",
     "summary": "Backhoe loader, excavator, forklift, grader and truck tyres for site work.",
     "count": 3
   },
@@ -218,7 +218,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/teeth-cutter-bolt-mk-990-14900.html"
+    "detailPage": "product-pages/teeth-cutter-bolt-mk-990-14900.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-002",
@@ -236,7 +237,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/teeth-cutter-bolt-mk-990-45900.html"
+    "detailPage": "product-pages/teeth-cutter-bolt-mk-990-45900.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-003",
@@ -252,7 +254,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/swing-plate-bolt-product.html"
+    "detailPage": "product-pages/swing-plate-bolt-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-004",
@@ -262,7 +265,7 @@ window.MAK_PRODUCTS = [
     "category": "Bolts & Fasteners",
     "categorySlug": "bolts-fasteners",
     "page": "bolts.html",
-    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
+    "image": "web-products/watermarked/web-products-jcb-wheel-bolt-jpg.webp",
     "partNumbers": [
       "MK/826/00533"
     ],
@@ -270,7 +273,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/front-wheel-bolt-mk-826-00533.html"
+    "detailPage": "product-pages/front-wheel-bolt-mk-826-00533.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "mk-005",
@@ -280,13 +284,14 @@ window.MAK_PRODUCTS = [
     "category": "Bolts & Fasteners",
     "categorySlug": "bolts-fasteners",
     "page": "bolts.html",
-    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
+    "image": "web-products/watermarked/web-products-jcb-wheel-bolt-jpg.webp",
     "partNumbers": [],
     "material": "Alloy Steel, Tempered",
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/rear-wheel-bolt-small-product.html"
+    "detailPage": "product-pages/rear-wheel-bolt-small-product.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "mk-006",
@@ -296,13 +301,14 @@ window.MAK_PRODUCTS = [
     "category": "Bolts & Fasteners",
     "categorySlug": "bolts-fasteners",
     "page": "bolts.html",
-    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
+    "image": "web-products/watermarked/web-products-jcb-wheel-bolt-jpg.webp",
     "partNumbers": [],
     "material": "Available on request",
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/rear-wheel-disc-plate-bolt-product.html"
+    "detailPage": "product-pages/rear-wheel-disc-plate-bolt-product.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "mk-007",
@@ -312,7 +318,7 @@ window.MAK_PRODUCTS = [
     "category": "Bolts & Fasteners",
     "categorySlug": "bolts-fasteners",
     "page": "bolts.html",
-    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
+    "image": "web-products/watermarked/web-products-jcb-wheel-bolt-jpg.webp",
     "partNumbers": [
       "826/009"
     ],
@@ -320,7 +326,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/rear-wheel-bolt-big-826-009.html"
+    "detailPage": "product-pages/rear-wheel-bolt-big-826-009.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "mk-008",
@@ -338,7 +345,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/hydro-clamp-bolt-with-nut-mk-123-00928.html"
+    "detailPage": "product-pages/hydro-clamp-bolt-with-nut-mk-123-00928.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-009",
@@ -356,7 +364,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/hydro-clamp-bolt-with-nut-3dx-mk-826-10382.html"
+    "detailPage": "product-pages/hydro-clamp-bolt-with-nut-3dx-mk-826-10382.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-010",
@@ -372,7 +381,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/hydro-clamp-bolt-nut-only-product.html"
+    "detailPage": "product-pages/hydro-clamp-bolt-nut-only-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-011",
@@ -388,7 +398,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/main-pin-bolt-w-self-lock-nut-4-product.html"
+    "detailPage": "product-pages/main-pin-bolt-w-self-lock-nut-4-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-012",
@@ -404,7 +415,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/main-pin-bolt-w-self-lock-nut-4-1-2-product.html"
+    "detailPage": "product-pages/main-pin-bolt-w-self-lock-nut-4-1-2-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-013",
@@ -420,7 +432,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/main-pin-bolt-w-self-lock-nut-5-product.html"
+    "detailPage": "product-pages/main-pin-bolt-w-self-lock-nut-5-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-014",
@@ -436,7 +449,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/main-pin-bolt-w-self-lock-nut-6-product.html"
+    "detailPage": "product-pages/main-pin-bolt-w-self-lock-nut-6-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-015",
@@ -452,7 +466,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/main-pin-bolt-w-self-lock-nut-7-product.html"
+    "detailPage": "product-pages/main-pin-bolt-w-self-lock-nut-7-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-016",
@@ -468,7 +483,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/bucket-pin-bolt-w-self-lock-nut-3-product.html"
+    "detailPage": "product-pages/bucket-pin-bolt-w-self-lock-nut-3-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-017",
@@ -484,7 +500,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/bucket-pin-bolt-w-self-lock-nut-3-1-2-product.html"
+    "detailPage": "product-pages/bucket-pin-bolt-w-self-lock-nut-3-1-2-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-018",
@@ -500,7 +517,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/bucket-pin-bolt-w-self-lock-nut-4-product.html"
+    "detailPage": "product-pages/bucket-pin-bolt-w-self-lock-nut-4-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-019",
@@ -516,7 +534,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/bucket-pin-bolt-w-self-lock-nut-4-1-2-product.html"
+    "detailPage": "product-pages/bucket-pin-bolt-w-self-lock-nut-4-1-2-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-020",
@@ -532,7 +551,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/bucket-pin-bolt-w-self-lock-nut-5-product.html"
+    "detailPage": "product-pages/bucket-pin-bolt-w-self-lock-nut-5-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-021",
@@ -548,7 +568,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bolts & Fasteners item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/bucket-pin-bolt-w-self-lock-nut-6-product.html"
+    "detailPage": "product-pages/bucket-pin-bolt-w-self-lock-nut-6-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-022",
@@ -558,7 +579,7 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
     "partNumbers": [
       "Sl/40/300750"
     ],
@@ -566,7 +587,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/bucket-pin-bush-sl-40-300750.html"
+    "detailPage": "product-pages/bucket-pin-bush-sl-40-300750.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "mk-023",
@@ -584,7 +606,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/stick-bush-for-bucket-pin-sl-808-00125.html"
+    "detailPage": "product-pages/stick-bush-for-bucket-pin-sl-808-00125.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-024",
@@ -602,7 +625,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/tipping-lever-bush-mk-809-00129.html"
+    "detailPage": "product-pages/tipping-lever-bush-mk-809-00129.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-025",
@@ -612,7 +636,7 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
     "partNumbers": [
       "MK/40/301610"
     ],
@@ -620,7 +644,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/bush-alloy-mk-40-301610.html"
+    "detailPage": "product-pages/bush-alloy-mk-40-301610.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "mk-026",
@@ -638,7 +663,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/steering-bush-mk-808-00226.html"
+    "detailPage": "product-pages/steering-bush-mk-808-00226.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-027",
@@ -656,7 +682,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/tie-rod-bush-mk-808-00237.html"
+    "detailPage": "product-pages/tie-rod-bush-mk-808-00237.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-028",
@@ -674,7 +701,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/pivot-center-pin-bush-mk-808-00172.html"
+    "detailPage": "product-pages/pivot-center-pin-bush-mk-808-00172.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-029",
@@ -692,7 +720,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/pivot-center-pin-bush-mk-808-00173.html"
+    "detailPage": "product-pages/pivot-center-pin-bush-mk-808-00173.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-030",
@@ -710,7 +739,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/king-pin-bush-mk-808-00176.html"
+    "detailPage": "product-pages/king-pin-bush-mk-808-00176.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-031",
@@ -720,7 +750,7 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
     "partNumbers": [
       "MK/808/00176"
     ],
@@ -728,7 +758,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/king-pin-bush-mk-031.html"
+    "detailPage": "product-pages/king-pin-bush-mk-031.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "mk-032",
@@ -900,7 +931,7 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
     "partNumbers": [
       "MK/809/00131"
     ],
@@ -908,7 +939,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/bush-mk-809-00131.html"
+    "detailPage": "product-pages/bush-mk-809-00131.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "mk-042",
@@ -918,7 +950,7 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
     "partNumbers": [
       "MK/550/00548"
     ],
@@ -926,7 +958,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/bush-mk-550-00548.html"
+    "detailPage": "product-pages/bush-mk-550-00548.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "mk-043",
@@ -936,7 +969,7 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
     "partNumbers": [
       "MK/335/C5739"
     ],
@@ -944,7 +977,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/bush-mk-335-c5739.html"
+    "detailPage": "product-pages/bush-mk-335-c5739.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "mk-044",
@@ -954,7 +988,7 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
     "partNumbers": [
       "MK/550/40899"
     ],
@@ -962,7 +996,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/dipper-ram-rod-bush-mk-550-40899.html"
+    "detailPage": "product-pages/dipper-ram-rod-bush-mk-550-40899.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "mk-045",
@@ -972,7 +1007,7 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
     "partNumbers": [
       "MK/550/40898"
     ],
@@ -980,7 +1015,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/dipper-ram-rod-bush-mk-550-40898.html"
+    "detailPage": "product-pages/dipper-ram-rod-bush-mk-550-40898.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "mk-046",
@@ -990,7 +1026,7 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
     "partNumbers": [
       "550/40927"
     ],
@@ -998,7 +1034,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/dipper-ram-rod-bush-550-40927.html"
+    "detailPage": "product-pages/dipper-ram-rod-bush-550-40927.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "mk-047",
@@ -1008,7 +1045,7 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
     "partNumbers": [
       "MK/550/40926"
     ],
@@ -1016,7 +1053,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/dipper-ram-rod-bush-mk-550-40926.html"
+    "detailPage": "product-pages/dipper-ram-rod-bush-mk-550-40926.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "mk-048",
@@ -1026,7 +1064,7 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
     "partNumbers": [
       "550/40983"
     ],
@@ -1034,7 +1072,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/dipper-ram-rod-bush-550-40983.html"
+    "detailPage": "product-pages/dipper-ram-rod-bush-550-40983.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "mk-049",
@@ -1044,7 +1083,7 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
     "partNumbers": [
       "550/40899"
     ],
@@ -1052,7 +1091,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/dipper-ram-rod-bush-550-40899.html"
+    "detailPage": "product-pages/dipper-ram-rod-bush-550-40899.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "mk-050",
@@ -1062,7 +1102,7 @@ window.MAK_PRODUCTS = [
     "category": "Pins & Bushes",
     "categorySlug": "pins-bushes",
     "page": "bushes.html",
-    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-bush-jpg.webp",
     "partNumbers": [
       "MK550/40982"
     ],
@@ -1070,7 +1110,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pins & Bushes item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/dipper-ram-rod-bush-mk550-40982.html"
+    "detailPage": "product-pages/dipper-ram-rod-bush-mk550-40982.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "mk-051",
@@ -1088,7 +1129,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/pivot-pin-mk-811-50369.html"
+    "detailPage": "product-pages/pivot-pin-mk-811-50369.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-052",
@@ -1124,7 +1166,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/pivot-pin-mk-811-50368.html"
+    "detailPage": "product-pages/pivot-pin-mk-811-50368.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-054",
@@ -1142,7 +1185,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/pivot-pin-mk-811-50365.html"
+    "detailPage": "product-pages/pivot-pin-mk-811-50365.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-055",
@@ -1444,7 +1488,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/pivot-pin-mk-811-50569.html"
+    "detailPage": "product-pages/pivot-pin-mk-811-50569.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-072",
@@ -1766,7 +1811,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/pivot-pin-mk-811-40048.html"
+    "detailPage": "product-pages/pivot-pin-mk-811-40048.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-090",
@@ -1802,7 +1848,8 @@ window.MAK_PRODUCTS = [
     "notes": "New Model",
     "desc": "Pivot Pins item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/pivot-pin-circlip-type-mk-811-40104.html"
+    "detailPage": "product-pages/pivot-pin-circlip-type-mk-811-40104.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-092",
@@ -1940,7 +1987,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pin Collars & Stub Axle item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/bucket-pin-collar-3d-product.html"
+    "detailPage": "product-pages/bucket-pin-collar-3d-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-100",
@@ -1956,7 +2004,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pin Collars & Stub Axle item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/bucket-pin-collar-3dx-product.html"
+    "detailPage": "product-pages/bucket-pin-collar-3dx-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-101",
@@ -1988,7 +2037,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pin Collars & Stub Axle item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/boom-pin-collar-cut-type-product.html"
+    "detailPage": "product-pages/boom-pin-collar-cut-type-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-103",
@@ -2004,7 +2054,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Pin Collars & Stub Axle item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/boom-pin-collar-85-od-o-e-type-product.html"
+    "detailPage": "product-pages/boom-pin-collar-85-od-o-e-type-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-104",
@@ -2038,7 +2089,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/bucket-pin-washer-1-mm-45-70-product.html"
+    "detailPage": "product-pages/bucket-pin-washer-1-mm-45-70-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-106",
@@ -2054,7 +2106,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/bucket-pin-washer-2-mm-45-70-product.html"
+    "detailPage": "product-pages/bucket-pin-washer-2-mm-45-70-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-107",
@@ -2134,7 +2187,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/king-pin-washer-1-2-mm-38-65-product.html"
+    "detailPage": "product-pages/king-pin-washer-1-2-mm-38-65-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-112",
@@ -2214,7 +2268,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/boom-pin-washer-1-mm-50x90-product.html"
+    "detailPage": "product-pages/boom-pin-washer-1-mm-50x90-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-117",
@@ -2374,7 +2429,8 @@ window.MAK_PRODUCTS = [
     "notes": "New Model",
     "desc": "Shims & Washers item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/kpc-washer-1-mm-60x120-product.html"
+    "detailPage": "product-pages/kpc-washer-1-mm-60x120-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-127",
@@ -2456,7 +2512,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/stub-axle-check-nut-with-nut-mk-120-30003.html"
+    "detailPage": "product-pages/stub-axle-check-nut-with-nut-mk-120-30003.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-132",
@@ -2474,7 +2531,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/king-pin-mk-120-30001.html"
+    "detailPage": "product-pages/king-pin-mk-120-30001.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-133",
@@ -2492,7 +2550,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/king-pin-circlip-type-mk-333-y1184.html"
+    "detailPage": "product-pages/king-pin-circlip-type-mk-333-y1184.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-134",
@@ -2546,7 +2605,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/housing-eye-bolt-9-mk-1305-3950.html"
+    "detailPage": "product-pages/housing-eye-bolt-9-mk-1305-3950.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-137",
@@ -2596,7 +2656,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/stabilizer-nut-with-sleeve-product.html"
+    "detailPage": "product-pages/stabilizer-nut-with-sleeve-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-140",
@@ -2646,7 +2707,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/tie-rod-pin-cir-clip-lock-type-120-30048.html"
+    "detailPage": "product-pages/tie-rod-pin-cir-clip-lock-type-120-30048.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-143",
@@ -2664,7 +2726,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/tie-rod-pin-oval-cap-mk-120-30048.html"
+    "detailPage": "product-pages/tie-rod-pin-oval-cap-mk-120-30048.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-144",
@@ -2682,7 +2745,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/tie-rod-pin-3dx-big-40-302365.html"
+    "detailPage": "product-pages/tie-rod-pin-3dx-big-40-302365.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-145",
@@ -2700,7 +2764,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Steering & Tie Rod item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/tie-rod-pin-3dx-small-40-302366.html"
+    "detailPage": "product-pages/tie-rod-pin-3dx-small-40-302366.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-146",
@@ -2782,7 +2847,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bucket Boss & Sleeves item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/bucket-boss-80-mm-bucket-sleeve-product.html"
+    "detailPage": "product-pages/bucket-boss-80-mm-bucket-sleeve-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-151",
@@ -2798,7 +2864,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bucket Boss & Sleeves item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/bucket-boss-90-mm-bucket-sleeve-product.html"
+    "detailPage": "product-pages/bucket-boss-90-mm-bucket-sleeve-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-152",
@@ -2830,7 +2897,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bucket Boss & Sleeves item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/100x50372x80l-hole-cd-22mm-100-60-80l-product.html"
+    "detailPage": "product-pages/100x50372x80l-hole-cd-22mm-100-60-80l-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-154",
@@ -2846,7 +2914,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bucket Boss & Sleeves item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/dipper-sleeve-80mm-750-bush-product.html"
+    "detailPage": "product-pages/dipper-sleeve-80mm-750-bush-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-155",
@@ -2878,7 +2947,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bucket Boss & Sleeves item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/dipper-sleeve-90mm-129-bush-product.html"
+    "detailPage": "product-pages/dipper-sleeve-90mm-129-bush-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-157",
@@ -2994,7 +3064,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bucket Boss & Sleeves item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/loader-sleeve-set-set-of-2-80001.html"
+    "detailPage": "product-pages/loader-sleeve-set-set-of-2-80001.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-164",
@@ -3012,7 +3083,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Bucket Boss & Sleeves item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/boss-set-of2-50569.html"
+    "detailPage": "product-pages/boss-set-of2-50569.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-165",
@@ -3044,7 +3116,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Grease Nipples item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/grease-nipple-3-8-straight-type-product.html"
+    "detailPage": "product-pages/grease-nipple-3-8-straight-type-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-167",
@@ -3060,7 +3133,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Grease Nipples item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/grease-nipple-3-8-bend-type-product.html"
+    "detailPage": "product-pages/grease-nipple-3-8-bend-type-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-168",
@@ -3076,7 +3150,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Grease Nipples item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/grease-nipple-1-4-straight-type-product.html"
+    "detailPage": "product-pages/grease-nipple-1-4-straight-type-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-169",
@@ -3092,7 +3167,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Grease Nipples item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/grease-nipple-1-4-bend-type-product.html"
+    "detailPage": "product-pages/grease-nipple-1-4-bend-type-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-170",
@@ -3140,7 +3216,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Grease Nipples item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/grease-nipple-for-boom-product.html"
+    "detailPage": "product-pages/grease-nipple-for-boom-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-173",
@@ -3159,7 +3236,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Grease Nipples item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/grease-nipple-no-15-mk-12008-0015-12008.html"
+    "detailPage": "product-pages/grease-nipple-no-15-mk-12008-0015-12008.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-174",
@@ -3178,7 +3256,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Grease Nipples item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/grease-nipple-no-18-mk-12008-0018-12008.html"
+    "detailPage": "product-pages/grease-nipple-no-18-mk-12008-0018-12008.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-175",
@@ -3197,7 +3276,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Grease Nipples item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/grease-nipple-no-23-mk-12008-0023-12008.html"
+    "detailPage": "product-pages/grease-nipple-no-23-mk-12008-0023-12008.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-176",
@@ -3216,7 +3296,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Grease Nipples item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/grease-nipple-no-31-mk-12008-0031-12008.html"
+    "detailPage": "product-pages/grease-nipple-no-31-mk-12008-0031-12008.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-177",
@@ -3226,7 +3307,7 @@ window.MAK_PRODUCTS = [
     "category": "Gear Parts",
     "categorySlug": "gear-parts",
     "page": "gears.html",
-    "image": "web-products/watermarked/web-products-catalogue-p04-34-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-planetary-gear-png.webp",
     "partNumbers": [
       "450/10205"
     ],
@@ -3234,7 +3315,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Gear Parts item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/annulus-ring-gear-450-10205.html"
+    "detailPage": "product-pages/annulus-ring-gear-450-10205.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "mk-178",
@@ -3244,7 +3326,7 @@ window.MAK_PRODUCTS = [
     "category": "Gear Parts",
     "categorySlug": "gear-parts",
     "page": "gears.html",
-    "image": "web-products/watermarked/web-products-catalogue-p04-34-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-planetary-gear-png.webp",
     "partNumbers": [
       "450/10206"
     ],
@@ -3252,7 +3334,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Gear Parts item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/planet-gear-450-10206.html"
+    "detailPage": "product-pages/planet-gear-450-10206.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "mk-179",
@@ -3262,7 +3345,7 @@ window.MAK_PRODUCTS = [
     "category": "Gear Parts",
     "categorySlug": "gear-parts",
     "page": "gears.html",
-    "image": "web-products/watermarked/web-products-catalogue-p04-34-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-planetary-gear-png.webp",
     "partNumbers": [
       "450/10210"
     ],
@@ -3270,7 +3353,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Gear Parts item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/sun-gear-450-10210.html"
+    "detailPage": "product-pages/sun-gear-450-10210.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "mk-180",
@@ -3280,7 +3364,7 @@ window.MAK_PRODUCTS = [
     "category": "Gear Parts",
     "categorySlug": "gear-parts",
     "page": "gears.html",
-    "image": "web-products/watermarked/web-products-catalogue-p04-34-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-planetary-gear-png.webp",
     "partNumbers": [
       "450/12702"
     ],
@@ -3288,7 +3372,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Gear Parts item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/carrier-annulus-450-12702.html"
+    "detailPage": "product-pages/carrier-annulus-450-12702.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "mk-181",
@@ -3298,7 +3383,7 @@ window.MAK_PRODUCTS = [
     "category": "Gear Parts",
     "categorySlug": "gear-parts",
     "page": "gears.html",
-    "image": "web-products/watermarked/web-products-catalogue-p04-34-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-planetary-gear-png.webp",
     "partNumbers": [
       "50200"
     ],
@@ -3306,7 +3391,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Gear Parts item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/planet-bearing-50200.html"
+    "detailPage": "product-pages/planet-bearing-50200.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "mk-182",
@@ -3316,7 +3402,7 @@ window.MAK_PRODUCTS = [
     "category": "Gear Parts",
     "categorySlug": "gear-parts",
     "page": "gears.html",
-    "image": "web-products/watermarked/web-products-catalogue-p04-34-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-planetary-gear-png.webp",
     "partNumbers": [
       "10206"
     ],
@@ -3324,7 +3410,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Gear Parts item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/planetary-gear-with-bearing-assembly450-a-10206.html"
+    "detailPage": "product-pages/planetary-gear-with-bearing-assembly450-a-10206.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "mk-183",
@@ -3344,7 +3431,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Kits & Overhauls item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/bucket-kit-550-42700-12400-4626-12400.html"
+    "detailPage": "product-pages/bucket-kit-550-42700-12400-4626-12400.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-184",
@@ -3363,7 +3451,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Kits & Overhauls item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/bucket-kit-2062-550-42700-a-42700.html"
+    "detailPage": "product-pages/bucket-kit-2062-550-42700-a-42700.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-185",
@@ -3382,7 +3471,8 @@ window.MAK_PRODUCTS = [
     "notes": "Old Model",
     "desc": "Kits & Overhauls item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/king-pin-kit-550-42701-30001.html"
+    "detailPage": "product-pages/king-pin-kit-550-42701-30001.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-186",
@@ -3453,7 +3543,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/slew-rod-product.html"
+    "detailPage": "product-pages/slew-rod-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-190",
@@ -3469,7 +3560,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/stabilizer-rod-product.html"
+    "detailPage": "product-pages/stabilizer-rod-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-191",
@@ -3485,7 +3577,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/bucket-rod-product.html"
+    "detailPage": "product-pages/bucket-rod-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-192",
@@ -3501,7 +3594,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/dipper-rod-product.html"
+    "detailPage": "product-pages/dipper-rod-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-193",
@@ -3533,7 +3627,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/boom-rod-product.html"
+    "detailPage": "product-pages/boom-rod-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-195",
@@ -3549,7 +3644,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/lift-rod-product.html"
+    "detailPage": "product-pages/lift-rod-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-196",
@@ -3565,7 +3661,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/shovel-rod-product.html"
+    "detailPage": "product-pages/shovel-rod-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-197",
@@ -3581,7 +3678,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/slew-tube-product.html"
+    "detailPage": "product-pages/slew-tube-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-198",
@@ -3597,7 +3695,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/stabilizer-tube-product.html"
+    "detailPage": "product-pages/stabilizer-tube-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-199",
@@ -3613,7 +3712,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/bucket-tube-product.html"
+    "detailPage": "product-pages/bucket-tube-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-200",
@@ -3629,7 +3729,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/dipper-tube-product.html"
+    "detailPage": "product-pages/dipper-tube-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-201",
@@ -3661,7 +3762,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/boom-tube-product.html"
+    "detailPage": "product-pages/boom-tube-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-203",
@@ -3677,7 +3779,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/lift-tube-product.html"
+    "detailPage": "product-pages/lift-tube-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-204",
@@ -3693,7 +3796,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/shovel-tube-product.html"
+    "detailPage": "product-pages/shovel-tube-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "mk-205",
@@ -3709,7 +3813,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Rods, Tubes & Links item from MAK JCB pricelist.",
     "source": "JCB pricelist",
-    "detailPage": "product-pages/3-pin-link-tipping-lever-product.html"
+    "detailPage": "product-pages/3-pin-link-tipping-lever-product.html",
+    "imageSource": "MAK catalogue category image"
   },
   {
     "id": "jcb-teeth-center",
@@ -3719,7 +3824,7 @@ window.MAK_PRODUCTS = [
     "category": "JCB Teeth & Cutters",
     "categorySlug": "jcb-teeth-cutters",
     "page": "jcb-teeth.html",
-    "image": "web-products/watermarked/web-products-catalogue-p03-30-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-bucket-teeth-jpg.webp",
     "partNumbers": [
       "On request"
     ],
@@ -3727,7 +3832,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Center bucket tooth for JCB digging and loading buckets.",
     "source": "Existing MAK list",
-    "detailPage": "product-pages/jcb-teeth-center-jcb-teeth-center.html"
+    "detailPage": "product-pages/jcb-teeth-center-jcb-teeth-center.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "plain-type-tooth",
@@ -3737,7 +3843,7 @@ window.MAK_PRODUCTS = [
     "category": "JCB Teeth & Cutters",
     "categorySlug": "jcb-teeth-cutters",
     "page": "jcb-teeth.html",
-    "image": "web-products/watermarked/web-products-catalogue-p03-30-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-bucket-teeth-jpg.webp",
     "partNumbers": [
       "On request"
     ],
@@ -3745,7 +3851,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Plain type JCB bucket tooth for regular site work.",
     "source": "Existing MAK list",
-    "detailPage": "product-pages/plain-type-bucket-tooth-plain-type-tooth.html"
+    "detailPage": "product-pages/plain-type-bucket-tooth-plain-type-tooth.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "crocodile-side-cutter",
@@ -3755,7 +3862,7 @@ window.MAK_PRODUCTS = [
     "category": "JCB Teeth & Cutters",
     "categorySlug": "jcb-teeth-cutters",
     "page": "jcb-teeth.html",
-    "image": "web-products/watermarked/web-products-catalogue-p03-30-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-bucket-teeth-jpg.webp",
     "partNumbers": [
       "On request"
     ],
@@ -3763,7 +3870,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Aggressive crocodile side cutter profile for bucket edge protection.",
     "source": "Existing MAK list",
-    "detailPage": "product-pages/crocodile-type-side-cutter-crocodile-side-cutter.html"
+    "detailPage": "product-pages/crocodile-type-side-cutter-crocodile-side-cutter.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "jcb-side-cutter",
@@ -3773,7 +3881,7 @@ window.MAK_PRODUCTS = [
     "category": "JCB Teeth & Cutters",
     "categorySlug": "jcb-teeth-cutters",
     "page": "jcb-teeth.html",
-    "image": "web-products/watermarked/web-products-catalogue-p03-30-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-bucket-teeth-jpg.webp",
     "partNumbers": [
       "On request"
     ],
@@ -3781,7 +3889,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Left and right side cutter teeth for JCB buckets.",
     "source": "Existing MAK list",
-    "detailPage": "product-pages/jcb-side-cutter-teeth-jcb-side-cutter.html"
+    "detailPage": "product-pages/jcb-side-cutter-teeth-jcb-side-cutter.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "terex-side-cutter",
@@ -3791,7 +3900,7 @@ window.MAK_PRODUCTS = [
     "category": "JCB Teeth & Cutters",
     "categorySlug": "jcb-teeth-cutters",
     "page": "jcb-teeth.html",
-    "image": "web-products/watermarked/web-products-catalogue-p03-30-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-bucket-teeth-jpg.webp",
     "partNumbers": [
       "On request"
     ],
@@ -3799,7 +3908,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Terex style side cutter for bucket applications.",
     "source": "Existing MAK list",
-    "detailPage": "product-pages/terex-side-cutter-terex-side-cutter.html"
+    "detailPage": "product-pages/terex-side-cutter-terex-side-cutter.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "jcb-oil-filter",
@@ -3809,7 +3919,7 @@ window.MAK_PRODUCTS = [
     "category": "Filters",
     "categorySlug": "filters",
     "page": "filters.html",
-    "image": "web-products/watermarked/web-products-catalogue-p04-36-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-air-filter-png.webp",
     "partNumbers": [
       "On request"
     ],
@@ -3817,7 +3927,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Oil filter for JCB routine service.",
     "source": "Existing MAK list",
-    "detailPage": "product-pages/jcb-oil-filter-jcb-oil-filter.html"
+    "detailPage": "product-pages/jcb-oil-filter-jcb-oil-filter.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "jcb-air-filter-kit",
@@ -3827,7 +3938,7 @@ window.MAK_PRODUCTS = [
     "category": "Filters",
     "categorySlug": "filters",
     "page": "filters.html",
-    "image": "web-products/watermarked/web-products-catalogue-p04-36-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-air-filter-png.webp",
     "partNumbers": [
       "On request"
     ],
@@ -3835,7 +3946,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Air filter kit for dusty site operation.",
     "source": "Existing MAK list",
-    "detailPage": "product-pages/jcb-air-filter-kit-jcb-air-filter-kit.html"
+    "detailPage": "product-pages/jcb-air-filter-kit-jcb-air-filter-kit.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "air-filter-element",
@@ -3845,7 +3957,7 @@ window.MAK_PRODUCTS = [
     "category": "Filters",
     "categorySlug": "filters",
     "page": "filters.html",
-    "image": "web-products/watermarked/web-products-catalogue-p04-36-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-air-filter-png.webp",
     "partNumbers": [
       "On request"
     ],
@@ -3853,7 +3965,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Replacement air filter element.",
     "source": "Existing MAK list",
-    "detailPage": "product-pages/air-filter-element-air-filter-element.html"
+    "detailPage": "product-pages/air-filter-element-air-filter-element.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "fuel-filter",
@@ -3863,7 +3976,7 @@ window.MAK_PRODUCTS = [
     "category": "Filters",
     "categorySlug": "filters",
     "page": "filters.html",
-    "image": "web-products/watermarked/web-products-catalogue-p04-36-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-air-filter-png.webp",
     "partNumbers": [
       "On request"
     ],
@@ -3871,7 +3984,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Fuel filtration product for heavy machinery.",
     "source": "Existing MAK list",
-    "detailPage": "product-pages/fuel-filter-fuel-filter.html"
+    "detailPage": "product-pages/fuel-filter-fuel-filter.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "backhoe-loader-tyre",
@@ -3881,7 +3995,7 @@ window.MAK_PRODUCTS = [
     "category": "Tyres",
     "categorySlug": "tyres",
     "page": "tyres.html",
-    "image": "web-products/watermarked/web-products-catalogue-p04-23-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-tyre-png.webp",
     "partNumbers": [
       "On request"
     ],
@@ -3889,7 +4003,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Backhoe loader tyre for JCB and site machines.",
     "source": "Existing MAK list",
-    "detailPage": "product-pages/backhoe-loader-tyre-backhoe-loader-tyre.html"
+    "detailPage": "product-pages/backhoe-loader-tyre-backhoe-loader-tyre.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "excavator-tyre",
@@ -3899,7 +4014,7 @@ window.MAK_PRODUCTS = [
     "category": "Tyres",
     "categorySlug": "tyres",
     "page": "tyres.html",
-    "image": "web-products/watermarked/web-products-catalogue-p04-23-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-tyre-png.webp",
     "partNumbers": [
       "On request"
     ],
@@ -3907,7 +4022,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Industrial tyre for excavator/site equipment enquiries.",
     "source": "Existing MAK list",
-    "detailPage": "product-pages/excavator-tyre-excavator-tyre.html"
+    "detailPage": "product-pages/excavator-tyre-excavator-tyre.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "forklift-tyre",
@@ -3917,7 +4033,7 @@ window.MAK_PRODUCTS = [
     "category": "Tyres",
     "categorySlug": "tyres",
     "page": "tyres.html",
-    "image": "web-products/watermarked/web-products-catalogue-p04-23-jpg.webp",
+    "image": "web-products/watermarked/web-products-jcb-tyre-png.webp",
     "partNumbers": [
       "On request"
     ],
@@ -3925,7 +4041,8 @@ window.MAK_PRODUCTS = [
     "notes": "",
     "desc": "Forklift tyre for yards and warehouses.",
     "source": "Existing MAK list",
-    "detailPage": "product-pages/forklift-tyre-forklift-tyre.html"
+    "detailPage": "product-pages/forklift-tyre-forklift-tyre.html",
+    "imageSource": "Existing MAK website product image"
   },
   {
     "id": "jcb-working-lamp",

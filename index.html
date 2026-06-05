@@ -4,6 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MAK Overseas - Heavy Machinery Spare Parts</title>
+<link rel="preload" as="image" href="web-products/hero-mobile.webp" fetchpriority="high">
+<link rel="preload" as="image" href="web-products/mak-logo-small.webp">
+<link rel="preload" as="image" href="web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp">
+<link rel="preload" as="image" href="web-products/watermarked/web-products-jcb-bush-jpg.webp">
+<link rel="preload" as="image" href="web-products/watermarked/web-products-jcb-bucket-teeth-jpg.webp">
+<link rel="preload" as="image" href="web-products/watermarked/web-products-jcb-air-filter-png.webp">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -154,8 +160,9 @@ footer{background:#0a0a0a;padding:1.75rem 2.5rem;display:flex;align-items:center
 .search-results{max-height:65vh;overflow:auto;padding:.75rem}
 .search-result{display:grid;grid-template-columns:1fr auto;gap:.75rem;padding:.8rem;border-bottom:1px solid #242424}
 .search-result small{color:#888}
-.reveal{opacity:0;transform:translateY(28px);transition:opacity .75s ease,transform .75s ease}
-.reveal.visible{opacity:1;transform:translateY(0)}
+.reveal{opacity:1;transform:none}
+.anim-ready .reveal{opacity:0;transform:translateY(28px);transition:opacity .75s ease,transform .75s ease}
+.anim-ready .reveal.visible{opacity:1;transform:translateY(0)}
 
 @media(max-width:1120px){
   .offices{grid-template-columns:repeat(2,1fr)}
@@ -183,6 +190,7 @@ footer{background:#0a0a0a;padding:1.75rem 2.5rem;display:flex;align-items:center
   .prod-card:hover .prod-img{transform:none}
   .offices{grid-template-columns:1fr}.cta{padding:2.5rem 1.25rem}.cta-btns a{width:100%}
   footer{padding:1.25rem;align-items:flex-start;flex-direction:column}.footer-info{text-align:left}
+  .anim-ready .reveal{opacity:1;transform:none;transition:none}
 }
 </style>
 </head>
@@ -206,9 +214,7 @@ footer{background:#0a0a0a;padding:1.75rem 2.5rem;display:flex;align-items:center
 
 <section class="hero" id="home">
   <div class="hero-poster"></div>
-  <video class="hero-video" autoplay muted loop playsinline preload="auto" poster="web-products/hero-mobile.webp">
-    <source src="https://videos.pexels.com/video-files/31914438/13594458_3840_2160_25fps.mp4" type="video/mp4" media="(min-width: 821px)">
-  </video>
+  <video class="hero-video" autoplay muted loop playsinline preload="none" poster="web-products/hero-mobile.webp" data-desktop-src="https://videos.pexels.com/video-files/31914438/13594458_3840_2160_25fps.mp4"></video>
   <div class="hero-content reveal">
     <div class="hero-badge">Worldwide Presence - Industrial Spare Parts</div>
     <h1>Machinery<br><em>Spare Parts</em></h1>
@@ -234,7 +240,12 @@ footer{background:#0a0a0a;padding:1.75rem 2.5rem;display:flex;align-items:center
   <p class="s-sub">Browse our main product lines, open the detailed pages from the older website, or add items to an enquiry cart and send the complete list on WhatsApp.</p>
 </section>
 
-<div class="prod-grid reveal" id="productGrid"></div>
+<div class="prod-grid reveal" id="productGrid">
+  <article class="prod-card"><a class="prod-img-wrap" href="bolts.html"><img class="prod-img" src="web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp" alt="Bolts & Fasteners" width="1000" height="750" loading="eager" fetchpriority="high" decoding="sync"></a><div class="prod-body"><div class="prod-name">Bolts & Fasteners</div><div class="prod-items">JCB, excavator and truck bolts for cutters, wheels, hubs, pins and high-load joints.</div><div class="prod-actions"><a class="ghost-btn" href="bolts.html">View Details</a></div></div></article>
+  <article class="prod-card"><a class="prod-img-wrap" href="bushes.html"><img class="prod-img" src="web-products/watermarked/web-products-jcb-bush-jpg.webp" data-fallback="web-products/jcb-bush.jpg" onerror="if(this.dataset.fallback){this.onerror=null;this.src=this.dataset.fallback}" alt="Pins & Bushes" width="1000" height="750" loading="eager" fetchpriority="high" decoding="sync"></a><div class="prod-body"><div class="prod-name">Pins & Bushes</div><div class="prod-items">Steel, alloy steel and alloy bronze bushes for loader, bucket and steering assemblies.</div><div class="prod-actions"><a class="ghost-btn" href="bushes.html">View Details</a></div></div></article>
+  <article class="prod-card"><a class="prod-img-wrap" href="jcb-teeth.html"><img class="prod-img" src="web-products/watermarked/web-products-jcb-bucket-teeth-jpg.webp" data-fallback="web-products/jcb-bucket-teeth.jpg" onerror="if(this.dataset.fallback){this.onerror=null;this.src=this.dataset.fallback}" alt="JCB Teeth & Cutters" width="1000" height="750" loading="eager" fetchpriority="high" decoding="sync"></a><div class="prod-body"><div class="prod-name">JCB Teeth & Cutters</div><div class="prod-items">Centre teeth, side cutters, crocodile cutters and plain bucket teeth.</div><div class="prod-actions"><a class="ghost-btn" href="jcb-teeth.html">View Details</a></div></div></article>
+  <article class="prod-card"><a class="prod-img-wrap" href="filters.html"><img class="prod-img" src="web-products/watermarked/web-products-jcb-air-filter-png.webp" data-fallback="web-products/jcb-air-filter.png" onerror="if(this.dataset.fallback){this.onerror=null;this.src=this.dataset.fallback}" alt="Filters" width="1000" height="750" loading="eager" fetchpriority="high" decoding="sync"></a><div class="prod-body"><div class="prod-name">Filters</div><div class="prod-items">Oil, air, fuel and service filter products for heavy machinery.</div><div class="prod-actions"><a class="ghost-btn" href="filters.html">View Details</a></div></div></article>
+</div>
 
 <section class="brands reveal" id="brands">
   <p class="brands-lbl">Genuine & OE-compatible parts for</p>
@@ -282,12 +293,12 @@ const PHONE = '919465263877';
 const EMAIL = 'kunalkhurana@makoverseas.com';
 const products = [
   {title:'Bolts & Fasteners', page:'bolts.html', img:'web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp', items:'JCB, excavator and truck bolts for cutters, wheels, hubs, pins and high-load joints.'},
-  {title:'Pins & Bushes', page:'bushes.html', img:'web-products/watermarked/web-products-catalogue-p02-04-jpg.webp', items:'Steel, alloy steel and alloy bronze bushes for loader, bucket and steering assemblies.'},
+  {title:'Pins & Bushes', page:'bushes.html', img:'web-products/watermarked/web-products-jcb-bush-jpg.webp', fallback:'web-products/jcb-bush.jpg', items:'Steel, alloy steel and alloy bronze bushes for loader, bucket and steering assemblies.'},
   {title:'Pivot Pins', page:'pivot-pins.html', img:'web-products/watermarked/web-products-catalogue-p03-23-jpg.webp', items:'Nitrided and alloy steel pivot pins for bucket, loader, boom and centre linkages.'},
   {title:'Shims & Washers', page:'shims-washers.html', img:'web-products/watermarked/web-products-catalogue-p02-43-jpg.webp', items:'Bucket pin, king pin, boom pin and KPC washers in multiple sizes.'},
-  {title:'JCB Teeth & Cutters', page:'jcb-teeth.html', img:'web-products/watermarked/web-products-catalogue-p03-30-jpg.webp', items:'Centre teeth, side cutters, crocodile cutters and plain bucket teeth.'},
-  {title:'Gear Parts', page:'gears.html', img:'web-products/watermarked/web-products-catalogue-p04-34-jpg.webp', items:'Annulus rings, planet gears, sun gears and planetary gear assemblies.'},
-  {title:'Filters', page:'filters.html', img:'web-products/watermarked/web-products-catalogue-p04-36-jpg.webp', items:'Oil, air, fuel and service filter products for heavy machinery.'},
+  {title:'JCB Teeth & Cutters', page:'jcb-teeth.html', img:'web-products/watermarked/web-products-jcb-bucket-teeth-jpg.webp', fallback:'web-products/jcb-bucket-teeth.jpg', items:'Centre teeth, side cutters, crocodile cutters and plain bucket teeth.'},
+  {title:'Gear Parts', page:'gears.html', img:'web-products/watermarked/web-products-jcb-planetary-gear-png.webp', fallback:'web-products/jcb-planetary-gear.png', items:'Annulus rings, planet gears, sun gears and planetary gear assemblies.'},
+  {title:'Filters', page:'filters.html', img:'web-products/watermarked/web-products-jcb-air-filter-png.webp', fallback:'web-products/jcb-air-filter.png', items:'Oil, air, fuel and service filter products for heavy machinery.'},
   {title:'Spring Pins', page:'national-spring-pins.html', img:'web-products/watermarked/web-products-national-traders-optimized-spring-pin-webp.webp', items:'Spring pins, centre bolts, hub hardware, nuts and related National Sales fasteners.'},
   {title:'Shackle Assembly', page:'national-shackle-assembly.html', img:'web-products/watermarked/web-products-national-traders-optimized-shackle-assembly-webp.webp', items:'Pick-up, Maxi-Truck, Ace, Dost and fixed type shackle assemblies.'},
   {title:'Shackle Plate', page:'national-shackle-plate.html', img:'web-products/watermarked/web-products-national-traders-optimized-shackle-plate-webp.webp', items:'Shackle plates, hangers, shocker plates, tube brackets and suspension plates.'},
@@ -307,10 +318,22 @@ const icons = [
   '<rect x="5" y="3" width="14" height="18" rx="1"/><path d="M8 7h8M8 11h8M8 15h5"/>'
 ];
 let cart = JSON.parse(localStorage.getItem('makClaudeCart') || '[]');
+function loadDesktopHeroVideo(){
+  if(!window.matchMedia('(min-width: 821px)').matches) return;
+  const video = document.querySelector('.hero-video');
+  if(!video || !video.dataset.desktopSrc || video.querySelector('source')) return;
+  const source = document.createElement('source');
+  source.src = video.dataset.desktopSrc;
+  source.type = 'video/mp4';
+  video.appendChild(source);
+  video.load();
+  video.play().catch(()=>{});
+}
+loadDesktopHeroVideo();
 const saveCart = () => { localStorage.setItem('makClaudeCart', JSON.stringify(cart)); renderCart(); updateCount(); };
 const addToCart = (title) => { const item = cart.find(i => i.title === title); if(item) item.qty++; else cart.push({title, qty:1}); saveCart(); document.getElementById('cartPanel').classList.add('open'); };
 const updateCount = () => document.querySelector('.cart-count').textContent = cart.reduce((s,i)=>s+i.qty,0);
-document.getElementById('productGrid').innerHTML = products.map((p,i)=>`<article class="prod-card"><a class="prod-img-wrap" href="${p.page}"><img class="prod-img" src="${p.img}" alt="${p.title}" loading="lazy"></a><div class="prod-body"><div class="prod-ico"><svg viewBox="0 0 24 24">${icons[i % icons.length]}</svg></div><div class="prod-name">${p.title}</div><div class="prod-items">${p.items}</div><div class="prod-actions"><button class="buy-btn" onclick="addToCart('${p.title}')">Add to Cart</button><a class="ghost-btn" href="${p.page}">View Details</a></div></div></article>`).join('');
+document.getElementById('productGrid').innerHTML = products.map((p,i)=>`<article class="prod-card"><a class="prod-img-wrap" href="${p.page}"><img class="prod-img" src="${p.img}" ${p.fallback?`data-fallback="${p.fallback}" onerror="if(this.dataset.fallback){this.onerror=null;this.src=this.dataset.fallback}"`:''} alt="${p.title}" width="1000" height="750" loading="eager" fetchpriority="${i<6?'high':'auto'}" decoding="sync"></a><div class="prod-body"><div class="prod-ico"><svg viewBox="0 0 24 24">${icons[i % icons.length]}</svg></div><div class="prod-name">${p.title}</div><div class="prod-items">${p.items}</div><div class="prod-actions"><button class="buy-btn" onclick="addToCart('${p.title}')">Add to Cart</button><a class="ghost-btn" href="${p.page}">View Details</a></div></div></article>`).join('');
 function renderCart(){document.getElementById('cartItems').innerHTML = cart.length ? cart.map((i,idx)=>`<div class="cart-item"><div><strong>${i.title}</strong><div class="qty"><button onclick="cart[${idx}].qty--; if(cart[${idx}].qty<1) cart.splice(${idx},1); saveCart()">-</button><span>${i.qty}</span><button onclick="cart[${idx}].qty++; saveCart()">+</button></div></div><button class="close" onclick="cart.splice(${idx},1); saveCart()">&times;</button></div>`).join('') : '<p style="color:#999;padding:1rem">Your enquiry cart is empty.</p>'}
 document.getElementById('checkoutBtn').onclick=()=>{ if(!cart.length) return; const lines=cart.map((i,n)=>`${n+1}. ${i.title} x ${i.qty}`).join('\n'); window.open(`https://wa.me/${PHONE}?text=${encodeURIComponent('Hello MAK Overseas, I want to enquire about:\n\n'+lines)}`,'_blank'); };
 document.getElementById('emailCheckoutBtn').onclick=()=>{ if(!cart.length) return; const lines=cart.map((i,n)=>`${n+1}. ${i.title} x ${i.qty}`).join('\n'); location.href=`mailto:${EMAIL}?subject=${encodeURIComponent('MAK Overseas enquiry cart')}&body=${encodeURIComponent('Hello MAK Overseas, I want to enquire about:\n\n'+lines+'\n\nName:\nPhone:\nMachine model:\nLocation:')}`; };
@@ -359,11 +382,13 @@ function renderSearch(q){
   }).join('') || '<p style="color:#999;padding:1rem">No products found. Try a part number like 990/14900, 99014900, or a MAK code like MK001.</p>';
 }
 document.getElementById('searchInput').oninput=e=>renderSearch(e.target.value);
+document.body.classList.add('anim-ready');
 const observer = new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting) entry.target.classList.add('visible')}),{threshold:.12});
 document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+document.querySelectorAll('.hero-content,.stats,.prod-intro').forEach(el=>el.classList.add('visible'));
 updateCount(); renderCart();
 </script>
-<script src="language.js"></script><script src="whatsapp-widget.js"></script></body>
+<script src="language.js" defer></script><script src="whatsapp-widget.js" defer></script></body>
 </html>
 
 
