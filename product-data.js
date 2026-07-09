@@ -200,6 +200,107 @@ window.MAK_CATEGORIES = [
     "count": 10
   }
 ];
+window.MAK_HEAD_CATEGORIES = [
+  {
+    "slug": "mak-fasteners",
+    "title": "MAK Fasteners",
+    "summary": "Bolts, U bolts, spring pins, shims, grease nipples and ground-engaging fastening hardware.",
+    "image": "web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp",
+    "page": "products.html#mak-fasteners"
+  },
+  {
+    "slug": "mak-bushes",
+    "title": "MAK Bushes",
+    "summary": "Bushes, pivot pins, sleeves, collars, rods, tie rods, linkages and fitment kits.",
+    "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
+    "page": "products.html#mak-bushes"
+  },
+  {
+    "slug": "mak-filters",
+    "title": "MAK Filters",
+    "summary": "Filters, seals, washers, gaskets and service replacement parts.",
+    "image": "web-products/watermarked/web-products-jcb-air-filter-png.webp",
+    "page": "products.html#mak-filters"
+  },
+  {
+    "slug": "mak-lights",
+    "title": "MAK Lights",
+    "summary": "Head lamps, tail lamps, working lamps, indicators, lenses and JCB/Bobcat lighting assemblies.",
+    "image": "web-products/watermarked/web-products-jcb-lights-working-lamp-square-webp.webp",
+    "page": "products.html#mak-lights"
+  },
+  {
+    "slug": "mak-truck-parts",
+    "title": "MAK Truck Parts",
+    "summary": "Truck, car, jack, tyre, gear, shackle, plate and workshop support parts.",
+    "image": "web-products/watermarked/web-products-national-traders-optimized-hydraulic-jack-35-ton-webp.webp",
+    "page": "products.html#mak-truck-parts"
+  }
+];
+
+(function(){
+  const headBySubcategory = {
+    "bolts-fasteners": "mak-fasteners",
+    "shims-washers": "mak-fasteners",
+    "grease-nipples": "mak-fasteners",
+    "jcb-teeth-cutters": "mak-fasteners",
+    "national-spring-pins": "mak-fasteners",
+    "national-u-bolts": "mak-fasteners",
+
+    "pins-bushes": "mak-bushes",
+    "pivot-pins": "mak-bushes",
+    "pin-collars-stub-axle": "mak-bushes",
+    "steering-tie-rod": "mak-bushes",
+    "bucket-boss-sleeves": "mak-bushes",
+    "kits": "mak-bushes",
+    "rods-tubes-links": "mak-bushes",
+    "national-bushes": "mak-bushes",
+
+    "filters": "mak-filters",
+    "seals-gaskets": "mak-filters",
+
+    "electricals-lighting": "mak-lights",
+
+    "gear-parts": "mak-truck-parts",
+    "tyres": "mak-truck-parts",
+    "tools-accessories": "mak-truck-parts",
+    "truck-car-parts": "mak-truck-parts",
+    "national-shackle-assembly": "mak-truck-parts",
+    "national-shackle-plate": "mak-truck-parts",
+    "national-steel-jacks": "mak-truck-parts",
+    "national-hydraulic-jacks": "mak-truck-parts"
+  };
+  const heads = Object.fromEntries((window.MAK_HEAD_CATEGORIES || []).map(head => [head.slug, head]));
+  function applyHead(item){
+    const originalCategory = item.category || item.title || "";
+    const originalSlug = item.categorySlug || item.slug || "";
+    const head = heads[headBySubcategory[originalSlug]] || heads["mak-truck-parts"];
+    return Object.assign(item, {
+      headCategory: head.title,
+      headCategorySlug: head.slug,
+      subcategory: originalCategory,
+      subcategorySlug: originalSlug
+    });
+  }
+  window.MAK_CATEGORIES = (window.MAK_CATEGORIES || []).map(category => {
+    applyHead(category);
+    category.headTitle = category.headCategory;
+    category.headSlug = category.headCategorySlug;
+    return category;
+  });
+  window.MAK_PRODUCTS = (window.MAK_PRODUCTS || []).map(product => {
+    applyHead(product);
+    product.category = product.headCategory;
+    return product;
+  });
+  (window.MAK_HEAD_CATEGORIES || []).forEach(head => {
+    const subcategories = (window.MAK_CATEGORIES || []).filter(category => category.headSlug === head.slug);
+    const products = (window.MAK_PRODUCTS || []).filter(product => product.headCategorySlug === head.slug);
+    head.count = products.length;
+    head.subcategoryCount = subcategories.length;
+    head.subcategories = subcategories.map(category => category.slug);
+  });
+})();
 
 window.MAK_PRODUCTS = [
   {
@@ -5629,3 +5730,66 @@ window.MAK_PRODUCTS = [
     "detailPage": "product-pages/working-lamp-square-light-working-lamp-square.html"
   }
 ];
+
+(function(){
+  const headBySubcategory = {
+    "bolts-fasteners": "mak-fasteners",
+    "shims-washers": "mak-fasteners",
+    "grease-nipples": "mak-fasteners",
+    "jcb-teeth-cutters": "mak-fasteners",
+    "national-spring-pins": "mak-fasteners",
+    "national-u-bolts": "mak-fasteners",
+
+    "pins-bushes": "mak-bushes",
+    "pivot-pins": "mak-bushes",
+    "pin-collars-stub-axle": "mak-bushes",
+    "steering-tie-rod": "mak-bushes",
+    "bucket-boss-sleeves": "mak-bushes",
+    "kits": "mak-bushes",
+    "rods-tubes-links": "mak-bushes",
+    "national-bushes": "mak-bushes",
+
+    "filters": "mak-filters",
+    "seals-gaskets": "mak-filters",
+
+    "electricals-lighting": "mak-lights",
+
+    "gear-parts": "mak-truck-parts",
+    "tyres": "mak-truck-parts",
+    "tools-accessories": "mak-truck-parts",
+    "truck-car-parts": "mak-truck-parts",
+    "national-shackle-assembly": "mak-truck-parts",
+    "national-shackle-plate": "mak-truck-parts",
+    "national-steel-jacks": "mak-truck-parts",
+    "national-hydraulic-jacks": "mak-truck-parts"
+  };
+  const heads = Object.fromEntries((window.MAK_HEAD_CATEGORIES || []).map(head => [head.slug, head]));
+  function applyHead(item){
+    const originalCategory = item.subcategory || item.category || item.title || "";
+    const originalSlug = item.subcategorySlug || item.categorySlug || item.slug || "";
+    const head = heads[headBySubcategory[originalSlug]] || heads["mak-truck-parts"];
+    Object.assign(item, {
+      headCategory: head.title,
+      headCategorySlug: head.slug,
+      subcategory: originalCategory,
+      subcategorySlug: originalSlug
+    });
+    return item;
+  }
+  (window.MAK_CATEGORIES || []).forEach(category => {
+    applyHead(category);
+    category.headTitle = category.headCategory;
+    category.headSlug = category.headCategorySlug;
+  });
+  (window.MAK_PRODUCTS || []).forEach(product => {
+    applyHead(product);
+    product.category = product.headCategory;
+  });
+  (window.MAK_HEAD_CATEGORIES || []).forEach(head => {
+    const subcategories = (window.MAK_CATEGORIES || []).filter(category => category.headSlug === head.slug);
+    const products = (window.MAK_PRODUCTS || []).filter(product => product.headCategorySlug === head.slug);
+    head.count = products.length;
+    head.subcategoryCount = subcategories.length;
+    head.subcategories = subcategories.map(category => category.slug);
+  });
+})();

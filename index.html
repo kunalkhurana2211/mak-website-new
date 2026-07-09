@@ -1,395 +1,465 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MAK Overseas - Heavy Machinery Spare Parts</title>
+<meta name="description" content="MAK Overseas supplies heavy machinery spare parts for CAT, JCB, Komatsu, Volvo, trucks, forklifts, buses and construction equipment from India and Dubai.">
+<title>MAK Overseas - Heavy Machinery Spare Parts Supplier</title>
 <link rel="preload" as="image" href="web-products/hero-mobile.webp" fetchpriority="high">
 <link rel="preload" as="image" href="web-products/mak-logo-small.webp">
-<link rel="preload" as="image" href="web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp">
-<link rel="preload" as="image" href="web-products/watermarked/web-products-jcb-bush-jpg.webp">
-<link rel="preload" as="image" href="web-products/watermarked/web-products-jcb-bucket-teeth-jpg.webp">
-<link rel="preload" as="image" href="web-products/watermarked/web-products-jcb-air-filter-png.webp">
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --gold:#D4890A;--gold2:#F2A72B;--orange:#E05A00;--dark:#101010;--dark2:#171717;--dark3:#222;
-  --steel:#93A0AA;--muted:#666;--light:#F2EDE4;--white:#fff;--green:#25D366;
-  --H:'Barlow Condensed',sans-serif;--B:'Barlow',sans-serif;
+  --gold:#d4890a;
+  --gold2:#f2a72b;
+  --orange:#e05a00;
+  --black:#090909;
+  --dark:#101010;
+  --panel:#171717;
+  --panel2:#202020;
+  --line:rgba(255,255,255,.11);
+  --steel:#94a0aa;
+  --light:#f3eee6;
+  --muted:#6f7780;
+  --green:#25d366;
+  --H:"Barlow Condensed",Arial,sans-serif;
+  --B:"Barlow",Arial,sans-serif;
 }
 html{scroll-behavior:smooth}
-body{font-family:var(--B);background:var(--dark);color:var(--light);overflow-x:hidden;line-height:1.55}
-a{text-decoration:none;color:inherit}
-button{font-family:inherit}
+body{font-family:var(--B);background:var(--black);color:var(--light);overflow-x:hidden;line-height:1.55}
+body.menu-open{overflow:hidden}
+a{color:inherit;text-decoration:none}
+button{font:inherit}
+.container{width:min(1180px,calc(100% - 3rem));margin-inline:auto}
+.eyebrow{font-size:.68rem;font-weight:900;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:.75rem}
+.section-title{font-family:var(--H);font-size:clamp(2.1rem,5vw,3.35rem);line-height:.95;font-weight:900;text-transform:uppercase;letter-spacing:.2px;margin-bottom:.9rem}
+.section-copy{color:var(--steel);max-width:680px;line-height:1.8}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:.55rem;
+  min-height:46px;padding:.82rem 1.55rem;border:1px solid transparent;
+  font-family:var(--H);font-weight:900;text-transform:uppercase;letter-spacing:1.1px;
+  cursor:pointer;transition:transform .22s ease,box-shadow .22s ease,background .22s ease,border-color .22s ease,color .22s ease;
+  position:relative;overflow:hidden;
+}
+.btn-primary{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#111}
+.btn-secondary{background:rgba(255,255,255,.055);border-color:rgba(255,255,255,.22);color:#fff}
+.btn-dark{background:#111;color:var(--gold);border-color:rgba(0,0,0,.25)}
+.btn:hover{transform:translateY(-2px);box-shadow:0 18px 38px rgba(0,0,0,.32)}
+.btn-primary::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 0%,rgba(255,255,255,.34) 48%,transparent 72%);transform:translateX(-120%);transition:transform .7s ease}
+.btn-primary:hover::after{transform:translateX(120%)}
 
 nav{
-  position:fixed;top:0;left:0;right:0;z-index:200;
-  height:70px;padding:0 2.3rem;
-  display:flex;align-items:center;justify-content:space-between;gap:1.5rem;
-  background:rgba(10,10,10,.74);backdrop-filter:blur(18px);
+  position:fixed;inset:0 0 auto 0;z-index:300;height:74px;
+  display:flex;align-items:center;justify-content:space-between;gap:1rem;
+  padding:0 2.35rem;background:rgba(8,8,8,.68);backdrop-filter:blur(18px);
   border-bottom:1px solid rgba(255,255,255,.08);
 }
-.brand-lockup{display:flex;align-items:center;justify-content:center;min-width:148px;height:54px;padding:.25rem .55rem;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.035);backdrop-filter:blur(10px)}
-.nav-logo{width:132px;height:46px;object-fit:contain;filter:invert(1) brightness(1.24)}
-.logo-text{font-family:var(--H);font-size:1.48rem;font-weight:900;letter-spacing:3px;color:var(--gold);white-space:nowrap;line-height:1}
-.logo-text span{color:#fff;display:block;font-size:.72rem;letter-spacing:2.6px;margin-top:.12rem}
-.nav-links{display:flex;gap:1.4rem;list-style:none;align-items:center}
-.nav-links a{color:var(--steel);font-size:.77rem;letter-spacing:1.6px;text-transform:uppercase;font-weight:700;transition:.2s}
+.brand{display:flex;align-items:center;gap:.75rem;min-width:190px}
+.brand img{width:130px;height:46px;object-fit:contain;filter:invert(1) brightness(1.25)}
+.brand span{font-family:var(--H);font-size:1.2rem;font-weight:900;letter-spacing:2px;color:#fff;text-transform:uppercase;white-space:nowrap}
+.nav-links{display:flex;list-style:none;gap:1.25rem;align-items:center}
+.nav-links a{font-size:.76rem;font-weight:800;text-transform:uppercase;letter-spacing:1.55px;color:#b6c0c8;transition:color .2s ease}
 .nav-links a:hover{color:var(--gold)}
 .nav-actions{display:flex;align-items:center;gap:.65rem}
-.icon-btn{
-  width:40px;height:40px;border-radius:50%;border:1px solid rgba(255,255,255,.15);
-  background:rgba(255,255,255,.06);color:#fff;display:grid;place-items:center;cursor:pointer;transition:.22s;position:relative;
+.nav-quote{padding:.57rem 1.08rem;min-height:40px;font-size:.9rem}
+.fx-toggle{
+  height:40px;padding:0 .78rem;border:1px solid rgba(255,255,255,.16);
+  background:rgba(255,255,255,.06);color:#fff;cursor:pointer;
+  font-family:var(--H);font-size:.82rem;font-weight:900;letter-spacing:1px;text-transform:uppercase;
+  transition:background .22s ease,border-color .22s ease,color .22s ease,transform .22s ease;
 }
-.icon-btn:hover{background:var(--gold);color:#111;border-color:var(--gold);transform:translateY(-1px)}
-.cart-count{position:absolute;right:-4px;top:-5px;min-width:18px;height:18px;border-radius:20px;background:var(--orange);color:#fff;font-size:11px;font-weight:800;display:grid;place-items:center;padding:0 4px}
-.nav-cta{background:var(--gold);color:#111;padding:.58rem 1.16rem;font-family:var(--H);font-weight:900;font-size:.9rem;letter-spacing:1px;text-transform:uppercase;transition:.2s;white-space:nowrap}
-.nav-cta:hover{background:var(--gold2);transform:translateY(-1px)}
+.fx-toggle span{color:var(--gold);margin-left:.25rem}
+.fx-toggle:hover{transform:translateY(-1px);border-color:rgba(212,137,10,.55)}
+.fx-toggle[aria-pressed="false"]{color:#89939b;background:rgba(255,255,255,.035)}
+.fx-toggle[aria-pressed="false"] span{color:#89939b}
+.menu-toggle{display:none;width:42px;height:42px;border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.06);color:#fff;cursor:pointer;place-items:center}
+.menu-toggle span,.menu-toggle span::before,.menu-toggle span::after{display:block;width:19px;height:2px;background:currentColor;transition:.22s ease;content:""}
+.menu-toggle span::before{transform:translateY(-6px)}
+.menu-toggle span::after{transform:translateY(4px)}
+.menu-open .menu-toggle span{background:transparent}
+.menu-open .menu-toggle span::before{background:#fff;transform:rotate(45deg)}
+.menu-open .menu-toggle span::after{background:#fff;transform:rotate(-45deg) translate(1px,-1px)}
 
 .hero{
-  min-height:100svh;position:relative;display:flex;align-items:flex-end;overflow:hidden;
-  padding:6rem 2.5rem 3.1rem;background:#080808;
+  position:relative;min-height:100svh;display:flex;align-items:flex-end;overflow:hidden;
+  padding:7rem 0 4.25rem;background:#080808;
 }
-.hero-video,.hero-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.hero-poster{background:url("web-products/hero-mobile.webp") center/cover no-repeat}
-.hero-video{z-index:0;filter:saturate(.95) contrast(1.05)}
-.hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(0,0,0,.92),rgba(0,0,0,.66) 44%,rgba(0,0,0,.32)),linear-gradient(0deg,rgba(0,0,0,.72),transparent 42%)}
-.hero::after{content:"";position:absolute;right:-7%;top:0;bottom:0;width:40%;z-index:2;background:repeating-linear-gradient(-55deg,transparent,transparent 18px,rgba(212,137,10,.075) 18px,rgba(212,137,10,.075) 20px)}
-.hero-content{position:relative;z-index:3;max-width:760px}
-.hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(212,137,10,.15);border:1px solid rgba(212,137,10,.45);color:var(--gold2);font-size:.7rem;letter-spacing:2.5px;text-transform:uppercase;padding:6px 14px;margin-bottom:1.1rem;font-weight:800}
-.hero-badge::before{content:"";width:5px;height:5px;background:var(--gold);border-radius:50%}
-.hero h1{font-family:var(--H);font-size:clamp(3rem,7vw,5.9rem);line-height:.9;font-weight:900;text-transform:uppercase;letter-spacing:-.5px;margin-bottom:.7rem}
-.hero h1 em{color:var(--gold);font-style:normal}
-.hero-tagline{font-family:var(--H);font-size:1.08rem;font-weight:800;letter-spacing:3px;text-transform:uppercase;color:var(--steel);margin-bottom:1.3rem}
-.hero-tagline span{color:var(--gold)}
-.hero-desc{font-size:.96rem;color:#c7d0d8;max-width:540px;line-height:1.7;margin-bottom:1.55rem}
+.hero-poster,.hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero-poster{background:url("web-products/hero-mobile.webp") center/cover no-repeat;transform:scale(1.02)}
+.hero-video{z-index:0;filter:saturate(.92) contrast(1.08);opacity:.74}
+.hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(0,0,0,.94),rgba(0,0,0,.72) 45%,rgba(0,0,0,.34)),linear-gradient(0deg,rgba(0,0,0,.82),transparent 46%)}
+.hero::after{content:"";position:absolute;right:-8vw;top:0;bottom:0;width:44vw;z-index:2;background:repeating-linear-gradient(-54deg,transparent,transparent 18px,rgba(212,137,10,.075) 18px,rgba(212,137,10,.075) 20px)}
+.hero-inner{position:relative;z-index:3}
+.hero-badge{display:inline-flex;align-items:center;gap:.55rem;background:rgba(212,137,10,.15);border:1px solid rgba(212,137,10,.42);color:var(--gold2);font-size:.7rem;font-weight:900;letter-spacing:2.45px;text-transform:uppercase;padding:.42rem .9rem;margin-bottom:1.2rem}
+.hero-badge::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--gold)}
+.hero h1{font-family:var(--H);font-size:clamp(3.25rem,8.6vw,7.2rem);line-height:.86;text-transform:uppercase;font-weight:900;max-width:860px;margin-bottom:1rem;letter-spacing:-.4px}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero-sub{font-family:var(--H);font-size:clamp(1.05rem,2.4vw,1.45rem);font-weight:800;letter-spacing:2.7px;text-transform:uppercase;color:#c7d0d8;margin-bottom:1.05rem}
+.hero-copy{max-width:610px;color:#b7c2ca;font-size:1.02rem;line-height:1.75;margin-bottom:1.85rem}
 .hero-actions{display:flex;gap:1rem;flex-wrap:wrap}
-.btn-gold,.btn-ghost,.btn-dark,.buy-btn,.ghost-btn{
-  border:0;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:8px;
-  font-family:var(--H);font-weight:900;text-transform:uppercase;letter-spacing:1px;transition:transform .22s,box-shadow .22s,background .22s,color .22s,border-color .22s;position:relative;overflow:hidden;
+.trust-strip{position:relative;z-index:4;background:linear-gradient(90deg,var(--orange),var(--gold));color:#111}
+.trust-grid{display:grid;grid-template-columns:repeat(4,1fr)}
+.trust-item{padding:1.15rem 1rem;text-align:center;border-right:1px solid rgba(0,0,0,.16)}
+.trust-item:last-child{border-right:0}
+.trust-value{font-family:var(--H);font-size:2rem;font-weight:900;line-height:1;text-transform:uppercase}
+.trust-label{font-size:.68rem;font-weight:900;letter-spacing:1.35px;text-transform:uppercase;color:rgba(0,0,0,.62);margin-top:.25rem}
+
+.about{padding:5.4rem 0;background:linear-gradient(180deg,#0b0b0b,#121212)}
+.about-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(310px,.95fr);gap:1px;background:#2b2b2b}
+.about-main,.about-panel{background:var(--panel);padding:2.6rem}
+.about-main p{color:var(--steel);font-size:1.02rem;line-height:1.85;margin-bottom:1rem}
+.about-main p:last-child{margin-bottom:0}
+.about-panel{display:grid;gap:1px;background:#2b2b2b;padding:0}
+.about-point{background:#181818;padding:1.45rem 1.55rem}
+.about-point strong{display:block;font-family:var(--H);font-size:1.18rem;font-weight:900;text-transform:uppercase;letter-spacing:1.2px;color:#fff;margin-bottom:.28rem}
+.about-point span{display:block;color:var(--steel);font-size:.88rem;line-height:1.65}
+
+.why{padding:5.25rem 0;background:var(--panel)}
+.section-head{display:flex;align-items:end;justify-content:space-between;gap:2rem;margin-bottom:2rem}
+.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#303030}
+.why-card{background:#151515;padding:2rem 1.6rem;min-height:245px;transition:transform .25s ease,background .25s ease}
+.why-card:hover{transform:translateY(-6px);background:#1d1d1d}
+.why-icon{width:46px;height:46px;border:1px solid rgba(212,137,10,.35);background:rgba(212,137,10,.08);display:grid;place-items:center;margin-bottom:1.25rem;color:var(--gold)}
+.why-icon svg{width:23px;height:23px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.why-card h3{font-family:var(--H);font-size:1.24rem;font-weight:900;text-transform:uppercase;letter-spacing:1px;line-height:1.05;margin-bottom:.55rem}
+.why-card p{color:var(--steel);font-size:.88rem;line-height:1.72}
+
+.brands-section{padding:5rem 0;background:#0d0d0d}
+.brand-wall{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#2a2a2a;margin-top:2rem}
+.brand-name{background:#161616;min-height:96px;display:grid;place-items:center;font-family:var(--H);font-size:1.65rem;font-weight:900;letter-spacing:2px;text-transform:uppercase;color:#8b949c;transition:.24s ease}
+.brand-name:hover{background:#1f1f1f;color:var(--gold)}
+
+.industries{padding:5rem 0;background:linear-gradient(180deg,#121212,#0c0c0c)}
+.industry-row{display:flex;flex-wrap:wrap;gap:.65rem;margin-top:1.8rem}
+.industry-pill{border:1px solid rgba(255,255,255,.13);background:rgba(255,255,255,.045);color:#d7dde2;padding:.72rem 1rem;font-weight:800;text-transform:uppercase;letter-spacing:1px;font-size:.8rem;transition:.2s ease}
+.industry-pill:hover{border-color:rgba(212,137,10,.55);color:var(--gold);transform:translateY(-2px)}
+
+.cta{padding:4.4rem 0;background:radial-gradient(circle at 85% 20%,rgba(212,137,10,.2),transparent 32%),linear-gradient(135deg,#d4890a,#e05a00)}
+.cta-card{display:flex;align-items:center;justify-content:space-between;gap:2rem;color:#111}
+.cta h2{font-family:var(--H);font-size:clamp(2rem,4.7vw,3.5rem);line-height:.95;text-transform:uppercase;font-weight:900;max-width:720px}
+.cta p{margin-top:.65rem;color:rgba(0,0,0,.68);font-weight:700;max-width:640px}
+.cta-actions{display:flex;gap:.75rem;flex-wrap:wrap;justify-content:flex-end}
+
+.contact{padding:5rem 0;background:#101010}
+.offices{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:#2b2b2b;margin-top:2rem}
+.office{background:var(--panel);padding:2.25rem}
+.office-label{font-size:.68rem;color:var(--gold);font-weight:900;letter-spacing:2px;text-transform:uppercase;margin-bottom:.55rem}
+.office h3{font-family:var(--H);font-size:1.6rem;font-weight:900;text-transform:uppercase;letter-spacing:1.4px;margin-bottom:.4rem}
+.office p{color:var(--steel);line-height:1.8}
+.office a{display:inline-block;color:var(--gold);font-weight:800;margin-top:.75rem}
+.email-line{margin-top:1.3rem;color:var(--steel)}
+.email-line a{color:var(--gold);font-weight:800}
+
+footer{background:#070707;border-top:1px solid rgba(255,255,255,.08);padding:1.6rem 0}
+.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:1rem;color:#6e767c;font-size:.78rem}
+.footer-brand{font-family:var(--H);font-size:1.16rem;font-weight:900;letter-spacing:3px;text-transform:uppercase;color:#777}
+.footer-links{display:flex;gap:1rem;flex-wrap:wrap}
+.footer-links a:hover{color:var(--gold)}
+
+.wa-float{position:fixed;right:1.25rem;bottom:1.25rem;z-index:280;width:56px;height:56px;border-radius:50%;background:var(--green);display:grid;place-items:center;box-shadow:0 16px 34px rgba(0,0,0,.38);transition:.2s ease}
+.wa-float:hover{transform:translateY(-3px) scale(1.04);background:#128c7e}
+.wa-float svg{width:29px;height:29px;fill:#fff}
+.reveal{opacity:1;transform:none;filter:none}
+.anim-ready.fx-enabled .reveal{opacity:0;transform:translate3d(0,34px,0);filter:blur(8px);transition:opacity .82s cubic-bezier(.2,.8,.2,1),transform .82s cubic-bezier(.2,.8,.2,1),filter .82s cubic-bezier(.2,.8,.2,1)}
+.anim-ready.fx-enabled .reveal.visible{opacity:1;transform:translate3d(0,0,0);filter:blur(0)}
+.anim-ready.fx-enabled .about-panel,.anim-ready.fx-enabled .why-grid,.anim-ready.fx-enabled .brand-wall,.anim-ready.fx-enabled .industry-row,.anim-ready.fx-enabled .offices{transition-delay:.08s}
+.fx-off .reveal{opacity:1!important;transform:none!important;filter:none!important;transition:none!important}
+
+@media(max-width:1050px){
+  nav{padding:0 1.2rem}
+  .brand span{display:none}
+  .why-grid,.brand-wall{grid-template-columns:repeat(2,1fr)}
 }
-.btn-gold,.btn-ghost,.btn-dark{padding:.85rem 1.85rem;font-size:1rem}
-.btn-gold,.buy-btn{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#111}
-.btn-ghost,.ghost-btn{background:rgba(255,255,255,.05);color:var(--light);border:1px solid rgba(255,255,255,.22)}
-.btn-dark{background:#111;color:var(--gold)}
-.btn-email{background:#fff;color:#111}
-.btn-gold:hover,.btn-ghost:hover,.btn-dark:hover,.buy-btn:hover,.ghost-btn:hover{transform:translateY(-2px);box-shadow:0 16px 38px rgba(0,0,0,.28)}
-.btn-gold::after,.buy-btn::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 0%,rgba(255,255,255,.36) 45%,transparent 70%);transform:translateX(-120%);transition:transform .65s}
-.btn-gold:hover::after,.buy-btn:hover::after{transform:translateX(120%)}
-
-.stats{background:var(--orange);display:grid;grid-template-columns:repeat(4,1fr)}
-.stat{padding:1.25rem;text-align:center;border-right:1px solid rgba(0,0,0,.15)}
-.stat:last-child{border-right:0}
-.stat-n{font-family:var(--H);font-size:2rem;font-weight:900;color:#111;line-height:1}
-.stat-l{font-size:.68rem;font-weight:800;color:rgba(0,0,0,.58);letter-spacing:1.5px;text-transform:uppercase;margin-top:4px}
-
-section{padding:4.8rem 2.5rem}
-.s-tag{font-size:.68rem;font-weight:900;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:.65rem}
-.s-title{font-family:var(--H);font-size:clamp(2rem,5vw,3rem);font-weight:900;text-transform:uppercase;line-height:1;margin-bottom:.75rem}
-.s-sub{color:var(--steel);max-width:650px;line-height:1.75;margin-bottom:2.35rem}
-
-.prod-intro{padding-bottom:0}
-.prod-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1px;background:#2a2a2a;margin:0 2.5rem 0}
-.prod-card{background:var(--dark2);display:flex;flex-direction:column;min-height:430px;transition:.28s;overflow:hidden;position:relative}
-.prod-card::after{content:"";position:absolute;inset:0;border:1px solid transparent;pointer-events:none;transition:.28s}
-.prod-card:hover{background:#202020;transform:translateY(-6px)}
-.prod-card:hover::after{border-color:rgba(212,137,10,.45)}
-.prod-img-wrap{height:225px;background:linear-gradient(145deg,#f4f4f4,#d8d8d8);overflow:hidden;position:relative;display:flex;align-items:center;justify-content:center;padding:0}
-.prod-img-wrap::after{content:"";position:absolute;inset:auto 0 0;height:48%;background:linear-gradient(0deg,rgba(0,0,0,.18),transparent);pointer-events:none}
-.prod-img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .55s ease,filter .55s ease;filter:saturate(.96) contrast(1.04);position:relative;z-index:1}
-.prod-card:hover .prod-img{transform:scale(1.06);filter:saturate(1.05) contrast(1.08)}
-.prod-body{padding:1.35rem 1.25rem;display:flex;flex:1;flex-direction:column;gap:.65rem}
-.prod-ico{width:42px;height:42px;background:rgba(212,137,10,.1);display:flex;align-items:center;justify-content:center}
-.prod-ico svg{width:21px;height:21px;stroke:var(--gold);fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
-.prod-name{font-family:var(--H);font-size:1.12rem;font-weight:900;text-transform:uppercase;letter-spacing:1px;color:#fff}
-.prod-items{color:var(--steel);font-size:.82rem;line-height:1.65}
-.prod-actions{display:flex;gap:.55rem;flex-wrap:wrap;margin-top:auto;padding-top:.7rem}
-.buy-btn,.ghost-btn{padding:.64rem .85rem;font-size:.82rem;border-radius:0}
-
-.brands{background:var(--dark2);padding:3rem 2.5rem}
-.brands-lbl{font-size:.68rem;letter-spacing:3px;text-transform:uppercase;color:var(--muted);text-align:center;margin-bottom:1.4rem;font-weight:900}
-.brands-row{display:flex;flex-wrap:wrap;justify-content:center;gap:3px}
-.brand{background:var(--dark3);padding:.72rem 1.65rem;font-family:var(--H);font-size:1.3rem;font-weight:900;letter-spacing:2px;color:#555;text-transform:uppercase;transition:.2s}
-.brand:hover{color:var(--gold);background:#202020}
-.brand.featured-jcb{background:#F2C300;color:#111;border:3px solid #111;transform:rotate(-2deg)}
-.brand.featured-cat{background:#111;color:#fff;border:2px solid #F2C300}
-
-.why{background:var(--dark2)}
-.why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1px;background:#333}
-.why-item{background:var(--dark2);padding:2rem 1.75rem}
-.why-n{font-family:var(--H);font-size:2.5rem;font-weight:900;color:rgba(212,137,10,.18);line-height:1;margin-bottom:.6rem}
-.why-t{font-family:var(--H);font-size:1rem;font-weight:900;text-transform:uppercase;letter-spacing:1px;margin-bottom:.4rem}
-.why-tx{color:var(--steel);font-size:.84rem;line-height:1.7}
-
-.contact{background:var(--dark)}
-.offices{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#2a2a2a;max-width:1180px;margin-bottom:2.5rem}
-.office{background:var(--dark2);padding:2.25rem 2rem}
-.office-c{font-family:var(--H);font-size:1.3rem;font-weight:900;text-transform:uppercase;letter-spacing:2px;margin-bottom:.35rem}
-.office-addr{color:var(--steel);font-size:.84rem;line-height:1.9}
-.office-ph{color:var(--gold);font-weight:700;font-size:.96rem;margin-top:.75rem;display:block}
-.office-names{color:#777;font-size:.78rem;margin-top:.4rem;line-height:1.7}
-
-.cta{background:var(--gold);padding:3.5rem 2.5rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:2rem}
-.cta h2{font-family:var(--H);font-size:clamp(1.8rem,4vw,2.8rem);font-weight:900;text-transform:uppercase;color:#111;line-height:1}
-.cta p{color:rgba(17,17,17,.62);font-size:.9rem;margin-top:.45rem}
-.cta-btns{display:flex;gap:.75rem;flex-wrap:wrap}
-footer{background:#0a0a0a;padding:1.75rem 2.5rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;border-top:1px solid #1e1e1e}
-.footer-logo-text{font-family:var(--H);font-size:1.1rem;font-weight:900;letter-spacing:3px;color:#555}
-.footer-info{font-size:.75rem;color:#555;text-align:right;line-height:1.7}
-
-.wa-float{position:fixed;bottom:1.5rem;right:1.5rem;z-index:180;background:var(--green);width:54px;height:54px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 18px rgba(0,0,0,.42);transition:.2s}
-.wa-float:hover{background:#128C7E;transform:scale(1.08)}
-.wa-float svg{width:28px;height:28px;fill:#fff}
-
-.cart-panel,.search-panel{position:fixed;inset:0;z-index:260;background:rgba(0,0,0,.72);opacity:0;pointer-events:none;transition:.25s}
-.cart-panel.open,.search-panel.open{opacity:1;pointer-events:auto}
-.cart-drawer{position:absolute;right:0;top:0;height:100%;width:min(420px,100%);background:#111;border-left:1px solid #333;transform:translateX(100%);transition:.28s;display:flex;flex-direction:column}
-.cart-panel.open .cart-drawer{transform:translateX(0)}
-.drawer-head{padding:1.25rem;border-bottom:1px solid #333;display:flex;justify-content:space-between;align-items:center}
-.drawer-head h3{font-family:var(--H);font-size:1.4rem;letter-spacing:1px;text-transform:uppercase}
-.close{background:transparent;color:#fff;border:0;font-size:1.7rem;cursor:pointer}
-.cart-items{padding:1rem;overflow:auto;flex:1}
-.cart-item{display:grid;grid-template-columns:1fr auto;gap:.75rem;padding:.9rem 0;border-bottom:1px solid #252525}
-.qty{display:flex;align-items:center;gap:.45rem;margin-top:.45rem}
-.qty button{width:26px;height:26px;background:#222;color:#fff;border:1px solid #444;cursor:pointer}
-.checkout{margin:1rem 1rem 0;background:var(--green);color:#fff;border:0;padding:.9rem;font-weight:900;text-transform:uppercase;cursor:pointer}.email-checkout{margin-bottom:1rem;background:#fff;color:#111}
-.search-box{position:absolute;left:50%;top:9vh;transform:translateX(-50%);width:min(860px,calc(100% - 2rem));background:#111;border:1px solid #333}
-.search-top{display:flex;gap:.75rem;padding:1rem;border-bottom:1px solid #333}
-.search-top input{flex:1;padding:.9rem;background:#fff;color:#111;border:0;font-size:1rem}
-.search-results{max-height:65vh;overflow:auto;padding:.75rem}
-.search-result{display:grid;grid-template-columns:1fr auto;gap:.75rem;padding:.8rem;border-bottom:1px solid #242424}
-.search-result small{color:#888}
-.reveal{opacity:1;transform:none}
-.anim-ready .reveal{opacity:0;transform:translateY(28px);transition:opacity .75s ease,transform .75s ease}
-.anim-ready .reveal.visible{opacity:1;transform:translateY(0)}
-
-@media(max-width:1120px){
-  .offices{grid-template-columns:repeat(2,1fr)}
-}
-
 @media(max-width:820px){
-  nav{height:auto;min-height:62px;padding:.62rem .82rem;align-items:center;flex-wrap:wrap;gap:.45rem}
-  .nav-links{display:none}.nav-actions{margin-left:auto;gap:.35rem}.nav-cta{display:none}
-  .icon-btn{width:38px;height:38px}
-  .brand-lockup{min-width:116px;height:44px;padding:.2rem .45rem}.nav-logo{width:108px;height:38px}.logo-text{font-size:1.22rem}.logo-text span{font-size:.64rem}
-  .hero{min-height:72svh;padding:4.85rem 1rem 1.25rem}
-  .hero-video{display:none}
+  .container{width:min(100% - 2rem,1180px)}
+  nav{height:64px;padding:0 .85rem}
+  .brand{min-width:0}.brand img{width:118px;height:42px}
+  .menu-toggle{display:grid}
+  .fx-toggle{width:42px;padding:0;font-size:.72rem}
+  .fx-toggle span{display:none}
+  .nav-links{
+    position:fixed;top:64px;left:0;right:0;height:calc(100svh - 64px);
+    display:flex;flex-direction:column;align-items:stretch;gap:0;padding:1rem;
+    background:rgba(7,7,7,.96);backdrop-filter:blur(18px);
+    transform:translateX(100%);transition:transform .26s ease;border-top:1px solid rgba(255,255,255,.08);
+  }
+  .menu-open .nav-links{transform:translateX(0)}
+  .nav-links a{display:block;padding:1rem;border-bottom:1px solid rgba(255,255,255,.08);font-size:.9rem}
+  .nav-quote{display:none}
+  .hero{min-height:100svh;padding:5.6rem 0 2rem}
   .hero::after{display:none}
-  .hero::before{background:linear-gradient(90deg,rgba(0,0,0,.9),rgba(0,0,0,.58)),linear-gradient(0deg,rgba(0,0,0,.7),transparent 46%)}
-  .hero-badge{font-size:.61rem;letter-spacing:1.45px;padding:5px 10px;margin-bottom:.72rem}
-  .hero h1{font-size:clamp(2.25rem,11.8vw,3.45rem);line-height:.92;margin-bottom:.5rem}
-  .hero-tagline{font-size:.82rem;letter-spacing:1.65px;margin-bottom:.72rem}
-  .hero-desc{font-size:.86rem;line-height:1.55;margin-bottom:1rem}
-  .hero-actions{gap:.62rem}.hero-actions a{width:100%;padding:.74rem 1rem}
-  .stats{grid-template-columns:repeat(2,1fr)}
-  .stat{padding:.82rem .5rem}.stat-n{font-size:1.22rem}.stat-l{font-size:.58rem;letter-spacing:1px}
-  section{padding:2.45rem 1rem}.prod-intro{padding-bottom:0}.prod-grid{margin:0 1rem;grid-template-columns:1fr}.brands{padding:2.3rem 1rem}
-  .prod-card{min-height:0}.prod-img-wrap{height:220px;padding:10px;background:linear-gradient(145deg,#f7f7f7,#dedede)}
-  .prod-img-wrap::after{display:none}.prod-img{object-fit:contain}
-  .prod-card:hover .prod-img{transform:none}
-  .offices{grid-template-columns:1fr}.cta{padding:2.5rem 1.25rem}.cta-btns a{width:100%}
-  footer{padding:1.25rem;align-items:flex-start;flex-direction:column}.footer-info{text-align:left}
-  .anim-ready .reveal{opacity:1;transform:none;transition:none}
+  .hero-video{opacity:.58}
+  .hero::before{background:linear-gradient(90deg,rgba(0,0,0,.94),rgba(0,0,0,.72)),linear-gradient(0deg,rgba(0,0,0,.82),transparent 48%)}
+  .hero-badge{font-size:.58rem;letter-spacing:1.55px;padding:.36rem .65rem;margin-bottom:.85rem}
+  .hero h1{font-size:clamp(2.65rem,13vw,4.2rem)}
+  .hero-sub{font-size:.92rem;letter-spacing:1.8px}
+  .hero-copy{font-size:.92rem;line-height:1.65}
+  .hero-actions .btn{width:100%}
+  .trust-grid{grid-template-columns:repeat(2,1fr)}
+  .trust-item{padding:.95rem .5rem}.trust-value{font-size:1.35rem}.trust-label{font-size:.58rem}
+  .about,.why,.brands-section,.industries,.contact{padding:3.1rem 0}
+  .about-grid,.offices{grid-template-columns:1fr}
+  .about-main,.office{padding:1.45rem}
+  .section-head{display:block}.section-copy{font-size:.92rem}
+  .why-grid,.brand-wall{grid-template-columns:1fr}
+  .why-card{min-height:0;padding:1.5rem}
+  .brand-name{min-height:76px;font-size:1.35rem}
+  .cta{padding:3rem 0}.cta-card{display:block}.cta-actions{justify-content:flex-start;margin-top:1.35rem}.cta-actions .btn{width:100%}
+  .footer-inner{align-items:flex-start;flex-direction:column}
 }
 </style>
 </head>
 <body>
-<nav>
-  <a class="brand-lockup" href="#home" aria-label="MAK Overseas home"><img class="nav-logo" src="web-products/mak-logo-small.webp" alt="MAK Overseas logo"></a>
-  <ul class="nav-links">
-    <li><a href="products.html">Products</a></li>
-    <li><a href="brands.html">Brands</a></li>
-    <li><a href="why-us.html">Why Us</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="quote.html">Quote</a></li>
+<nav aria-label="Main navigation">
+  <a class="brand" href="#home" aria-label="MAK Overseas home">
+    <img src="web-products/mak-logo-small.webp" alt="MAK Overseas logo">
+    <span>MAK Overseas</span>
+  </a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#why">Why Us</a></li>
+    <li><a href="#brands">Brands</a></li>
+    <li><a href="#contact">Contact</a></li>
     <li><a href="search.html">Catalogue</a></li>
   </ul>
   <div class="nav-actions">
-    <button class="icon-btn" id="openSearch" aria-label="Search products">&#128269;</button>
-    <button class="icon-btn" id="openCart" aria-label="Open enquiry cart">&#128722;<span class="cart-count">0</span></button>
-    <a href="https://wa.me/919465263877" class="nav-cta">Get a Quote</a>
+    <a class="btn btn-primary nav-quote" href="quote.html">Request Quote</a>
+    <button class="fx-toggle" id="fxToggle" type="button" aria-label="Toggle scroll effects" aria-pressed="true">FX <span>On</span></button>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-controls="navLinks" aria-expanded="false"><span></span></button>
   </div>
 </nav>
 
-<section class="hero" id="home">
-  <div class="hero-poster"></div>
-  <video class="hero-video" autoplay muted loop playsinline preload="none" poster="web-products/hero-mobile.webp" data-desktop-src="https://videos.pexels.com/video-files/31914438/13594458_3840_2160_25fps.mp4"></video>
-  <div class="hero-content reveal">
-    <div class="hero-badge">Worldwide Presence - Industrial Spare Parts</div>
-    <h1>Machinery<br><em>Spare Parts</em></h1>
-    <p class="hero-tagline">Engineering Precision, <span>Securing Performance</span></p>
-    <p class="hero-desc">Genuine and OE-compatible spares for CAT, JCB, Komatsu, Cummins, Volvo, Hyundai, trucks, forklifts, buses, and construction equipment.</p>
-    <div class="hero-actions">
-      <a href="https://wa.me/919465263877" class="btn-gold">Request a Quote</a>
-      <a href="search.html" class="btn-ghost">Browse Catalogue</a>
+<main>
+  <section class="hero" id="home">
+    <div class="hero-poster" aria-hidden="true"></div>
+    <video class="hero-video" autoplay muted loop playsinline preload="none" poster="web-products/hero-mobile.webp" data-video-src="https://videos.pexels.com/video-files/31914438/13594458_3840_2160_25fps.mp4" aria-hidden="true"></video>
+    <div class="container hero-inner reveal">
+      <div class="hero-badge">India & Gulf supply network</div>
+      <h1>Heavy Machinery <em>Spare Parts</em> Supplier</h1>
+      <p class="hero-sub">CAT, JCB, Komatsu, Volvo, trucks, forklifts, buses and construction equipment</p>
+      <p class="hero-copy">MAK Overseas supplies genuine and OE-compatible spare parts through import, export and distribution support from Ludhiana, India and Deira, Dubai.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="quote.html">Request Quote</a>
+        <a class="btn btn-secondary" href="search.html">View Catalogue</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="trust-strip">
+    <div class="trust-grid">
+      <div class="trust-item"><div class="trust-value">India</div><div class="trust-label">Ludhiana Office</div></div>
+      <div class="trust-item"><div class="trust-value">UAE</div><div class="trust-label">Dubai Office</div></div>
+      <div class="trust-item"><div class="trust-value">OE</div><div class="trust-label">Compatible Supply</div></div>
+      <div class="trust-item"><div class="trust-value">Global</div><div class="trust-label">Export Support</div></div>
     </div>
   </div>
-</section>
 
-<div class="stats">
-  <div class="stat"><div class="stat-n">India & Gulf</div><div class="stat-l">Importers & Exporters</div></div>
-  <div class="stat"><div class="stat-n">6+</div><div class="stat-l">OEM Brands Covered</div></div>
-  <div class="stat"><div class="stat-n">50+</div><div class="stat-l">Product Categories</div></div>
-  <div class="stat"><div class="stat-n">Worldwide</div><div class="stat-l">Shipping</div></div>
-</div>
+  <section class="about reveal" id="about">
+    <div class="container about-grid">
+      <div class="about-main">
+        <div class="eyebrow">About MAK Overseas</div>
+        <h2 class="section-title">International Spare Parts Supply With Local Support</h2>
+        <p>MAK Overseas is a heavy machinery spare parts supplier serving construction, transport, industrial and equipment maintenance customers across India, the Gulf and export markets.</p>
+        <p>We support CAT, JCB, Komatsu, Volvo, Cummins, Hyundai, Doosan, Scania, trucks, forklifts and buses with genuine and OE-compatible parts sourced for fitment, reliability and commercial value.</p>
+      </div>
+      <div class="about-panel">
+        <div class="about-point"><strong>Import & Export</strong><span>Built for B2B buyers who need dependable sourcing and international dispatch support.</span></div>
+        <div class="about-point"><strong>India + UAE Presence</strong><span>Ground support from Ludhiana, Punjab and Deira, Dubai for faster response.</span></div>
+        <div class="about-point"><strong>Fitment Focused</strong><span>Quote by part number, machine model, product photo or application requirement.</span></div>
+      </div>
+    </div>
+  </section>
 
-<section class="prod-intro reveal" id="products">
-  <div class="s-tag">Full Product Range</div>
-  <h2 class="s-title">What We Supply</h2>
-  <p class="s-sub">Browse our main product lines, open the detailed pages from the older website, or add items to an enquiry cart and send the complete list on WhatsApp.</p>
-</section>
+  <section class="why reveal" id="why">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Why Choose Us</div>
+          <h2 class="section-title">Built For Serious Buyers</h2>
+        </div>
+        <p class="section-copy">A clean supply process for contractors, fleet owners, dealers, workshops and export buyers who need the right parts without delays.</p>
+      </div>
+      <div class="why-grid">
+        <article class="why-card">
+          <div class="why-icon"><svg viewBox="0 0 24 24"><path d="M4 18h16M6 18V9l6-4 6 4v9M9 18v-6h6v6"/></svg></div>
+          <h3>Competitive Pricing</h3>
+          <p>Manufacturer and supplier connections help us keep pricing sharp for trade, dealer and bulk enquiries.</p>
+        </article>
+        <article class="why-card">
+          <div class="why-icon"><svg viewBox="0 0 24 24"><path d="M12 3l7 4v5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V7l7-4z"/><path d="M9 12l2 2 4-5"/></svg></div>
+          <h3>Reliable Quality</h3>
+          <p>Genuine and OE-compatible parts selected for durability, correct fitment and heavy-duty performance.</p>
+        </article>
+        <article class="why-card">
+          <div class="why-icon"><svg viewBox="0 0 24 24"><path d="M12 21s7-5.1 7-11a7 7 0 10-14 0c0 5.9 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+          <h3>India & UAE Presence</h3>
+          <p>Business support from Ludhiana and Dubai helps buyers coordinate local, Gulf and export requirements.</p>
+        </article>
+        <article class="why-card">
+          <div class="why-icon"><svg viewBox="0 0 24 24"><path d="M3 7h11v10H3zM14 10h4l3 3v4h-7z"/><circle cx="7" cy="18" r="2"/><circle cx="18" cy="18" r="2"/></svg></div>
+          <h3>Worldwide Shipping</h3>
+          <p>Export-ready supply for international customers, with enquiry support by part number, photo or machine model.</p>
+        </article>
+      </div>
+    </div>
+  </section>
 
-<div class="prod-grid reveal" id="productGrid">
-  <article class="prod-card"><a class="prod-img-wrap" href="bolts.html"><img class="prod-img" src="web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp" alt="Bolts & Fasteners" width="1000" height="750" loading="eager" fetchpriority="high" decoding="sync"></a><div class="prod-body"><div class="prod-name">Bolts & Fasteners</div><div class="prod-items">JCB, excavator and truck bolts for cutters, wheels, hubs, pins and high-load joints.</div><div class="prod-actions"><a class="ghost-btn" href="bolts.html">View Details</a></div></div></article>
-  <article class="prod-card"><a class="prod-img-wrap" href="bushes.html"><img class="prod-img" src="web-products/watermarked/web-products-jcb-bush-jpg.webp" data-fallback="web-products/jcb-bush.jpg" onerror="if(this.dataset.fallback){this.onerror=null;this.src=this.dataset.fallback}" alt="Pins & Bushes" width="1000" height="750" loading="eager" fetchpriority="high" decoding="sync"></a><div class="prod-body"><div class="prod-name">Pins & Bushes</div><div class="prod-items">Steel, alloy steel and alloy bronze bushes for loader, bucket and steering assemblies.</div><div class="prod-actions"><a class="ghost-btn" href="bushes.html">View Details</a></div></div></article>
-  <article class="prod-card"><a class="prod-img-wrap" href="jcb-teeth.html"><img class="prod-img" src="web-products/watermarked/web-products-jcb-bucket-teeth-jpg.webp" data-fallback="web-products/jcb-bucket-teeth.jpg" onerror="if(this.dataset.fallback){this.onerror=null;this.src=this.dataset.fallback}" alt="JCB Teeth & Cutters" width="1000" height="750" loading="eager" fetchpriority="high" decoding="sync"></a><div class="prod-body"><div class="prod-name">JCB Teeth & Cutters</div><div class="prod-items">Centre teeth, side cutters, crocodile cutters and plain bucket teeth.</div><div class="prod-actions"><a class="ghost-btn" href="jcb-teeth.html">View Details</a></div></div></article>
-  <article class="prod-card"><a class="prod-img-wrap" href="filters.html"><img class="prod-img" src="web-products/watermarked/web-products-jcb-air-filter-png.webp" data-fallback="web-products/jcb-air-filter.png" onerror="if(this.dataset.fallback){this.onerror=null;this.src=this.dataset.fallback}" alt="Filters" width="1000" height="750" loading="eager" fetchpriority="high" decoding="sync"></a><div class="prod-body"><div class="prod-name">Filters</div><div class="prod-items">Oil, air, fuel and service filter products for heavy machinery.</div><div class="prod-actions"><a class="ghost-btn" href="filters.html">View Details</a></div></div></article>
-</div>
+  <section class="brands-section reveal" id="brands">
+    <div class="container">
+      <div class="eyebrow">Brands We Support</div>
+      <h2 class="section-title">Major Machinery Platforms</h2>
+      <p class="section-copy">Parts support for leading construction, truck, forklift and industrial equipment brands.</p>
+      <div class="brand-wall" aria-label="Supported brands">
+        <div class="brand-name">CAT</div>
+        <div class="brand-name">JCB</div>
+        <div class="brand-name">Komatsu</div>
+        <div class="brand-name">Volvo</div>
+        <div class="brand-name">Cummins</div>
+        <div class="brand-name">Hyundai</div>
+        <div class="brand-name">Doosan</div>
+        <div class="brand-name">Scania</div>
+      </div>
+    </div>
+  </section>
 
-<section class="brands reveal" id="brands">
-  <p class="brands-lbl">Genuine & OE-compatible parts for</p>
-  <div class="brands-row">
-    <div class="brand featured-cat">CAT</div><div class="brand featured-jcb">JCB</div><div class="brand">Komatsu</div><div class="brand">Cummins</div><div class="brand">Volvo</div><div class="brand">Hyundai</div><div class="brand">Doosan</div><div class="brand">Scania</div>
+  <section class="industries reveal" id="industries">
+    <div class="container">
+      <div class="eyebrow">Industries We Serve</div>
+      <h2 class="section-title">Supply For Work That Cannot Stop</h2>
+      <p class="section-copy">MAK Overseas supports businesses that depend on machines staying operational across construction sites, transport fleets, service counters and export supply chains.</p>
+      <div class="industry-row">
+        <div class="industry-pill">Contractors</div>
+        <div class="industry-pill">Fleet Owners</div>
+        <div class="industry-pill">Spare Parts Dealers</div>
+        <div class="industry-pill">Export Buyers</div>
+        <div class="industry-pill">Workshops</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta reveal">
+    <div class="container cta-card">
+      <div>
+        <h2>Need a part? Send us your part number or machine model.</h2>
+        <p>Get a fast quote from our India or Dubai team. You can also send a product photo for fitment help.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn btn-dark" href="https://wa.me/919465263877?text=Hello%20MAK%20Overseas%2C%20I%20need%20a%20quote%20for%20a%20machinery%20spare%20part.">WhatsApp India</a>
+        <a class="btn btn-dark" href="https://wa.me/971525355917?text=Hello%20MAK%20Overseas%2C%20I%20need%20a%20quote%20for%20a%20machinery%20spare%20part.">WhatsApp Dubai</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact reveal" id="contact">
+    <div class="container">
+      <div class="eyebrow">Contact / Offices</div>
+      <h2 class="section-title">India And Dubai Support</h2>
+      <p class="section-copy">Send your requirement by phone, WhatsApp or email. Include part number, machine model, quantity and delivery location for a faster quote.</p>
+      <div class="offices">
+        <article class="office">
+          <div class="office-label">India Office</div>
+          <h3>Ludhiana, Punjab, India</h3>
+          <p>Heavy machinery, truck, bus and equipment spare parts supply.</p>
+          <a href="tel:+919465263877">+91 94652 63877</a>
+        </article>
+        <article class="office">
+          <div class="office-label">Dubai Office</div>
+          <h3>Deira, Dubai, UAE</h3>
+          <p>Gulf and export enquiry support from the UAE office.</p>
+          <a href="tel:+971525355917">+971 52 535 5917</a>
+        </article>
+      </div>
+      <p class="email-line">Email: <a href="mailto:makbolts@gmail.com">makbolts@gmail.com</a></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <div class="footer-brand">MAK Overseas</div>
+    <div>Heavy machinery spare parts supplier - India & UAE</div>
+    <div class="footer-links">
+      <a href="search.html">Catalogue</a>
+      <a href="products.html">Products</a>
+      <a href="quote.html">Quote</a>
+      <a href="mailto:makbolts@gmail.com">Email</a>
+    </div>
   </div>
-</section>
+</footer>
 
-<section class="why reveal" id="why">
-  <div class="s-tag">Why MAK Overseas</div>
-  <h2 class="s-title">Built on Trust,<br>Backed by Stock</h2>
-  <p class="s-sub">More than a supplier - the team provides economical guidance and solutions for service, maintenance, and breakdowns.</p>
-  <div class="why-grid">
-    <div class="why-item"><div class="why-n">01</div><div class="why-t">Low Costs</div><div class="why-tx">Direct manufacturer and supplier connections help us offer competitive pricing without adding unnecessary middle layers.</div></div>
-    <div class="why-item"><div class="why-n">02</div><div class="why-t">High Quality & Perfect Fit</div><div class="why-tx">We focus on durable, OE-compatible parts that fit correctly and perform reliably in tough machinery applications.</div></div>
-    <div class="why-item"><div class="why-n">03</div><div class="why-t">Worldwide Shipping</div><div class="why-tx">From Ludhiana and Dubai, we support customers across India, the Gulf and international markets with export-ready supply.</div></div>
-  </div>
-</section>
-
-<section class="contact reveal" id="contact">
-  <div class="s-tag">Our Offices</div>
-  <h2 class="s-title">Find Us</h2>
-  <div class="offices">
-    <div class="office"><div class="office-c">Head Office</div><div class="office-addr">GT Road, Miller Ganj<br>Ludhiana, Punjab, India</div><a href="tel:+919465263877" class="office-ph">+91 94652 63877</a><div class="office-names">MAK Overseas</div></div>
-    <div class="office"><div class="office-c">National Traders</div><div class="office-addr">Miller Ganj<br>Ludhiana, Punjab, India</div><div class="office-names">Local parts counter and support</div></div>
-    <div class="office"><div class="office-c">National Sales Corporation</div><div class="office-addr">Miller Ganj<br>Ludhiana, Punjab, India</div><div class="office-names">Stock, sales, and dealer enquiries</div></div>
-    <div class="office"><div class="office-c">Dubai - Deira</div><div class="office-addr">Shop No. 19, Bin Thani Plaza<br>Deira, Dubai, UAE</div><a href="tel:+971525355917" class="office-ph">+971 52 535 5917</a><div class="office-names">UAE office</div></div>
-  </div>
-  <p style="color:var(--steel);font-size:.85rem">Email: <a href="mailto:kunalkhurana@makoverseas.com" style="color:var(--gold)">kunalkhurana@makoverseas.com</a></p>
-</section>
-
-<div class="cta reveal">
-  <div><h2>Need a Part? Let's Talk.</h2><p>WhatsApp us your part number, machine model, or photo - we will respond fast.</p></div>
-  <div class="cta-btns"><a href="https://wa.me/919465263877" class="btn-dark">WhatsApp India -></a><a href="https://wa.me/971525355917" class="btn-dark">WhatsApp Dubai -></a><a href="mailto:kunalkhurana@makoverseas.com?subject=MAK%20Overseas%20Product%20Enquiry" class="btn-dark btn-email">Email Quote -></a></div>
-</div>
-
-<footer><div class="footer-logo-text">MAK OVERSEAS</div><div class="footer-info">2026 MAK Overseas - Ludhiana, India & Deira, Dubai, UAE<br><a href="mailto:kunalkhurana@makoverseas.com">kunalkhurana@makoverseas.com</a></div></footer>
-<a class="wa-float" href="https://wa.me/919465263877" title="Chat on WhatsApp" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M11.99 2C6.473 2 2 6.473 2 11.99c0 1.89.522 3.657 1.432 5.17L2 22l4.967-1.41A9.94 9.94 0 0011.99 22C17.507 22 22 17.527 22 12.01 22 6.493 17.507 2 11.99 2z"/></svg></a>
-
-<div class="search-panel" id="searchPanel"><div class="search-box"><div class="search-top"><input id="searchInput" type="search" placeholder="Search products, filters, JCB teeth, bolts..."><button class="close" data-close-search>&times;</button></div><div class="search-results" id="searchResults"></div></div></div>
-<div class="cart-panel" id="cartPanel"><div class="cart-drawer"><div class="drawer-head"><h3>Enquiry Cart</h3><button class="close" data-close-cart>&times;</button></div><div class="cart-items" id="cartItems"></div><button class="checkout" id="checkoutBtn">Send Enquiry on WhatsApp</button><button class="checkout email-checkout" id="emailCheckoutBtn">Send Enquiry by Email</button></div></div>
+<a class="wa-float" href="https://wa.me/919465263877?text=Hello%20MAK%20Overseas%2C%20I%20need%20a%20quote%20for%20a%20machinery%20spare%20part." aria-label="Chat with MAK Overseas on WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M11.99 2C6.473 2 2 6.473 2 11.99c0 1.89.522 3.657 1.432 5.17L2 22l4.967-1.41A9.94 9.94 0 0011.99 22C17.507 22 22 17.527 22 12.01 22 6.493 17.507 2 11.99 2z"/></svg>
+</a>
 
 <script>
-const PHONE = '919465263877';
-const EMAIL = 'kunalkhurana@makoverseas.com';
-const products = [
-  {title:'Bolts & Fasteners', page:'bolts.html', img:'web-products/watermarked/web-products-teeth-cutter-bolt-small-webp.webp', items:'JCB, excavator and truck bolts for cutters, wheels, hubs, pins and high-load joints.'},
-  {title:'Pins & Bushes', page:'bushes.html', img:'web-products/watermarked/web-products-jcb-bush-jpg.webp', fallback:'web-products/jcb-bush.jpg', items:'Steel, alloy steel and alloy bronze bushes for loader, bucket and steering assemblies.'},
-  {title:'Pivot Pins', page:'pivot-pins.html', img:'web-products/watermarked/web-products-catalogue-p03-23-jpg.webp', items:'Nitrided and alloy steel pivot pins for bucket, loader, boom and centre linkages.'},
-  {title:'Shims & Washers', page:'shims-washers.html', img:'web-products/watermarked/web-products-catalogue-p02-43-jpg.webp', items:'Bucket pin, king pin, boom pin and KPC washers in multiple sizes.'},
-  {title:'JCB Teeth & Cutters', page:'jcb-teeth.html', img:'web-products/watermarked/web-products-jcb-bucket-teeth-jpg.webp', fallback:'web-products/jcb-bucket-teeth.jpg', items:'Centre teeth, side cutters, crocodile cutters and plain bucket teeth.'},
-  {title:'Gear Parts', page:'gears.html', img:'web-products/watermarked/web-products-jcb-planetary-gear-png.webp', fallback:'web-products/jcb-planetary-gear.png', items:'Annulus rings, planet gears, sun gears and planetary gear assemblies.'},
-  {title:'Filters', page:'filters.html', img:'web-products/watermarked/web-products-jcb-air-filter-png.webp', fallback:'web-products/jcb-air-filter.png', items:'Oil, air, fuel and service filter products for heavy machinery.'},
-  {title:'Spring Pins', page:'national-spring-pins.html', img:'web-products/watermarked/web-products-national-traders-optimized-spring-pin-webp.webp', items:'Spring pins, centre bolts, hub hardware, nuts and related National Sales fasteners.'},
-  {title:'Shackle Assembly', page:'national-shackle-assembly.html', img:'web-products/watermarked/web-products-national-traders-optimized-shackle-assembly-webp.webp', items:'Pick-up, Maxi-Truck, Ace, Dost and fixed type shackle assemblies.'},
-  {title:'Shackle Plate', page:'national-shackle-plate.html', img:'web-products/watermarked/web-products-national-traders-optimized-shackle-plate-webp.webp', items:'Shackle plates, hangers, shocker plates, tube brackets and suspension plates.'},
-  {title:'U Bolts', page:'national-u-bolts.html', img:'web-products/watermarked/web-products-national-traders-optimized-u-bolt-webp.webp', items:'U bolts and U bolt sets for pickup, Ace, Dost and commercial vehicle suspension.'},
-  {title:'Bushes', page:'national-bushes.html', img:'web-products/watermarked/web-products-national-traders-optimized-spring-bush-webp.webp', items:'Spring bushes and rear spring bushes from the National Sales catalogue.'},
-  {title:'Steel Jacks', page:'national-steel-jacks.html', img:'web-products/watermarked/web-products-national-traders-optimized-steel-bottle-screw-jack-35-ton-webp.webp', items:'Steel bottle screw jacks, double lift steel jacks and cast iron bottle screw jacks.'},
-  {title:'Hydraulic Jacks', page:'national-hydraulic-jacks.html', img:'web-products/watermarked/web-products-national-traders-optimized-hydraulic-jack-35-ton-webp.webp', items:'Hydraulic bottle jacks, trolley jacks, scissor jacks and Chinese hydraulic jacks.'},
-  {title:'Full Catalogue', page:'search.html', img:'web-products/watermarked/web-products-jcb-spare-parts-catalogue-jpg.webp', items:'Search 305 listed products by name, code, material or part number.'}
-];
-const icons = [
-  '<circle cx="12" cy="12" r="3"/><path d="M5 12H3M21 12h-2M12 5V3M12 21v-2"/>',
-  '<rect x="4" y="9" width="16" height="6" rx="1"/><path d="M8 9V7a2 2 0 014 0v2"/>',
-  '<polygon points="12 2 15 8.5 22 9.5 17 14 18.5 21 12 17.5 5.5 21 7 14 2 9.5 9 8.5"/>',
-  '<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/>',
-  '<circle cx="12" cy="12" r="4"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/>',
-  '<ellipse cx="12" cy="12" rx="10" ry="6"/><path d="M2 12c0 3.31 4.48 6 10 6s10-2.69 10-6"/>',
-  '<rect x="5" y="3" width="14" height="18" rx="1"/><path d="M8 7h8M8 11h8M8 15h5"/>'
-];
-let cart = JSON.parse(localStorage.getItem('makClaudeCart') || '[]');
-function loadDesktopHeroVideo(){
-  if(!window.matchMedia('(min-width: 821px)').matches) return;
-  const video = document.querySelector('.hero-video');
-  if(!video || !video.dataset.desktopSrc || video.querySelector('source')) return;
-  const source = document.createElement('source');
-  source.src = video.dataset.desktopSrc;
-  source.type = 'video/mp4';
+const menuToggle = document.getElementById("menuToggle");
+const navLinks = document.getElementById("navLinks");
+menuToggle.addEventListener("click", () => {
+  const open = document.body.classList.toggle("menu-open");
+  menuToggle.setAttribute("aria-expanded", String(open));
+});
+navLinks.querySelectorAll("a").forEach(link => {
+  link.addEventListener("click", () => {
+    document.body.classList.remove("menu-open");
+    menuToggle.setAttribute("aria-expanded", "false");
+  });
+});
+
+function loadHeroVideo(){
+  const video = document.querySelector(".hero-video");
+  if(!video || !video.dataset.videoSrc || video.querySelector("source")) return;
+  const source = document.createElement("source");
+  source.src = video.dataset.videoSrc;
+  source.type = "video/mp4";
   video.appendChild(source);
   video.load();
-  video.play().catch(()=>{});
+  video.play().catch(() => {});
 }
-loadDesktopHeroVideo();
-const saveCart = () => { localStorage.setItem('makClaudeCart', JSON.stringify(cart)); renderCart(); updateCount(); };
-const addToCart = (title) => { const item = cart.find(i => i.title === title); if(item) item.qty++; else cart.push({title, qty:1}); saveCart(); document.getElementById('cartPanel').classList.add('open'); };
-const updateCount = () => document.querySelector('.cart-count').textContent = cart.reduce((s,i)=>s+i.qty,0);
-document.getElementById('productGrid').innerHTML = products.map((p,i)=>`<article class="prod-card"><a class="prod-img-wrap" href="${p.page}"><img class="prod-img" src="${p.img}" ${p.fallback?`data-fallback="${p.fallback}" onerror="if(this.dataset.fallback){this.onerror=null;this.src=this.dataset.fallback}"`:''} alt="${p.title}" width="1000" height="750" loading="eager" fetchpriority="${i<6?'high':'auto'}" decoding="sync"></a><div class="prod-body"><div class="prod-ico"><svg viewBox="0 0 24 24">${icons[i % icons.length]}</svg></div><div class="prod-name">${p.title}</div><div class="prod-items">${p.items}</div><div class="prod-actions"><button class="buy-btn" onclick="addToCart('${p.title}')">Add to Cart</button><a class="ghost-btn" href="${p.page}">View Details</a></div></div></article>`).join('');
-function renderCart(){document.getElementById('cartItems').innerHTML = cart.length ? cart.map((i,idx)=>`<div class="cart-item"><div><strong>${i.title}</strong><div class="qty"><button onclick="cart[${idx}].qty--; if(cart[${idx}].qty<1) cart.splice(${idx},1); saveCart()">-</button><span>${i.qty}</span><button onclick="cart[${idx}].qty++; saveCart()">+</button></div></div><button class="close" onclick="cart.splice(${idx},1); saveCart()">&times;</button></div>`).join('') : '<p style="color:#999;padding:1rem">Your enquiry cart is empty.</p>'}
-document.getElementById('checkoutBtn').onclick=()=>{ if(!cart.length) return; const lines=cart.map((i,n)=>`${n+1}. ${i.title} x ${i.qty}`).join('\n'); window.open(`https://wa.me/${PHONE}?text=${encodeURIComponent('Hello MAK Overseas, I want to enquire about:\n\n'+lines)}`,'_blank'); };
-document.getElementById('emailCheckoutBtn').onclick=()=>{ if(!cart.length) return; const lines=cart.map((i,n)=>`${n+1}. ${i.title} x ${i.qty}`).join('\n'); location.href=`mailto:${EMAIL}?subject=${encodeURIComponent('MAK Overseas enquiry cart')}&body=${encodeURIComponent('Hello MAK Overseas, I want to enquire about:\n\n'+lines+'\n\nName:\nPhone:\nMachine model:\nLocation:')}`; };
-document.getElementById('openCart').onclick=()=>document.getElementById('cartPanel').classList.add('open');
-document.querySelector('[data-close-cart]').onclick=()=>document.getElementById('cartPanel').classList.remove('open');
-document.getElementById('cartPanel').onclick=e=>{if(e.target.id==='cartPanel') e.currentTarget.classList.remove('open')};
-let catalogueLoadPromise;
-function loadCatalogue(){
-  if(window.MAK_PRODUCTS)return Promise.resolve();
-  if(catalogueLoadPromise)return catalogueLoadPromise;
-  catalogueLoadPromise = new Promise((resolve,reject)=>{
-    const script=document.createElement('script');
-    script.src='product-data.js';
-    script.onload=()=>{ window.MAKLanguage?.enhanceProductDatabase?.(); resolve(); };
-    script.onerror=reject;
-    document.head.appendChild(script);
+window.addEventListener("load", loadHeroVideo, {once:true});
+
+const fxToggle = document.getElementById("fxToggle");
+const revealEls = [...document.querySelectorAll(".reveal")];
+const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+let revealObserver;
+
+function setEffects(enabled){
+  const useEffects = enabled && !reduceMotion && "IntersectionObserver" in window;
+  document.documentElement.classList.toggle("anim-ready", useEffects);
+  document.documentElement.classList.toggle("fx-enabled", useEffects);
+  document.documentElement.classList.toggle("fx-off", !useEffects);
+  fxToggle.setAttribute("aria-pressed", String(useEffects));
+  fxToggle.innerHTML = useEffects ? "FX <span>On</span>" : "FX <span>Off</span>";
+  localStorage.setItem("makScrollEffects", useEffects ? "on" : "off");
+
+  revealObserver?.disconnect();
+  revealEls.forEach((el, index) => {
+    el.classList.toggle("visible", !useEffects);
+    el.style.transitionDelay = useEffects ? `${Math.min(index * 70, 220)}ms` : "0ms";
   });
-  return catalogueLoadPromise;
+
+  if(!useEffects){
+    return;
+  }
+
+  revealObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      entry.target.classList.toggle("visible", entry.isIntersecting);
+    });
+  }, {threshold:.16, rootMargin:"0px 0px -8% 0px"});
+
+  revealEls.forEach(el => revealObserver.observe(el));
+  document.querySelector(".hero-inner")?.classList.add("visible");
 }
-document.getElementById('openSearch').onclick=async()=>{
-  document.getElementById('searchPanel').classList.add('open');
-  document.getElementById('searchResults').innerHTML='<p style="color:#999;padding:1rem">Loading catalogue search...</p>';
-  try{await loadCatalogue(); renderSearch('');}catch(e){document.getElementById('searchResults').innerHTML='<p style="color:#999;padding:1rem">Search could not load. Please open the catalogue page.</p>'}
-  setTimeout(()=>document.getElementById('searchInput').focus(),30)
-};
-document.querySelector('[data-close-search]').onclick=()=>document.getElementById('searchPanel').classList.remove('open');
-document.getElementById('searchPanel').onclick=e=>{if(e.target.id==='searchPanel') e.currentTarget.classList.remove('open')};
-function normalizeSearch(value){return String(value||'').toLowerCase().replace(/[^a-z0-9]+/g,'')}
-function productSearchText(p){return [p.name,p.code,(p.partNumbers||[]).join(' '),p.material,p.category,p.notes,p.desc,window.MAKLanguage?.searchText?.(p)].join(' ').toLowerCase()}
-function productMatches(p,q){
-  const raw=q.trim().toLowerCase();
-  if(!raw)return true;
-  const text=productSearchText(p);
-  const compact=normalizeSearch(text);
-  return raw.split(/\s+/).every(term=>{const compactTerm=normalizeSearch(term);return text.includes(term)||(compactTerm&&compact.includes(compactTerm))});
-}
-function renderSearch(q){
-  const catalogue = window.MAK_PRODUCTS || [];
-  const productText = (p, field) => window.MAKLanguage?.productText?.(p, field) || p[field] || '';
-  const found = catalogue.filter(p => productMatches(p,q)).slice(0,80);
-  document.getElementById('searchResults').innerHTML = found.map(p => {
-    const part = (p.partNumbers || []).join(', ') || 'Available on request';
-    const name = productText(p, 'name');
-    const title = `${name}${part !== 'Available on request' ? ' (' + part + ')' : ''}`;
-    return `<div class="search-result"><a href="${p.page}"><strong>${name}</strong><br><small>Part No: ${part} · Material: ${productText(p, 'material')} · ${productText(p, 'category')}</small></a><button class="buy-btn" onclick="addToCart('${title.replace(/'/g, "\\'")}')">Add</button></div>`;
-  }).join('') || '<p style="color:#999;padding:1rem">No products found. Try a part number like 990/14900, 99014900, or a MAK code like MK001.</p>';
-}
-document.getElementById('searchInput').oninput=e=>renderSearch(e.target.value);
-document.body.classList.add('anim-ready');
-const observer = new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting) entry.target.classList.add('visible')}),{threshold:.12});
-document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
-document.querySelectorAll('.hero-content,.stats,.prod-intro').forEach(el=>el.classList.add('visible'));
-updateCount(); renderCart();
+
+const savedFx = localStorage.getItem("makScrollEffects");
+setEffects(savedFx !== "off");
+fxToggle.addEventListener("click", () => {
+  setEffects(fxToggle.getAttribute("aria-pressed") !== "true");
+});
 </script>
-<script src="language.js" defer></script><script src="whatsapp-widget.js" defer></script></body>
+</body>
 </html>
-
-
-
