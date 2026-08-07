@@ -102,11 +102,13 @@ def make_watermarked_image(src_rel):
     image = ImageEnhance.Sharpness(image).enhance(1.12)
     image.thumbnail((900, 600), Image.Resampling.LANCZOS)
 
-    canvas = Image.new("RGBA", (1000, 750), (242, 242, 238, 255))
+    canvas = Image.new("RGBA", (1000, 750), (18, 17, 14, 255))
     bg = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
     bg_draw = ImageDraw.Draw(bg)
-    bg_draw.ellipse((-130, -110, 420, 260), fill=(245, 207, 126, 68))
-    bg_draw.ellipse((680, 520, 1180, 910), fill=(20, 20, 20, 36))
+    bg_draw.rectangle((0, 0, canvas.width, canvas.height), fill=(18, 17, 14, 255))
+    bg_draw.ellipse((-170, -140, 470, 285), fill=(212, 137, 10, 64))
+    bg_draw.ellipse((650, 500, 1200, 940), fill=(224, 90, 0, 34))
+    bg_draw.rectangle((34, 34, canvas.width - 34, canvas.height - 34), outline=(212, 137, 10, 70), width=2)
     canvas.alpha_composite(bg)
 
     shadow = Image.new("RGBA", image.size, (0, 0, 0, 135)).filter(ImageFilter.GaussianBlur(18))

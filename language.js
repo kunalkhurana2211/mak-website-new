@@ -588,7 +588,18 @@
   }
 
   function ensureToggle() {
-    if (document.querySelector("[data-lang-select]")) return;
+    const existingSelects = [...document.querySelectorAll("[data-lang-select]")];
+    if (existingSelects.length) {
+      existingSelects.forEach(select => {
+        if (select.dataset.langBound) return;
+        select.dataset.langBound = "true";
+        select.addEventListener("change", () => {
+          localStorage.setItem("makLang", select.value);
+          applyLanguage(select.value);
+        });
+      });
+      return;
+    }
     const nav = document.querySelector("nav");
     if (!nav) return;
     const select = document.createElement("select");

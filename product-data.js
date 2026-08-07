@@ -99,7 +99,7 @@ window.MAK_CATEGORIES = [
     "slug": "filters",
     "title": "Filters",
     "page": "filters.html",
-    "image": "web-products/watermarked/web-products-jcb-air-filter-png.webp",
+    "image": "web-products/watermarked/filter-original-jcb-oil-32004133.webp",
     "summary": "Oil, air, fuel and service filter products for JCB and heavy machinery.",
     "count": 4
   },
@@ -202,6 +202,13 @@ window.MAK_CATEGORIES = [
 ];
 window.MAK_HEAD_CATEGORIES = [
   {
+    "slug": "mak-filters",
+    "title": "MAK Filters",
+    "summary": "Filters, seals, washers, gaskets and service replacement parts.",
+    "image": "web-products/watermarked/filter-original-jcb-oil-32004133.webp",
+    "page": "products.html#mak-filters"
+  },
+  {
     "slug": "mak-fasteners",
     "title": "MAK Fasteners",
     "summary": "Bolts, U bolts, spring pins, shims, grease nipples and ground-engaging fastening hardware.",
@@ -214,13 +221,6 @@ window.MAK_HEAD_CATEGORIES = [
     "summary": "Bushes, pivot pins, sleeves, collars, rods, tie rods, linkages and fitment kits.",
     "image": "web-products/watermarked/web-products-catalogue-p02-04-jpg.webp",
     "page": "products.html#mak-bushes"
-  },
-  {
-    "slug": "mak-filters",
-    "title": "MAK Filters",
-    "summary": "Filters, seals, washers, gaskets and service replacement parts.",
-    "image": "web-products/watermarked/web-products-jcb-air-filter-png.webp",
-    "page": "products.html#mak-filters"
   },
   {
     "slug": "mak-lights",
@@ -4020,7 +4020,7 @@ window.MAK_PRODUCTS = [
     "category": "Filters",
     "categorySlug": "filters",
     "page": "filters.html",
-    "image": "web-products/watermarked/web-products-jcb-air-filter-png.webp",
+    "image": "web-products/watermarked/filter-original-jcb-oil-32004133.webp",
     "partNumbers": [
       "On request"
     ],
@@ -5797,17 +5797,11 @@ window.MAK_PRODUCTS = [
 (function(){
   window.MAK_FILTER_SUBSECTIONS = [
     {
-      slug: "tata-ashok-leyland-filters",
-      title: "Tata & Ashok Leyland Filters",
-      logo: "TATA / AL",
-      image: "web-products/filter-tata-ashok-list.jpg",
-      summary: "Fleetguard/Luman filter references for Tata, Ashok Leyland and Tata Ultra applications."
-    },
-    {
       slug: "jcb-filters",
       title: "JCB Filters",
       logo: "JCB",
       image: "web-products/filter-jcb-list.jpg",
+      page: "jcb-filters.html",
       summary: "Lube oil, fuel, hydraulic, air and water separator filters for JCB machines and related backhoe loader applications."
     },
     {
@@ -5815,14 +5809,33 @@ window.MAK_PRODUCTS = [
       title: "Komatsu Filters",
       logo: "KOMATSU",
       image: "web-products/filter-komatsu-list.jpg",
+      page: "komatsu-filters.html",
       summary: "Komatsu OEM filter references for excavator, bulldozer and heavy equipment service."
+    },
+    {
+      slug: "tata-ashok-leyland-filters",
+      title: "Tata & Ashok Leyland Filters",
+      logo: "TATA / AL",
+      image: "web-products/filter-tata-ashok-list.jpg",
+      page: "tata-leyland-filters.html",
+      summary: "Fleetguard/Luman filter references for Tata, Ashok Leyland and Tata Ultra applications."
     }
   ];
 
   const filterImages = {
-    "Tata & Ashok Leyland Filters": "web-products/filter-tata-ashok-list.jpg",
-    "JCB Filters": "web-products/watermarked/web-products-jcb-air-filter-png.webp",
-    "Komatsu Filters": "web-products/filter-komatsu-list.jpg"
+    "Tata & Ashok Leyland Filters": "web-products/watermarked/filter-original-fleetguard-lube-lf3338.webp",
+    "JCB Filters": "web-products/watermarked/filter-original-jcb-oil-32004133.webp",
+    "Komatsu Filters": "web-products/watermarked/filter-original-komatsu-600-211-1341.webp"
+  };
+  const originalFilterImages = {
+    jcbOil: "web-products/watermarked/filter-original-jcb-oil-32004133.webp",
+    jcbAir: "web-products/watermarked/web-products-jcb-air-filter-png.webp",
+    komatsu: "web-products/watermarked/filter-original-komatsu-600-211-1341.webp",
+    lube: "web-products/watermarked/filter-original-fleetguard-lube-lf3338.webp",
+    air: "web-products/watermarked/filter-original-fleetguard-air-af26415.webp",
+    fuel: "web-products/watermarked/filter-original-fleetguard-fuel-ff5632.webp",
+    hydraulic: "web-products/watermarked/filter-original-fleetguard-hydraulic-hf28943.webp",
+    waterSeparator: "web-products/watermarked/filter-original-fleetguard-water-separator-fs19657.webp"
   };
   const researched = {
     "32004133": "Filter size: L 169.9 mm x OD 96.0 mm; package qty 12 reference. Box size confirm before dispatch.",
@@ -5868,6 +5881,18 @@ window.MAK_PRODUCTS = [
     if(/water separator/i.test(name)) return "Water Separator";
     return "Filter";
   }
+  function originalFilterImage(group, type, partNumber, name, application){
+    const text = `${group || ""} ${type || ""} ${partNumber || ""} ${name || ""} ${application || ""}`.toLowerCase();
+    if(text.includes("komatsu")) return originalFilterImages.komatsu;
+    if(text.includes("jcb") && text.includes("air")) return originalFilterImages.jcbAir;
+    if(text.includes("jcb") && (text.includes("lube") || text.includes("oil") || /32\/9|3200/.test(text))) return originalFilterImages.jcbOil;
+    if(text.includes("hydraulic") || text.includes("hf")) return originalFilterImages.hydraulic;
+    if(text.includes("water separator") || text.includes("fs")) return originalFilterImages.waterSeparator;
+    if(text.includes("fuel") || text.includes("ff")) return originalFilterImages.fuel;
+    if(text.includes("air") || text.includes("af")) return originalFilterImages.air;
+    if(text.includes("lube") || text.includes("oil") || text.includes("lf")) return originalFilterImages.lube;
+    return filterImages[group] || originalFilterImages.lube;
+  }
   function makeFilterProduct(group, partNumber, application, name, originalReference){
     const type = filterTypeFromName(name || application || partNumber);
     const title = `${name || `${application} Filter`} - ${partNumber}`;
@@ -5881,12 +5906,13 @@ window.MAK_PRODUCTS = [
       category: "MAK Filters",
       categorySlug: "filters",
       page: "filters.html",
-      image: filterImages[group] || "web-products/watermarked/web-products-jcb-air-filter-png.webp",
+      image: originalFilterImage(group, type, partNumber, title, application),
       partNumbers: [partNumber],
       material: typeMaterial[type] || typeMaterial.Filter,
       notes: `${group}. Application: ${application}. Box dimension: ${knownKey || "confirm before dispatch."}`,
       desc: `${type} filter reference ${partNumber} for ${application}.`,
       source: "User supplied filter list with public web spec references where available",
+      imageSource: "Online original filter photo reference, mapped by brand and filter type",
       detailPage: detailFile,
       brandGroup: group,
       filterType: type,
@@ -5972,4 +5998,11 @@ window.MAK_PRODUCTS = [
   if(makFilters){
     makFilters.count = (window.MAK_PRODUCTS || []).filter(product => product.headCategorySlug === "mak-filters").length;
   }
+  (window.MAK_PRODUCTS || []).forEach(product => {
+    if(product.categorySlug !== "filters") return;
+    const partNumber = (product.partNumbers || [product.code || ""])[0] || "";
+    const type = product.filterType || filterTypeFromName(product.name || product.desc || "");
+    product.image = originalFilterImage(product.brandGroup || product.category || "", type, partNumber, product.name, product.application);
+    product.imageSource = product.imageSource || "Online original filter photo reference, mapped by brand and filter type";
+  });
 })();

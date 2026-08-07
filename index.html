@@ -65,16 +65,14 @@ nav{
 .nav-links a:hover{color:var(--gold)}
 .nav-actions{display:flex;align-items:center;gap:.65rem}
 .nav-quote{padding:.57rem 1.08rem;min-height:40px;font-size:.9rem}
-.fx-toggle{
-  height:40px;padding:0 .78rem;border:1px solid rgba(255,255,255,.16);
-  background:rgba(255,255,255,.06);color:#fff;cursor:pointer;
+.lang-select{
+  height:40px;border:1px solid rgba(212,137,10,.55);border-radius:999px;
+  background:rgba(212,137,10,.12);color:var(--gold);padding:0 .58rem;
   font-family:var(--H);font-size:.82rem;font-weight:900;letter-spacing:1px;text-transform:uppercase;
-  transition:background .22s ease,border-color .22s ease,color .22s ease,transform .22s ease;
+  cursor:pointer;transition:background .22s ease,border-color .22s ease,color .22s ease,transform .22s ease;
 }
-.fx-toggle span{color:var(--gold);margin-left:.25rem}
-.fx-toggle:hover{transform:translateY(-1px);border-color:rgba(212,137,10,.55)}
-.fx-toggle[aria-pressed="false"]{color:#89939b;background:rgba(255,255,255,.035)}
-.fx-toggle[aria-pressed="false"] span{color:#89939b}
+.lang-select option{background:#111;color:#fff}
+.lang-select:hover{transform:translateY(-1px);background:var(--gold);border-color:var(--gold);color:#111}
 .menu-toggle{display:none;width:42px;height:42px;border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.06);color:#fff;cursor:pointer;place-items:center}
 .menu-toggle span,.menu-toggle span::before,.menu-toggle span::after{display:block;width:19px;height:2px;background:currentColor;transition:.22s ease;content:""}
 .menu-toggle span::before{transform:translateY(-6px)}
@@ -190,8 +188,7 @@ footer{background:#070707;border-top:1px solid rgba(255,255,255,.08);padding:1.6
   nav{height:64px;padding:0 .85rem}
   .brand{min-width:0}.brand img{width:118px;height:42px}
   .menu-toggle{display:grid}
-  .fx-toggle{width:42px;padding:0;font-size:.72rem}
-  .fx-toggle span{display:none}
+  .lang-select{width:52px;padding:0 .42rem;font-size:.72rem}
   .nav-links{
     position:fixed;top:64px;left:0;right:0;height:calc(100svh - 64px);
     display:flex;flex-direction:column;align-items:stretch;gap:0;padding:1rem;
@@ -242,8 +239,12 @@ footer{background:#070707;border-top:1px solid rgba(255,255,255,.08);padding:1.6
   </ul>
   <div class="nav-actions">
     <a class="btn btn-primary nav-quote" href="quote.html">Request Quote</a>
-    <button class="fx-toggle" id="fxToggle" type="button" aria-label="Toggle scroll effects" aria-pressed="true">FX <span>On</span></button>
-    <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-controls="navLinks" aria-expanded="false"><span></span></button>
+    <select class="lang-select" data-lang-select aria-label="Change language">
+      <option value="en">EN</option>
+      <option value="ar">AR</option>
+      <option value="th">TH</option>
+    </select>
+    <button class="menu-toggle" id="menuToggle" type="button" data-mobile-menu-toggle aria-label="Open menu" aria-controls="navLinks" aria-expanded="false"><span></span></button>
   </div>
 </nav>
 
@@ -346,22 +347,22 @@ footer{background:#070707;border-top:1px solid rgba(255,255,255,.08);padding:1.6
       <h2 class="section-title">Five Main Supply Divisions</h2>
       <p class="section-copy">Browse the complete catalogue through clear MAK head categories. Each division opens into detailed subcategories, product pages, part numbers and enquiry options.</p>
       <div class="mak-category-grid">
-        <a class="mak-category" href="products.html#mak-fasteners">
+        <a class="mak-category" href="products.html#mak-filters">
           <small>01</small>
+          <h3>MAK Filters</h3>
+          <p>Filters, seals, washers, gaskets and service replacement parts.</p>
+          <span>View Category</span>
+        </a>
+        <a class="mak-category" href="products.html#mak-fasteners">
+          <small>02</small>
           <h3>MAK Fasteners</h3>
           <p>Bolts, U bolts, spring pins, shims, grease nipples and cutter hardware.</p>
           <span>View Category</span>
         </a>
         <a class="mak-category" href="products.html#mak-bushes">
-          <small>02</small>
+          <small>03</small>
           <h3>MAK Bushes</h3>
           <p>Bushes, pivot pins, collars, sleeves, rods, tie rods, linkages and kits.</p>
-          <span>View Category</span>
-        </a>
-        <a class="mak-category" href="products.html#mak-filters">
-          <small>03</small>
-          <h3>MAK Filters</h3>
-          <p>Filters, seals, washers, gaskets and service replacement parts.</p>
           <span>View Category</span>
         </a>
         <a class="mak-category" href="products.html#mak-lights">
@@ -449,6 +450,7 @@ footer{background:#070707;border-top:1px solid rgba(255,255,255,.08);padding:1.6
   <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M11.99 2C6.473 2 2 6.473 2 11.99c0 1.89.522 3.657 1.432 5.17L2 22l4.967-1.41A9.94 9.94 0 0011.99 22C17.507 22 22 17.527 22 12.01 22 6.493 17.507 2 11.99 2z"/></svg>
 </a>
 
+<script src="language.js"></script>
 <script>
 const menuToggle = document.getElementById("menuToggle");
 const navLinks = document.getElementById("navLinks");
@@ -475,19 +477,15 @@ function loadHeroVideo(){
 }
 window.addEventListener("load", loadHeroVideo, {once:true});
 
-const fxToggle = document.getElementById("fxToggle");
 const revealEls = [...document.querySelectorAll(".reveal")];
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 let revealObserver;
 
-function setEffects(enabled){
-  const useEffects = enabled && !reduceMotion && "IntersectionObserver" in window;
+function setEffects(){
+  const useEffects = !reduceMotion && "IntersectionObserver" in window;
   document.documentElement.classList.toggle("anim-ready", useEffects);
   document.documentElement.classList.toggle("fx-enabled", useEffects);
   document.documentElement.classList.toggle("fx-off", !useEffects);
-  fxToggle.setAttribute("aria-pressed", String(useEffects));
-  fxToggle.innerHTML = useEffects ? "FX <span>On</span>" : "FX <span>Off</span>";
-  localStorage.setItem("makScrollEffects", useEffects ? "on" : "off");
 
   revealObserver?.disconnect();
   revealEls.forEach((el, index) => {
@@ -509,11 +507,7 @@ function setEffects(enabled){
   document.querySelector(".hero-inner")?.classList.add("visible");
 }
 
-const savedFx = localStorage.getItem("makScrollEffects");
-setEffects(savedFx !== "off");
-fxToggle.addEventListener("click", () => {
-  setEffects(fxToggle.getAttribute("aria-pressed") !== "true");
-});
+setEffects();
 </script>
 </body>
 </html>
