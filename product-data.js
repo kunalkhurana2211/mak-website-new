@@ -5793,3 +5793,183 @@ window.MAK_PRODUCTS = [
     head.subcategories = subcategories.map(category => category.slug);
   });
 })();
+
+(function(){
+  window.MAK_FILTER_SUBSECTIONS = [
+    {
+      slug: "tata-ashok-leyland-filters",
+      title: "Tata & Ashok Leyland Filters",
+      logo: "TATA / AL",
+      image: "web-products/filter-tata-ashok-list.jpg",
+      summary: "Fleetguard/Luman filter references for Tata, Ashok Leyland and Tata Ultra applications."
+    },
+    {
+      slug: "jcb-filters",
+      title: "JCB Filters",
+      logo: "JCB",
+      image: "web-products/filter-jcb-list.jpg",
+      summary: "Lube oil, fuel, hydraulic, air and water separator filters for JCB machines and related backhoe loader applications."
+    },
+    {
+      slug: "komatsu-filters",
+      title: "Komatsu Filters",
+      logo: "KOMATSU",
+      image: "web-products/filter-komatsu-list.jpg",
+      summary: "Komatsu OEM filter references for excavator, bulldozer and heavy equipment service."
+    }
+  ];
+
+  const filterImages = {
+    "Tata & Ashok Leyland Filters": "web-products/filter-tata-ashok-list.jpg",
+    "JCB Filters": "web-products/watermarked/web-products-jcb-air-filter-png.webp",
+    "Komatsu Filters": "web-products/filter-komatsu-list.jpg"
+  };
+  const researched = {
+    "32004133": "Filter size: L 169.9 mm x OD 96.0 mm; package qty 12 reference. Box size confirm before dispatch.",
+    "320/04133": "Filter size: L 169.9 mm x OD 96.0 mm; package qty 12 reference. Box size confirm before dispatch.",
+    "32004134": "Box dimension: confirm before dispatch.",
+    "600-211-1341": "Komatsu published height: 330 mm. Box dimension confirm before dispatch.",
+    "600-211-1340": "Komatsu published height: 330 mm. Box dimension confirm before dispatch.",
+    "AF26485": "Fleetguard published filter size: H 519.0 mm x largest OD 265.0 mm x largest ID 160.3 mm. Box dimension confirm before dispatch.",
+    "AF26485+AF26125": "Fleetguard AF26485 size reference: H 519.0 mm x largest OD 265.0 mm x largest ID 160.3 mm; paired inner filter box dimension confirm before dispatch.",
+    "32/917804": "Published replacement size reference: OD 162 mm x ID 94 mm x length 375 mm. Box dimension confirm before dispatch.",
+    "3291780405": "Air filter set box dimension: confirm before dispatch."
+  };
+  const typeMaterial = {
+    "Air": "Pleated filter media / metal mesh / rubber or PU end cap",
+    "Lube Oil": "Filter media / metal spin-on casing",
+    "Fuel": "Fuel filter media / metal casing",
+    "Hydraulic": "Hydraulic filter media / metal casing",
+    "Water Separator": "Water separator media / metal or composite bowl",
+    "Filter": "Filter media / metal or composite casing"
+  };
+  function splitParts(value){
+    return String(value).split("+").map(part => part.trim()).filter(Boolean);
+  }
+  function splitFilterReferences(value){
+    const raw = String(value).trim();
+    if(/^\d{3}-\d{3}-\d{4}$/.test(raw) || /^\d{5}-\d{2}-\d{4}$/.test(raw)){
+      return [raw];
+    }
+    if(raw.includes("-") && raw.includes("+")){
+      const [primary, rest] = raw.split("-", 2);
+      return [primary.trim(), ...String(rest).split("+").map(part => part.trim())].filter(Boolean);
+    }
+    return splitParts(raw);
+  }
+  function slug(value){
+    return String(value).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,80);
+  }
+  function filterTypeFromName(name){
+    if(/air/i.test(name)) return "Air";
+    if(/lube|oil/i.test(name)) return "Lube Oil";
+    if(/fuel/i.test(name)) return "Fuel";
+    if(/hydraulic/i.test(name)) return "Hydraulic";
+    if(/water separator/i.test(name)) return "Water Separator";
+    return "Filter";
+  }
+  function makeFilterProduct(group, partNumber, application, name, originalReference){
+    const type = filterTypeFromName(name || application || partNumber);
+    const title = `${name || `${application} Filter`} - ${partNumber}`;
+    const knownKey = researched[partNumber] || researched[originalReference] || splitFilterReferences(originalReference || partNumber).map(part => researched[part]).find(Boolean);
+    const detailFile = `product-pages/${slug(title)}.html`;
+    return {
+      id: `filter-${slug(group)}-${slug(partNumber)}-${slug(application)}`,
+      sr: null,
+      code: partNumber,
+      name: title,
+      category: "MAK Filters",
+      categorySlug: "filters",
+      page: "filters.html",
+      image: filterImages[group] || "web-products/watermarked/web-products-jcb-air-filter-png.webp",
+      partNumbers: [partNumber],
+      material: typeMaterial[type] || typeMaterial.Filter,
+      notes: `${group}. Application: ${application}. Box dimension: ${knownKey || "confirm before dispatch."}`,
+      desc: `${type} filter reference ${partNumber} for ${application}.`,
+      source: "User supplied filter list with public web spec references where available",
+      detailPage: detailFile,
+      brandGroup: group,
+      filterType: type,
+      application,
+      boxDimension: knownKey || "Box dimension: confirm before dispatch.",
+      headCategory: "MAK Filters",
+      headCategorySlug: "mak-filters",
+      subcategory: "Filters",
+      subcategorySlug: "filters"
+    };
+  }
+
+  const filterRows = [
+    ["Tata & Ashok Leyland Filters","AF26485+AF26125","Tata/AL","Air Filter Kit - Tata / Ashok Leyland"],
+    ["Tata & Ashok Leyland Filters","LF16238","AL","Lube Oil Filter - Ashok Leyland"],
+    ["Tata & Ashok Leyland Filters","FS19636","AL","Fuel / Water Separator Filter - Ashok Leyland"],
+    ["Tata & Ashok Leyland Filters","FF5552","AL","Fuel Filter - Ashok Leyland"],
+    ["Tata & Ashok Leyland Filters","FS19671","AL","Fuel / Water Separator Filter - Ashok Leyland"],
+    ["Tata & Ashok Leyland Filters","8261074","TATA / Cummins 6 BT","Filter - Tata Cummins 6BT"],
+    ["Tata & Ashok Leyland Filters","FS19657","Tata","Fuel / Water Separator Filter - Tata"],
+    ["Tata & Ashok Leyland Filters","LF9028","Tata","Lube Oil Filter - Tata"],
+    ["Tata & Ashok Leyland Filters","FS20308","Tata Ultra","Fuel / Water Separator Filter - Tata Ultra"],
+    ["Tata & Ashok Leyland Filters","FS20309","Tata Ultra","Fuel / Water Separator Filter - Tata Ultra"],
+    ["Tata & Ashok Leyland Filters","5000549","Tata","Filter - Tata"],
+    ["Tata & Ashok Leyland Filters","LF16309","AL","Lube Oil Filter - Ashok Leyland"],
+    ["Tata & Ashok Leyland Filters","LF16079","AL","Lube Oil Filter - Ashok Leyland"],
+    ["Tata & Ashok Leyland Filters","HF35470","AL","Hydraulic Filter - Ashok Leyland"],
+    ["Tata & Ashok Leyland Filters","5012155","AL","Filter - Ashok Leyland"],
+    ["Tata & Ashok Leyland Filters","FF5523+FF524","AL","Fuel Filter Set - Ashok Leyland"],
+    ["Tata & Ashok Leyland Filters","5026219-AF26483+AF25963","AL","Air Filter Kit - Ashok Leyland Boss"],
+    ["Tata & Ashok Leyland Filters","FS20282","AL","Fuel / Water Separator Filter - Ashok Leyland"],
+    ["Tata & Ashok Leyland Filters","FS20283","AL","Fuel / Water Separator Filter - Ashok Leyland"],
+    ["Tata & Ashok Leyland Filters","5006231","AL","Filter - Ashok Leyland"],
+    ["Tata & Ashok Leyland Filters","5006232","AL","Filter - Ashok Leyland"],
+
+    ["JCB Filters","32004133+32004420","JCB 2CX, 3CX, 4CX Backhoe Loaders","Lube Oil Filter - JCB 2CX, 3CX, 4CX"],
+    ["JCB Filters","32004134","JCB 40X, 50X","Lube Oil Filter - JCB 40X, 50X"],
+    ["JCB Filters","32007155","JCB 2 Pipe","Fuel Filter - JCB 2 Pipe"],
+    ["JCB Filters","58189653","Case Tractor / JCB cross reference","Hydraulic Filter - Case Tractor"],
+    ["JCB Filters","32/925026","JCB Backhoe Loader 3DX, 4DX, 4CX","Lube Oil Filter - JCB 3DX, 4DX, 4CX"],
+    ["JCB Filters","58189564","Case Tractor / JCB cross reference","Hydraulic Filter - Case Tractor"],
+    ["JCB Filters","581R02034","JCB Backhoe Loader 3CX, 3DX, 4CX, 4CX Super","Hydraulic Filter - JCB Backhoe Loader"],
+    ["JCB Filters","3291780405","JCB 3DX New Model Set of 2","Air Filter - JCB 3DX New Model Set"],
+    ["JCB Filters","336E9730","Cummins 8 Series Engine","Water Separator - Cummins 8 Series"],
+    ["JCB Filters","32Y/9163","TE 510, 1613, 1515, 3015, 4018 etc.","Water Separator - TE Series"],
+    ["JCB Filters","02910140A","Ashok Leyland 2518 BSIII & BSIV","Lube Oil Filter - Ashok Leyland 2518"],
+    ["JCB Filters","32004282","JCB 2CX, 3CX, 4CX Backhoe Loaders","Lube Oil Filter - JCB 2CX, 3CX, 4CX"],
+    ["JCB Filters","32/904303","JCB 3CX, 4CX, JS300, JS330","Lube Oil Filter - JCB JS Series"],
+    ["JCB Filters","KBJ1019A","JCB 3DX, 4DX, JS140, JS200, JS205, JS210","Hydraulic Filter - JCB JS Series"],
+    ["JCB Filters","02100284A","Swaraj 735/750 DI","Lube Oil Filter - Swaraj"],
+    ["JCB Filters","581/06301","JCB 3DX Backhoe Loader","Hydraulic Filter - JCB 3DX"],
+    ["JCB Filters","32481102","CAV Type Tractor / Car / LCV","Fuel Filter - CAV Type"],
+    ["JCB Filters","333C4690","MF30 Series Combine 445110081","Hydraulic Filter - MF30 Combine"],
+
+    ["Komatsu Filters","600-211-1341","Komatsu heavy equipment","Komatsu Engine Oil Filter"],
+    ["Komatsu Filters","600-311-3550","Komatsu heavy equipment","Komatsu Filter"],
+    ["Komatsu Filters","600-411-1151","Komatsu heavy equipment","Komatsu Filter"],
+    ["Komatsu Filters","600-311-8321","Komatsu heavy equipment","Komatsu Filter"],
+    ["Komatsu Filters","07063-51100","Komatsu heavy equipment","Komatsu Filter"],
+    ["Komatsu Filters","600-211-1231","Komatsu heavy equipment","Komatsu Filter"],
+    ["Komatsu Filters","600-211-1340","Komatsu heavy equipment","Komatsu Engine Oil Filter"],
+    ["Komatsu Filters","600-311-7132","Komatsu heavy equipment","Komatsu Filter"],
+    ["Komatsu Filters","600-319-3841","Komatsu heavy equipment","Komatsu Filter"],
+    ["Komatsu Filters","600-319-4540","Komatsu heavy equipment","Komatsu Filter"],
+    ["Komatsu Filters","6136-51-5121","Komatsu heavy equipment","Komatsu Filter"],
+    ["Komatsu Filters","6736-51-5142","Komatsu heavy equipment","Komatsu Filter"]
+  ];
+  const existingIds = new Set((window.MAK_PRODUCTS || []).map(product => product.id));
+  filterRows.flatMap(row => {
+    const [group, reference, application, name] = row;
+    return splitFilterReferences(reference).map(partNumber => makeFilterProduct(group, partNumber, application, name, reference));
+  }).forEach(product => {
+    if(!existingIds.has(product.id)){
+      window.MAK_PRODUCTS.push(product);
+      existingIds.add(product.id);
+    }
+  });
+  const filtersCategory = (window.MAK_CATEGORIES || []).find(category => category.slug === "filters");
+  if(filtersCategory){
+    filtersCategory.count = (window.MAK_PRODUCTS || []).filter(product => product.categorySlug === "filters").length;
+  }
+  const makFilters = (window.MAK_HEAD_CATEGORIES || []).find(head => head.slug === "mak-filters");
+  if(makFilters){
+    makFilters.count = (window.MAK_PRODUCTS || []).filter(product => product.headCategorySlug === "mak-filters").length;
+  }
+})();

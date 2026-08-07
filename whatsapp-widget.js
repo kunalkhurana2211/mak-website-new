@@ -4,7 +4,7 @@
   const EMAIL = "kunalkhurana@makoverseas.com";
 
   const intents = [
-    { id: "price", label: "Get Product Price", ar: "سعر المنتج", keys: ["price", "rate", "cost", "quote", "amount", "rs", "aed"] },
+    { id: "price", label: "Request Quote", ar: "طلب عرض سعر", keys: ["quote", "enquiry", "availability", "amount", "rs", "aed"] },
     { id: "machine", label: "Search by Machine", ar: "بحث حسب المعدة", keys: ["jcb", "cat", "komatsu", "volvo", "hyundai", "machine", "model", "3cx", "320d"] },
     { id: "photo", label: "Send Photo Enquiry", ar: "استفسار بالصورة", keys: ["photo", "image", "picture", "identify", "old part"] },
     { id: "bulk", label: "Bulk / Dealer Inquiry", ar: "جملة / تاجر", keys: ["bulk", "dealer", "wholesale", "export", "container", "quantity", "distributor"] }
@@ -72,7 +72,7 @@
   function buildMessage(intent, category, form) {
     const product = form.part || pageProduct() || "[product name]";
     const lines = [];
-    if (intent.id === "price") lines.push(`Hello MAK Overseas, I want price for ${product}.`);
+    if (intent.id === "price") lines.push(`Hello MAK Overseas, I want a quote for ${product}.`);
     if (intent.id === "machine") lines.push("Hello MAK Overseas, I want to search parts by machine.");
     if (intent.id === "photo") lines.push("Hello MAK Overseas, I want to send a photo enquiry for a spare part.");
     if (intent.id === "bulk") lines.push("Hello MAK Overseas, I want to discuss a bulk / dealer inquiry.");
@@ -195,7 +195,7 @@
     }
 
     function hint(id) {
-      if (id === "price") return t("Price for selected product", "سعر المنتج");
+      if (id === "price") return t("Quote for selected product", "عرض للمنتج المحدد");
       if (id === "machine") return t("JCB, CAT, Komatsu search", "بحث JCB و CAT و Komatsu");
       if (id === "photo") return t("Open WhatsApp for photo", "فتح واتساب للصورة");
       return t("Dealer, export, quantity", "تاجر، تصدير، كمية");
