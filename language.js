@@ -1,9 +1,82 @@
 (function () {
-  const SUPPORTED = ["en", "ar", "th"];
-  const LABELS = { en: "EN", ar: "AR", th: "TH" };
+  const SUPPORTED = ["en", "ar", "th", "si"];
+  const LABELS = { en: "EN", ar: "AR", th: "TH", si: "SI" };
   let activeLang = null;
 
   const ui = {
+    si: {
+      "Products": "නිෂ්පාදන",
+      "Search": "සොයන්න",
+      "Search Products": "නිෂ්පාදන සොයන්න",
+      "Search Parts": "කොටස් සොයන්න",
+      "Brands": "බ්‍රෑන්ඩ්",
+      "Why Us": "අප තෝරාගන්නේ ඇයි",
+      "Contact": "සම්බන්ධ වන්න",
+      "Catalogue": "කැටලොගය",
+      "Home": "මුල් පිටුව",
+      "Back to Home": "මුල් පිටුවට",
+      "Product Categories": "නිෂ්පාදන කාණ්ඩ",
+      "Products in this category": "මෙම කාණ්ඩයේ නිෂ්පාදන",
+      "Catalogue Search": "කැටලොගය සොයන්න",
+      "Full Product Range": "සම්පූර්ණ නිෂ්පාදන පරාසය",
+      "What We Supply": "අප සපයන දේ",
+      "Need a Part? Let's Talk.": "කොටසක් අවශ්‍යද? අප සමඟ කතා කරන්න.",
+      "Request a Quote": "මිල ඉල්ලන්න",
+      "Request Quote": "මිල ඉල්ලන්න",
+      "Browse Catalogue": "කැටලොගය බලන්න",
+      "Get a Quote": "මිල ඉල්ලන්න",
+      "Quote": "මිල ඉල්ලීම",
+      "Quote Request": "මිල ඉල්ලීම",
+      "Name": "නම",
+      "Phone": "දුරකථන",
+      "Machine Model": "යන්ත්‍ර මාදිලිය",
+      "Location": "ස්ථානය",
+      "Part Needed": "අවශ්‍ය කොටස",
+      "Extra Details": "අමතර විස්තර",
+      "Prepare Email": "ඊමේල් සකසන්න",
+      "Send on WhatsApp": "WhatsApp මගින් යවන්න",
+      "Send Enquiry by Email": "ඊමේල් මගින් විමසීම යවන්න",
+      "Email Enquiry": "ඊමේල් විමසීම",
+      "Email": "ඊමේල්",
+      "Add to Cart": "Cart වෙත එක් කරන්න",
+      "Cart": "Cart",
+      "View Details": "විස්තර බලන්න",
+      "View Products": "නිෂ්පාදන බලන්න",
+      "Details": "විස්තර",
+      "Category": "කාණ්ඩය",
+      "WhatsApp": "WhatsApp",
+      "WhatsApp Enquiry": "WhatsApp විමසීම",
+      "Send Enquiry on WhatsApp": "WhatsApp මගින් විමසීම යවන්න",
+      "Enquiry Cart": "විමසුම් Cart",
+      "Your enquiry cart is empty.": "ඔබගේ විමසුම් Cart හි කිසිවක් නැත.",
+      "No products found.": "නිෂ්පාදන හමු නොවීය.",
+      "MAK OVERSEAS": "MAK OVERSEAS",
+      "Manufacturer & Exporter": "නිෂ්පාදකයා සහ අපනයනකරු",
+      "Heavy Machinery Parts": "බර යන්ත්‍රෝපකරණ කොටස්",
+      "Made in India. Supplied worldwide for JCB, CAT, Komatsu, Volvo and commercial vehicles.": "ඉන්දියාවේ නිෂ්පාදනය කරයි. JCB, CAT, Komatsu, Volvo සහ වාණිජ වාහන සඳහා ලොව පුරා සපයයි.",
+      "Manufactured in India": "ඉන්දියාවේ නිෂ්පාදිතයි",
+      "Bulk B2B Supply": "තොග B2B සැපයුම",
+      "Worldwide Export": "ලෝක ව්‍යාප්ත අපනයනය",
+      "UAE Stock & Support": "UAE තොග සහ සහාය",
+      "Product Divisions": "නිෂ්පාදන අංශ",
+      "Main MAK Categories": "ප්‍රධාන MAK කාණ්ඩ",
+      "Explore Products": "නිෂ්පාදන බලන්න",
+      "Download Catalogue": "කැටලොගය බාගන්න",
+      "Low Costs": "අඩු පිරිවැය",
+      "High Quality & Perfect Fit": "ඉහළ ගුණාත්මකභාවය සහ නිවැරදි ගැලපීම",
+      "Worldwide Shipping": "ලෝක ව්‍යාප්ත නැව්ගත කිරීම",
+      "Worldwide": "ලෝක ව්‍යාප්ත",
+      "Shipping": "නැව්ගත කිරීම",
+      "Our Offices": "අපගේ කාර්යාල",
+      "Find Us": "අප සොයාගන්න",
+      "Head Office": "ප්‍රධාන කාර්යාලය",
+      "Dubai Office": "ඩුබායි කාර්යාලය",
+      "Code:": "කේතය:",
+      "Part No:": "කොටස් අංකය:",
+      "Material:": "ද්‍රව්‍ය:",
+      "Note:": "සටහන:",
+      "Source:": "මූලාශ්‍රය:"
+    },
     ar: {
       "Products": "المنتجات",
       "Search": "بحث",
@@ -220,6 +293,23 @@
   };
 
   const categories = {
+    si: {
+      "Bolts & Fasteners": "බෝල්ට් සහ ෆාස්ටනර්",
+      "Pins & Bushes": "පින් සහ බුෂ්",
+      "Pivot Pins": "පිවට් පින්",
+      "Pin Collars & Stub Axle": "පින් කොලර් සහ ස්ටබ් ඇක්සල්",
+      "Shims & Washers": "ෂිම් සහ වොෂර්",
+      "Steering & Tie Rod": "ස්ටීරින් සහ ටයි රොඩ්",
+      "Bucket Boss & Sleeves": "බකට් බොස් සහ ස්ලීව්",
+      "Grease Nipples": "ග්‍රීස් නිපල්",
+      "Gear Parts": "ගියර් කොටස්",
+      "Filters": "ෆිල්ටර්",
+      "Lights & Electricals": "ලයිට් සහ විදුලි කොටස්",
+      "Tyres": "ටයර්",
+      "Tools & Accessories": "උපකරණ සහ ඇක්සසරි",
+      "Truck & Car Parts": "ට්‍රක් සහ වාහන කොටස්",
+      "JCB Teeth & Cutters": "JCB දත් සහ කටර්"
+    },
     ar: {
       "Bolts & Fasteners": "المسامير والمثبتات",
       "Pins & Bushes": "الدبابيس والجلب",
@@ -277,6 +367,19 @@
   };
 
   const materialMap = {
+    si: {
+      "A/S": "ඇලෝයි ස්ටීල්",
+      "A/S NTD": "නයිට්‍රයිඩ් කළ ඇලෝයි ස්ටීල්",
+      "A/S NTd": "නයිට්‍රයිඩ් කළ ඇලෝයි ස්ටීල්",
+      "NTD": "නයිට්‍රයිඩ්",
+      "ntd": "නයිට්‍රයිඩ්",
+      "ALL/BNZ": "ඇලෝයි බ්‍රොන්ස්",
+      "A/Steel": "ඇලෝයි ස්ටීල්",
+      "Alloy Steel": "ඇලෝයි ස්ටීල්",
+      "Alloy Bronze": "ඇලෝයි බ්‍රොන්ස්",
+      "Steel": "ස්ටීල්",
+      "Bronze": "බ්‍රොන්ස්"
+    },
     th: {
       "A/S": "เหล็กอัลลอย",
       "A/S NTD": "เหล็กอัลลอยชุบไนไตรด์",
@@ -306,6 +409,96 @@
   };
 
   const termMap = {
+    si: [
+      ["teeth cutter bolt", "දත් කටර් බෝල්ට්"],
+      ["rear hub wheel bolt", "පසුපස හබ් වීල් බෝල්ට්"],
+      ["truck hub wheel centre bolts", "ට්‍රක් හබ් වීල් සෙන්ටර් බෝල්ට්"],
+      ["crocodile type side cutter", "ක්‍රොකඩයිල් වර්ගයේ සයිඩ් කටර්"],
+      ["plain type bucket tooth", "ප්ලේන් වර්ගයේ බකට් දත"],
+      ["jcb teeth center", "JCB මධ්‍ය දත"],
+      ["jcb side cutter", "JCB සයිඩ් කටර්"],
+      ["terex side cutter", "Terex සයිඩ් කටර්"],
+      ["side cutter", "සයිඩ් කටර්"],
+      ["bucket tooth", "බකට් දත"],
+      ["air filter", "එයාර් ෆිල්ටර්"],
+      ["oil filter", "ඔයිල් ෆිල්ටර්"],
+      ["fuel filter", "ෆියුල් ෆිල්ටර්"],
+      ["hydraulic filter", "හයිඩ්‍රොලික් ෆිල්ටර්"],
+      ["water separator", "වෝටර් සෙපරේටර්"],
+      ["hydraulic jack", "හයිඩ්‍රොලික් ජැක්"],
+      ["steel jack", "ස්ටීල් ජැක්"],
+      ["shackle assembly", "ෂැකල් ඇසෙම්බ්ලි"],
+      ["shackle plate", "ෂැකල් ප්ලේට්"],
+      ["spring pin", "ස්ප්‍රිං පින්"],
+      ["spring bush", "ස්ප්‍රිං බුෂ්"],
+      ["u-bolt set", "U-බෝල්ට් සෙට්"],
+      ["u bolts", "U-බෝල්ට්"],
+      ["u-bolt", "U-බෝල්ට්"],
+      ["pivot pin", "පිවට් පින්"],
+      ["king pin", "කිං පින්"],
+      ["tie rod", "ටයි රොඩ්"],
+      ["stub axle", "ස්ටබ් ඇක්සල්"],
+      ["grease nipple", "ග්‍රීස් නිපල්"],
+      ["grease gun", "ග්‍රීස් ගන්"],
+      ["grease bucket", "ග්‍රීස් බකට්"],
+      ["annulus ring gear", "ඇනියුලස් රින්ග් ගියර්"],
+      ["planetary gear", "ප්ලැනටරි ගියර්"],
+      ["planet gear", "ප්ලැනට් ගියර්"],
+      ["sun gear", "සන් ගියර්"],
+      ["headlamp", "හෙඩ් ලෑම්ප්"],
+      ["headlight", "හෙඩ් ලයිට්"],
+      ["tail lamp", "ටේල් ලෑම්ප්"],
+      ["working lamp", "වර්කින් ලෑම්ප්"],
+      ["gasket", "ගැස්කට්"],
+      ["oil seal", "ඔයිල් සීල්"],
+      ["products", "නිෂ්පාදන"],
+      ["bolts", "බෝල්ට්"],
+      ["nuts", "නට්"],
+      ["pins", "පින්"],
+      ["bushes", "බුෂ්"],
+      ["sleeves", "ස්ලීව්"],
+      ["washers", "වොෂර්"],
+      ["filters", "ෆිල්ටර්"],
+      ["tyres", "ටයර්"],
+      ["tires", "ටයර්"],
+      ["gears", "ගියර්"],
+      ["lamps", "ලෑම්ප්"],
+      ["lights", "ලයිට්"],
+      ["rods", "රොඩ්"],
+      ["tubes", "ටියුබ්"],
+      ["links", "ලින්ක්"],
+      ["cutters", "කටර්"],
+      ["teeth", "දත්"],
+      ["washer", "වොෂර්"],
+      ["bush", "බුෂ්"],
+      ["sleeve", "ස්ලීව්"],
+      ["collar", "කොලර්"],
+      ["bolt", "බෝල්ට්"],
+      ["nut", "නට්"],
+      ["pin", "පින්"],
+      ["bucket", "බකට්"],
+      ["boom", "බූම්"],
+      ["dipper", "ඩිපර්"],
+      ["loader", "ලෝඩර්"],
+      ["gear", "ගියර්"],
+      ["filter", "ෆිල්ටර්"],
+      ["tyre", "ටයර්"],
+      ["tire", "ටයර්"],
+      ["light", "ලයිට්"],
+      ["lamp", "ලෑම්ප්"],
+      ["rod", "රොඩ්"],
+      ["tube", "ටියුබ්"],
+      ["link", "ලින්ක්"],
+      ["kit", "කිට්"],
+      ["front", "ඉදිරිපස"],
+      ["rear", "පසුපස"],
+      ["center", "මධ්‍ය"],
+      ["centre", "මධ්‍ය"],
+      ["small", "කුඩා"],
+      ["big", "විශාල"],
+      ["new", "නව"],
+      ["old", "පරණ"]
+    ],
     th: [
       ["teeth cutter bolt", "สลักเกลียวฟันบุ้งกี๋"],
       ["rear hub wheel bolt", "สลักเกลียวดุมล้อหลัง"],
@@ -477,24 +670,32 @@
       window.MAK_CATEGORIES.forEach(category => {
         category.titleAr = translateCategory(category.title, "ar");
         category.titleTh = translateCategory(category.title, "th");
+        category.titleSi = translateCategory(category.title, "si");
         category.summaryAr = translateDescription(category.summary, "ar");
         category.summaryTh = translateDescription(category.summary, "th");
+        category.summarySi = translateDescription(category.summary, "si");
       });
     }
     if (Array.isArray(window.MAK_PRODUCTS)) {
       window.MAK_PRODUCTS.forEach(product => {
         product.nameAr = translateProductName(product.name, "ar");
         product.nameTh = translateProductName(product.name, "th");
+        product.nameSi = translateProductName(product.name, "si");
         product.categoryAr = translateCategory(product.category, "ar");
         product.categoryTh = translateCategory(product.category, "th");
+        product.categorySi = translateCategory(product.category, "si");
         product.materialAr = translateMaterial(product.material, "ar");
         product.materialTh = translateMaterial(product.material, "th");
+        product.materialSi = translateMaterial(product.material, "si");
         product.descAr = translateDescription(product.desc, "ar");
         product.descTh = translateDescription(product.desc, "th");
+        product.descSi = translateDescription(product.desc, "si");
         product.notesAr = translateDescription(product.notes, "ar");
         product.notesTh = translateDescription(product.notes, "th");
+        product.notesSi = translateDescription(product.notes, "si");
         product.searchAr = [product.nameAr, product.categoryAr, product.materialAr, product.descAr, product.notesAr].join(" ");
         product.searchTh = [product.nameTh, product.categoryTh, product.materialTh, product.descTh, product.notesTh].join(" ");
+        product.searchSi = [product.nameSi, product.categorySi, product.materialSi, product.descSi, product.notesSi].join(" ");
       });
     }
   }
@@ -505,23 +706,30 @@
       window.MAK_CATEGORIES.forEach(category => {
         ui.ar[category.title] = category.titleAr;
         ui.th[category.title] = category.titleTh;
+        ui.si[category.title] = category.titleSi;
         ui.ar[category.summary] = category.summaryAr;
         ui.th[category.summary] = category.summaryTh;
+        ui.si[category.summary] = category.summarySi;
       });
     }
     if (Array.isArray(window.MAK_PRODUCTS)) {
       window.MAK_PRODUCTS.forEach(product => {
         ui.ar[product.name] = product.nameAr;
         ui.th[product.name] = product.nameTh;
+        ui.si[product.name] = product.nameSi;
         ui.ar[product.category] = product.categoryAr;
         ui.th[product.category] = product.categoryTh;
+        ui.si[product.category] = product.categorySi;
         ui.ar[product.material] = product.materialAr;
         ui.th[product.material] = product.materialTh;
+        ui.si[product.material] = product.materialSi;
         ui.ar[product.desc] = product.descAr;
         ui.th[product.desc] = product.descTh;
+        ui.si[product.desc] = product.descSi;
         if (product.notes) {
           ui.ar[product.notes] = product.notesAr;
           ui.th[product.notes] = product.notesTh;
+          ui.si[product.notes] = product.notesSi;
         }
       });
     }
@@ -591,6 +799,8 @@
     const existingSelects = [...document.querySelectorAll("[data-lang-select]")];
     if (existingSelects.length) {
       existingSelects.forEach(select => {
+        select.innerHTML = SUPPORTED.map(lang => `<option value="${lang}">${LABELS[lang]}</option>`).join("");
+        select.value = currentLang();
         if (select.dataset.langBound) return;
         select.dataset.langBound = "true";
         select.addEventListener("change", () => {
@@ -718,16 +928,18 @@
       const lang = currentLang();
       if (lang === "th") return product?.[`${field}Th`] || product?.[field] || "";
       if (lang === "ar") return product?.[`${field}Ar`] || product?.[field] || "";
+      if (lang === "si") return product?.[`${field}Si`] || product?.[field] || "";
       return product?.[field] || "";
     },
     categoryText(category, field) {
       const lang = currentLang();
       if (lang === "th") return category?.[`${field}Th`] || category?.[field] || "";
       if (lang === "ar") return category?.[`${field}Ar`] || category?.[field] || "";
+      if (lang === "si") return category?.[`${field}Si`] || category?.[field] || "";
       return category?.[field] || "";
     },
     searchText(product) {
-      return [product?.searchTh, product?.searchAr, product?.nameTh, product?.categoryTh, product?.materialTh, product?.descTh].filter(Boolean).join(" ");
+      return [product?.searchTh, product?.searchAr, product?.searchSi, product?.nameTh, product?.nameSi, product?.categoryTh, product?.categorySi, product?.materialTh, product?.materialSi, product?.descTh, product?.descSi].filter(Boolean).join(" ");
     }
   };
 

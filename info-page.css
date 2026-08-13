@@ -7,3 +7,23 @@ body.info-page{background:#f6f5f1;color:#111}
 .info-disclaimer{background:#fff7ed;border:1px solid #f1d1b8;color:#6a3d19;padding:1rem;margin-top:1.5rem;line-height:1.6}
 .info-page footer{background:#111;color:#cbd3d9;padding:1.4rem 2.5rem}
 @media(max-width:860px){.info-page nav{padding:.85rem 1rem;flex-wrap:wrap}.info-page .nav-links{order:3;width:100%;overflow:auto}.info-hero{padding:4rem 1.25rem 2rem}.info-wrap{width:min(100% - 28px,1180px);padding:2.8rem 0}.info-grid,.info-split{grid-template-columns:1fr}.brand-search{display:block}.brand-search input{width:100%;margin-top:.9rem}.info-page footer{padding:1.25rem 1.25rem 5.8rem;flex-direction:column}}
+
+/* Match the restored dark MAK colour scheme */
+body.info-page{background:#090909;color:#f3eee6}
+.info-page nav{background:rgba(8,8,8,.74);border-bottom:1px solid rgba(255,255,255,.08);box-shadow:none}
+.info-page .nav-links a{color:#b6c0c8}.info-page .nav-links a:hover{color:var(--gold)}
+.info-page .icon-btn{background:rgba(255,255,255,.06);color:#fff;border-color:rgba(255,255,255,.16)}
+.info-page .lang-select{background:rgba(212,137,10,.12);color:var(--gold);border-color:rgba(212,137,10,.55)}
+.info-page .nav-logo{filter:invert(1) brightness(1.25)}
+.info-hero{background:radial-gradient(circle at 86% 12%,rgba(212,137,10,.18),transparent 32%),linear-gradient(135deg,#080808,#141414);border-bottom:1px solid rgba(255,255,255,.08)}
+.info-grid,.info-split,.info-page .grid{background:#2b2b2b}
+.info-card,.info-panel,.info-page .card{background:#171717;color:#f3eee6}
+.info-card h2,.info-card h3,.info-title,.info-page .name{color:#fff}
+.info-card p,.info-card li,.info-copy,.info-page .meta,.info-page .desc{color:#94a0aa}
+.info-panel.dark{background:#111}
+.info-btn{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#111}
+.info-btn.dark{background:#111;color:var(--gold);border:1px solid rgba(212,137,10,.45)}
+.info-page .ghost{color:#fff;border-color:#444}
+.info-page .imgbox{background:var(--photo-bg);border-bottom:1px solid var(--photo-border)}
+.info-disclaimer{background:rgba(212,137,10,.1);border-color:rgba(212,137,10,.35);color:#d7dee4}
+.info-page footer{background:#070707;color:#6e767c;border-top:1px solid rgba(255,255,255,.08)}

@@ -44,7 +44,6 @@
     <div class="container nav-inner">
       <a class="brand-lockup" href="index.html" aria-label="MAK Overseas home">
         <img src="web-products/mak-logo-small.webp" alt="MAK Overseas logo">
-        <span class="brand-copy"><strong>MAK Overseas</strong><small>Manufacturer & Exporter</small></span>
       </a>
 
       <nav class="nav-links" id="navLinks" aria-label="Main navigation">
@@ -68,10 +67,15 @@
             <a href="brands/cummins.html">Cummins</a>
           </div>
         </div>
-        <a class="nav-link" href="manufacturing.html">Manufacturing</a>
         <a class="nav-link" href="quality.html">Quality</a>
-        <a class="nav-link" href="export.html">Export</a>
-        <a class="nav-link" href="#about">About</a>
+        <div class="nav-drop">
+          <a class="nav-link" href="about.html">Company</a>
+          <div class="drop-panel">
+            <a href="about.html">About MAK Overseas</a>
+            <a href="manufacturing.html">Manufacturing</a>
+            <a href="export.html">Export & OEM</a>
+          </div>
+        </div>
         <a class="nav-link" href="#contact">Contact</a>
         <a class="nav-link" href="catalogue/mak-overseas-catalogue.pdf" download>Catalogue</a>
       </nav>
@@ -80,7 +84,7 @@
         <select class="lang-select" data-lang-select aria-label="Change language">
           <option value="en">EN</option>
           <option value="ar">AR</option>
-          <option value="th">TH</option>
+          <option value="th">TH</option><option value="si">SI</option>
         </select>
         <button class="nav-icon" id="openSearch" aria-label="Search part number">⌕</button>
         <button class="nav-icon" id="openCart" aria-label="Open cart">Cart <span class="cart-count">0</span></button>
@@ -93,17 +97,18 @@
   <main>
     <section class="hero reveal visible" id="homeHero">
       <div class="hero-bg" aria-hidden="true">
-        <div class="hero-slide" style="background-image:url('web-products/hero-mobile.webp')"></div>
-        <div class="hero-slide" style="background-image:url('web-products/jcb-spare-parts-catalogue.jpg')"></div>
-        <div class="hero-slide" style="background-image:url('web-products/jcb-bucket-teeth.jpg')"></div>
+        <div class="hero-poster"></div>
+        <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="web-products/hero-mobile.webp">
+          <source src="https://videos.pexels.com/video-files/31914438/13594458_3840_2160_25fps.mp4" type="video/mp4">
+        </video>
       </div>
       <div class="container hero-inner">
-        <div class="eyebrow">Indian Manufacturer & Exporter</div>
-        <h1>Heavy Machinery & Commercial Vehicle Parts Manufacturer in India</h1>
-        <p class="hero-copy">Manufacturing and exporting heavy equipment and commercial vehicle spare parts for distributors, importers, workshops and aftermarket businesses worldwide.</p>
+        <div class="eyebrow">Manufacturer & Exporter</div>
+        <h1>Heavy Machinery Parts</h1>
+        <p class="hero-copy">Made in India. Supplied worldwide for JCB, CAT, Komatsu, Volvo and commercial vehicles.</p>
         <form class="search-panel" id="heroSearchForm">
           <input id="heroSearch" type="search" placeholder="Search OEM Part Number, MAK Code or Product Name" autocomplete="off">
-          <button type="submit">Search Part Number</button>
+          <button type="submit">Search Parts</button>
         </form>
         <div class="home-results" id="homeResults" aria-live="polite"></div>
         <div class="hero-actions">

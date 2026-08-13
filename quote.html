@@ -13,7 +13,7 @@
   <style>
     body{background:#f5f5f2;color:#151515}
     nav{background:rgba(255,255,255,.88);border-bottom:1px solid #deded8;box-shadow:0 10px 30px rgba(0,0,0,.06)}
-    .nav-links a{color:#444}.nav-links a:hover{color:var(--orange)}.icon-btn{background:#111;color:#fff}.nav-logo{filter:none}
+    .nav-links a{color:#444}.nav-links a:hover{color:var(--orange)}.drop-panel a{color:#d7dee4}.drop-panel a:hover{color:var(--gold)}.icon-btn{background:#111;color:#fff}.nav-logo{filter:none}
     .quote-hero{padding:5rem 2.5rem 2.3rem;background:#111;color:#fff}
     .quote-hero .back{color:var(--gold)}
     .quote-hero h1{font-family:var(--H);font-size:clamp(3rem,7vw,6rem);line-height:.9;text-transform:uppercase;margin:.9rem 0}
@@ -44,8 +44,7 @@
 <body>
   <nav>
     <a class="brand-lockup" href="index.html"><img class="nav-logo" src="web-products/mak-logo-small.webp" alt="MAK Overseas logo"></a>
-    <div class="nav-links"><a href="products.html">Products</a><a href="brands.html">Brands</a><a href="manufacturing.html">Manufacturing</a><a href="quality.html">Quality</a><a href="export.html">Export</a><a href="contact.html">Contact</a><a href="catalogue/mak-overseas-catalogue.pdf" download>PDF Catalogue</a></div>
-    <select class="lang-select" data-lang-select aria-label="Change language"><option value="en">EN</option><option value="ar">AR</option><option value="th">TH</option></select><button class="icon-btn" id="openCart" aria-label="Open cart">&#128722;<span class="cart-count">0</span></button>
+    <div class="nav-links"><div class="nav-drop"><a href="products.html">Products</a><div class="drop-panel"><a href="filters.html">MAK Filters</a><a href="bolts.html">MAK Fasteners</a><a href="bushes.html">MAK Bushes</a><a href="electricals.html">MAK Lights</a><a href="truck-car-parts.html">MAK Truck Parts</a></div></div><a href="search.html">Search</a><div class="nav-drop"><a href="brands.html">Brands</a><div class="drop-panel"><a href="brands/jcb.html">JCB</a><a href="brands/caterpillar.html">CAT</a><a href="brands/komatsu.html">Komatsu</a><a href="brands/volvo.html">Volvo</a><a href="brands/cummins.html">Cummins</a></div></div><a href="quality.html">Quality</a><div class="nav-drop"><a href="about.html">Company</a><div class="drop-panel"><a href="about.html">About MAK Overseas</a><a href="manufacturing.html">Manufacturing</a><a href="export.html">Export & OEM</a></div></div><a href="contact.html">Contact</a><a href="quote.html">Quote</a><a href="catalogue/mak-overseas-catalogue.pdf" download>PDF Catalogue</a></div><select class="lang-select" data-lang-select aria-label="Change language"><option value="en">EN</option><option value="ar">AR</option><option value="th">TH</option><option value="si">SI</option></select><button class="icon-btn" id="openCart" aria-label="Open cart">&#128722;<span class="cart-count">0</span></button>
   </nav>
 
   <main>

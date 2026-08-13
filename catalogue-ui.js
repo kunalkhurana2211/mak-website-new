@@ -512,6 +512,36 @@
     updateCount();
   }
 
+  function closeDropdowns(except) {
+    $$(".nav-drop.open").forEach(drop => {
+      if (drop === except) return;
+      drop.classList.remove("open");
+      $("a", drop)?.setAttribute("aria-expanded", "false");
+    });
+  }
+
+  function initDropdowns() {
+    $$(".nav-drop > a").forEach(link => {
+      const drop = link.closest(".nav-drop");
+      if (!drop?.querySelector(".drop-panel")) return;
+      link.setAttribute("aria-haspopup", "true");
+      link.setAttribute("aria-expanded", "false");
+      link.addEventListener("click", event => {
+        event.preventDefault();
+        const open = !drop.classList.contains("open");
+        closeDropdowns(drop);
+        drop.classList.toggle("open", open);
+        link.setAttribute("aria-expanded", String(open));
+      });
+    });
+    document.addEventListener("click", event => {
+      if (!event.target.closest(".nav-drop")) closeDropdowns();
+    });
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape") closeDropdowns();
+    });
+  }
+
   window.MAKCatalogue = {
     addToCart,
     enquire,
@@ -533,6 +563,7 @@
   document.addEventListener("DOMContentLoaded", () => {
     redrawLanguageAware();
     injectMobileActionBar();
+    initDropdowns();
     initCart();
     injectSeoForProduct();
     attachReveal();
