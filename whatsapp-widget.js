@@ -1,7 +1,8 @@
 (function () {
-  const INDIA = "919465263877";
-  const DUBAI = "971525355917";
-  const EMAIL = "kunalkhurana@makoverseas.com";
+  const site = window.MAK_SITE || {};
+  const INDIA = site.phones?.indiaWhatsapp || "919465263877";
+  const DUBAI = site.phones?.dubaiWhatsapp || "971525355917";
+  const EMAIL = site.emails?.primary || "kunalkhurana@makoverseas.com";
 
   const intents = [
     { id: "price", label: "Request Quote", ar: "طلب عرض سعر", keys: ["quote", "enquiry", "availability", "amount", "rs", "aed"] },
@@ -123,11 +124,11 @@
     wrap.innerHTML = `
       <button class="wa-ai-main" id="waAiMain" type="button" aria-label="Open WhatsApp assistant">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M11.99 2C6.473 2 2 6.473 2 11.99c0 1.89.522 3.657 1.432 5.17L2 22l4.967-1.41A9.94 9.94 0 0011.99 22C17.507 22 22 17.527 22 12.01 22 6.493 17.507 2 11.99 2z"/></svg>
-        <span>AI WhatsApp Help</span>
+        <span>WhatsApp Help</span>
       </button>
       <div class="wa-ai-chip"><b>Online</b> - Quick part help</div>
       <div class="wa-ai-panel" id="waAiPanel">
-        <div class="wa-ai-head"><div><strong>AI WhatsApp assistant</strong><small>Type machine or part details. We prepare the right WhatsApp enquiry.</small></div><button class="wa-ai-close" id="waAiClose" type="button">&times;</button></div>
+        <div class="wa-ai-head"><div><strong>WhatsApp part help</strong><small>Type machine or part details. We prepare the right WhatsApp enquiry.</small></div><button class="wa-ai-close" id="waAiClose" type="button">&times;</button></div>
         <div class="wa-ai-body">
           <div class="wa-ai-chips" id="waAiOptions"></div>
           <div class="wa-ai-grid">

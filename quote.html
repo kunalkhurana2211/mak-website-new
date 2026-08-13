@@ -1,21 +1,154 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Quote Request - MAK Overseas</title><link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet"><style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--gold:#D4890A;--gold2:#F2A72B;--orange:#E05A00;--dark:#101010;--dark2:#171717;--steel:#93A0AA;--light:#F2EDE4;--green:#25D366;--H:'Barlow Condensed',sans-serif;--B:'Barlow',sans-serif}
-body{font-family:var(--B);background:var(--dark);color:var(--light);line-height:1.55}a{text-decoration:none;color:inherit}button,input,textarea,select{font-family:inherit}
-nav{position:sticky;top:0;z-index:50;min-height:64px;padding:.7rem 2rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;background:rgba(10,10,10,.84);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.08)}
-.brand-lockup{display:flex;align-items:center}.nav-logo{width:124px;height:44px;object-fit:contain;filter:invert(1) brightness(1.25)}.nav-links{display:flex;gap:1.1rem;align-items:center}.nav-links a{font-size:.76rem;letter-spacing:1.5px;text-transform:uppercase;color:var(--steel);font-weight:800}.nav-links a:hover{color:var(--gold)}
-.icon-btn{width:40px;height:40px;border-radius:50%;border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.06);color:#fff;display:grid;place-items:center;cursor:pointer;position:relative}.cart-count{position:absolute;right:-4px;top:-5px;min-width:18px;height:18px;border-radius:20px;background:var(--orange);font-size:11px;font-weight:900;display:grid;place-items:center}
-.hero{padding:5rem 2.5rem 2rem;background:radial-gradient(circle at 80% 20%,rgba(212,137,10,.22),transparent 30%),linear-gradient(135deg,#090909,#171717)}.back{font-family:var(--H);font-weight:900;color:var(--gold);letter-spacing:1px;text-transform:uppercase}.hero h1{font-family:var(--H);font-size:clamp(3rem,7vw,6rem);text-transform:uppercase;line-height:.9;margin-top:.8rem}.hero em{color:var(--gold);font-style:normal}.hero p{color:#bdc7cf;max-width:720px;margin-top:1rem}
-.wrap{display:grid;grid-template-columns:1fr .75fr;gap:1px;background:#2b2b2b;margin:2.5rem}.form,.side{background:var(--dark2);padding:2rem}.form-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}.field.full{grid-column:1/-1}.field label{display:block;font-size:.72rem;letter-spacing:1.5px;text-transform:uppercase;color:#aaa;font-weight:900;margin-bottom:.45rem}.field input,.field textarea,.field select{width:100%;border:1px solid #333;background:#fff;color:#111;padding:.9rem}.field textarea{min-height:130px;resize:vertical}.actions{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1.2rem}.btn{border:0;cursor:pointer;padding:.85rem 1rem;font-family:var(--H);font-weight:900;letter-spacing:1px;text-transform:uppercase}.btn.gold{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#111}.btn.green{background:var(--green);color:#fff}.summary{white-space:pre-wrap;background:#101010;border:1px solid #303030;padding:1rem;color:#c7d0d8;margin-top:1rem}.side h3{font-family:var(--H);font-size:1.5rem;text-transform:uppercase}.side p{color:var(--steel);margin-top:.75rem}.mini{margin-top:1rem;padding:1rem;background:#111;border:1px solid #303030;color:#aaa}.cart-panel{position:fixed;inset:0;z-index:100;background:rgba(0,0,0,.72);opacity:0;pointer-events:none;transition:.25s}.cart-panel.open{opacity:1;pointer-events:auto}.cart-drawer{position:absolute;right:0;top:0;height:100%;width:min(420px,100%);background:#111;border-left:1px solid #333;transform:translateX(100%);transition:.28s;display:flex;flex-direction:column}.cart-panel.open .cart-drawer{transform:translateX(0)}.drawer-head{padding:1.25rem;border-bottom:1px solid #333;display:flex;justify-content:space-between}.drawer-head h3{font-family:var(--H);font-size:1.35rem;text-transform:uppercase}.close{background:transparent;color:#fff;border:0;font-size:1.7rem;cursor:pointer}.cart-items{padding:1rem;overflow:auto;flex:1}.checkout{margin:1rem;background:var(--green);color:#fff;border:0;padding:.9rem;font-weight:900;text-transform:uppercase;cursor:pointer}footer{padding:1.5rem 2.5rem;background:#0a0a0a;color:#555;font-size:.78rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
-@media(max-width:820px){nav{padding:.85rem 1rem;flex-wrap:wrap}.nav-links{order:3;width:100%;overflow:auto}.wrap{grid-template-columns:1fr;margin:1.25rem}.form,.side{padding:1.25rem}.form-grid{grid-template-columns:1fr}.hero{padding:4rem 1.25rem 2rem}}
-</style></head><body>
-<nav><a class="brand-lockup" href="index.html"><img class="nav-logo" src="web-products/mak-logo-small.webp" alt="MAK Overseas logo"></a><div class="nav-links"><a href="products.html">Products</a><a href="search.html">Search</a><a href="brands.html">Brands</a><a href="why-us.html">Why Us</a><a href="contact.html">Contact</a><a href="quote.html">Quote</a></div><button class="icon-btn" id="openCart" aria-label="Open enquiry cart">&#128722;<span class="cart-count">0</span></button></nav>
-<main><section class="hero"><a class="back" href="index.html">Back to Home</a><h1>Quote<br><em>Request</em></h1><p>Fill the form first. We will receive a clear product enquiry with your machine model, phone number and required part details.</p></section>
-<section class="wrap"><div class="form"><div class="form-grid"><div class="field"><label for="qName">Name</label><input id="qName" autocomplete="name" required></div><div class="field"><label for="qPhone">Phone</label><input id="qPhone" autocomplete="tel" required></div><div class="field"><label for="qMachine">Machine Model</label><input id="qMachine" placeholder="JCB 3CX, CAT 320D, Komatsu..."></div><div class="field"><label for="qLocation">Location</label><input id="qLocation" placeholder="City / Country"></div><div class="field full"><label for="qPart">Part Needed</label><textarea id="qPart" placeholder="Part name, part number, size, quantity, or upload/photo note"></textarea></div><div class="field full"><label for="qNotes">Extra Details</label><textarea id="qNotes" placeholder="Urgency, shipping requirement, old part photo available, etc."></textarea></div></div><div class="actions"><button class="btn gold" id="emailQuote" type="button">Prepare Email</button><button class="btn green" id="waQuote" type="button">Send on WhatsApp</button></div><div class="summary" id="quoteSummary">Your quote summary will appear here.</div></div><aside class="side"><h3>What to include</h3><p>For faster quote response, mention machine model, part name, size, quantity and whether you need India or Dubai supply.</p><div class="mini">Email: kunalkhurana@makoverseas.com<br>India: +91 94652 63877<br>Dubai: +971 52 535 5917</div></aside></section></main>
-<div class="cart-panel" id="cartPanel"><div class="cart-drawer"><div class="drawer-head"><h3>Enquiry Cart</h3><button class="close" data-close-cart>&times;</button></div><div class="cart-items" id="cartItems"></div><button class="checkout" id="checkoutBtn">Send Enquiry on WhatsApp</button><button class="checkout" id="emailCheckoutBtn" style="background:#fff;color:#111">Send Enquiry by Email</button></div></div><footer><div>MAK OVERSEAS</div><div>Head Office: GT Road, Miller Ganj, Ludhiana | +91 94652 63877 | Dubai: +971 52 535 5917 | Email: kunalkhurana@makoverseas.com</div></footer>
-<script>
-const PHONE='919465263877',EMAIL='kunalkhurana@makoverseas.com';let cart=JSON.parse(localStorage.getItem('makClaudeCart')||'[]');const count=()=>document.querySelectorAll('.cart-count').forEach(el=>el.textContent=cart.reduce((s,i)=>s+i.qty,0));const renderCart=()=>{document.getElementById('cartItems').innerHTML=cart.length?cart.map((i,idx)=>`<div style="padding:.8rem 0;border-bottom:1px solid #252525"><strong>${i.title}</strong> x ${i.qty}</div>`).join(''):'<p style="color:#999;padding:1rem">Your enquiry cart is empty.</p>'};document.getElementById('openCart').onclick=()=>document.getElementById('cartPanel').classList.add('open');document.querySelector('[data-close-cart]').onclick=()=>document.getElementById('cartPanel').classList.remove('open');document.getElementById('cartPanel').onclick=e=>{if(e.target.id==='cartPanel')e.currentTarget.classList.remove('open')};document.getElementById('checkoutBtn').onclick=()=>{if(!cart.length)return;const lines=cart.map((i,n)=>`${n+1}. ${i.title} x ${i.qty}`).join('\n');window.open(`https://wa.me/${PHONE}?text=${encodeURIComponent('Hello MAK Overseas, I want to enquire about:\n\n'+lines)}`,'_blank')};document.getElementById('emailCheckoutBtn').onclick=()=>{if(!cart.length)return;const lines=cart.map((i,n)=>`${n+1}. ${i.title} x ${i.qty}`).join('\n');location.href=`mailto:${EMAIL}?subject=${encodeURIComponent('MAK Overseas enquiry cart')}&body=${encodeURIComponent('Hello MAK Overseas, I want to enquire about:\n\n'+lines+'\n\nName:\nPhone:\nMachine model:\nLocation:')}`};function quoteText(){return `Quote Request - MAK Overseas\n\nName: ${qName.value}\nPhone: ${qPhone.value}\nMachine model: ${qMachine.value}\nLocation: ${qLocation.value}\nPart needed: ${qPart.value}\nExtra details: ${qNotes.value}`;}function updateSummary(){quoteSummary.textContent=quoteText();}document.querySelectorAll('input,textarea').forEach(el=>el.addEventListener('input',updateSummary));emailQuote.onclick=()=>{updateSummary();location.href=`mailto:${EMAIL}?subject=${encodeURIComponent('Quote Request from '+(qName.value||'Buyer'))}&body=${encodeURIComponent(quoteText())}`;};waQuote.onclick=()=>{updateSummary();window.open(`https://wa.me/${PHONE}?text=${encodeURIComponent(quoteText())}`,'_blank');};renderCart();count();updateSummary();
-</script><script src="language.js"></script><script src="whatsapp-widget.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request B2B Quotation - MAK Overseas</title>
+  <meta name="description" content="Request a B2B quotation from MAK Overseas for heavy machinery, JCB, truck and commercial vehicle spare parts manufactured and exported from India.">
+  <link rel="canonical" href="https://makoverseas.in/quote.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="catalogue.css">
+  <style>
+    body{background:#f5f5f2;color:#151515}
+    nav{background:rgba(255,255,255,.88);border-bottom:1px solid #deded8;box-shadow:0 10px 30px rgba(0,0,0,.06)}
+    .nav-links a{color:#444}.nav-links a:hover{color:var(--orange)}.icon-btn{background:#111;color:#fff}.nav-logo{filter:none}
+    .quote-hero{padding:5rem 2.5rem 2.3rem;background:#111;color:#fff}
+    .quote-hero .back{color:var(--gold)}
+    .quote-hero h1{font-family:var(--H);font-size:clamp(3rem,7vw,6rem);line-height:.9;text-transform:uppercase;margin:.9rem 0}
+    .quote-hero p{max-width:760px;color:#cbd3d9;line-height:1.75}
+    .quote-wrap{display:grid;grid-template-columns:1fr .42fr;gap:1px;background:#d8d8d2;margin:2.5rem}
+    .quote-form,.quote-side{background:#fff;padding:2rem}
+    .form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+    .field.full{grid-column:1/-1}
+    label{display:block;font-size:.72rem;letter-spacing:1.4px;text-transform:uppercase;color:#555;font-weight:900;margin-bottom:.42rem}
+    input,textarea,select{width:100%;border:1px solid #cfcfc8;background:#fff;color:#111;padding:.85rem .9rem}
+    textarea{min-height:116px;resize:vertical}
+    input:focus,textarea:focus,select:focus{outline:2px solid rgba(224,90,0,.22);border-color:var(--orange)}
+    .quote-actions{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1.2rem}
+    .quote-btn{border:0;cursor:pointer;padding:.9rem 1.05rem;font-family:var(--H);font-weight:900;letter-spacing:1px;text-transform:uppercase}
+    .quote-btn.primary{background:var(--orange);color:#fff}
+    .quote-btn.dark{background:#111;color:#fff}
+    .quote-btn.light{background:#f2f2ed;color:#111;border:1px solid #d8d8d2}
+    .quote-summary{white-space:pre-wrap;background:#111;color:#dfe7ed;border:1px solid #303030;padding:1rem;margin-top:1rem;line-height:1.55}
+    .quote-side h2{font-family:var(--H);font-size:1.7rem;text-transform:uppercase;line-height:1}
+    .quote-side p,.quote-side li{color:#5b6268;line-height:1.7;margin-top:.75rem}
+    .quote-card{border:1px solid #deded8;background:#f7f7f3;padding:1rem;margin-top:1rem}
+    .quote-card strong{display:block;color:#111}
+    .cart-panel{color:#fff}
+    footer{background:#111;color:#b5bdc4}
+    @media(max-width:860px){nav{background:rgba(255,255,255,.95)}.quote-hero{padding:4rem 1.25rem 2rem}.quote-wrap{grid-template-columns:1fr;margin:1.25rem}.quote-form,.quote-side{padding:1.25rem}.form-grid{grid-template-columns:1fr}footer{padding-bottom:5.8rem}}
+  </style>
+</head>
+<body>
+  <nav>
+    <a class="brand-lockup" href="index.html"><img class="nav-logo" src="web-products/mak-logo-small.webp" alt="MAK Overseas logo"></a>
+    <div class="nav-links"><a href="products.html">Products</a><a href="brands.html">Brands</a><a href="manufacturing.html">Manufacturing</a><a href="quality.html">Quality</a><a href="export.html">Export</a><a href="contact.html">Contact</a><a href="catalogue/mak-overseas-catalogue.pdf" download>PDF Catalogue</a></div>
+    <select class="lang-select" data-lang-select aria-label="Change language"><option value="en">EN</option><option value="ar">AR</option><option value="th">TH</option></select><button class="icon-btn" id="openCart" aria-label="Open cart">&#128722;<span class="cart-count">0</span></button>
+  </nav>
 
+  <main>
+    <section class="quote-hero">
+      <a class="back" href="index.html">Back to Home</a>
+      <h1>Request B2B<br>Quotation</h1>
+      <p>Send part numbers, photos, drawings, quantity and delivery details. MAK Overseas will review the requirement for manufacturing, export or stock support from India and UAE.</p>
+    </section>
 
+    <section class="quote-wrap">
+      <div class="quote-form">
+        <div class="form-grid">
+          <div class="field"><label for="company">Company name</label><input id="company" autocomplete="organization"></div>
+          <div class="field"><label for="person">Contact person</label><input id="person" autocomplete="name"></div>
+          <div class="field"><label for="country">Country</label><input id="country" autocomplete="country-name"></div>
+          <div class="field"><label for="phone">WhatsApp / phone</label><input id="phone" autocomplete="tel"></div>
+          <div class="field"><label for="email">Email</label><input id="email" type="email" autocomplete="email"></div>
+          <div class="field"><label for="qty">Required quantity</label><input id="qty" placeholder="Bulk quantity / monthly requirement"></div>
+          <div class="field full"><label for="part">Product / part number</label><textarea id="part" placeholder="OEM/reference part number, MAK code, product name, machine model or application"></textarea></div>
+          <div class="field full"><label for="delivery">Delivery location</label><input id="delivery" placeholder="City, port or country"></div>
+          <div class="field full"><label for="files">Photo / drawing / sample reference</label><input id="files" type="file" multiple accept="image/*,.pdf,.dwg,.dxf"></div>
+          <div class="field full"><label for="message">Message</label><textarea id="message" placeholder="Material, grade, finish, packaging, sample or custom manufacturing notes"></textarea></div>
+        </div>
+        <div class="quote-actions">
+          <button class="quote-btn primary" id="sendWhatsApp" type="button">Send on WhatsApp</button>
+          <button class="quote-btn dark" id="prepareEmail" type="button">Prepare Email</button>
+          <button class="quote-btn light" id="loadCart" type="button">Load Cart Items</button>
+        </div>
+        <div class="quote-summary" id="quoteSummary"></div>
+      </div>
 
+      <aside class="quote-side">
+        <h2>For Faster Pricing</h2>
+        <p>Include part number, product photograph or drawing, machine model, material/specification and required quantity.</p>
+        <div class="quote-card"><strong>India - Manufacturing & Export</strong>GT Road, Miller Ganj, Ludhiana<br>+91 94652 63877</div>
+        <div class="quote-card"><strong>Dubai - Regional Support</strong>Shop No. 19, Bin Thani Plaza, Deira, Dubai<br>+971 52 535 5917</div>
+        <div class="quote-card"><strong>Email</strong>kunalkhurana@makoverseas.com<br>makbolts@gmail.com</div>
+      </aside>
+    </section>
+  </main>
+
+  <div class="cart-panel" id="cartPanel"><div class="cart-drawer"><div class="drawer-head"><h3>Cart</h3><button class="close" data-close-cart>&times;</button></div><div class="cart-items" id="cartItems"></div><button class="checkout" id="checkoutBtn">Send Cart on WhatsApp</button></div></div>
+  <footer><div>MAK OVERSEAS</div><div>Indian Manufacturer & Exporter | Ludhiana, India | Dubai, UAE | kunalkhurana@makoverseas.com</div></footer>
+
+  <script src="site-config.js"></script>
+  <script src="product-data.js"></script>
+  <script src="catalogue-ui.js"></script>
+  <script src="language.js"></script>
+  <script src="whatsapp-widget.js"></script>
+  <script>
+    const site = window.MAK_SITE || {};
+    const phone = site.phones?.indiaWhatsapp || "919465263877";
+    const mail = site.emails?.primary || "kunalkhurana@makoverseas.com";
+    const fields = ["company","person","country","phone","email","qty","part","delivery","message"].reduce((acc,id)=>(acc[id]=document.getElementById(id),acc),{});
+    const summary = document.getElementById("quoteSummary");
+    function cartText(){
+      const cart = JSON.parse(localStorage.getItem("makClaudeCart") || "[]");
+      if(!cart.length) return "";
+      return "Cart items:\n" + cart.map((item, index) => {
+        const parts = (item.partNumbers || []).filter(Boolean).join(", ") || "Available on request";
+        return `${index + 1}. ${item.title}\n   OEM/reference part number: ${parts}\n   MAK code: ${item.code || ""}\n   Quantity: ${item.qty || 1}\n   Notes: ${item.notes || ""}`;
+      }).join("\n\n");
+    }
+    function fileText(){
+      const files = Array.from(document.getElementById("files").files || []).map(file => file.name);
+      return files.length ? `Attached/reference files selected: ${files.join(", ")}` : "Attached/reference files selected: No";
+    }
+    function quoteText(){
+      return [
+        "B2B Quotation Request - MAK Overseas",
+        "",
+        `Company name: ${fields.company.value}`,
+        `Contact person: ${fields.person.value}`,
+        `Country: ${fields.country.value}`,
+        `WhatsApp / phone: ${fields.phone.value}`,
+        `Email: ${fields.email.value}`,
+        `Product / part number: ${fields.part.value}`,
+        `Required quantity: ${fields.qty.value}`,
+        `Delivery location: ${fields.delivery.value}`,
+        `Message: ${fields.message.value}`,
+        fileText(),
+        "",
+        cartText(),
+        "",
+        `Page: ${location.href}`
+      ].filter(Boolean).join("\n");
+    }
+    function updateSummary(){ summary.textContent = quoteText(); }
+    document.querySelectorAll("input,textarea").forEach(el => el.addEventListener("input", updateSummary));
+    document.getElementById("files").addEventListener("change", updateSummary);
+    document.getElementById("loadCart").addEventListener("click", () => {
+      const text = cartText();
+      if(text) fields.part.value = [fields.part.value, text].filter(Boolean).join("\n\n");
+      updateSummary();
+    });
+    document.getElementById("sendWhatsApp").addEventListener("click", () => window.open(`https://wa.me/${phone}?text=${encodeURIComponent(quoteText())}`, "_blank", "noopener"));
+    document.getElementById("prepareEmail").addEventListener("click", () => { location.href = `mailto:${mail}?subject=${encodeURIComponent("MAK Overseas B2B quotation request")}&body=${encodeURIComponent(quoteText())}`; });
+    const storedCart = sessionStorage.getItem("makQuoteCart");
+    if(storedCart && !fields.part.value){
+      fields.part.value = cartText();
+      sessionStorage.removeItem("makQuoteCart");
+    }
+    updateSummary();
+  </script>
+</body>
+</html>
